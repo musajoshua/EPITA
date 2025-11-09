@@ -1,0 +1,501 @@
+Name,Age,Location,Gender,Past Medical Condition,Current Health Issue,Medication,Appointment Date,Professional Consulted,Consultation Summary,Follow-up Required,Consultation Feedback,Professional Rating,Service Satisfaction
+Stephanie Lee,69,"Meganchester, Costa Rica",Male,Common cold,None,Insulin,21-08-20,Psychologist,Referral to specialist,Yes,Neutral,1,2
+Megan Lewis,43,"Hallbury, France",Female,Diabetes,None,Insulin,06-08-21,Cardiologist,Lifestyle advice,No,Unsatisfied,4,2
+Lori Young,60,"Zacharyview, Chile",Male,None,Fatigue,Antihistamines,05-04-20,Physiotherapist,Referral to specialist,No,Unsatisfied,1,1
+Katie Wright,52,"Paulaton, Finland",Prefer not to say,Flu,None,Insulin,27-01-22,Dietician,Prescription issued,Yes,Satisfied,4,3
+Jeffrey Ramirez,59,"Madisonborough, Tajikistan",Prefer not to say,Hypertension,None,Vitamins,29-11-21,Cardiologist,Referral to specialist,No,Unsatisfied,4,3
+Debra Baker,49,"Shanechester, Italy",Female,Allergy,None,Ibuprofen,18-03-22,Cardiologist,Follow-up requested,No,Very Unsatisfied,5,1
+Scott Allen,29,"Lewistown, Christmas Island",Prefer not to say,Hypertension,None,Paracetamol,07-03-21,Physiotherapist,Further tests recommended,No,Unsatisfied,1,2
+Whitney Johnson,36,"Dayland, Niue",Male,Flu,None,Antacids,11-05-22,Dermatologist,Lifestyle advice,Yes,Very Unsatisfied,5,2
+Veronica Smith,71,"Joneshaven, Peru",Male,Diabetes,None,Vitamins,07-06-23,General Practitioner,Lifestyle advice,No,Very Satisfied,2,4
+Janet Jackson,78,"Nicolestad, Jersey",Female,Flu,None,Ibuprofen,07-06-20,Psychologist,Referral to specialist,Yes,Unsatisfied,4,1
+Garrett Bates,62,"East Jennabury, Lebanon",Prefer not to say,Flu,None,Vitamins,23-02-20,General Practitioner,Lifestyle advice,No,Satisfied,5,2
+Mike Nichols,73,"Port Ryan, Bermuda",Male,Flu,None,Vitamins,12-11-22,General Practitioner,Prescription issued,Yes,Neutral,1,4
+Katie Hurst,79,"New Cameronland, Suriname",Prefer not to say,Common cold,None,Antihistamines,05-06-22,Cardiologist,Prescription issued,Yes,Unsatisfied,1,5
+Dawn Richardson,52,"Adkinsmouth, Iraq",Prefer not to say,Allergy,None,Antihistamines,28-05-23,Psychologist,Lifestyle advice,Yes,Satisfied,2,2
+Jaime Duke,33,"Thomasmouth, France",Prefer not to say,Asthma,None,Antacids,02-07-20,General Practitioner,Lifestyle advice,Yes,Unsatisfied,3,3
+Donald Wagner,31,"Brewerview, Palestinian Territory",Male,Diabetes,None,Antacids,26-06-23,Physiotherapist,Prescription issued,Yes,Very Satisfied,3,1
+Ashley Hancock,18,"Williamport, Cook Islands",Male,Common cold,None,Vitamins,06-09-21,Dietician,Prescription issued,No,Very Unsatisfied,4,2
+Lucas Alvarez,28,"North Darrellmouth, Cambodia",Prefer not to say,Hypertension,None,Antacids,29-04-21,Dietician,Follow-up requested,No,Very Unsatisfied,5,1
+Sabrina Barnes,35,"Hughesbury, Holy See (Vatican City State)",Male,Allergy,None,Paracetamol,21-07-22,Dermatologist,Lifestyle advice,Yes,Unsatisfied,5,2
+Tommy Hanson,41,"Klineside, Mongolia",Male,Common cold,None,Antihistamines,02-08-20,Physiotherapist,Prescription issued,Yes,Very Unsatisfied,2,4
+Carla Glover,45,"New Ronnieberg, Norfolk Island",Female,Common cold,None,Ibuprofen,16-07-20,General Practitioner,Prescription issued,Yes,Very Unsatisfied,1,1
+Michael Spencer,46,"South David, Jamaica",Female,Common cold,None,Ibuprofen,12-06-20,Dermatologist,Prescription issued,No,Very Unsatisfied,3,5
+Theresa Williams,44,"Timothyview, Qatar",Prefer not to say,Allergy,None,Insulin,30-01-23,Dietician,Further tests recommended,No,Unsatisfied,4,2
+Patrick Jimenez,49,"Terryfort, Sao Tome and Principe",Male,None,None,None,31-08-23,Physiotherapist,Referral to specialist,Yes,Very Unsatisfied,1,4
+Lucas Kim,68,"South Kristenside, Heard Island and McDonald Islands",Female,Flu,None,Ibuprofen,15-01-20,Psychologist,Referral to specialist,No,Very Unsatisfied,4,5
+Michele Beck,80,"Morganshire, Aruba",Female,Diabetes,None,Insulin,30-10-22,Psychologist,Follow-up requested,Yes,Unsatisfied,5,3
+Crystal Day,58,"Eddiehaven, Japan",Female,Allergy,None,Antacids,11-06-22,Cardiologist,Referral to specialist,No,Very Unsatisfied,3,2
+Shawn Blair,57,"Lake Scott, Yemen",Prefer not to say,Hypertension,None,Antihistamines,11-03-20,Cardiologist,Lifestyle advice,No,Satisfied,3,2
+Travis Page,69,"Nashside, Dominica",Male,Flu,None,Ibuprofen,28-06-20,Cardiologist,Referral to specialist,No,Satisfied,2,4
+Julian Donovan,55,"North Jeffrey, Cayman Islands",Prefer not to say,Hypertension,None,Antihistamines,13-07-20,Cardiologist,Lifestyle advice,Yes,Very Unsatisfied,3,1
+Michael Hays,22,"New Williamberg, Niger",Male,Allergy,None,Paracetamol,16-07-23,Dietician,Follow-up requested,No,Neutral,4,5
+Christopher Smith,74,"Petersenville, Falkland Islands (Malvinas)",Prefer not to say,Hypertension,None,Ibuprofen,05-11-22,Psychologist,Further tests recommended,No,Neutral,1,2
+Matthew Morris,48,"New Meganmouth, Luxembourg",Prefer not to say,Allergy,None,Antacids,08-01-22,Physiotherapist,Further tests recommended,No,Very Satisfied,1,2
+Margaret Whitaker,71,"East Billberg, India",Male,Flu,None,None,29-03-20,Psychologist,Prescription issued,Yes,Very Unsatisfied,3,4
+Danielle Baxter,31,"North Emilybury, Malaysia",Prefer not to say,Asthma,None,Antacids,01-03-21,Dietician,Follow-up requested,Yes,Satisfied,4,4
+David Duncan,44,"Liport, Cape Verde",Prefer not to say,Asthma,None,None,11-01-21,Dermatologist,Prescription issued,No,Very Unsatisfied,3,2
+Kimberly King,23,"Lake Rebeccafurt, Italy",Prefer not to say,Common cold,None,Vitamins,15-02-21,Dietician,Follow-up requested,No,Very Satisfied,2,2
+Olivia Kelley,77,"Amyland, Maldives",Male,Asthma,None,Insulin,02-10-21,Dietician,Lifestyle advice,Yes,Unsatisfied,5,5
+Veronica Villa,70,"East Deborah, Thailand",Prefer not to say,Allergy,None,Ibuprofen,18-09-20,Physiotherapist,Lifestyle advice,Yes,Very Satisfied,4,1
+Christine Meza,21,"Hillmouth, Pitcairn Islands",Prefer not to say,Diabetes,None,Antacids,06-06-23,Psychologist,Follow-up requested,No,Neutral,1,3
+Christopher Ward,79,"Perezhaven, Colombia",Prefer not to say,None,Headache,Antacids,06-09-20,Physiotherapist,Further tests recommended,Yes,Neutral,5,4
+Kathryn Gardner,39,"South Joshua, Macao",Prefer not to say,None,None,None,17-11-22,Physiotherapist,Further tests recommended,No,Neutral,3,2
+Jessica Jones,68,"Dunnshire, Guatemala",Female,Hypertension,None,Ibuprofen,24-07-22,General Practitioner,Further tests recommended,No,Neutral,1,4
+Justin Russell,72,"Leeville, France",Female,Hypertension,None,Paracetamol,09-08-21,Psychologist,Referral to specialist,Yes,Neutral,1,1
+Fred Keller,18,"Wuberg, Guinea-Bissau",Prefer not to say,Asthma,None,Antihistamines,18-01-23,Dietician,Referral to specialist,No,Unsatisfied,2,2
+Timothy King,66,"Port Alicialand, Liechtenstein",Male,Common cold,None,Antihistamines,02-01-23,Cardiologist,Prescription issued,No,Neutral,2,2
+Joseph Hendricks,68,"South Kristin, Bermuda",Female,Diabetes,None,Paracetamol,21-04-22,Physiotherapist,Lifestyle advice,Yes,Very Unsatisfied,1,5
+Michelle Nelson,58,"North Wayneborough, Kyrgyz Republic",Prefer not to say,Flu,None,Insulin,24-01-21,Psychologist,Further tests recommended,Yes,Satisfied,4,5
+Holly Logan,78,"Orozcoville, Vanuatu",Female,None,Back pain,Antihistamines,22-03-23,Psychologist,Further tests recommended,No,Unsatisfied,1,1
+Tina Porter,40,"New Danielle, South Georgia and the South Sandwich Islands",Prefer not to say,Hypertension,None,Insulin,28-07-23,Psychologist,Follow-up requested,No,Very Unsatisfied,2,5
+Stephen Flores,25,"New Eric, Korea",Female,Flu,None,Antacids,16-04-20,Psychologist,Referral to specialist,Yes,Very Unsatisfied,2,3
+Alice Nichols,35,"Wrightshire, Brazil",Prefer not to say,Common cold,None,Paracetamol,13-08-21,Dietician,Referral to specialist,No,Unsatisfied,1,1
+Brandon Jones,79,"Jennychester, Hong Kong",Prefer not to say,Allergy,None,Ibuprofen,08-09-20,Dietician,Lifestyle advice,Yes,Neutral,1,5
+Kelly Miller,78,"East Cassandramouth, Guyana",Male,Common cold,None,Ibuprofen,19-11-22,Psychologist,Further tests recommended,No,Very Unsatisfied,2,4
+Robert Herring,61,"East Samuel, Papua New Guinea",Prefer not to say,Diabetes,None,Paracetamol,14-08-22,Dermatologist,Lifestyle advice,No,Neutral,5,1
+Robert Cole,22,"Lake Elizabethstad, Iran",Prefer not to say,Flu,None,Antihistamines,11-09-22,General Practitioner,Follow-up requested,Yes,Very Unsatisfied,1,5
+Charles Walker,31,"South Richard, Benin",Female,Asthma,None,Paracetamol,13-08-22,Cardiologist,Referral to specialist,Yes,Neutral,2,2
+Jorge Arroyo,56,"South Victorialand, Thailand",Female,Flu,None,Vitamins,26-04-21,Dermatologist,Referral to specialist,Yes,Very Satisfied,4,5
+Omar Bailey,46,"Lake Gary, Reunion",Prefer not to say,None,Headache,Ibuprofen,27-05-20,General Practitioner,Further tests recommended,Yes,Very Satisfied,2,3
+George Day,27,"East Aaron, Korea",Male,None,Anxiety,Antihistamines,12-04-22,Dermatologist,Prescription issued,No,Satisfied,1,2
+Candace Jackson,37,"New Kristin, Uruguay",Female,Diabetes,None,Paracetamol,19-03-21,Psychologist,Prescription issued,No,Satisfied,3,4
+Tonya Anderson,31,"Pughborough, Israel",Female,None,Skin irritation,Paracetamol,06-01-22,Psychologist,Prescription issued,Yes,Satisfied,5,1
+Tiffany Fisher,46,"Harrisview, Gibraltar",Female,Diabetes,None,Vitamins,30-11-22,Physiotherapist,Lifestyle advice,No,Neutral,2,1
+Levi Jordan,24,"North Teresa, Poland",Prefer not to say,Flu,None,None,12-12-20,General Practitioner,Lifestyle advice,No,Neutral,3,4
+Daniel Horton,72,"Lake Tamarafort, Colombia",Prefer not to say,Hypertension,None,Antacids,06-05-21,Psychologist,Further tests recommended,No,Neutral,5,5
+Thomas Washington,80,"Ronaldmouth, Ecuador",Prefer not to say,Asthma,None,Antacids,04-07-20,Dietician,Prescription issued,Yes,Very Unsatisfied,1,1
+Michael Wilkins,35,"South Thomasfurt, Singapore",Prefer not to say,Flu,None,Paracetamol,01-06-22,Cardiologist,Follow-up requested,No,Neutral,3,4
+Isaac Bates,66,"Lake Javiermouth, Iraq",Female,Flu,None,Antihistamines,14-09-21,Cardiologist,Referral to specialist,No,Neutral,5,2
+James Smith,63,"Thomasview, Sierra Leone",Prefer not to say,Hypertension,None,Vitamins,11-07-21,General Practitioner,Follow-up requested,No,Very Unsatisfied,1,4
+Donald Sheppard,27,"South Stephenhaven, Falkland Islands (Malvinas)",Male,Allergy,None,None,30-11-22,Dermatologist,Referral to specialist,No,Very Satisfied,4,3
+Kimberly Faulkner,39,"Jenkinshaven, Malawi",Male,None,Anxiety,None,25-05-21,Psychologist,Lifestyle advice,Yes,Very Unsatisfied,2,2
+Dale Mcclure,49,"Lake Rhonda, French Polynesia",Male,Asthma,None,Antihistamines,03-05-20,Psychologist,Follow-up requested,Yes,Very Unsatisfied,5,3
+Judy Gates,20,"New Steven, Belgium",Female,Common cold,None,Vitamins,18-09-22,General Practitioner,Referral to specialist,No,Very Unsatisfied,4,4
+Casey Murray,21,"South Jessicachester, Indonesia",Prefer not to say,Common cold,None,Antacids,21-11-21,General Practitioner,Follow-up requested,Yes,Satisfied,2,5
+Dawn Conner,62,"Lake Courtneyhaven, Uruguay",Female,Flu,None,Antacids,01-07-22,Physiotherapist,Follow-up requested,No,Very Satisfied,4,1
+Kyle Flores,20,"Port Daniel, Slovakia (Slovak Republic)",Prefer not to say,Diabetes,None,Antacids,26-04-22,General Practitioner,Prescription issued,Yes,Satisfied,1,3
+Cindy Johnson,53,"Michaelview, Timor-Leste",Female,Asthma,None,Antacids,07-09-20,Cardiologist,Lifestyle advice,No,Very Satisfied,4,4
+Ronald Butler,69,"North Robin, Guinea",Female,Hypertension,None,Paracetamol,03-09-20,General Practitioner,Follow-up requested,No,Very Satisfied,5,5
+Roger Gilbert,22,"Jacobsview, Brazil",Female,Common cold,None,Paracetamol,03-04-20,Dietician,Follow-up requested,Yes,Unsatisfied,4,4
+Amanda Holmes,69,"Angelaside, Egypt",Male,Diabetes,None,Ibuprofen,05-12-22,Physiotherapist,Lifestyle advice,Yes,Neutral,5,5
+Karen Thompson,27,"Jamesborough, United Arab Emirates",Male,None,Headache,Vitamins,21-05-23,Physiotherapist,Further tests recommended,No,Very Unsatisfied,5,5
+Rebecca Ritter,40,"Thompsonmouth, Fiji",Male,Hypertension,None,Insulin,20-09-21,Cardiologist,Lifestyle advice,No,Satisfied,1,1
+Anne Becker,29,"North Joshuachester, United States Minor Outlying Islands",Female,Diabetes,None,Insulin,22-10-20,Dietician,Further tests recommended,Yes,Very Unsatisfied,2,2
+Kathleen Patton,51,"West Johnfort, Georgia",Male,Allergy,None,Ibuprofen,27-06-23,Cardiologist,Lifestyle advice,No,Unsatisfied,3,5
+Barbara Bender,73,"Lake Michael, British Virgin Islands",Female,Hypertension,None,Vitamins,03-01-22,Physiotherapist,Prescription issued,Yes,Very Unsatisfied,4,3
+Daniel Villarreal,31,"Mahoneyville, Sudan",Female,Flu,None,Paracetamol,18-02-23,Physiotherapist,Referral to specialist,No,Very Satisfied,5,4
+Casey Carter,72,"New Stephaniebury, Lao People's Democratic Republic",Prefer not to say,Diabetes,None,Paracetamol,02-12-20,Cardiologist,Referral to specialist,Yes,Very Satisfied,3,5
+Marc Delgado,39,"South Wesleymouth, Macao",Male,Common cold,None,Insulin,12-02-23,Dermatologist,Referral to specialist,No,Very Unsatisfied,3,5
+Maureen Johnson,75,"New Robert, Lebanon",Prefer not to say,Diabetes,None,Ibuprofen,09-03-23,General Practitioner,Follow-up requested,No,Very Unsatisfied,5,2
+Matthew Davis,36,"Danielville, Canada",Prefer not to say,Hypertension,None,Ibuprofen,29-10-22,Dietician,Follow-up requested,Yes,Very Satisfied,4,2
+April Smith,27,"Harringtonmouth, Belarus",Female,Asthma,None,None,06-04-20,Psychologist,Further tests recommended,No,Unsatisfied,1,1
+Christopher Hughes,27,"Lauramouth, Tokelau",Prefer not to say,Diabetes,None,None,06-11-21,Physiotherapist,Further tests recommended,No,Very Satisfied,5,2
+Adrian Silva,49,"Arellanotown, Mayotte",Prefer not to say,Hypertension,None,Paracetamol,24-11-20,General Practitioner,Lifestyle advice,No,Satisfied,2,3
+Brandon Compton,25,"Lake Jacob, Bolivia",Male,Diabetes,None,Antacids,08-10-23,Cardiologist,Follow-up requested,No,Satisfied,2,3
+Christopher Lucas,18,"Schmidtfurt, North Macedonia",Female,Flu,None,Vitamins,01-04-22,General Practitioner,Further tests recommended,Yes,Very Satisfied,3,3
+Randall Underwood,22,"Port Johnport, Yemen",Male,Hypertension,None,Vitamins,18-02-22,Physiotherapist,Further tests recommended,No,Very Unsatisfied,3,5
+Rhonda Carroll,47,"Thomasfurt, Norway",Prefer not to say,Flu,None,None,15-06-21,Psychologist,Prescription issued,Yes,Neutral,5,5
+John Bryant,79,"West Ashley, Papua New Guinea",Prefer not to say,Asthma,None,Antacids,19-01-20,General Practitioner,Referral to specialist,No,Neutral,2,2
+Crystal Klein,49,"East Joann, Ireland",Prefer not to say,Hypertension,None,Antihistamines,11-01-21,General Practitioner,Lifestyle advice,Yes,Very Unsatisfied,3,3
+William Flores,62,"Hillborough, Wallis and Futuna",Male,Flu,None,None,08-12-20,Physiotherapist,Lifestyle advice,Yes,Satisfied,2,1
+Heidi Benton,33,"East Matthewview, Tokelau",Prefer not to say,Asthma,None,Antacids,18-08-21,Dietician,Follow-up requested,Yes,Satisfied,4,2
+Tara Grant,45,"Port Christopherbury, Cocos (Keeling) Islands",Male,Hypertension,None,Insulin,23-10-21,Cardiologist,Follow-up requested,No,Unsatisfied,3,3
+Susan Ball,77,"Lake Paige, Anguilla",Male,None,Fatigue,Vitamins,03-04-21,Dermatologist,Further tests recommended,No,Satisfied,2,4
+Jonathan Gregory,64,"East Carolyn, Seychelles",Male,Allergy,None,None,12-10-20,Physiotherapist,Follow-up requested,No,Very Unsatisfied,2,4
+Sophia Simmons,45,"South Emily, Latvia",Female,Flu,None,Paracetamol,27-08-23,Psychologist,Lifestyle advice,No,Neutral,2,2
+Katie Santana,26,"Nguyenburgh, Burkina Faso",Female,Diabetes,None,Antacids,10-10-23,Psychologist,Prescription issued,No,Satisfied,4,1
+Samuel Kemp,65,"Brianmouth, Tuvalu",Prefer not to say,None,Fatigue,Ibuprofen,24-01-22,Dietician,Referral to specialist,No,Satisfied,4,3
+Donald Harris,20,"East Lisa, Liechtenstein",Female,Asthma,None,Vitamins,12-08-21,Dietician,Prescription issued,No,Neutral,2,5
+Joan Lambert,57,"Starkside, Hong Kong",Male,Allergy,None,Insulin,20-05-22,Cardiologist,Further tests recommended,Yes,Very Unsatisfied,5,5
+Mr. Brendan Davidson,58,"East Angela, Mauritius",Male,Asthma,None,Antacids,07-02-23,Physiotherapist,Prescription issued,No,Very Unsatisfied,2,5
+Lisa Hernandez,42,"New Reginaldview, Mongolia",Male,Asthma,None,None,08-01-23,Dermatologist,Follow-up requested,No,Satisfied,3,4
+Elizabeth Walker,65,"Schneiderfort, Turks and Caicos Islands",Prefer not to say,Diabetes,None,Vitamins,17-12-22,Psychologist,Lifestyle advice,No,Unsatisfied,4,5
+Sandra Brown,42,"Lopezchester, Nauru",Female,Flu,None,Insulin,17-09-23,Dermatologist,Further tests recommended,Yes,Very Unsatisfied,5,5
+Kim Cole,25,"West Bradleyhaven, Burundi",Prefer not to say,None,Fatigue,Vitamins,20-09-23,Cardiologist,Further tests recommended,Yes,Unsatisfied,4,2
+Andrew Black,20,"Weberberg, Antigua and Barbuda",Male,None,Anxiety,Insulin,04-01-20,Dermatologist,Further tests recommended,No,Very Unsatisfied,1,5
+Belinda Lewis,25,"Deleonville, Turkmenistan",Female,Diabetes,None,Vitamins,20-09-20,General Practitioner,Lifestyle advice,No,Unsatisfied,1,3
+Elizabeth King,51,"Johnmouth, Ireland",Female,Allergy,None,Ibuprofen,26-01-21,Dermatologist,Prescription issued,Yes,Satisfied,1,5
+Nicholas Dean,19,"Lake Rachel, Congo",Male,Allergy,None,Antihistamines,07-12-21,Dietician,Lifestyle advice,Yes,Very Unsatisfied,1,4
+Christopher Dixon,53,"Harperchester, Mauritius",Male,Asthma,None,None,13-03-22,Cardiologist,Referral to specialist,No,Neutral,3,5
+Cassidy Robbins,76,"Charlesview, Iran",Prefer not to say,Allergy,None,Insulin,23-06-21,Physiotherapist,Lifestyle advice,No,Very Satisfied,3,4
+Whitney Long,59,"Port Nicolasshire, Cyprus",Prefer not to say,Allergy,None,Antacids,27-10-22,Dietician,Lifestyle advice,No,Very Satisfied,1,1
+Bridget Murray,59,"West Mitchellshire, Heard Island and McDonald Islands",Male,Asthma,None,Insulin,09-08-21,Cardiologist,Further tests recommended,No,Unsatisfied,1,1
+Darryl Banks,27,"Sandrahaven, Pitcairn Islands",Male,Hypertension,None,Antacids,05-04-20,Dietician,Prescription issued,Yes,Very Unsatisfied,3,4
+Keith Meyer,65,"Davidburgh, Vanuatu",Prefer not to say,Flu,None,Vitamins,26-01-21,Psychologist,Referral to specialist,No,Satisfied,1,4
+Tyler Sutton,20,"Evanshaven, Uruguay",Male,Flu,None,Antacids,24-07-21,General Practitioner,Referral to specialist,No,Neutral,4,4
+Tiffany Jennings,19,"Sellersstad, South Georgia and the South Sandwich Islands",Male,Common cold,None,Antacids,03-06-21,Psychologist,Prescription issued,No,Neutral,2,1
+Sarah Cook,34,"North Andrew, Burkina Faso",Prefer not to say,Allergy,None,Ibuprofen,08-09-20,Psychologist,Prescription issued,Yes,Very Unsatisfied,2,3
+Joseph Hayes,44,"Michaelside, Germany",Female,Hypertension,None,Antihistamines,09-03-21,General Practitioner,Further tests recommended,Yes,Very Satisfied,4,1
+Cassandra Myers,62,"East Ashleyhaven, Congo",Prefer not to say,Allergy,None,Antacids,16-05-20,General Practitioner,Referral to specialist,No,Unsatisfied,1,1
+Tyler Mcconnell,79,"South Michael, Marshall Islands",Male,Common cold,None,Antacids,11-09-21,Dermatologist,Follow-up requested,No,Very Unsatisfied,5,2
+Susan Greer,80,"Anthonyland, Fiji",Prefer not to say,None,Fatigue,Antacids,15-08-23,Physiotherapist,Prescription issued,No,Unsatisfied,2,2
+Nicole Moreno,50,"Lisabury, Cameroon",Female,Common cold,None,None,29-03-21,Dermatologist,Lifestyle advice,Yes,Neutral,3,3
+Dustin Douglas,24,"Lake Robert, France",Female,Hypertension,None,Insulin,24-03-20,Psychologist,Further tests recommended,Yes,Satisfied,5,5
+Ronald Simmons,54,"West Rodney, Aruba",Female,Common cold,None,Antacids,26-09-22,General Practitioner,Further tests recommended,No,Very Unsatisfied,4,4
+Jon Lee,41,"New Patrick, Solomon Islands",Prefer not to say,Hypertension,None,Ibuprofen,30-07-22,Physiotherapist,Lifestyle advice,No,Satisfied,3,3
+David Jackson,56,"Mayhaven, Iran",Prefer not to say,None,Anxiety,None,24-01-23,Dermatologist,Follow-up requested,Yes,Satisfied,4,4
+Vanessa Frank,49,"Michaelfurt, Myanmar",Female,Allergy,None,None,23-06-21,Dermatologist,Lifestyle advice,Yes,Satisfied,5,5
+Hannah Robinson,68,"West Jill, Saint Lucia",Male,Allergy,None,Insulin,23-03-21,Physiotherapist,Referral to specialist,Yes,Very Satisfied,2,2
+Amy Parker,71,"Turnerborough, Morocco",Prefer not to say,Diabetes,None,Insulin,12-01-21,Dermatologist,Lifestyle advice,No,Unsatisfied,5,5
+Erin Rice,23,"New Richardview, Togo",Male,Flu,None,None,13-01-21,Psychologist,Referral to specialist,Yes,Neutral,2,4
+Tammy Ferguson,48,"South Kevin, Israel",Male,Common cold,None,None,07-09-23,Psychologist,Further tests recommended,Yes,Very Unsatisfied,4,4
+Diane Knight,52,"Pittmanhaven, Myanmar",Prefer not to say,Allergy,None,Ibuprofen,04-09-22,General Practitioner,Lifestyle advice,Yes,Very Unsatisfied,2,5
+Michele Mcclain,79,"Annton, Niue",Prefer not to say,Hypertension,None,None,03-11-20,Dietician,Prescription issued,Yes,Unsatisfied,3,1
+Melissa Owens,37,"Port Traci, Lithuania",Prefer not to say,Common cold,None,None,09-09-20,Cardiologist,Prescription issued,Yes,Unsatisfied,2,1
+Kimberly Tucker,66,"North Meghanton, Panama",Male,Hypertension,None,Ibuprofen,31-08-23,Physiotherapist,Prescription issued,No,Very Satisfied,1,3
+Shane Barnett,33,"South Jason, Burundi",Female,Allergy,None,Vitamins,18-07-22,Psychologist,Prescription issued,Yes,Satisfied,3,2
+Sue Daniels,64,"Catherinestad, Guinea",Prefer not to say,Asthma,None,None,31-05-20,Dietician,Prescription issued,No,Neutral,5,1
+Bradley Flores,23,"Toddport, Cameroon",Male,Allergy,None,Antacids,22-08-21,Cardiologist,Further tests recommended,Yes,Satisfied,3,1
+Mallory Rice,76,"New Austin, Pitcairn Islands",Male,Diabetes,None,Insulin,12-01-22,Dietician,Follow-up requested,No,Very Unsatisfied,4,5
+Joseph Joseph,47,"Mendezton, Indonesia",Prefer not to say,Allergy,None,None,24-08-23,Cardiologist,Follow-up requested,Yes,Unsatisfied,5,4
+Juan Terrell,49,"New Tiffanytown, Barbados",Prefer not to say,Flu,None,Insulin,14-06-22,Physiotherapist,Referral to specialist,Yes,Satisfied,5,4
+Emily Diaz,25,"South Joanna, Tokelau",Prefer not to say,Allergy,None,Insulin,05-01-20,Cardiologist,Referral to specialist,No,Very Satisfied,5,1
+Angela Robinson,62,"Garciaburgh, Syrian Arab Republic",Male,Asthma,None,Paracetamol,29-04-20,Physiotherapist,Follow-up requested,Yes,Satisfied,3,5
+Paul Kim,78,"Charlesstad, Liechtenstein",Female,Allergy,None,Insulin,11-08-22,Cardiologist,Prescription issued,Yes,Very Satisfied,3,1
+Nicole Gray,46,"New Elizabeth, New Zealand",Female,Hypertension,None,Paracetamol,17-09-22,Cardiologist,Follow-up requested,Yes,Very Satisfied,3,1
+Leslie Porter,53,"Adamport, United Kingdom",Prefer not to say,None,None,None,29-09-23,Dermatologist,Follow-up requested,Yes,Neutral,4,2
+Kyle Perez,68,"Dennistown, United Kingdom",Prefer not to say,Asthma,None,Vitamins,11-02-20,General Practitioner,Referral to specialist,Yes,Very Unsatisfied,1,2
+Belinda Allen,23,"Dennisfort, Northern Mariana Islands",Prefer not to say,None,Headache,Antihistamines,26-05-22,Psychologist,Further tests recommended,Yes,Satisfied,5,5
+Kelly Cline,78,"New Amber, Estonia",Female,Common cold,None,None,09-10-22,Cardiologist,Further tests recommended,Yes,Neutral,3,4
+Charles Ruiz,37,"Christyport, Jersey",Female,Asthma,None,None,20-01-20,Dietician,Further tests recommended,No,Unsatisfied,4,2
+Nicole Gay,34,"Crosbyport, Malawi",Male,Allergy,None,Antacids,28-09-22,Physiotherapist,Further tests recommended,Yes,Neutral,2,1
+Alexis Zamora,27,"Port Kristi, Bangladesh",Female,Asthma,None,Paracetamol,24-06-23,Psychologist,Further tests recommended,No,Very Unsatisfied,4,1
+John Crosby,61,"Port Deannafort, San Marino",Female,Hypertension,None,Paracetamol,08-06-23,Physiotherapist,Referral to specialist,Yes,Unsatisfied,1,1
+Dr. Julie Sanders,60,"Taylorport, Guinea-Bissau",Female,Flu,None,None,01-04-20,Cardiologist,Follow-up requested,No,Very Unsatisfied,5,5
+Julie Alexander,41,"South Adamberg, Russian Federation",Male,None,Back pain,Antacids,07-06-23,Physiotherapist,Referral to specialist,Yes,Unsatisfied,1,4
+Sandra Mitchell,24,"South Donnafort, Faroe Islands",Male,None,Digestive issues,None,21-02-20,Cardiologist,Follow-up requested,Yes,Unsatisfied,2,2
+Ashley Malone DDS,41,"New Jasonburgh, Aruba",Prefer not to say,Common cold,None,Antihistamines,24-10-22,General Practitioner,Follow-up requested,No,Very Satisfied,5,2
+David Elliott,70,"North Martin, Saint Barthelemy",Prefer not to say,Common cold,None,Antihistamines,29-08-20,Dietician,Follow-up requested,No,Unsatisfied,2,4
+Brianna Morgan,45,"New Kelly, Kyrgyz Republic",Female,Flu,None,Ibuprofen,09-05-23,General Practitioner,Lifestyle advice,No,Unsatisfied,4,1
+Chelsey Brown,55,"West Corey, Palestinian Territory",Female,Hypertension,None,Vitamins,26-11-20,Physiotherapist,Further tests recommended,Yes,Very Unsatisfied,3,4
+Colleen Weaver,50,"Port Nicoleton, Cote d'Ivoire",Male,Common cold,None,Antacids,18-03-22,General Practitioner,Referral to specialist,Yes,Very Satisfied,5,3
+Dennis Murphy,50,"Rogersbury, Uganda",Male,Flu,None,Vitamins,15-02-23,Cardiologist,Prescription issued,Yes,Unsatisfied,2,1
+Alyssa Mccoy,35,"Port Kristi, Tajikistan",Male,Common cold,None,Vitamins,01-09-21,Psychologist,Follow-up requested,Yes,Satisfied,4,1
+Teresa Chavez,59,"North Michael, Gabon",Female,None,Digestive issues,None,18-02-23,Dietician,Referral to specialist,Yes,Very Unsatisfied,2,2
+Marco Carroll,62,"Chamberstown, Belize",Male,Diabetes,None,Antacids,27-01-22,General Practitioner,Further tests recommended,Yes,Very Satisfied,3,5
+Dale Miller DDS,59,"Allenview, Pakistan",Male,Flu,None,None,23-04-20,Cardiologist,Further tests recommended,No,Very Satisfied,2,2
+Tracy Martinez,56,"East Anitatown, Cocos (Keeling) Islands",Prefer not to say,Asthma,None,Antihistamines,26-01-20,Physiotherapist,Lifestyle advice,Yes,Very Satisfied,1,1
+Juan Ruiz,48,"Murrayberg, Latvia",Female,Allergy,None,Paracetamol,15-05-21,Psychologist,Lifestyle advice,No,Neutral,4,5
+Christina Gaines,44,"Wilsonborough, Gibraltar",Prefer not to say,None,Digestive issues,Paracetamol,14-04-22,Psychologist,Prescription issued,No,Very Unsatisfied,2,5
+Gregory Salazar,34,"Port Kylieland, Grenada",Prefer not to say,Asthma,None,Insulin,15-09-22,Physiotherapist,Further tests recommended,Yes,Neutral,4,4
+Joshua Nielsen,80,"Vanessamouth, Ghana",Female,Common cold,None,Ibuprofen,30-04-21,Cardiologist,Further tests recommended,Yes,Satisfied,5,2
+Daniel Smith,53,"Port Christopher, Seychelles",Male,Asthma,None,Paracetamol,04-09-22,General Practitioner,Further tests recommended,No,Satisfied,1,1
+Robert Brown PhD,79,"Julieburgh, El Salvador",Female,None,None,None,15-01-22,Psychologist,Lifestyle advice,Yes,Neutral,3,5
+Sarah Allen,50,"New Jeffrey, Sierra Leone",Prefer not to say,Common cold,None,Vitamins,02-02-21,Dermatologist,Lifestyle advice,Yes,Neutral,3,4
+Cameron Zavala,80,"Perezfurt, Grenada",Prefer not to say,None,Anxiety,Insulin,13-08-20,Physiotherapist,Lifestyle advice,Yes,Unsatisfied,5,5
+Ronald Patel,20,"Karenbury, India",Prefer not to say,Common cold,None,Ibuprofen,09-04-21,Physiotherapist,Prescription issued,No,Unsatisfied,3,1
+Christine Byrd,24,"Port Mckenzieshire, Antarctica (the territory South of 60 deg S)",Female,Diabetes,None,None,11-08-21,Cardiologist,Further tests recommended,No,Satisfied,3,3
+Michelle Holden,32,"Kimberlyburgh, Vanuatu",Female,Asthma,None,Antihistamines,19-03-20,General Practitioner,Follow-up requested,Yes,Very Satisfied,5,5
+Rachel Lee,37,"South Tanner, Micronesia",Prefer not to say,Asthma,None,Antacids,10-10-20,Dietician,Further tests recommended,Yes,Unsatisfied,2,1
+Bryan Duffy,73,"Sotoland, El Salvador",Prefer not to say,Allergy,None,Vitamins,11-09-22,Physiotherapist,Lifestyle advice,Yes,Unsatisfied,5,4
+Janet House,51,"Port Christopher, Montserrat",Prefer not to say,Asthma,None,Antacids,24-03-22,General Practitioner,Lifestyle advice,Yes,Very Satisfied,2,1
+Rebecca Andrews,41,"New Nataliechester, United Kingdom",Female,Allergy,None,Antacids,06-01-22,Dietician,Referral to specialist,Yes,Unsatisfied,2,1
+Mrs. Kristina Cabrera,48,"North Cynthiaberg, Uruguay",Prefer not to say,Asthma,None,None,26-09-21,Psychologist,Follow-up requested,No,Very Satisfied,3,1
+Shawn Miller,40,"Harryberg, Macao",Male,Flu,None,None,11-01-21,Dermatologist,Follow-up requested,Yes,Unsatisfied,5,4
+Jodi Moore,59,"Hendersonton, Timor-Leste",Prefer not to say,Flu,None,Paracetamol,19-05-20,Dermatologist,Referral to specialist,No,Unsatisfied,4,1
+Cynthia Stephenson,79,"Lake Jill, Luxembourg",Female,Flu,None,Ibuprofen,20-02-20,Cardiologist,Lifestyle advice,No,Very Satisfied,3,5
+Cristina Johnson,20,"New Sonyaburgh, North Macedonia",Female,Common cold,None,Antihistamines,10-04-23,Dietician,Further tests recommended,Yes,Very Satisfied,4,2
+Maria Andrews,49,"West David, Faroe Islands",Male,Asthma,None,None,04-01-20,Physiotherapist,Lifestyle advice,Yes,Neutral,2,3
+Aimee Stephens,40,"Bondburgh, Finland",Female,Asthma,None,Antihistamines,02-01-20,General Practitioner,Referral to specialist,Yes,Very Satisfied,5,5
+David Brown,43,"North Daniel, Lebanon",Female,None,None,None,09-02-21,Dermatologist,Lifestyle advice,No,Very Unsatisfied,2,5
+Heather Brown,56,"Meadowsville, Morocco",Prefer not to say,Asthma,None,None,06-10-23,Physiotherapist,Referral to specialist,No,Neutral,1,2
+Casey Powell,80,"Johnfurt, Niger",Male,Hypertension,None,None,17-03-22,General Practitioner,Follow-up requested,Yes,Unsatisfied,1,4
+Courtney Johnson,45,"Clarkmouth, Lao People's Democratic Republic",Male,Hypertension,None,Antihistamines,06-04-22,General Practitioner,Follow-up requested,Yes,Very Satisfied,2,2
+Theresa Parker,49,"Singhshire, Nigeria",Prefer not to say,Common cold,None,Ibuprofen,21-05-20,General Practitioner,Further tests recommended,Yes,Satisfied,1,5
+Kathleen Garcia,80,"Port Robertton, Slovenia",Prefer not to say,Hypertension,None,Vitamins,20-02-23,General Practitioner,Referral to specialist,Yes,Very Unsatisfied,3,4
+Dave Flores,49,"Lauraberg, French Guiana",Female,Allergy,None,Paracetamol,25-09-20,Dietician,Prescription issued,No,Unsatisfied,3,2
+Timothy Norris,70,"New Danielle, Nepal",Female,None,None,None,19-04-23,Dietician,Referral to specialist,Yes,Very Satisfied,5,5
+Sharon Bowen,59,"East Juanchester, Jamaica",Prefer not to say,Asthma,None,Antacids,01-10-23,Cardiologist,Prescription issued,Yes,Very Unsatisfied,1,1
+James Brown,64,"Marystad, Jordan",Prefer not to say,Hypertension,None,Antacids,04-05-22,Physiotherapist,Follow-up requested,Yes,Very Unsatisfied,4,2
+Sandra Watts,46,"Christopherchester, Heard Island and McDonald Islands",Prefer not to say,Common cold,None,None,21-09-21,Dermatologist,Follow-up requested,No,Unsatisfied,1,5
+Patrick Mccarty,64,"Lake Sandramouth, Montserrat",Female,Asthma,None,Ibuprofen,25-05-21,Dermatologist,Referral to specialist,Yes,Very Satisfied,5,4
+Laura Kelly,76,"South Kathy, Argentina",Prefer not to say,Allergy,None,Antihistamines,04-12-20,Physiotherapist,Lifestyle advice,Yes,Satisfied,5,4
+Michelle Mcneil,23,"Mariaborough, Falkland Islands (Malvinas)",Prefer not to say,None,Anxiety,Vitamins,06-10-23,Dermatologist,Referral to specialist,No,Very Unsatisfied,2,4
+David Harris,48,"Karenport, Armenia",Prefer not to say,Allergy,None,Paracetamol,05-04-23,General Practitioner,Prescription issued,Yes,Very Unsatisfied,2,5
+Ashley Wells,22,"Nicholasshire, Reunion",Prefer not to say,Allergy,None,Antacids,26-10-22,Dermatologist,Follow-up requested,Yes,Satisfied,1,5
+Jeffery Ramirez,25,"Mckayhaven, France",Female,Hypertension,None,Ibuprofen,25-03-20,General Practitioner,Referral to specialist,Yes,Satisfied,3,5
+Daniel Vaughn,37,"East Cindy, Haiti",Female,None,Back pain,None,25-09-22,Physiotherapist,Lifestyle advice,No,Neutral,4,3
+Bradley Fernandez,45,"Stephenfurt, South Georgia and the South Sandwich Islands",Prefer not to say,Flu,None,Ibuprofen,17-07-21,Dermatologist,Follow-up requested,No,Very Satisfied,1,3
+Angela Grant,61,"West Ricky, American Samoa",Male,Hypertension,None,Antihistamines,09-11-20,Dermatologist,Prescription issued,No,Very Unsatisfied,2,3
+Heather Cruz,49,"Port Kayla, United States of America",Male,Asthma,None,Antihistamines,27-03-22,Physiotherapist,Lifestyle advice,No,Very Satisfied,1,5
+Dustin Greer,72,"West Jessica, Cook Islands",Male,Common cold,None,Ibuprofen,05-09-20,Cardiologist,Lifestyle advice,Yes,Neutral,1,4
+James Osborne,40,"Joseshire, Holy See (Vatican City State)",Prefer not to say,Common cold,None,Insulin,26-06-21,General Practitioner,Follow-up requested,Yes,Unsatisfied,1,3
+Tyler Gallagher,79,"Hallhaven, Pitcairn Islands",Male,Diabetes,None,Antacids,10-02-21,Cardiologist,Follow-up requested,Yes,Unsatisfied,1,4
+Jeremy Greene,18,"Richardside, Barbados",Male,Allergy,None,Paracetamol,13-11-20,Psychologist,Lifestyle advice,Yes,Unsatisfied,5,4
+Samantha Harris,49,"Port Jenniferport, Bangladesh",Prefer not to say,Flu,None,Antacids,26-03-21,Dermatologist,Follow-up requested,No,Unsatisfied,1,4
+Kimberly Johnson,38,"Fryeberg, Kenya",Prefer not to say,None,Back pain,Antacids,24-09-21,Physiotherapist,Further tests recommended,No,Very Satisfied,3,5
+Vincent Edwards,20,"Jenniferborough, Pitcairn Islands",Prefer not to say,Allergy,None,Antihistamines,25-08-23,Physiotherapist,Follow-up requested,No,Unsatisfied,2,1
+Jennifer Cummings,56,"East Andrew, Romania",Prefer not to say,Allergy,None,Paracetamol,01-10-21,General Practitioner,Lifestyle advice,Yes,Unsatisfied,1,4
+Jonathan Hanson,47,"New Kyleland, Lao People's Democratic Republic",Female,Asthma,None,Paracetamol,31-03-22,Cardiologist,Referral to specialist,Yes,Very Unsatisfied,5,1
+Tony Morris,34,"South Briannashire, Belarus",Prefer not to say,None,Digestive issues,Antihistamines,25-05-23,Physiotherapist,Further tests recommended,No,Very Satisfied,2,5
+Kevin Macias,65,"Carolburgh, Niue",Prefer not to say,Asthma,None,Antihistamines,05-02-22,General Practitioner,Prescription issued,No,Satisfied,2,2
+Curtis Miller,72,"North Kimberlyview, Hong Kong",Female,None,Headache,Ibuprofen,29-04-20,Dermatologist,Referral to specialist,No,Very Unsatisfied,5,2
+Kevin Vasquez,37,"Leonburgh, Heard Island and McDonald Islands",Prefer not to say,Flu,None,Antihistamines,22-03-21,Psychologist,Prescription issued,Yes,Very Unsatisfied,3,3
+Chad Mullins,27,"Lake Courtneyville, Greece",Prefer not to say,Flu,None,Antacids,28-11-22,Psychologist,Prescription issued,No,Satisfied,1,2
+Grant Martinez,49,"Riveraberg, Timor-Leste",Female,Asthma,None,None,07-10-21,Dermatologist,Further tests recommended,No,Satisfied,5,4
+Robert Cole,68,"Sanchezfort, Northern Mariana Islands",Male,Allergy,None,Ibuprofen,05-05-23,Physiotherapist,Lifestyle advice,Yes,Very Unsatisfied,1,5
+Mark Ortega,42,"North Adam, Azerbaijan",Female,None,Headache,Paracetamol,01-04-22,Physiotherapist,Prescription issued,Yes,Very Satisfied,1,5
+Eric Brown,61,"Trevinoshire, Lithuania",Prefer not to say,Diabetes,None,Ibuprofen,26-02-23,Psychologist,Further tests recommended,No,Very Unsatisfied,4,1
+Shannon Nguyen,24,"Elizabethside, Sudan",Female,Asthma,None,Insulin,08-06-22,Dietician,Prescription issued,No,Very Unsatisfied,3,1
+Mark Green,76,"Port Luis, Belize",Female,Hypertension,None,Insulin,12-04-22,Psychologist,Prescription issued,No,Neutral,2,2
+Cynthia Matthews,26,"East Willie, Moldova",Male,Allergy,None,Paracetamol,29-11-22,Cardiologist,Further tests recommended,No,Very Satisfied,3,1
+Robert Sutton,77,"Blevinshaven, Armenia",Female,Flu,None,Antihistamines,21-07-20,Physiotherapist,Lifestyle advice,No,Neutral,5,1
+Rhonda Davis,51,"Stoutmouth, Myanmar",Male,Allergy,None,Insulin,28-04-21,General Practitioner,Prescription issued,Yes,Neutral,3,4
+Timothy Campbell,64,"Mcconnellport, Indonesia",Female,Common cold,None,Paracetamol,20-07-21,Psychologist,Further tests recommended,Yes,Very Unsatisfied,4,2
+Margaret King,53,"West Shannon, Mauritius",Prefer not to say,Asthma,None,Antihistamines,09-06-21,General Practitioner,Lifestyle advice,No,Very Satisfied,2,2
+Jonathan Holland,38,"Henryhaven, Kyrgyz Republic",Prefer not to say,Asthma,None,Insulin,27-06-22,Dermatologist,Referral to specialist,Yes,Very Unsatisfied,2,5
+Bryan Grant,70,"Lake Doristown, Kazakhstan",Male,Hypertension,None,Antihistamines,14-09-20,Cardiologist,Further tests recommended,Yes,Unsatisfied,4,3
+Bianca Jenkins,47,"Juliaview, Macao",Male,Allergy,None,Paracetamol,24-03-20,General Practitioner,Further tests recommended,No,Unsatisfied,4,1
+Jennifer Romero,37,"Donnaport, Jamaica",Prefer not to say,Asthma,None,Antacids,22-10-20,General Practitioner,Follow-up requested,Yes,Very Satisfied,3,2
+Mark Warren,79,"North Mollystad, Antigua and Barbuda",Prefer not to say,Allergy,None,Insulin,04-08-22,Dermatologist,Prescription issued,No,Neutral,5,1
+Craig Barker,58,"Alanland, Guyana",Prefer not to say,Asthma,None,Insulin,19-02-21,Dermatologist,Prescription issued,No,Satisfied,1,4
+Keith Gill,54,"Baileyborough, Montenegro",Male,None,Back pain,Insulin,06-10-23,Dermatologist,Lifestyle advice,Yes,Unsatisfied,2,2
+Sara Calhoun,28,"Churchfurt, Chad",Female,Flu,None,Antihistamines,23-12-21,General Practitioner,Further tests recommended,Yes,Neutral,4,3
+William Miller,19,"New Ambermouth, Seychelles",Prefer not to say,Asthma,None,Insulin,11-09-21,General Practitioner,Lifestyle advice,Yes,Satisfied,2,5
+Joshua Hernandez,61,"New Kristie, Bouvet Island (Bouvetoya)",Male,Hypertension,None,Paracetamol,21-07-22,Cardiologist,Follow-up requested,No,Very Satisfied,2,5
+David Klein,41,"West Scottchester, French Polynesia",Female,Flu,None,Antihistamines,13-09-21,Dietician,Follow-up requested,Yes,Neutral,5,2
+Keith Carter,22,"North Andre, Portugal",Male,Diabetes,None,None,28-03-23,Physiotherapist,Lifestyle advice,Yes,Satisfied,4,1
+Stacy Burns,27,"Johnfort, Syrian Arab Republic",Prefer not to say,None,Skin irritation,Insulin,09-10-20,Psychologist,Prescription issued,No,Very Satisfied,1,1
+Tina Robles,77,"South Bradley, Ghana",Prefer not to say,Allergy,None,None,30-07-21,Psychologist,Follow-up requested,Yes,Very Unsatisfied,2,4
+Christopher Ewing,42,"North Tony, Guinea",Prefer not to say,Diabetes,None,Vitamins,14-05-21,Physiotherapist,Further tests recommended,Yes,Neutral,5,4
+Vernon Kelly,67,"Debbietown, Syrian Arab Republic",Male,Flu,None,None,12-03-23,Dermatologist,Lifestyle advice,Yes,Satisfied,2,2
+Peggy Gardner,53,"Aliciaborough, Cook Islands",Male,None,Skin irritation,Antacids,17-02-23,Cardiologist,Referral to specialist,Yes,Unsatisfied,3,4
+Daniel Hughes,72,"Roberthaven, Isle of Man",Prefer not to say,Diabetes,None,Vitamins,20-03-23,Psychologist,Follow-up requested,No,Satisfied,4,5
+Kathleen Russell,21,"Port Brendahaven, Mauritania",Male,Asthma,None,Antacids,01-11-21,Dermatologist,Referral to specialist,No,Very Unsatisfied,2,4
+Nancy Davis,69,"Port Michael, Saint Barthelemy",Prefer not to say,Diabetes,None,Paracetamol,18-07-21,General Practitioner,Lifestyle advice,No,Very Unsatisfied,4,2
+Robert Ward,75,"Boydfurt, Martinique",Male,Diabetes,None,Ibuprofen,04-03-23,Physiotherapist,Referral to specialist,No,Satisfied,5,1
+Michael Anderson,21,"Jenniferstad, Cameroon",Female,Asthma,None,None,02-08-20,Dermatologist,Referral to specialist,Yes,Satisfied,2,3
+William Miller,24,"Robertburgh, Spain",Female,Diabetes,None,None,09-07-22,Psychologist,Further tests recommended,No,Very Satisfied,1,5
+Kristen Morales,31,"South Brendashire, Maldives",Prefer not to say,Allergy,None,Antacids,14-09-22,Psychologist,Further tests recommended,No,Unsatisfied,2,1
+Lisa Lewis,23,"Grantmouth, Panama",Female,Diabetes,None,Ibuprofen,17-11-20,Psychologist,Referral to specialist,Yes,Unsatisfied,4,3
+Jack Espinoza,29,"Lake Christinahaven, Heard Island and McDonald Islands",Female,Allergy,None,Paracetamol,06-06-20,Dermatologist,Further tests recommended,Yes,Satisfied,1,2
+Evan Jones,28,"Dunnfurt, Aruba",Prefer not to say,Allergy,None,Antacids,29-08-20,Physiotherapist,Follow-up requested,Yes,Neutral,5,4
+Steven Walker,38,"Lake Roberto, Burkina Faso",Female,Allergy,None,Insulin,22-08-20,Psychologist,Follow-up requested,No,Neutral,5,5
+Melissa Reeves,21,"Branchfurt, Netherlands Antilles",Male,Common cold,None,Paracetamol,17-04-20,Dietician,Follow-up requested,Yes,Very Satisfied,1,1
+Matthew Gonzalez,80,"Prattside, Namibia",Female,Diabetes,None,Vitamins,22-01-22,Physiotherapist,Referral to specialist,No,Satisfied,4,4
+Christopher Porter,25,"Lake Christina, Tonga",Male,None,None,None,06-07-20,Psychologist,Referral to specialist,No,Unsatisfied,1,3
+Jeffery Oconnell,28,"North Amanda, Ecuador",Male,Asthma,None,None,15-04-20,Dietician,Prescription issued,Yes,Unsatisfied,2,2
+Marc Bell,74,"Carolville, Saint Helena",Male,None,Skin irritation,Antacids,20-06-20,General Practitioner,Further tests recommended,No,Very Satisfied,3,4
+Jeremy Murray,60,"Andrewshire, Liberia",Prefer not to say,Diabetes,None,Paracetamol,10-08-20,General Practitioner,Further tests recommended,Yes,Very Satisfied,1,4
+Kristina Phillips,33,"Ashleymouth, Central African Republic",Prefer not to say,Allergy,None,None,23-11-21,Physiotherapist,Referral to specialist,No,Satisfied,2,4
+Eric Hernandez,23,"Justinbury, Afghanistan",Male,Asthma,None,None,13-07-23,Psychologist,Follow-up requested,No,Very Satisfied,2,1
+Tracy Jones,51,"Matthewfort, Slovakia (Slovak Republic)",Male,None,Digestive issues,Insulin,07-05-22,Dermatologist,Prescription issued,No,Neutral,2,4
+Wendy Leblanc,67,"North Lisa, Antigua and Barbuda",Male,Flu,None,Antacids,27-05-23,Dietician,Further tests recommended,No,Very Satisfied,5,5
+Rachel Turner,25,"Lake Georgefort, Benin",Female,Hypertension,None,Antacids,13-03-23,Dietician,Further tests recommended,Yes,Very Satisfied,5,5
+Edward Lynch,66,"East Matthewland, Ghana",Male,Flu,None,None,05-04-23,Dermatologist,Further tests recommended,Yes,Unsatisfied,2,2
+Stephen Richardson,80,"New Frankborough, Timor-Leste",Female,Flu,None,Ibuprofen,23-08-23,Physiotherapist,Lifestyle advice,Yes,Unsatisfied,4,4
+Donna Mcdaniel,65,"Lake Carrieborough, French Guiana",Prefer not to say,Hypertension,None,Ibuprofen,08-01-20,Psychologist,Prescription issued,Yes,Very Unsatisfied,2,1
+Julie Keller,79,"South Nathanielborough, Tanzania",Female,Common cold,None,Vitamins,08-04-20,Psychologist,Referral to specialist,Yes,Satisfied,3,5
+Charlene Cole,60,"Kimberlyfurt, Belize",Female,None,Fatigue,Paracetamol,29-08-23,Cardiologist,Lifestyle advice,No,Very Satisfied,4,4
+Kelly Crawford,63,"Andersonshire, Cote d'Ivoire",Male,Asthma,None,Vitamins,24-11-20,Cardiologist,Prescription issued,Yes,Unsatisfied,2,4
+Joshua Smith,58,"West Joelland, New Zealand",Prefer not to say,None,Digestive issues,Paracetamol,11-07-22,Dietician,Follow-up requested,No,Very Satisfied,2,2
+Pamela Howard,20,"New Sandra, Tokelau",Female,Hypertension,None,Paracetamol,02-04-20,Dermatologist,Referral to specialist,No,Satisfied,3,2
+Christopher Reynolds,48,"Millertown, Sierra Leone",Prefer not to say,Allergy,None,Ibuprofen,25-09-20,Dermatologist,Prescription issued,No,Very Unsatisfied,1,4
+Angela Wheeler,49,"New Carlamouth, Anguilla",Male,Allergy,None,Antihistamines,24-10-22,Physiotherapist,Prescription issued,Yes,Neutral,4,1
+Andrea Harper,52,"Amychester, Marshall Islands",Male,Allergy,None,None,07-11-20,Psychologist,Referral to specialist,No,Very Satisfied,5,2
+Shelby Ramos,75,"Lake Barbaraborough, Zambia",Prefer not to say,Allergy,None,Ibuprofen,12-05-20,Dietician,Follow-up requested,Yes,Neutral,1,2
+Donna Lopez,64,"Sandrastad, Costa Rica",Female,Common cold,None,Ibuprofen,10-04-22,Dietician,Lifestyle advice,No,Neutral,5,5
+Eric Rivera,28,"New Joseph, Guinea-Bissau",Male,Flu,None,Insulin,17-08-21,Psychologist,Follow-up requested,No,Very Unsatisfied,5,2
+Tara Sanchez,49,"Aprilchester, Aruba",Prefer not to say,Asthma,None,Antacids,13-01-21,Psychologist,Referral to specialist,Yes,Neutral,1,4
+Amanda Moore,38,"Harthaven, Libyan Arab Jamahiriya",Female,Common cold,None,Insulin,23-10-22,Dietician,Lifestyle advice,No,Very Unsatisfied,2,5
+Kathleen Brown,52,"New Paulborough, Maldives",Prefer not to say,Allergy,None,Insulin,12-03-23,Dermatologist,Further tests recommended,No,Unsatisfied,3,4
+Eddie Wood,21,"Pruittmouth, Netherlands",Male,Allergy,None,Paracetamol,27-03-22,Cardiologist,Follow-up requested,Yes,Neutral,2,3
+Eddie Brandt,67,"North Emilyhaven, Cayman Islands",Female,None,None,None,03-08-20,Dermatologist,Follow-up requested,No,Unsatisfied,1,3
+Alan Russo,33,"Riversmouth, Swaziland",Prefer not to say,Diabetes,None,Antacids,26-03-20,Physiotherapist,Lifestyle advice,Yes,Very Satisfied,1,4
+Wendy Perez,79,"South Lee, Iraq",Prefer not to say,Allergy,None,Vitamins,10-10-21,Psychologist,Lifestyle advice,No,Neutral,5,5
+Samantha Jensen,22,"Angelaport, Niger",Male,Hypertension,None,Antacids,22-07-23,Dermatologist,Lifestyle advice,No,Very Satisfied,1,4
+Matthew Smith,32,"Port Johnshire, Uzbekistan",Male,Flu,None,Vitamins,05-02-23,Dermatologist,Further tests recommended,Yes,Satisfied,5,4
+Diana Hull,79,"Lake Frank, Barbados",Prefer not to say,None,Headache,Antihistamines,28-11-22,Dietician,Referral to specialist,Yes,Neutral,1,1
+Karen Larson,43,"Larryburgh, Estonia",Female,Diabetes,None,None,18-03-23,Dietician,Prescription issued,Yes,Very Satisfied,3,1
+Cynthia Daniel,27,"New Brent, Thailand",Prefer not to say,Asthma,None,Insulin,05-10-21,Dietician,Referral to specialist,No,Satisfied,3,5
+Benjamin Mahoney,19,"Lake Jeffery, Swaziland",Prefer not to say,Flu,None,Ibuprofen,15-05-21,General Practitioner,Prescription issued,Yes,Very Satisfied,5,4
+Sabrina Wiggins,61,"East Jamie, China",Female,Diabetes,None,Vitamins,04-12-20,Dietician,Follow-up requested,No,Satisfied,3,1
+Hannah Phelps,38,"Jacksonstad, Faroe Islands",Prefer not to say,Hypertension,None,Antacids,26-03-23,General Practitioner,Follow-up requested,No,Very Unsatisfied,4,5
+Tina Spence,33,"Aprilbury, Niue",Prefer not to say,Diabetes,None,Antacids,10-01-22,Psychologist,Follow-up requested,Yes,Satisfied,4,4
+Natasha Vega,72,"Markhaven, Somalia",Male,Flu,None,Antacids,24-11-22,Dietician,Lifestyle advice,No,Very Satisfied,2,5
+Susan Silva,48,"South Kelsey, Greece",Female,None,Back pain,Antihistamines,13-07-22,Dermatologist,Further tests recommended,No,Very Unsatisfied,5,4
+Jessica Johnson,30,"Glasshaven, Guinea-Bissau",Male,Hypertension,None,Antacids,16-10-21,Cardiologist,Referral to specialist,Yes,Very Satisfied,4,4
+Keith Hernandez,36,"New Lisabury, Rwanda",Male,None,None,None,13-03-20,Psychologist,Referral to specialist,No,Very Unsatisfied,3,4
+Harold Berg,31,"Annatown, Kiribati",Prefer not to say,Diabetes,None,Ibuprofen,26-05-21,General Practitioner,Lifestyle advice,Yes,Very Unsatisfied,2,5
+Erik Olson,36,"Davidstad, San Marino",Female,Flu,None,Antihistamines,04-12-20,Cardiologist,Prescription issued,No,Neutral,2,2
+Joshua Sparks,70,"South Mark, Czech Republic",Prefer not to say,Hypertension,None,Antacids,02-01-22,Dermatologist,Lifestyle advice,Yes,Very Unsatisfied,1,5
+Hayden Byrd,73,"North John, Mexico",Female,None,Headache,Insulin,05-06-21,General Practitioner,Prescription issued,No,Satisfied,4,1
+Alex Cooper,53,"New Paul, New Zealand",Prefer not to say,Flu,None,Antacids,29-10-22,Dermatologist,Further tests recommended,No,Unsatisfied,1,5
+Mary Martinez,74,"Nicholsborough, Seychelles",Prefer not to say,Hypertension,None,None,11-04-20,Dietician,Further tests recommended,No,Neutral,5,2
+Jordan Knight,43,"Scottberg, Vanuatu",Female,Common cold,None,None,17-05-20,Physiotherapist,Follow-up requested,No,Very Unsatisfied,3,5
+Carolyn Willis,57,"East Gloriaburgh, Tanzania",Female,Flu,None,Antacids,05-09-22,Dietician,Further tests recommended,No,Very Satisfied,2,3
+Scott Robles,55,"Allenberg, Argentina",Prefer not to say,Allergy,None,Insulin,23-02-21,Psychologist,Prescription issued,Yes,Very Unsatisfied,1,5
+Joel Franklin,72,"East Davidstad, Sudan",Female,Hypertension,None,Vitamins,03-01-22,Dermatologist,Referral to specialist,Yes,Unsatisfied,3,1
+Matthew Fowler,35,"New Jamiehaven, Hong Kong",Prefer not to say,Asthma,None,Paracetamol,12-04-20,Psychologist,Prescription issued,Yes,Satisfied,1,4
+Shannon Ford,31,"East Dakotafurt, Nauru",Female,Hypertension,None,Paracetamol,22-02-20,Cardiologist,Prescription issued,No,Satisfied,2,1
+Andrew Cruz,19,"Jeffreyfurt, Latvia",Female,Hypertension,None,Antacids,24-09-20,Cardiologist,Further tests recommended,Yes,Unsatisfied,4,2
+Kayla Lutz,32,"Carriemouth, Belize",Prefer not to say,Hypertension,None,Vitamins,18-10-22,Dietician,Follow-up requested,Yes,Satisfied,1,1
+Daniel Lynch,20,"North Brian, Montenegro",Female,Flu,None,Insulin,12-02-23,Cardiologist,Lifestyle advice,No,Satisfied,5,4
+Ariana Mclaughlin,68,"Butlerville, Estonia",Male,None,Headache,Antihistamines,10-10-21,Dietician,Referral to specialist,No,Unsatisfied,5,1
+Lisa Allen,63,"Roberttown, Iraq",Male,Hypertension,None,None,09-07-20,Dietician,Further tests recommended,No,Unsatisfied,2,5
+Melissa Brown,56,"Watsontown, Cuba",Male,Asthma,None,Antacids,06-05-22,Psychologist,Further tests recommended,No,Satisfied,3,5
+Ricardo Garcia,61,"Marctown, Cameroon",Prefer not to say,Flu,None,Antacids,08-04-20,General Practitioner,Referral to specialist,No,Satisfied,5,4
+Jessica Sims,34,"Georgestad, Cyprus",Female,Hypertension,None,Antihistamines,22-06-22,Physiotherapist,Lifestyle advice,Yes,Neutral,5,1
+Katie Gardner,18,"Zacharymouth, Lesotho",Male,Hypertension,None,Vitamins,25-07-21,Dietician,Follow-up requested,Yes,Very Unsatisfied,4,4
+Dana Wallace,78,"South Andrea, Kyrgyz Republic",Prefer not to say,Flu,None,Vitamins,30-10-21,Dietician,Referral to specialist,No,Neutral,2,4
+Ryan Koch,66,"Barnesberg, Saint Pierre and Miquelon",Prefer not to say,Hypertension,None,Paracetamol,23-03-23,Cardiologist,Prescription issued,No,Satisfied,2,3
+Maria Jones,34,"Victorialand, Belarus",Male,Diabetes,None,Ibuprofen,17-11-20,Cardiologist,Prescription issued,Yes,Unsatisfied,2,3
+John Rangel,25,"South Emilyburgh, Reunion",Prefer not to say,Asthma,None,Ibuprofen,03-06-20,Dermatologist,Referral to specialist,No,Neutral,3,1
+Jose Martinez,40,"Ramseystad, Libyan Arab Jamahiriya",Female,Hypertension,None,Ibuprofen,20-11-21,Cardiologist,Further tests recommended,No,Neutral,3,3
+Vicki Johnson,30,"Christopherborough, Solomon Islands",Male,Common cold,None,Vitamins,17-08-22,Dermatologist,Prescription issued,No,Neutral,2,4
+Matthew Davis,55,"South Jasonmouth, Montenegro",Prefer not to say,Allergy,None,Antacids,16-05-22,Physiotherapist,Prescription issued,Yes,Very Satisfied,5,5
+Jessica Peterson,56,"Seanborough, Austria",Prefer not to say,None,Headache,Ibuprofen,18-07-20,Cardiologist,Further tests recommended,No,Unsatisfied,4,1
+Gregory Morales,74,"Hensleyport, Andorra",Female,Allergy,None,Antihistamines,10-03-20,Psychologist,Follow-up requested,No,Satisfied,1,4
+Nancy Conrad,33,"Jaredburgh, Venezuela",Female,None,Fatigue,Insulin,17-11-21,Cardiologist,Referral to specialist,No,Neutral,2,5
+Robert Thompson,70,"Marcoburgh, Lao People's Democratic Republic",Prefer not to say,Flu,None,Antihistamines,21-10-22,Cardiologist,Follow-up requested,Yes,Satisfied,3,5
+Gina Lambert,32,"Leeborough, Grenada",Male,Common cold,None,None,30-03-20,Psychologist,Referral to specialist,Yes,Satisfied,5,1
+John Murray,65,"New Kelseyhaven, Guadeloupe",Prefer not to say,Diabetes,None,Insulin,28-02-21,Dermatologist,Lifestyle advice,No,Very Unsatisfied,2,2
+Sandra Hall,34,"Port Michaeltown, Paraguay",Prefer not to say,Flu,None,Antacids,28-05-23,Psychologist,Further tests recommended,No,Very Satisfied,2,5
+Amber Wise,35,"Garnerland, New Zealand",Male,Allergy,None,Antihistamines,22-08-20,Dermatologist,Further tests recommended,No,Unsatisfied,5,4
+Douglas Smith,68,"Brandonland, Chad",Male,Diabetes,None,None,21-08-21,Dermatologist,Follow-up requested,Yes,Neutral,3,5
+Christian Ferguson,45,"Lake Kimberlystad, Brunei Darussalam",Male,Flu,None,Paracetamol,08-08-22,General Practitioner,Referral to specialist,Yes,Unsatisfied,3,1
+Steven Ayala,78,"Vincentberg, Uganda",Male,Hypertension,None,Vitamins,13-12-20,Psychologist,Lifestyle advice,No,Neutral,4,2
+Grace Underwood,53,"East Curtisshire, Monaco",Prefer not to say,Diabetes,None,Vitamins,15-04-23,Dermatologist,Follow-up requested,Yes,Neutral,2,2
+Jessica Lane,45,"Leemouth, Ireland",Female,None,Skin irritation,None,16-02-21,General Practitioner,Further tests recommended,Yes,Neutral,5,2
+Jacob Henderson,38,"Lake Kevinfurt, North Macedonia",Female,Common cold,None,Paracetamol,19-10-22,Physiotherapist,Follow-up requested,No,Neutral,4,1
+Brianna Jimenez,18,"Rodriguezchester, Grenada",Male,Diabetes,None,Antacids,22-06-20,Dermatologist,Referral to specialist,No,Satisfied,1,4
+Dustin Horton,72,"Lake Samuel, Congo",Prefer not to say,Allergy,None,Paracetamol,06-12-20,Physiotherapist,Follow-up requested,Yes,Neutral,4,1
+Nichole Spencer,28,"Port Daniel, Uzbekistan",Male,Hypertension,None,Vitamins,05-04-22,Physiotherapist,Follow-up requested,No,Unsatisfied,2,3
+Chad Miller,66,"Lake Terri, Iceland",Male,Asthma,None,Ibuprofen,02-04-23,Physiotherapist,Follow-up requested,Yes,Very Unsatisfied,1,3
+Jeremy Jones,28,"Port Tiffanyborough, Saint Martin",Male,Diabetes,None,Insulin,17-11-21,General Practitioner,Referral to specialist,No,Neutral,3,2
+Eric Jones,62,"Jamesland, Ireland",Prefer not to say,None,None,None,08-03-20,General Practitioner,Follow-up requested,No,Very Unsatisfied,3,5
+Mary Jones MD,29,"Jacobport, Russian Federation",Prefer not to say,Common cold,None,Vitamins,05-06-21,Physiotherapist,Further tests recommended,Yes,Unsatisfied,3,1
+Kelsey Dawson,77,"Saundersborough, Ghana",Prefer not to say,Hypertension,None,Insulin,28-08-23,Cardiologist,Referral to specialist,No,Unsatisfied,4,2
+Charles Kelley,62,"Fisherside, Taiwan",Prefer not to say,Asthma,None,Ibuprofen,24-12-20,Dermatologist,Referral to specialist,Yes,Very Satisfied,5,2
+Tiffany Aguilar,35,"Jessicatown, Montserrat",Female,Hypertension,None,Antacids,23-10-23,Dietician,Lifestyle advice,Yes,Very Unsatisfied,2,4
+Chelsea Carter,21,"Lake Billybury, Burkina Faso",Female,None,Anxiety,Ibuprofen,03-06-20,Cardiologist,Lifestyle advice,Yes,Very Satisfied,3,2
+Jennifer Jones,50,"Pittmanside, Australia",Prefer not to say,Hypertension,None,Antihistamines,27-04-22,Cardiologist,Follow-up requested,Yes,Satisfied,2,5
+Alexander Cannon,45,"Port Carol, Chile",Female,Allergy,None,Ibuprofen,25-08-20,Cardiologist,Referral to specialist,Yes,Unsatisfied,3,3
+Patricia Garcia,74,"Nancybury, Greece",Prefer not to say,Hypertension,None,Insulin,13-03-22,Physiotherapist,Further tests recommended,No,Neutral,5,4
+Sandra Berry,72,"Brennanchester, Nepal",Male,None,Digestive issues,Antacids,09-03-22,Dermatologist,Prescription issued,Yes,Neutral,5,4
+Nancy Huffman,38,"West Thomas, Saint Barthelemy",Male,Hypertension,None,Paracetamol,19-05-23,Dermatologist,Referral to specialist,No,Very Satisfied,1,4
+Blake Rice,68,"Winterschester, Western Sahara",Female,Flu,None,Antacids,04-06-21,Psychologist,Follow-up requested,Yes,Neutral,2,1
+Dr. Brian Ramirez,49,"West Morgan, Northern Mariana Islands",Female,Common cold,None,Vitamins,07-07-22,General Practitioner,Lifestyle advice,Yes,Unsatisfied,1,4
+Robert Mullins,80,"North Brianton, Egypt",Male,Allergy,None,Paracetamol,19-01-21,Dietician,Lifestyle advice,Yes,Very Unsatisfied,5,1
+Ricky Stanley,30,"South Amanda, Montserrat",Male,Common cold,None,Ibuprofen,15-06-23,Dietician,Prescription issued,No,Very Satisfied,5,5
+Timothy Clarke,78,"Port Heidi, French Guiana",Female,None,None,None,24-08-21,Dermatologist,Follow-up requested,Yes,Very Unsatisfied,1,5
+Charles Hoffman,38,"Vancebury, Chad",Male,Asthma,None,None,08-08-23,Psychologist,Referral to specialist,No,Very Unsatisfied,5,4
+Thomas Johnson,76,"Lake Michaelchester, Botswana",Female,Common cold,None,Antihistamines,06-04-23,Cardiologist,Follow-up requested,Yes,Unsatisfied,4,1
+Joshua Williamson,66,"Bradleymouth, India",Male,Common cold,None,Antihistamines,05-04-21,General Practitioner,Lifestyle advice,No,Neutral,5,2
+Taylor Ayala,51,"South Patricia, Micronesia",Prefer not to say,Hypertension,None,None,20-08-20,Cardiologist,Prescription issued,Yes,Unsatisfied,4,2
+Vanessa Kramer,50,"Port Monicachester, New Zealand",Prefer not to say,Hypertension,None,Paracetamol,06-10-23,General Practitioner,Lifestyle advice,Yes,Neutral,3,3
+Angela Freeman,49,"Lake Taylorland, Germany",Prefer not to say,Asthma,None,Antacids,27-03-21,Psychologist,Prescription issued,Yes,Very Unsatisfied,1,2
+Michael Lopez,49,"Boonehaven, Liberia",Female,Asthma,None,Paracetamol,05-04-20,Dermatologist,Further tests recommended,No,Very Unsatisfied,3,3
+Diana Ford,55,"Lake Williamtown, Namibia",Female,Flu,None,Vitamins,27-08-23,General Practitioner,Lifestyle advice,No,Neutral,3,4
+Andrew Hall,46,"Lake Audreymouth, Cambodia",Male,Asthma,None,Antacids,17-05-20,Psychologist,Prescription issued,Yes,Satisfied,5,2
+Jeffrey Diaz,46,"Melissaton, Somalia",Male,Asthma,None,Vitamins,16-03-21,Physiotherapist,Follow-up requested,No,Neutral,5,5
+Sarah Sanders,72,"Clarkville, Kiribati",Male,None,Headache,Vitamins,06-06-21,Psychologist,Referral to specialist,No,Very Satisfied,4,5
+Alexandra Rollins,62,"West Jessica, Sao Tome and Principe",Prefer not to say,Diabetes,None,Ibuprofen,15-05-23,Dietician,Follow-up requested,No,Satisfied,4,5
+Scott Allen,35,"West Courtneyfurt, Azerbaijan",Female,Hypertension,None,Insulin,19-05-20,Psychologist,Referral to specialist,No,Very Unsatisfied,4,1
+Jennifer Anderson,80,"New Robertfurt, Malaysia",Male,Hypertension,None,Insulin,24-06-21,Physiotherapist,Referral to specialist,No,Satisfied,3,1
+Dominique Lopez,58,"Sylviaborough, Holy See (Vatican City State)",Male,None,Fatigue,Paracetamol,04-11-21,Physiotherapist,Prescription issued,Yes,Very Unsatisfied,2,4
+Amanda Miller,41,"Jacobshire, Cameroon",Female,Flu,None,Vitamins,10-06-20,General Practitioner,Further tests recommended,Yes,Satisfied,3,3
+Jeremy White,73,"Veronicafurt, Qatar",Female,Allergy,None,Insulin,03-04-20,Physiotherapist,Follow-up requested,Yes,Neutral,3,2
+Jennifer Schultz,48,"Smithburgh, Mali",Prefer not to say,None,None,None,07-12-22,General Practitioner,Lifestyle advice,No,Unsatisfied,3,2
+Megan Allen,69,"Tuckerland, Jamaica",Male,Common cold,None,Ibuprofen,28-12-22,General Practitioner,Prescription issued,Yes,Very Satisfied,2,3
+Sarah Campbell,80,"Buchananstad, Morocco",Female,Asthma,None,Paracetamol,17-11-22,Dietician,Further tests recommended,Yes,Unsatisfied,2,4
+Sean Tran,39,"Garciaton, Palestinian Territory",Female,None,Anxiety,Ibuprofen,03-04-20,General Practitioner,Lifestyle advice,No,Unsatisfied,1,2
+Kelsey Arroyo,28,"Burkeberg, Slovenia",Prefer not to say,Asthma,None,Vitamins,03-07-22,Cardiologist,Further tests recommended,Yes,Neutral,4,5
+Aaron Reed,45,"Thomasborough, Malaysia",Female,Allergy,None,Vitamins,04-04-22,Dietician,Referral to specialist,Yes,Neutral,2,4
+Rick Haynes,32,"North David, Peru",Male,None,Headache,Paracetamol,06-10-23,Physiotherapist,Further tests recommended,No,Very Unsatisfied,3,1
+Jennifer Sullivan,44,"East Robertberg, Tokelau",Female,Asthma,None,Ibuprofen,29-06-20,Dermatologist,Prescription issued,No,Very Unsatisfied,2,5
+Aaron Sparks,32,"Matthewville, Romania",Male,Hypertension,None,Ibuprofen,13-02-23,Psychologist,Follow-up requested,No,Neutral,5,2
+Sarah Hutchinson,76,"Cooleymouth, Lao People's Democratic Republic",Male,Common cold,None,Antihistamines,29-11-22,Physiotherapist,Lifestyle advice,No,Neutral,3,1
+Todd Johnson,59,"Hillborough, Belarus",Male,Diabetes,None,Ibuprofen,21-03-22,Dietician,Lifestyle advice,No,Very Satisfied,1,5
+Michael Brown,65,"Wardstad, Martinique",Male,Asthma,None,Paracetamol,14-10-20,Dermatologist,Referral to specialist,No,Very Unsatisfied,3,2
+Kimberly Hardin,70,"Tammyport, Saint Vincent and the Grenadines",Male,Allergy,None,Antacids,23-10-23,General Practitioner,Follow-up requested,Yes,Very Satisfied,2,1
+Kaylee Young,68,"Lisaside, Botswana",Female,None,None,None,13-09-23,Dermatologist,Follow-up requested,No,Neutral,2,3
+Jamie White,30,"New Sara, Montserrat",Prefer not to say,Common cold,None,Ibuprofen,02-06-21,Dietician,Referral to specialist,No,Unsatisfied,5,3
+Kevin Thompson,27,"East Sharonhaven, Nicaragua",Female,Diabetes,None,Paracetamol,24-01-22,General Practitioner,Follow-up requested,No,Satisfied,3,5
+Andrea Warren,53,"Kevinstad, Croatia",Prefer not to say,Common cold,None,None,24-06-20,Cardiologist,Prescription issued,No,Very Satisfied,5,3
+Jonathan Jones,44,"Hawkinsmouth, Australia",Female,None,Anxiety,Ibuprofen,19-05-20,Dermatologist,Prescription issued,Yes,Very Satisfied,5,3
+Michele Robertson,27,"Port Elijahland, Antigua and Barbuda",Male,None,None,None,25-06-23,Psychologist,Lifestyle advice,Yes,Neutral,4,1
+Taylor Brown,25,"West Jamieport, Kazakhstan",Female,Hypertension,None,Ibuprofen,24-01-21,Dermatologist,Further tests recommended,No,Satisfied,5,2
+Christopher Hernandez,36,"West Victoriashire, El Salvador",Male,Asthma,None,None,18-05-22,Physiotherapist,Further tests recommended,No,Neutral,1,3
+Jesus Massey,38,"Davidmouth, Belarus",Male,Flu,None,Antacids,09-06-21,General Practitioner,Follow-up requested,Yes,Unsatisfied,5,4
+Jacob Le,59,"Kelleybury, Slovakia (Slovak Republic)",Female,Diabetes,None,Vitamins,22-07-21,Psychologist,Lifestyle advice,No,Neutral,5,2
+Amy Gonzales,52,"South Aprilfort, Singapore",Male,Allergy,None,Ibuprofen,21-09-20,General Practitioner,Lifestyle advice,Yes,Unsatisfied,4,2
+Tony Parrish,62,"Davidsonside, Albania",Female,Common cold,None,Antacids,28-12-22,General Practitioner,Lifestyle advice,No,Very Unsatisfied,2,3
+David Lee,43,"Haleyport, Sri Lanka",Prefer not to say,Flu,None,Antihistamines,11-11-20,Dietician,Follow-up requested,No,Neutral,3,5
+Angelica Shepherd,56,"North Michael, Saint Helena",Prefer not to say,None,Digestive issues,Paracetamol,04-12-22,Dietician,Follow-up requested,Yes,Unsatisfied,1,3
+Dr. Marcus Mason Jr.,78,"North Melissaborough, Somalia",Male,Hypertension,None,Vitamins,27-07-21,Dietician,Further tests recommended,Yes,Unsatisfied,3,5
+Nicholas Wilson,76,"Johnsonberg, Saint Lucia",Male,Common cold,None,Antihistamines,01-09-23,Cardiologist,Further tests recommended,Yes,Very Satisfied,4,5
+Charles Meyer,75,"Port Robert, Jersey",Male,None,Anxiety,Paracetamol,16-06-21,Psychologist,Referral to specialist,No,Very Unsatisfied,2,5
+Anna Graves,34,"Lake Feliciabury, Bhutan",Female,Flu,None,Antihistamines,24-08-21,General Practitioner,Lifestyle advice,No,Very Unsatisfied,1,1
+Christine Wells,66,"Port Jessica, Liberia",Female,Asthma,None,Vitamins,16-03-20,Cardiologist,Further tests recommended,Yes,Very Unsatisfied,5,3
+Priscilla Bray,57,"Timothystad, Cambodia",Female,None,Fatigue,Insulin,27-10-22,Cardiologist,Prescription issued,Yes,Very Unsatisfied,3,1
+William Abbott,47,"Jacktown, Slovakia (Slovak Republic)",Female,None,Fatigue,Antacids,14-06-22,Dietician,Prescription issued,No,Very Satisfied,3,4
+Jason Barnes,44,"West Caitlin, Guernsey",Female,Common cold,None,Antihistamines,02-11-21,General Practitioner,Further tests recommended,Yes,Unsatisfied,1,3
+David Fowler,37,"Mallorybury, Morocco",Prefer not to say,Allergy,None,Antihistamines,25-02-22,Dietician,Follow-up requested,Yes,Very Satisfied,5,5
+Melissa Edwards,22,"Samanthahaven, Indonesia",Prefer not to say,Hypertension,None,None,16-09-20,Psychologist,Prescription issued,No,Very Unsatisfied,3,2
+Laura Hutchinson,45,"North Joseph, Nepal",Female,None,Fatigue,Paracetamol,20-01-23,Dietician,Lifestyle advice,No,Very Unsatisfied,4,5
+Ashley Hawkins,64,"New Julianmouth, Thailand",Female,None,Headache,Insulin,07-10-21,Psychologist,Further tests recommended,No,Very Unsatisfied,5,4
+Timothy Chavez,52,"Jeffreyberg, Grenada",Prefer not to say,Allergy,None,Antacids,07-05-23,Psychologist,Follow-up requested,No,Neutral,3,3
+Samuel Simpson,77,"South Zachary, Vietnam",Male,Asthma,None,Antihistamines,04-02-20,General Practitioner,Prescription issued,Yes,Satisfied,5,4
+Megan Welch,51,"North Keith, Papua New Guinea",Prefer not to say,Hypertension,None,Ibuprofen,13-06-20,Dermatologist,Prescription issued,No,Neutral,2,4
+Stacy Martinez,55,"New Mallory, Equatorial Guinea",Prefer not to say,Allergy,None,Antacids,28-05-22,Physiotherapist,Lifestyle advice,No,Satisfied,5,5
+Brian Frye,79,"Timothyfort, Mali",Prefer not to say,Asthma,None,Paracetamol,26-12-21,Dietician,Prescription issued,No,Very Unsatisfied,4,1
+Emily Lyons,77,"Sanchezchester, Yemen",Prefer not to say,Common cold,None,Antihistamines,24-03-22,Dermatologist,Lifestyle advice,Yes,Satisfied,1,4
+Jessica Abbott,18,"Frazierfurt, Monaco",Prefer not to say,Hypertension,None,None,30-01-20,Psychologist,Follow-up requested,No,Unsatisfied,3,2
+Kristin Young,45,"Karenburgh, Jamaica",Male,Hypertension,None,Ibuprofen,17-04-23,Dermatologist,Lifestyle advice,Yes,Very Satisfied,1,2
+Danielle White,51,"New Sharon, Zimbabwe",Prefer not to say,Hypertension,None,Insulin,21-11-21,Dermatologist,Referral to specialist,No,Satisfied,4,4
+Jeffrey Sutton,38,"Popefort, Costa Rica",Male,Allergy,None,Vitamins,10-11-21,Psychologist,Further tests recommended,No,Unsatisfied,1,3
+Jose Johnson,50,"Nicoleshire, Saint Pierre and Miquelon",Male,None,None,None,20-04-21,Psychologist,Referral to specialist,Yes,Satisfied,3,2
+Teresa Mclaughlin,34,"East Robertshire, Panama",Prefer not to say,Diabetes,None,Antihistamines,14-09-22,Physiotherapist,Referral to specialist,Yes,Very Unsatisfied,2,3
+Gary Campbell,54,"Smithfort, Sweden",Male,Hypertension,None,None,06-03-22,Dietician,Prescription issued,No,Very Satisfied,5,5
+Mary Jones,41,"Davidberg, Colombia",Male,Flu,None,Insulin,23-05-22,Psychologist,Further tests recommended,No,Unsatisfied,2,3
+Kathryn Williams,54,"Port Jennifer, Chad",Female,None,Anxiety,Paracetamol,23-10-21,Physiotherapist,Referral to specialist,Yes,Very Satisfied,4,4
+Todd Hudson,52,"Annstad, Zimbabwe",Prefer not to say,None,Headache,None,29-01-23,General Practitioner,Referral to specialist,Yes,Very Unsatisfied,1,2
+Timothy Kirby,58,"Port Sara, Cook Islands",Prefer not to say,Common cold,None,Antacids,13-12-20,Cardiologist,Referral to specialist,Yes,Very Unsatisfied,5,3
+Ryan Wise,66,"East John, Northern Mariana Islands",Prefer not to say,Asthma,None,Antacids,17-01-22,Cardiologist,Lifestyle advice,Yes,Unsatisfied,4,4
+Andrew Parker,43,"Mitchellburgh, Andorra",Prefer not to say,Flu,None,Insulin,19-09-21,Dietician,Lifestyle advice,Yes,Very Unsatisfied,1,1
+Andrew Williams MD,74,"Wilsonhaven, Slovenia",Prefer not to say,Hypertension,None,Vitamins,27-05-23,Psychologist,Prescription issued,Yes,Neutral,1,5
+Heather Hall,33,"North Ryan, Nigeria",Female,Diabetes,None,Paracetamol,27-04-20,Physiotherapist,Further tests recommended,Yes,Neutral,2,4
+Penny Arroyo,28,"West Jacquelineside, Solomon Islands",Male,Common cold,None,None,05-05-23,Cardiologist,Lifestyle advice,Yes,Neutral,1,2
+Tammy Wright,56,"East Peter, Lithuania",Male,Hypertension,None,Antihistamines,29-06-21,Dermatologist,Further tests recommended,Yes,Neutral,5,3
+Julia Smith,63,"New Tonybury, Papua New Guinea",Male,Flu,None,Antihistamines,04-10-23,Dietician,Follow-up requested,No,Very Unsatisfied,4,1
+Dawn Schmidt,28,"Amberland, Sao Tome and Principe",Male,Diabetes,None,Insulin,15-08-21,Psychologist,Prescription issued,Yes,Satisfied,2,1
+Brandy Ross,38,"Carpenterland, Cape Verde",Prefer not to say,Common cold,None,Paracetamol,23-06-23,Cardiologist,Further tests recommended,No,Satisfied,2,2
+Amanda Mata,59,"Reeveston, Bosnia and Herzegovina",Female,Allergy,None,Antacids,15-06-21,Physiotherapist,Lifestyle advice,Yes,Neutral,3,3
+Alexis Lewis PhD,22,"Rebeccamouth, Anguilla",Prefer not to say,Hypertension,None,None,09-03-20,General Practitioner,Prescription issued,No,Very Unsatisfied,5,1
+Kelly Williams,50,"Manntown, Dominica",Female,None,Fatigue,Ibuprofen,17-03-20,Dermatologist,Further tests recommended,No,Very Unsatisfied,3,4
+Michael Shea,34,"West Henryview, Burkina Faso",Prefer not to say,Hypertension,None,Antihistamines,13-10-20,General Practitioner,Lifestyle advice,No,Neutral,1,3
+Sheila West,79,"Heatherville, Mexico",Male,Common cold,None,Paracetamol,12-01-22,Cardiologist,Prescription issued,No,Satisfied,1,1
+Jamie Owens,18,"Port Matthew, Svalbard & Jan Mayen Islands",Male,Allergy,None,Paracetamol,25-03-21,Dermatologist,Prescription issued,No,Satisfied,4,4
+Richard Holmes,32,"Kirstenmouth, Saint Kitts and Nevis",Female,Flu,None,Insulin,03-02-22,Psychologist,Further tests recommended,No,Very Unsatisfied,2,5
+Mrs. Laurie King MD,68,"Cherylmouth, Albania",Prefer not to say,Common cold,None,Vitamins,27-12-22,Psychologist,Further tests recommended,No,Satisfied,1,2
+Ruth Armstrong,69,"West Nicolestad, Saint Martin",Prefer not to say,Allergy,None,Antihistamines,06-05-22,Cardiologist,Lifestyle advice,No,Very Unsatisfied,3,2
+Madeline Melendez,63,"South Fernando, Anguilla",Prefer not to say,Allergy,None,Ibuprofen,02-06-20,Dietician,Referral to specialist,Yes,Very Satisfied,1,3
+William Moore,57,"Brooksland, North Macedonia",Prefer not to say,Allergy,None,Vitamins,22-06-21,Cardiologist,Prescription issued,Yes,Very Satisfied,5,1
+Vickie Fields,50,"Tonyashire, United States Minor Outlying Islands",Female,None,Anxiety,Ibuprofen,23-05-23,General Practitioner,Follow-up requested,No,Very Satisfied,2,1
+Krystal Hubbard,24,"West John, United States Minor Outlying Islands",Female,Allergy,None,Insulin,02-02-22,Physiotherapist,Further tests recommended,Yes,Neutral,5,1
+Kristin Torres,47,"South Bettystad, Lithuania",Female,None,None,None,29-04-22,Physiotherapist,Further tests recommended,Yes,Neutral,3,3
+Susan Robertson,50,"Adamton, Trinidad and Tobago",Female,Asthma,None,Antacids,03-10-23,Physiotherapist,Further tests recommended,Yes,Unsatisfied,3,2
+Brianna Flynn,24,"Joshuamouth, Uganda",Male,Hypertension,None,Antihistamines,07-04-20,Cardiologist,Lifestyle advice,Yes,Unsatisfied,4,2
+John Roberts,47,"West Ricky, Micronesia",Female,Allergy,None,Insulin,29-05-22,Cardiologist,Referral to specialist,Yes,Unsatisfied,1,4
+Jeffrey Becker,29,"Donaldburgh, Reunion",Female,None,Anxiety,Vitamins,22-05-21,Physiotherapist,Referral to specialist,Yes,Unsatisfied,2,3
+Jasmine Forbes MD,38,"Gouldburgh, Madagascar",Female,Asthma,None,Ibuprofen,18-07-23,Dermatologist,Follow-up requested,Yes,Satisfied,2,4
+Jeanne Johnston,65,"Port Kristi, Bahamas",Prefer not to say,Hypertension,None,Vitamins,29-04-23,Dietician,Prescription issued,Yes,Very Satisfied,3,4
+David Burnett,22,"Bennettview, Turks and Caicos Islands",Male,Common cold,None,Vitamins,27-02-22,Dermatologist,Referral to specialist,Yes,Very Unsatisfied,2,2
+Brittany Small,47,"South Megan, Barbados",Male,Asthma,None,Antacids,28-07-22,Physiotherapist,Prescription issued,No,Very Satisfied,3,5
+Brianna Cooper,68,"Lake Sarafort, Mozambique",Male,Hypertension,None,Paracetamol,01-12-20,Physiotherapist,Prescription issued,No,Unsatisfied,5,1
+Charles Gutierrez,52,"West Codystad, Russian Federation",Prefer not to say,Allergy,None,Ibuprofen,22-01-20,Psychologist,Follow-up requested,Yes,Neutral,5,3
+Joel Hunter,75,"Kendraside, Montenegro",Female,Asthma,None,None,27-02-21,Physiotherapist,Referral to specialist,No,Very Unsatisfied,2,5
+Andrew Mckee,57,"West Kevintown, Latvia",Prefer not to say,Hypertension,None,Paracetamol,28-07-22,General Practitioner,Prescription issued,Yes,Very Unsatisfied,5,4
+Melissa Christian,21,"Port Paulburgh, Costa Rica",Male,None,Anxiety,Insulin,23-05-21,General Practitioner,Lifestyle advice,Yes,Satisfied,3,4
+Todd Russell,64,"Bullockborough, Uganda",Female,Asthma,None,Antacids,17-10-22,Psychologist,Prescription issued,No,Very Unsatisfied,2,5
+William Jordan,24,"Webershire, Faroe Islands",Male,Common cold,None,Antihistamines,22-01-20,Dietician,Further tests recommended,No,Neutral,4,4
+Shannon Love,23,"East Jefferyfort, Colombia",Male,Hypertension,None,Ibuprofen,01-06-20,Dermatologist,Further tests recommended,Yes,Very Satisfied,2,4
+Katrina Pittman,77,"South Jacob, Qatar",Prefer not to say,Asthma,None,Ibuprofen,05-12-20,Dietician,Lifestyle advice,Yes,Neutral,5,1
+Jennifer Forbes,63,"West Amyfort, Bolivia",Female,None,Digestive issues,None,18-08-22,General Practitioner,Lifestyle advice,No,Neutral,5,4
+Benjamin Green,54,"East Annafurt, Mali",Prefer not to say,Allergy,None,Antihistamines,04-03-22,Cardiologist,Follow-up requested,Yes,Satisfied,4,4
+Bradley Wright,29,"Lake Shanemouth, Honduras",Female,Hypertension,None,Insulin,20-03-21,Cardiologist,Prescription issued,Yes,Unsatisfied,5,3
+Logan King,63,"West Lindseyport, Kuwait",Prefer not to say,Common cold,None,Paracetamol,31-03-21,Dietician,Referral to specialist,No,Very Satisfied,4,3
+Susan Mclean,24,"Berryville, Bahamas",Male,Asthma,None,Antihistamines,10-07-22,Cardiologist,Follow-up requested,Yes,Unsatisfied,5,1
+Dr. Tina Watts,61,"Johnsonside, Zimbabwe",Prefer not to say,Flu,None,Insulin,27-05-21,Cardiologist,Lifestyle advice,Yes,Very Unsatisfied,1,3

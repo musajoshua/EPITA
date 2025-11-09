@@ -1,0 +1,501 @@
+Name,Age,Location,Gender,Transaction Date,Items Purchased,Quantity,Total Cost,Payment Method,Points Earned,Points Redeemed,Reward Chosen,Feedback on Reward,Marketing Email Opened,Marketing Email Clicked,Customer Service Inquiry
+Margaret Hughes,38,"South Stephen, Namibia",Female,19-08-23,"['Electronics', 'Toys', 'Beauty']",3,335.43,Cash,24,5,Cashback,Very Unsatisfied,FALSE,TRUE,FALSE
+Andrew Acosta,19,"Lake Kennethton, Turkey",Female,29-10-22,"['Sports', 'Beauty', 'Beauty']",3,70.59,Online Wallet,27,9,Discount,Satisfied,TRUE,FALSE,FALSE
+Melissa Hale,32,"Gayton, Sudan",Female,05-07-23,"['Toys', 'Toys', 'Home Decor', 'Electronics', 'Clothing']",5,139.37,Online Wallet,80,60,Free Shipping,Unsatisfied,FALSE,FALSE,TRUE
+Catherine Lambert,43,"East Catherinemouth, Micronesia",Female,16-10-23,"['Toys', 'Toys', 'Clothing']",3,75.42,Credit Card,18,10,Gift Card,Neutral,TRUE,FALSE,TRUE
+Emily Dickerson,34,"West Kayla, Haiti",Female,12-06-23,"['Beauty', 'Clothing', 'Electronics', 'Electronics', 'Clothing']",5,846.47,Debit Card,95,48,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,TRUE
+Tristan Williams,69,"Andrewsside, Lebanon",Male,12-07-23,"['Electronics', 'Clothing', 'Electronics']",3,133.79,Gift Card,48,24,Free Shipping,Neutral,FALSE,FALSE,TRUE
+Debbie Gibbs,61,"South Carlos, Zambia",Female,20-01-23,"['Books', 'Toys', 'Home Decor', 'Clothing', 'Sports']",5,254.69,Cash,100,46,Buy-One-Get-One,Very Satisfied,FALSE,TRUE,TRUE
+Kelly Woods,23,"Lake Whitney, Suriname",Female,18-10-23,['Clothing'],1,103.99,Credit Card,3,2,Cashback,Satisfied,TRUE,FALSE,TRUE
+Kayla Booth,64,"North Douglas, Rwanda",Female,20-05-23,"['Sports', 'Home Decor']",2,152.48,Cash,28,15,Discount,Unsatisfied,TRUE,TRUE,FALSE
+Natalie Baker,45,"South Crystalfort, Cambodia",Female,20-03-23,"['Toys', 'Home Decor', 'Clothing']",3,554.52,Credit Card,45,44,Gift Card,Very Satisfied,FALSE,FALSE,TRUE
+Anthony Guerra,31,"Jasonbury, North Macedonia",Female,20-08-23,"['Home Decor', 'Home Decor']",2,387.08,Gift Card,36,13,Discount,Very Satisfied,TRUE,FALSE,FALSE
+Paige Dodson,43,"Port Meghanville, Liechtenstein",Male,09-01-23,"['Sports', 'Sports', 'Clothing', 'Home Decor']",4,420.17,Gift Card,12,3,Discount,Very Satisfied,TRUE,FALSE,TRUE
+Robert Moore,53,"Valeriefort, Gibraltar",Male,12-03-23,"['Home Decor', 'Electronics', 'Clothing', 'Books']",4,728.37,Credit Card,8,7,Buy-One-Get-One,Satisfied,FALSE,FALSE,TRUE
+Travis Shaffer,32,"West Georgefort, Cyprus",Male,27-07-23,"['Home Decor', 'Toys', 'Beauty', 'Clothing']",4,545.9,Cash,12,3,Gift Card,Neutral,FALSE,FALSE,TRUE
+Charlene Sanchez,40,"Mcdanielburgh, Djibouti",Female,31-12-22,"['Books', 'Beauty', 'Toys', 'Books']",4,646.86,Debit Card,56,22,Free Shipping,Unsatisfied,TRUE,FALSE,FALSE
+Ebony Morales,33,"Hannahbury, Mali",Male,31-12-22,"['Clothing', 'Beauty']",2,58.02,Cash,20,5,Cashback,Neutral,FALSE,TRUE,FALSE
+Tyler Gordon,54,"Port Andreatown, Vanuatu",Male,17-02-23,"['Books', 'Electronics', 'Toys', 'Home Decor']",4,326.84,Debit Card,24,18,Discount,Unsatisfied,TRUE,FALSE,TRUE
+Katelyn Ward,64,"Rogersmouth, Singapore",Female,08-11-22,"['Sports', 'Home Decor', 'Toys', 'Beauty']",4,711.56,Gift Card,80,10,Free Shipping,Neutral,FALSE,FALSE,TRUE
+James Conner,30,"South Brianside, Holy See (Vatican City State)",Female,21-02-23,"['Books', 'Toys', 'Toys', 'Beauty', 'Books']",5,762.86,Debit Card,55,43,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+Allison Santos MD,27,"East Seanville, Cameroon",Female,27-04-23,"['Toys', 'Clothing']",2,113.55,Gift Card,26,13,Free Shipping,Very Unsatisfied,FALSE,FALSE,FALSE
+Amy Oconnell,28,"Chrisland, Guam",Female,15-05-23,"['Electronics', 'Sports', 'Beauty', 'Sports']",4,222.58,Cash,16,11,Gift Card,Neutral,FALSE,FALSE,FALSE
+Michelle Hall,35,"West Pamelafort, Anguilla",Male,16-08-23,"['Books', 'Beauty']",2,382.53,Gift Card,20,13,Discount,Satisfied,FALSE,FALSE,FALSE
+Michael Young,24,"Stephenchester, Niger",Female,13-04-23,['Toys'],1,82.18,Cash,7,5,Gift Card,Very Unsatisfied,TRUE,FALSE,TRUE
+Angela Roth,24,"Alvarezport, Seychelles",Female,16-02-23,"['Beauty', 'Home Decor', 'Clothing', 'Clothing', 'Clothing']",5,786.32,Online Wallet,80,13,Cashback,Very Satisfied,TRUE,FALSE,TRUE
+Lauren Blake,20,"Port Lisaville, Jersey",Male,17-10-23,"['Books', 'Beauty', 'Home Decor', 'Books']",4,347.2,Cash,20,14,Discount,Very Unsatisfied,TRUE,FALSE,FALSE
+Tricia Mcguire,55,"Thomasview, Finland",Female,22-05-23,"['Toys', 'Sports']",2,375.98,Gift Card,28,2,Gift Card,Very Satisfied,TRUE,FALSE,TRUE
+Martha Mcdonald,37,"Bernardchester, Malaysia",Female,23-02-23,"['Beauty', 'Books', 'Home Decor', 'Beauty', 'Books']",5,204.63,Cash,45,19,Discount,Unsatisfied,FALSE,FALSE,FALSE
+Steve Daniel,33,"East Jackburgh, Haiti",Male,25-07-23,"['Home Decor', 'Clothing']",2,156.35,Credit Card,20,7,Cashback,Very Satisfied,FALSE,FALSE,FALSE
+Joseph Anderson,32,"North Angela, Moldova",Male,30-10-22,"['Clothing', 'Books', 'Home Decor']",3,106.18,Online Wallet,15,3,Free Shipping,Unsatisfied,TRUE,FALSE,FALSE
+Bryan Rogers,54,"West Lindahaven, Nauru",Female,14-11-22,['Electronics'],1,60.84,Online Wallet,20,18,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,TRUE
+Johnathan Jones,55,"South Brenda, Venezuela",Male,12-03-23,"['Sports', 'Clothing', 'Beauty', 'Clothing', 'Toys']",5,248.05,Debit Card,25,22,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,FALSE
+Emily Moore,21,"Fischermouth, Marshall Islands",Female,25-01-23,"['Sports', 'Beauty']",2,182.65,Debit Card,14,11,Cashback,Satisfied,FALSE,FALSE,TRUE
+Keith Lin,52,"East Tina, Dominica",Male,05-10-23,"['Toys', 'Toys']",2,376.03,Online Wallet,20,14,Discount,Unsatisfied,FALSE,TRUE,TRUE
+Roger Jones,31,"Melissaside, Dominica",Male,04-06-23,"['Clothing', 'Electronics', 'Clothing', 'Toys']",4,590.07,Gift Card,40,30,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,TRUE
+Daniel Terrell,60,"West Shirley, Aruba",Male,22-03-23,"['Beauty', 'Electronics', 'Electronics']",3,455.4,Cash,12,2,Buy-One-Get-One,Neutral,FALSE,FALSE,TRUE
+Shannon Oliver,27,"Lake Tracy, Benin",Male,07-06-23,"['Sports', 'Beauty', 'Clothing']",3,83.97,Debit Card,39,38,Buy-One-Get-One,Neutral,FALSE,FALSE,FALSE
+David Peterson,61,"Lisaton, Saint Lucia",Female,19-08-23,"['Clothing', 'Home Decor', 'Books', 'Books', 'Electronics']",5,616.98,Online Wallet,80,60,Cashback,Satisfied,TRUE,FALSE,FALSE
+Clinton Johnson,29,"South Williamburgh, United Arab Emirates",Female,18-02-23,['Home Decor'],1,199.22,Cash,8,5,Gift Card,Satisfied,FALSE,TRUE,TRUE
+Barbara Crawford,54,"Kristinaview, Japan",Female,03-02-23,"['Books', 'Clothing']",2,393.81,Credit Card,24,0,,,FALSE,FALSE,FALSE
+Ronald Wilson,50,"Port Curtismouth, Cyprus",Male,13-03-23,"['Books', 'Clothing', 'Books']",3,539.18,Debit Card,18,9,Free Shipping,Satisfied,TRUE,FALSE,TRUE
+Richard Edwards,57,"Johnsonberg, Switzerland",Female,07-01-23,['Beauty'],1,96.88,Credit Card,7,0,,,TRUE,FALSE,TRUE
+Christina Thompson,64,"Ariashaven, Mongolia",Male,27-10-22,"['Clothing', 'Beauty', 'Home Decor', 'Sports']",4,468.77,Gift Card,28,10,Cashback,Unsatisfied,TRUE,FALSE,FALSE
+Jeffrey Rose,46,"Donnamouth, French Southern Territories",Male,31-08-23,['Toys'],1,77.7,Cash,7,2,Discount,Very Satisfied,TRUE,FALSE,TRUE
+Marvin Weber,20,"Lake Brian, Switzerland",Male,17-07-23,"['Home Decor', 'Home Decor', 'Toys']",3,89.04,Online Wallet,3,3,Free Shipping,Neutral,FALSE,TRUE,TRUE
+Travis Jones,22,"Michelleside, Seychelles",Male,26-02-23,"['Clothing', 'Home Decor']",2,151.26,Debit Card,8,3,Buy-One-Get-One,Satisfied,FALSE,FALSE,FALSE
+Nancy Jones,38,"Jasonshire, New Zealand",Male,31-03-23,"['Electronics', 'Books', 'Toys']",3,599.92,Credit Card,30,0,,,FALSE,FALSE,FALSE
+Daniel Maxwell,28,"Rachelborough, Zimbabwe",Male,24-06-23,"['Clothing', 'Sports', 'Electronics', 'Beauty', 'Home Decor']",5,248.14,Online Wallet,30,9,Cashback,Neutral,TRUE,FALSE,FALSE
+Keith Douglas,55,"Richardborough, Afghanistan",Female,02-03-23,"['Electronics', 'Home Decor', 'Toys', 'Clothing', 'Home Decor']",5,977.59,Online Wallet,95,47,Discount,Very Unsatisfied,FALSE,TRUE,FALSE
+Julie Peters,70,"South Shirley, Lao People's Democratic Republic",Female,07-03-23,"['Beauty', 'Home Decor', 'Beauty', 'Beauty', 'Home Decor']",5,136.52,Debit Card,15,11,Free Shipping,Satisfied,TRUE,FALSE,FALSE
+Kimberly Williams,32,"Port Tracyburgh, Croatia",Male,18-02-23,['Sports'],1,197.96,Online Wallet,11,10,Discount,Very Satisfied,TRUE,FALSE,TRUE
+Thomas Drake,19,"Gillhaven, Bhutan",Female,14-05-23,"['Beauty', 'Beauty', 'Books', 'Electronics']",4,591.84,Online Wallet,56,5,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+Shelby Miller,47,"Holtland, Tokelau",Female,14-06-23,"['Beauty', 'Books', 'Clothing']",3,106.99,Credit Card,9,2,Gift Card,Satisfied,FALSE,TRUE,TRUE
+Miguel Parker,35,"Woodside, Niue",Female,22-07-23,['Clothing'],1,33.44,Online Wallet,5,1,Gift Card,Unsatisfied,TRUE,FALSE,FALSE
+Emily Ballard,60,"Davidville, Aruba",Prefer not to say,25-07-23,"['Home Decor', 'Sports']",2,127.09,Debit Card,16,8,Gift Card,Neutral,TRUE,FALSE,FALSE
+Andrew Thompson,33,"Port Jenniferbury, Christmas Island",Male,12-07-23,"['Beauty', 'Beauty', 'Beauty']",3,185.36,Online Wallet,9,1,Discount,Very Unsatisfied,FALSE,FALSE,FALSE
+Lori Sexton,29,"Frankland, Guadeloupe",Male,15-03-23,"['Sports', 'Electronics', 'Beauty']",3,222.95,Online Wallet,36,36,Discount,Unsatisfied,FALSE,TRUE,TRUE
+Joseph Perez,20,"Port Rodney, Samoa",Male,04-01-23,"['Clothing', 'Books', 'Home Decor', 'Sports', 'Sports']",5,398.41,Online Wallet,95,8,Discount,Unsatisfied,FALSE,TRUE,FALSE
+Maria Beard,44,"New Gina, Cuba",Female,02-04-23,"['Home Decor', 'Beauty', 'Electronics', 'Toys']",4,439.45,Online Wallet,8,3,Gift Card,Unsatisfied,FALSE,FALSE,TRUE
+Wendy Murphy,63,"Mitchellville, Liberia",Female,16-12-22,"['Books', 'Toys', 'Electronics', 'Electronics', 'Home Decor']",5,546.75,Online Wallet,65,22,Free Shipping,Very Satisfied,FALSE,TRUE,FALSE
+Joseph King,27,"Sandratown, Senegal",Male,09-11-22,['Electronics'],1,34.75,Credit Card,15,10,Discount,Unsatisfied,TRUE,FALSE,FALSE
+Nicholas Larson,37,"South Jessica, United States of America",Male,12-12-22,"['Sports', 'Sports', 'Books', 'Books']",4,719.33,Online Wallet,68,57,Free Shipping,Neutral,TRUE,FALSE,TRUE
+Jaclyn Kennedy,21,"Jenniferberg, Barbados",Female,01-02-23,"['Home Decor', 'Sports', 'Beauty', 'Electronics', 'Home Decor']",5,131.01,Online Wallet,60,28,Cashback,Very Satisfied,FALSE,TRUE,TRUE
+Matthew Nunez,28,"East George, Pakistan",Female,06-09-23,"['Toys', 'Electronics', 'Books']",3,422.29,Debit Card,18,15,Discount,Unsatisfied,FALSE,FALSE,FALSE
+Ashley Martinez,30,"Edwardschester, Albania",Male,30-08-23,['Books'],1,39.39,Debit Card,15,3,Cashback,Neutral,TRUE,FALSE,TRUE
+Terri Burns,25,"East Saraberg, Japan",Male,11-01-23,['Electronics'],1,116.28,Credit Card,6,4,Free Shipping,Neutral,FALSE,FALSE,FALSE
+Grace Campbell,67,"Davidton, Singapore",Female,28-09-23,"['Electronics', 'Sports', 'Sports', 'Sports']",4,152.13,Credit Card,24,22,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,FALSE
+Christopher Collins,29,"Susanburgh, Panama",Male,31-07-23,"['Toys', 'Home Decor']",2,264.67,Credit Card,4,0,,,TRUE,FALSE,FALSE
+Claire Jackson,58,"Lake Monica, Singapore",Female,15-03-23,"['Sports', 'Beauty', 'Home Decor', 'Books']",4,520.68,Gift Card,72,58,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,FALSE
+Patricia Campbell,30,"Gabrielashire, Comoros",Female,08-09-23,"['Books', 'Clothing', 'Home Decor']",3,177.7,Cash,9,8,Gift Card,Satisfied,TRUE,FALSE,TRUE
+Meredith Torres,19,"Toddport, British Indian Ocean Territory (Chagos Archipelago)",Male,02-02-23,"['Sports', 'Beauty', 'Clothing', 'Beauty']",4,678.53,Debit Card,60,54,Gift Card,Satisfied,FALSE,FALSE,TRUE
+Ms. Jessica Fields,60,"Marshallfort, Austria",Female,29-01-23,"['Clothing', 'Books']",2,367.64,Gift Card,24,23,Free Shipping,Very Satisfied,TRUE,TRUE,TRUE
+Joseph Mcdonald,37,"New Sarahport, Zambia",Male,05-02-23,"['Beauty', 'Clothing', 'Books', 'Electronics', 'Sports']",5,241.82,Online Wallet,35,27,Discount,Satisfied,FALSE,FALSE,TRUE
+Jennifer Bell,60,"Lopezville, French Polynesia",Female,30-08-23,"['Beauty', 'Clothing', 'Beauty', 'Sports', 'Clothing']",5,754.75,Debit Card,50,43,Discount,Neutral,FALSE,FALSE,FALSE
+Lisa Summers,67,"New Derek, San Marino",Male,20-02-23,['Home Decor'],1,65.88,Gift Card,9,3,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+Joseph Mcmillan,35,"Franklinshire, Australia",Male,08-12-22,"['Electronics', 'Sports']",2,347,Credit Card,6,3,Buy-One-Get-One,Very Unsatisfied,TRUE,TRUE,FALSE
+Peter Park,70,"New Dylan, India",Female,05-09-23,"['Beauty', 'Books', 'Electronics', 'Sports', 'Toys']",5,860.82,Debit Card,100,43,Gift Card,Very Unsatisfied,FALSE,TRUE,FALSE
+Richard Jenkins,48,"Joshuafurt, Senegal",Male,02-03-23,"['Toys', 'Sports', 'Sports', 'Sports']",4,572.59,Cash,60,27,Free Shipping,Satisfied,TRUE,FALSE,FALSE
+Tracy Stuart,25,"Thompsonland, Panama",Male,11-03-23,"['Electronics', 'Books', 'Beauty', 'Home Decor']",4,726.06,Gift Card,36,19,Free Shipping,Neutral,FALSE,FALSE,TRUE
+Dawn Walker,40,"Griffinbury, Somalia",Male,19-08-23,"['Toys', 'Toys', 'Books', 'Sports']",4,439.41,Cash,76,62,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+Lucas Hurley,55,"Annmouth, Mongolia",Male,06-09-23,"['Home Decor', 'Home Decor']",2,90.94,Online Wallet,2,2,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,TRUE
+Mary Eaton,51,"Ryanfurt, Thailand",Female,11-02-23,"['Sports', 'Sports', 'Books']",3,221.03,Gift Card,36,17,Cashback,Neutral,FALSE,FALSE,TRUE
+Austin Warner,65,"Emilymouth, Sudan",Prefer not to say,26-09-23,"['Toys', 'Books', 'Electronics', 'Home Decor']",4,487.76,Credit Card,40,26,Cashback,Unsatisfied,TRUE,FALSE,TRUE
+Jessica Stark,26,"Evansstad, Hong Kong",Prefer not to say,25-04-23,"['Home Decor', 'Beauty', 'Books', 'Home Decor']",4,258.26,Cash,20,5,Free Shipping,Very Unsatisfied,FALSE,TRUE,FALSE
+Victor Garcia,59,"Montgomeryfort, Australia",Male,09-03-23,"['Electronics', 'Electronics', 'Toys', 'Clothing', 'Sports']",5,340.57,Cash,65,57,Gift Card,Very Satisfied,FALSE,FALSE,FALSE
+Melinda Jackson,21,"Davidchester, Kuwait",Female,30-03-23,['Toys'],1,30.16,Debit Card,18,1,Cashback,Unsatisfied,FALSE,FALSE,TRUE
+Melissa Collins,20,"Port Charles, Dominica",Female,21-04-23,['Home Decor'],1,77.74,Gift Card,1,0,,,FALSE,FALSE,FALSE
+Mark Wilcox,49,"Brianton, French Polynesia",Male,24-05-23,"['Toys', 'Home Decor']",2,51.23,Debit Card,10,1,Cashback,Unsatisfied,TRUE,TRUE,TRUE
+Rachel Johnson,56,"Richardsonport, Colombia",Female,13-06-23,"['Clothing', 'Sports', 'Sports', 'Beauty']",4,475.93,Credit Card,20,10,Free Shipping,Very Satisfied,TRUE,TRUE,FALSE
+Amanda Malone,51,"North Annastad, Saint Lucia",Female,07-10-23,"['Beauty', 'Toys', 'Sports', 'Beauty', 'Clothing']",5,555.69,Cash,35,35,Gift Card,Satisfied,FALSE,TRUE,TRUE
+Robert King,40,"Thompsonfort, Israel",Male,01-03-23,"['Sports', 'Clothing', 'Toys', 'Clothing']",4,660.86,Online Wallet,48,10,Discount,Satisfied,FALSE,TRUE,FALSE
+Daniel Burke,47,"North Lauratown, Montserrat",Male,24-12-22,"['Clothing', 'Toys', 'Clothing']",3,144.74,Gift Card,27,18,Discount,Satisfied,FALSE,TRUE,TRUE
+Antonio Alexander,67,"South Josephport, Liberia",Male,14-06-23,"['Clothing', 'Electronics']",2,332.16,Debit Card,28,1,Free Shipping,Satisfied,TRUE,FALSE,TRUE
+Juan Wilson,61,"South Patrickview, Guadeloupe",Male,15-04-23,"['Toys', 'Beauty', 'Clothing']",3,557.88,Gift Card,42,29,Cashback,Very Unsatisfied,TRUE,FALSE,FALSE
+Eric Simmons,42,"Michaelstad, Taiwan",Male,29-09-23,"['Beauty', 'Clothing', 'Electronics', 'Beauty', 'Electronics']",5,885.03,Cash,45,12,Discount,Satisfied,TRUE,FALSE,TRUE
+Shannon Ellis,68,"Christyberg, Croatia",Male,15-05-23,['Electronics'],1,70.63,Debit Card,19,12,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+Lori White,20,"East Mark, Serbia",Male,16-03-23,"['Sports', 'Beauty', 'Home Decor', 'Clothing']",4,304.17,Gift Card,60,30,Discount,Satisfied,TRUE,FALSE,FALSE
+Manuel Soto,48,"Kathleenbury, Guadeloupe",Male,31-08-23,"['Sports', 'Toys']",2,367.18,Debit Card,24,21,Cashback,Very Satisfied,TRUE,FALSE,TRUE
+Brandon Thompson,55,"Buchananberg, Lebanon",Male,17-10-23,"['Electronics', 'Home Decor', 'Beauty']",3,326.5,Online Wallet,6,4,Gift Card,Neutral,TRUE,FALSE,FALSE
+Veronica Jones,31,"Johnstad, Niger",Female,02-01-23,"['Clothing', 'Books', 'Toys']",3,81.19,Cash,24,20,Gift Card,Very Unsatisfied,TRUE,FALSE,FALSE
+Karen Fuller,42,"South Margaretland, South Georgia and the South Sandwich Islands",Female,30-05-23,"['Books', 'Toys', 'Toys']",3,66.87,Credit Card,3,1,Discount,Unsatisfied,TRUE,FALSE,FALSE
+Shawn Johnson,68,"Josephside, Liberia",Male,03-06-23,"['Clothing', 'Home Decor', 'Clothing']",3,482.21,Gift Card,3,0,,,TRUE,FALSE,FALSE
+Zachary Daniel,36,"Port Karen, Jordan",Female,09-08-23,"['Home Decor', 'Electronics', 'Beauty', 'Electronics', 'Sports']",5,262.18,Cash,40,13,Gift Card,Satisfied,TRUE,FALSE,FALSE
+Angela Shelton,21,"Martinezmouth, Myanmar",Female,26-05-23,"['Sports', 'Clothing', 'Home Decor', 'Sports']",4,319.25,Cash,36,36,Free Shipping,Unsatisfied,FALSE,FALSE,TRUE
+Caitlin Robinson,25,"West Shelleyton, Equatorial Guinea",Male,12-01-23,"['Books', 'Electronics', 'Books', 'Sports', 'Clothing']",5,179.41,Credit Card,50,43,Discount,Very Unsatisfied,TRUE,FALSE,FALSE
+John Williams,64,"Harpermouth, Morocco",Male,10-06-23,"['Toys', 'Home Decor']",2,292.4,Gift Card,18,4,Gift Card,Very Unsatisfied,FALSE,FALSE,TRUE
+Michele Smith,51,"Salazarfort, Turkmenistan",Male,25-03-23,"['Sports', 'Books', 'Beauty', 'Beauty']",4,527.87,Credit Card,60,41,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,TRUE
+Jenna Brown,36,"Leslietown, Trinidad and Tobago",Female,04-02-23,['Home Decor'],1,99.44,Cash,18,15,Cashback,Unsatisfied,TRUE,FALSE,FALSE
+Vincent Heath,32,"Rowefurt, Mauritius",Male,05-12-22,"['Home Decor', 'Beauty', 'Home Decor']",3,151.59,Online Wallet,48,27,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,FALSE
+Stacy Harding,23,"North Maria, Vanuatu",Male,13-12-22,['Electronics'],1,198.88,Gift Card,19,13,Gift Card,Very Satisfied,TRUE,FALSE,FALSE
+Julie Romero,56,"Kaylaton, Thailand",Female,27-05-23,"['Books', 'Toys']",2,79.16,Credit Card,16,15,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,FALSE
+Randy Hogan,47,"Santoston, South Georgia and the South Sandwich Islands",Male,23-01-23,"['Beauty', 'Beauty', 'Electronics', 'Sports']",4,375.61,Gift Card,48,26,Cashback,Very Unsatisfied,TRUE,FALSE,FALSE
+Dale Mcpherson,37,"Danielland, Benin",Female,11-05-23,"['Toys', 'Electronics', 'Home Decor']",3,464.98,Gift Card,33,3,Free Shipping,Very Unsatisfied,FALSE,FALSE,TRUE
+Tiffany Warren,43,"North Markmouth, Afghanistan",Female,03-06-23,"['Books', 'Electronics', 'Electronics']",3,294.81,Cash,9,4,Gift Card,Neutral,TRUE,FALSE,FALSE
+Howard Hanson,18,"Angelaville, France",Male,25-05-23,"['Electronics', 'Home Decor', 'Toys']",3,370.23,Debit Card,39,5,Gift Card,Very Satisfied,FALSE,TRUE,TRUE
+Sean Chavez,19,"Reneeshire, Chad",Male,05-02-23,['Beauty'],1,66.23,Debit Card,17,10,Discount,Neutral,FALSE,TRUE,FALSE
+Claudia Cardenas,59,"Foxchester, Tanzania",Male,27-09-23,"['Electronics', 'Home Decor', 'Home Decor', 'Books']",4,227.14,Debit Card,40,28,Gift Card,Unsatisfied,FALSE,TRUE,FALSE
+Kimberly Rivera,51,"New Daniel, Palau",Female,04-11-22,"['Clothing', 'Sports']",2,237.84,Gift Card,28,17,Discount,Satisfied,TRUE,TRUE,FALSE
+Glenn Chaney,18,"Andersonport, Maldives",Male,12-07-23,"['Beauty', 'Beauty', 'Electronics', 'Toys', 'Beauty']",5,231.44,Gift Card,5,4,Discount,Very Satisfied,FALSE,FALSE,TRUE
+Michael Robinson,18,"South Dylanton, Cape Verde",Male,03-12-22,"['Beauty', 'Sports', 'Beauty', 'Clothing', 'Home Decor']",5,874.25,Debit Card,5,1,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+Juan Lane,46,"New Ronaldfurt, Uzbekistan",Male,14-03-23,['Clothing'],1,112.96,Gift Card,14,4,Free Shipping,Very Unsatisfied,FALSE,TRUE,TRUE
+Jerry Collier,27,"Murrayview, Belgium",Female,19-01-23,"['Clothing', 'Clothing']",2,221.3,Cash,30,16,Cashback,Very Satisfied,TRUE,FALSE,TRUE
+Timothy Allen,37,"Port Kenneth, Zimbabwe",Male,04-11-22,"['Clothing', 'Books', 'Home Decor', 'Electronics']",4,395.47,Credit Card,32,18,Gift Card,Very Unsatisfied,FALSE,FALSE,TRUE
+Emma Nelson,48,"Valerieton, Tokelau",Female,27-12-22,"['Electronics', 'Clothing', 'Home Decor', 'Toys', 'Books']",5,379.64,Gift Card,95,41,Cashback,Satisfied,TRUE,FALSE,FALSE
+Colleen Powers,53,"East Rebeccamouth, Montserrat",Male,15-10-23,"['Sports', 'Home Decor', 'Clothing', 'Books', 'Toys']",5,257.72,Cash,55,29,Cashback,Very Unsatisfied,TRUE,FALSE,FALSE
+Catherine Green,48,"Port Kellyport, Equatorial Guinea",Prefer not to say,18-08-23,"['Beauty', 'Toys', 'Toys', 'Sports', 'Books']",5,957.41,Credit Card,15,3,Discount,Neutral,TRUE,FALSE,FALSE
+Joshua Turner,55,"Wilsonberg, Bermuda",Male,02-08-23,['Home Decor'],1,117.11,Online Wallet,13,1,Free Shipping,Very Unsatisfied,TRUE,FALSE,TRUE
+Sarah Rodriguez,25,"Lake Jeffery, Belarus",Female,04-05-23,['Books'],1,169.02,Gift Card,16,6,Gift Card,Very Unsatisfied,FALSE,FALSE,FALSE
+Sarah Warner,66,"West Barbaratown, Fiji",Female,04-04-23,"['Electronics', 'Beauty', 'Sports', 'Electronics', 'Home Decor']",5,853.7,Cash,20,18,Cashback,Very Unsatisfied,FALSE,TRUE,FALSE
+Brian Townsend,44,"Bettyborough, Kenya",Female,30-09-23,"['Electronics', 'Beauty', 'Toys', 'Books', 'Electronics']",5,965.62,Cash,80,27,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,TRUE
+Kevin Navarro,65,"Kristenside, Saudi Arabia",Male,02-11-22,"['Electronics', 'Toys', 'Sports', 'Toys']",4,613.45,Credit Card,12,11,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+Jessica Gould,24,"Lake Nicolechester, Singapore",Prefer not to say,04-02-23,"['Sports', 'Clothing']",2,57.87,Online Wallet,38,26,Cashback,Neutral,TRUE,FALSE,FALSE
+Katherine Giles,38,"Danielberg, Saint Barthelemy",Female,03-03-23,['Electronics'],1,27.03,Online Wallet,14,7,Gift Card,Very Unsatisfied,FALSE,TRUE,TRUE
+Veronica Herrera,54,"Jenniferburgh, Maldives",Prefer not to say,29-09-23,['Books'],1,177.48,Cash,12,8,Buy-One-Get-One,Satisfied,FALSE,FALSE,TRUE
+Jenna Moran,39,"West Elizabeth, Greenland",Male,22-07-23,"['Beauty', 'Home Decor', 'Sports', 'Electronics']",4,210.23,Debit Card,44,33,Gift Card,Unsatisfied,TRUE,FALSE,FALSE
+Anthony Clark,63,"Limouth, Niue",Male,09-01-23,"['Beauty', 'Clothing', 'Home Decor', 'Toys']",4,336.08,Gift Card,36,1,Gift Card,Satisfied,TRUE,TRUE,FALSE
+Robert Cox,67,"North Robinstad, Sao Tome and Principe",Female,09-01-23,"['Home Decor', 'Electronics', 'Home Decor', 'Beauty', 'Clothing']",5,665.28,Gift Card,95,68,Free Shipping,Neutral,FALSE,FALSE,TRUE
+Patrick Aguilar,52,"West Jeffrey, Japan",Female,20-02-23,"['Toys', 'Beauty', 'Books', 'Beauty']",4,487.39,Cash,20,9,Cashback,Satisfied,FALSE,FALSE,TRUE
+Vincent Ayers,18,"South April, Cocos (Keeling) Islands",Female,24-05-23,['Electronics'],1,81.94,Gift Card,3,3,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+Donna Brown,59,"East Angelaside, Mali",Male,27-04-23,"['Electronics', 'Electronics']",2,248.75,Online Wallet,30,30,Cashback,Very Unsatisfied,FALSE,FALSE,FALSE
+Dr. Edward Harper,51,"Newmanton, Faroe Islands",Prefer not to say,20-07-23,"['Home Decor', 'Books', 'Beauty', 'Clothing', 'Clothing']",5,527.27,Debit Card,35,16,Discount,Very Unsatisfied,FALSE,FALSE,FALSE
+Sara Burns,62,"North Patriciatown, British Indian Ocean Territory (Chagos Archipelago)",Prefer not to say,25-10-23,"['Beauty', 'Toys', 'Home Decor']",3,320.71,Cash,48,47,Discount,Unsatisfied,FALSE,FALSE,TRUE
+Taylor Morris,52,"North Stephanie, Gambia",Male,20-02-23,"['Sports', 'Books', 'Electronics', 'Clothing', 'Home Decor']",5,177.72,Gift Card,80,60,Gift Card,Very Satisfied,FALSE,TRUE,TRUE
+Diane Shaw,60,"Port Curtis, Syrian Arab Republic",Female,26-12-22,['Clothing'],1,191.68,Gift Card,8,5,Free Shipping,Neutral,TRUE,FALSE,TRUE
+Stephanie Peters,45,"Port Danielstad, Cambodia",Male,07-11-22,['Electronics'],1,174.6,Online Wallet,4,1,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,FALSE
+Andrew Parker,66,"Meganton, Romania",Female,02-11-22,"['Toys', 'Electronics', 'Beauty']",3,157.4,Debit Card,3,2,Free Shipping,Unsatisfied,FALSE,FALSE,FALSE
+David Johnson,48,"South Allison, Burkina Faso",Female,11-09-23,"['Books', 'Toys', 'Beauty']",3,114.54,Credit Card,45,22,Cashback,Unsatisfied,TRUE,FALSE,FALSE
+Kenneth Parsons,70,"Ramirezview, Georgia",Male,13-05-23,"['Books', 'Electronics', 'Beauty', 'Home Decor', 'Sports']",5,721.19,Debit Card,85,78,Free Shipping,Very Unsatisfied,FALSE,FALSE,TRUE
+Adriana Kidd,68,"South Christina, China",Female,26-12-22,"['Toys', 'Home Decor']",2,296.55,Cash,8,1,Cashback,Neutral,TRUE,FALSE,TRUE
+Norma Johnston,19,"Kellyborough, Italy",Female,20-08-23,"['Books', 'Beauty', 'Sports', 'Books']",4,689.53,Cash,44,20,Gift Card,Satisfied,TRUE,FALSE,FALSE
+Patricia Payne,34,"Lake Felicia, Kazakhstan",Male,05-04-23,"['Toys', 'Home Decor', 'Books', 'Sports', 'Home Decor']",5,435.12,Online Wallet,50,44,Cashback,Very Satisfied,FALSE,FALSE,TRUE
+Cassandra Peterson,19,"East Patriciafurt, Mexico",Female,23-03-23,['Clothing'],1,82,Debit Card,8,4,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+Michael Morgan,20,"West Andrewbury, Bangladesh",Female,24-01-23,['Home Decor'],1,135.66,Gift Card,20,4,Cashback,Very Satisfied,TRUE,FALSE,TRUE
+Carol Tanner,29,"Coreyfort, Azerbaijan",Male,13-09-23,"['Beauty', 'Books', 'Electronics']",3,423.24,Credit Card,36,0,,,FALSE,TRUE,FALSE
+Jessica Graham,34,"East Ashley, Guam",Female,23-01-23,"['Electronics', 'Books', 'Books', 'Toys']",4,396.87,Debit Card,16,7,Gift Card,Very Satisfied,TRUE,FALSE,TRUE
+Kayla Jones,25,"South Jeanettemouth, Guinea-Bissau",Female,20-08-23,['Electronics'],1,77.57,Online Wallet,19,3,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,FALSE
+Tammy Duffy,49,"Gardnerbury, United Kingdom",Female,29-10-22,"['Electronics', 'Toys', 'Books', 'Electronics', 'Clothing']",5,137.63,Cash,30,16,Gift Card,Satisfied,TRUE,FALSE,TRUE
+Krista Williams,65,"New Kelseymouth, Jamaica",Female,21-04-23,"['Beauty', 'Beauty', 'Toys']",3,256.29,Credit Card,39,32,Cashback,Satisfied,TRUE,FALSE,TRUE
+Michelle Norton DDS,20,"Nicolehaven, South Georgia and the South Sandwich Islands",Male,04-04-23,"['Beauty', 'Books', 'Books', 'Beauty', 'Sports']",5,654.44,Debit Card,40,38,Gift Card,Neutral,FALSE,TRUE,TRUE
+Donald Castillo MD,20,"Brandontown, Dominica",Female,02-06-23,"['Beauty', 'Toys', 'Electronics', 'Home Decor']",4,766.26,Gift Card,56,53,Gift Card,Unsatisfied,FALSE,FALSE,TRUE
+Bill West,44,"Torresfurt, Honduras",Male,23-02-23,"['Toys', 'Books', 'Books', 'Toys', 'Books']",5,181.83,Debit Card,35,20,Cashback,Very Unsatisfied,TRUE,FALSE,FALSE
+Lindsey Horne,30,"Leefurt, Lesotho",Female,23-05-23,"['Books', 'Books', 'Beauty']",3,427.54,Online Wallet,21,21,Gift Card,Unsatisfied,TRUE,FALSE,FALSE
+Michele Smith,56,"Vargastown, Croatia",Female,24-08-23,"['Toys', 'Home Decor']",2,176.18,Gift Card,14,2,Free Shipping,Very Unsatisfied,TRUE,FALSE,TRUE
+Lori Stanley,42,"Tinamouth, Nepal",Female,06-06-23,"['Beauty', 'Home Decor', 'Clothing']",3,252.39,Online Wallet,24,15,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,TRUE
+Angela Lawrence,60,"Loveton, United States Minor Outlying Islands",Male,16-09-23,"['Home Decor', 'Home Decor', 'Electronics']",3,190.8,Debit Card,45,36,Discount,Satisfied,TRUE,TRUE,TRUE
+Andre Phillips,27,"Bowersmouth, Maldives",Female,05-11-22,"['Home Decor', 'Home Decor', 'Books']",3,522.2,Online Wallet,60,60,Gift Card,Satisfied,FALSE,FALSE,TRUE
+Elizabeth Raymond,37,"Pruittstad, Guyana",Prefer not to say,18-11-22,"['Home Decor', 'Books', 'Toys']",3,494.44,Debit Card,60,41,Gift Card,Neutral,FALSE,FALSE,TRUE
+Kathryn Perkins,56,"New Amyton, Bangladesh",Male,26-10-23,"['Toys', 'Sports', 'Clothing', 'Home Decor']",4,714.76,Credit Card,40,39,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,FALSE
+Christopher Schultz,38,"North Logan, Guam",Female,11-03-23,"['Beauty', 'Toys', 'Beauty']",3,535.77,Credit Card,36,30,Buy-One-Get-One,Satisfied,TRUE,FALSE,TRUE
+Gregory Wood,31,"East Chelsey, Bosnia and Herzegovina",Male,25-09-23,"['Toys', 'Books', 'Books', 'Electronics', 'Books']",5,935.3,Gift Card,10,9,Discount,Very Unsatisfied,TRUE,TRUE,FALSE
+Brett Haynes,41,"Lake Julie, Tonga",Female,23-08-23,['Electronics'],1,92.77,Debit Card,9,2,Gift Card,Very Unsatisfied,FALSE,FALSE,FALSE
+Kathy Jones,32,"Jonesport, Cyprus",Female,27-04-23,"['Beauty', 'Home Decor', 'Beauty', 'Home Decor']",4,118.11,Cash,24,5,Gift Card,Very Unsatisfied,TRUE,FALSE,FALSE
+Amanda Fisher,62,"Lake Candiceville, Bouvet Island (Bouvetoya)",Male,10-06-23,"['Home Decor', 'Clothing', 'Electronics', 'Sports']",4,461.32,Credit Card,24,24,Gift Card,Satisfied,TRUE,FALSE,TRUE
+Betty Garcia,26,"North Donaldland, Timor-Leste",Male,16-03-23,"['Toys', 'Toys', 'Home Decor', 'Home Decor', 'Clothing']",5,498.46,Credit Card,35,2,Free Shipping,Satisfied,FALSE,TRUE,TRUE
+Jose Lee,26,"Morrowberg, Pitcairn Islands",Female,03-12-22,"['Books', 'Electronics', 'Books', 'Toys', 'Sports']",5,999.13,Debit Card,40,15,Cashback,Unsatisfied,TRUE,FALSE,TRUE
+Rachel Ray,44,"Kathleenburgh, Panama",Female,31-12-22,"['Toys', 'Books', 'Electronics']",3,92.35,Cash,51,31,Gift Card,Very Satisfied,FALSE,TRUE,FALSE
+Linda Smith,60,"New Patriciaport, Argentina",Female,08-04-23,"['Clothing', 'Sports', 'Electronics', 'Clothing']",4,134.95,Debit Card,56,43,Discount,Very Unsatisfied,FALSE,FALSE,FALSE
+William Walters,55,"South Anneborough, Tunisia",Female,23-08-23,"['Clothing', 'Beauty', 'Toys']",3,178.22,Online Wallet,3,2,Discount,Very Satisfied,TRUE,TRUE,TRUE
+Mark Edwards,63,"Kimberlyfurt, Montserrat",Male,26-02-23,"['Electronics', 'Sports', 'Home Decor', 'Electronics', 'Clothing']",5,658.78,Gift Card,85,17,Free Shipping,Very Satisfied,FALSE,TRUE,TRUE
+William Sandoval,59,"Christopherbury, British Virgin Islands",Male,18-04-23,"['Books', 'Home Decor']",2,86.4,Online Wallet,18,14,Gift Card,Very Satisfied,FALSE,FALSE,TRUE
+Joshua Archer,38,"South Traciview, Lebanon",Male,23-01-23,['Electronics'],1,24.46,Debit Card,19,2,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,FALSE
+Kenneth Colon,34,"Cynthiafurt, Cote d'Ivoire",Male,14-08-23,['Electronics'],1,47.1,Debit Card,14,11,Free Shipping,Unsatisfied,TRUE,TRUE,FALSE
+Charles Merritt,41,"North Tylerside, Sao Tome and Principe",Male,29-10-22,"['Beauty', 'Sports', 'Toys', 'Electronics']",4,217.68,Debit Card,40,28,Cashback,Satisfied,TRUE,TRUE,TRUE
+Patrick Diaz,42,"Dawnton, Qatar",Female,20-05-23,"['Sports', 'Books']",2,243.51,Cash,32,31,Cashback,Very Unsatisfied,FALSE,FALSE,FALSE
+Kevin Burgess,18,"Austinbury, Qatar",Prefer not to say,08-07-23,"['Electronics', 'Beauty', 'Sports']",3,289.86,Debit Card,21,9,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,TRUE
+Kenneth Andrade,29,"Lawrencemouth, Norfolk Island",Male,12-06-23,['Home Decor'],1,22.42,Online Wallet,1,0,,,FALSE,TRUE,TRUE
+Christopher Long,57,"Manningview, Cameroon",Male,17-06-23,"['Electronics', 'Books', 'Sports', 'Home Decor']",4,309.22,Debit Card,24,17,Buy-One-Get-One,Satisfied,TRUE,TRUE,FALSE
+Caitlyn Parsons,32,"North Marcusburgh, Azerbaijan",Male,10-11-22,['Sports'],1,117.83,Gift Card,19,19,Discount,Very Unsatisfied,TRUE,FALSE,TRUE
+James Mcdaniel,36,"West Johnton, Togo",Female,28-04-23,['Toys'],1,118.9,Online Wallet,20,3,Buy-One-Get-One,Unsatisfied,FALSE,TRUE,FALSE
+Robert Robbins,39,"South Sandra, Bolivia",Prefer not to say,17-02-23,"['Clothing', 'Electronics', 'Toys', 'Books']",4,93.25,Credit Card,72,28,Free Shipping,Satisfied,FALSE,FALSE,FALSE
+Melissa Harris,44,"New Chrishaven, Liechtenstein",Prefer not to say,19-08-23,"['Clothing', 'Electronics']",2,182.54,Cash,10,9,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,TRUE
+Brittany Brown,60,"Amandaberg, Colombia",Female,04-04-23,"['Books', 'Sports', 'Books']",3,182.8,Cash,51,30,Buy-One-Get-One,Unsatisfied,TRUE,TRUE,FALSE
+Tonya Meza,51,"Arielland, Falkland Islands (Malvinas)",Male,08-07-23,"['Electronics', 'Sports', 'Electronics', 'Sports']",4,533.43,Debit Card,68,13,Cashback,Unsatisfied,FALSE,FALSE,TRUE
+Erin Oliver,68,"Sandrahaven, Brunei Darussalam",Female,11-09-23,['Home Decor'],1,117.48,Credit Card,8,2,Cashback,Neutral,FALSE,FALSE,TRUE
+Christopher Singleton,19,"North Kennethside, Canada",Prefer not to say,02-08-23,"['Beauty', 'Electronics', 'Books', 'Toys']",4,699.12,Gift Card,16,16,Discount,Neutral,TRUE,TRUE,FALSE
+Chelsea Armstrong,70,"Bullockchester, Canada",Prefer not to say,02-01-23,"['Clothing', 'Electronics', 'Sports', 'Beauty']",4,754.45,Gift Card,68,62,Discount,Neutral,TRUE,TRUE,FALSE
+Melissa Harrison,25,"Lake Ronaldmouth, United States Virgin Islands",Male,26-11-22,"['Clothing', 'Clothing', 'Home Decor']",3,393.57,Gift Card,54,46,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+Denise Powell,48,"South Victoriashire, Senegal",Male,01-04-23,['Books'],1,78.96,Debit Card,12,5,Free Shipping,Very Unsatisfied,FALSE,FALSE,FALSE
+Michael Welch,57,"Port Michael, Kenya",Male,12-07-23,"['Sports', 'Beauty', 'Beauty']",3,277.91,Credit Card,3,2,Discount,Satisfied,TRUE,FALSE,FALSE
+Gregory Gutierrez,50,"Port Jill, Korea",Male,02-06-23,"['Home Decor', 'Toys', 'Toys', 'Electronics']",4,629.94,Cash,80,55,Discount,Unsatisfied,TRUE,FALSE,FALSE
+Martin Gould,25,"North Natalie, Barbados",Female,15-03-23,"['Clothing', 'Clothing', 'Sports', 'Home Decor']",4,665.3,Cash,24,19,Gift Card,Unsatisfied,FALSE,FALSE,TRUE
+Heidi Johnston,68,"Thompsontown, Guinea-Bissau",Male,09-04-23,"['Books', 'Clothing', 'Clothing', 'Electronics']",4,425.88,Debit Card,28,17,Cashback,Satisfied,TRUE,TRUE,FALSE
+Matthew Hernandez,40,"Port Nicholas, Norfolk Island",Prefer not to say,23-11-22,"['Sports', 'Books']",2,54.53,Online Wallet,32,12,Free Shipping,Neutral,TRUE,TRUE,FALSE
+Shannon Ford,44,"Newtonburgh, Timor-Leste",Male,26-05-23,"['Books', 'Electronics']",2,92.94,Debit Card,24,2,Gift Card,Very Unsatisfied,FALSE,FALSE,FALSE
+Laura Myers,56,"Deannaburgh, Grenada",Female,21-04-23,"['Electronics', 'Electronics', 'Books']",3,289.87,Online Wallet,33,18,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+Richard Fleming,21,"Lake Anthony, Libyan Arab Jamahiriya",Male,17-03-23,"['Books', 'Clothing', 'Electronics', 'Books', 'Sports']",5,957.26,Debit Card,65,55,Discount,Very Unsatisfied,FALSE,FALSE,TRUE
+Brooke York,65,"Port Debrahaven, Iran",Male,10-10-23,"['Books', 'Books']",2,132.12,Cash,18,7,Free Shipping,Very Unsatisfied,TRUE,FALSE,TRUE
+Charlotte Collins,37,"Simmonsside, Faroe Islands",Female,05-03-23,"['Books', 'Sports']",2,263.64,Online Wallet,32,23,Cashback,Very Unsatisfied,TRUE,FALSE,FALSE
+Eric Mendez,23,"Gardnerland, Mali",Female,14-04-23,"['Home Decor', 'Beauty']",2,378.39,Debit Card,24,1,Cashback,Very Satisfied,FALSE,TRUE,FALSE
+Nicholas Turner,53,"Royborough, United States Virgin Islands",Male,22-07-23,"['Beauty', 'Electronics']",2,209.42,Gift Card,32,13,Cashback,Very Satisfied,TRUE,TRUE,FALSE
+Kimberly Pham,40,"North Lukemouth, Uruguay",Female,21-01-23,"['Books', 'Toys', 'Beauty', 'Beauty', 'Electronics']",5,253.58,Online Wallet,30,12,Cashback,Neutral,TRUE,FALSE,TRUE
+Danny Wolfe,39,"New Jasonborough, Brazil",Female,14-04-23,"['Sports', 'Home Decor', 'Sports']",3,548.7,Online Wallet,24,1,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,TRUE
+Jennifer Wright,22,"North Alyssa, Albania",Female,29-07-23,"['Beauty', 'Electronics', 'Books', 'Books', 'Electronics']",5,828.94,Online Wallet,40,29,Cashback,Unsatisfied,FALSE,FALSE,FALSE
+Sarah Ferrell,66,"East Wesleyberg, Czech Republic",Female,26-03-23,"['Toys', 'Beauty', 'Clothing', 'Sports', 'Home Decor']",5,220.9,Online Wallet,55,49,Discount,Neutral,TRUE,FALSE,TRUE
+William Clark,18,"Marissabury, Netherlands",Female,15-12-22,"['Books', 'Electronics', 'Home Decor', 'Sports']",4,490.97,Debit Card,28,16,Gift Card,Unsatisfied,FALSE,FALSE,TRUE
+Lisa Stewart,69,"Jeffreyland, Costa Rica",Female,22-06-23,"['Electronics', 'Beauty', 'Sports']",3,80.26,Gift Card,48,8,Free Shipping,Neutral,TRUE,FALSE,FALSE
+Daniel Short,37,"Jamesview, Hungary",Female,29-05-23,"['Sports', 'Sports']",2,332.05,Debit Card,18,8,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,FALSE
+Jermaine Rodriguez,25,"Brooksville, Bermuda",Male,13-04-23,"['Clothing', 'Clothing', 'Home Decor', 'Home Decor', 'Clothing']",5,837.87,Debit Card,90,24,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+Joseph Foster,22,"Susanfurt, Gabon",Prefer not to say,27-05-23,"['Clothing', 'Books', 'Beauty', 'Sports', 'Electronics']",5,532.39,Cash,10,7,Discount,Very Satisfied,TRUE,TRUE,TRUE
+Robyn Scott,31,"Juliestad, Nigeria",Male,13-06-23,"['Home Decor', 'Beauty', 'Home Decor', 'Sports', 'Home Decor']",5,990.72,Gift Card,100,21,Free Shipping,Neutral,TRUE,FALSE,FALSE
+Jonathan Martinez,58,"Port Tracibury, Cambodia",Female,09-09-23,['Home Decor'],1,159.48,Gift Card,19,0,,,FALSE,FALSE,TRUE
+Jocelyn Nielsen,47,"North Bradleyburgh, Chile",Prefer not to say,27-07-23,"['Home Decor', 'Clothing', 'Beauty']",3,140.29,Gift Card,21,14,Discount,Satisfied,FALSE,FALSE,FALSE
+Danielle Thompson,56,"Mccarthyville, South Georgia and the South Sandwich Islands",Female,01-11-22,['Sports'],1,87.39,Cash,18,18,Discount,Satisfied,TRUE,FALSE,FALSE
+Melissa Suarez,53,"East Jessicabury, Gibraltar",Male,03-03-23,"['Books', 'Electronics']",2,314.29,Credit Card,2,0,,,TRUE,FALSE,TRUE
+Brian Moon,61,"West Julieland, Ethiopia",Prefer not to say,11-01-23,"['Clothing', 'Toys', 'Home Decor', 'Beauty']",4,497.43,Gift Card,20,6,Free Shipping,Satisfied,TRUE,FALSE,TRUE
+Tara Thornton,25,"Michelleport, Cameroon",Female,31-07-23,['Clothing'],1,77.91,Debit Card,18,6,Gift Card,Very Unsatisfied,TRUE,FALSE,TRUE
+Michael Ruiz,49,"North Regina, Taiwan",Male,02-03-23,"['Books', 'Home Decor', 'Electronics', 'Sports', 'Books']",5,951.36,Online Wallet,5,1,Gift Card,Very Satisfied,TRUE,TRUE,FALSE
+Michael Allen,53,"South Thomas, Malta",Male,09-07-23,['Toys'],1,58.31,Debit Card,9,1,Cashback,Satisfied,FALSE,FALSE,TRUE
+Natasha Holt,35,"Lake April, Uruguay",Male,29-05-23,"['Toys', 'Toys']",2,132.98,Gift Card,10,9,Discount,Neutral,FALSE,FALSE,FALSE
+Alison Lynch MD,26,"Stephanietown, Trinidad and Tobago",Male,07-01-23,"['Beauty', 'Toys', 'Books', 'Clothing']",4,211.79,Cash,24,17,Gift Card,Unsatisfied,FALSE,TRUE,FALSE
+Jared Miles,20,"North Tinaland, Jordan",Female,22-10-23,"['Books', 'Sports', 'Clothing', 'Toys']",4,350.76,Gift Card,60,43,Gift Card,Very Satisfied,TRUE,TRUE,FALSE
+Joshua Rodriguez,55,"South Danielletown, Namibia",Female,15-11-22,"['Electronics', 'Books', 'Toys', 'Electronics']",4,699.64,Debit Card,80,70,Cashback,Satisfied,TRUE,FALSE,TRUE
+Bethany Yoder,61,"New Jessica, Albania",Male,20-06-23,"['Toys', 'Electronics', 'Beauty', 'Sports', 'Electronics']",5,890.08,Online Wallet,35,21,Free Shipping,Very Satisfied,TRUE,TRUE,FALSE
+Justin Bates,56,"Port Linda, Bermuda",Female,27-06-23,"['Beauty', 'Electronics', 'Sports']",3,253.77,Online Wallet,30,4,Free Shipping,Very Unsatisfied,FALSE,FALSE,FALSE
+Amanda Clark,44,"Williamsbury, Kyrgyz Republic",Prefer not to say,13-06-23,"['Electronics', 'Books', 'Home Decor', 'Home Decor']",4,589.9,Online Wallet,4,3,Discount,Satisfied,FALSE,FALSE,FALSE
+Laura Erickson,22,"New Ericaside, Liberia",Female,16-10-23,"['Books', 'Sports']",2,293.99,Credit Card,20,6,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+James Simpson,19,"Calhounland, Solomon Islands",Prefer not to say,03-10-23,"['Electronics', 'Home Decor', 'Beauty', 'Electronics', 'Toys']",5,327.1,Cash,40,8,Free Shipping,Very Satisfied,TRUE,FALSE,FALSE
+Brian Anderson,33,"Petersenmouth, Heard Island and McDonald Islands",Female,10-03-23,['Clothing'],1,122.15,Credit Card,17,7,Cashback,Neutral,FALSE,TRUE,TRUE
+Erica Lynch,56,"Patriciachester, Marshall Islands",Prefer not to say,30-09-23,"['Sports', 'Sports']",2,398.39,Cash,2,0,,,TRUE,TRUE,FALSE
+Anthony Mitchell,62,"Steventown, Comoros",Female,04-05-23,"['Books', 'Sports', 'Books', 'Beauty', 'Clothing']",5,167.39,Debit Card,95,61,Discount,Neutral,FALSE,FALSE,TRUE
+Susan Smith,25,"Deleonview, Morocco",Male,09-06-23,"['Beauty', 'Toys']",2,123.53,Credit Card,6,4,Gift Card,Very Unsatisfied,FALSE,FALSE,TRUE
+Christopher Marks,46,"Vanessastad, Colombia",Male,04-07-23,"['Clothing', 'Sports', 'Sports', 'Clothing', 'Home Decor']",5,893.3,Debit Card,60,42,Cashback,Neutral,FALSE,TRUE,TRUE
+Kenneth Livingston,52,"North Shannon, Samoa",Prefer not to say,04-03-23,"['Home Decor', 'Sports', 'Sports', 'Toys']",4,532.9,Debit Card,4,0,,,TRUE,FALSE,FALSE
+Samantha Lee,48,"Lake Jennifer, Argentina",Female,28-10-22,"['Home Decor', 'Home Decor']",2,122.23,Debit Card,32,32,Discount,Unsatisfied,TRUE,FALSE,FALSE
+Todd Watkins,47,"Lake Miranda, British Virgin Islands",Female,10-05-23,['Toys'],1,180.01,Cash,1,0,,,FALSE,FALSE,FALSE
+Thomas Pollard,63,"South Pamela, Serbia",Male,11-05-23,"['Clothing', 'Books', 'Clothing', 'Books']",4,144.51,Online Wallet,80,24,Buy-One-Get-One,Unsatisfied,FALSE,TRUE,FALSE
+Katie Pratt,23,"New Williamville, Suriname",Female,26-12-22,"['Home Decor', 'Beauty', 'Sports', 'Books', 'Books']",5,370.83,Debit Card,35,14,Buy-One-Get-One,Very Satisfied,FALSE,TRUE,TRUE
+James Blair DDS,37,"Port Rachelton, Tonga",Female,08-12-22,"['Home Decor', 'Electronics', 'Toys']",3,249.66,Debit Card,51,33,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,FALSE
+Chris Lopez,52,"West Lesliefurt, Saint Kitts and Nevis",Male,18-03-23,['Beauty'],1,185.75,Debit Card,16,0,,,FALSE,FALSE,TRUE
+Christopher Ross,40,"Port Williamstad, Wallis and Futuna",Female,11-09-23,"['Books', 'Home Decor']",2,45.54,Online Wallet,8,6,Buy-One-Get-One,Satisfied,FALSE,FALSE,FALSE
+Christopher Cain,34,"Schmidtland, Saudi Arabia",Male,30-01-23,"['Books', 'Books']",2,133.11,Online Wallet,20,4,Gift Card,Very Unsatisfied,FALSE,FALSE,FALSE
+Jimmy Montgomery,67,"Port Jennifer, Tonga",Prefer not to say,22-01-23,"['Home Decor', 'Toys', 'Home Decor']",3,297.56,Credit Card,60,16,Cashback,Unsatisfied,TRUE,FALSE,TRUE
+Kyle Williams,22,"Laurenshire, Micronesia",Female,12-12-22,"['Toys', 'Toys']",2,152.53,Cash,32,22,Cashback,Unsatisfied,FALSE,FALSE,FALSE
+Jessica Lang,69,"New Bobby, Christmas Island",Male,12-01-23,"['Beauty', 'Sports', 'Beauty', 'Beauty', 'Sports']",5,385.06,Debit Card,100,55,Cashback,Very Unsatisfied,FALSE,FALSE,TRUE
+Matthew Lopez,48,"Port Vanessa, Italy",Prefer not to say,10-12-22,"['Toys', 'Beauty', 'Toys', 'Toys']",4,679.56,Credit Card,16,1,Discount,Neutral,FALSE,FALSE,FALSE
+Tanya Walker,54,"Smithfurt, Armenia",Male,24-05-23,"['Sports', 'Beauty', 'Clothing', 'Home Decor', 'Sports']",5,905.39,Debit Card,40,8,Cashback,Neutral,TRUE,FALSE,FALSE
+Ronald Rhodes,63,"Port Franciscomouth, Philippines",Male,24-05-23,"['Home Decor', 'Toys']",2,389.03,Cash,20,9,Buy-One-Get-One,Satisfied,TRUE,FALSE,TRUE
+Christina Martinez,40,"Bryanbury, Swaziland",Female,30-10-22,"['Toys', 'Electronics', 'Electronics', 'Toys', 'Toys']",5,121.76,Credit Card,35,3,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+Mrs. Deborah Cummings,26,"Lake Holly, Slovenia",Male,19-12-22,"['Electronics', 'Toys', 'Beauty', 'Home Decor', 'Electronics']",5,467.12,Gift Card,85,19,Cashback,Satisfied,TRUE,FALSE,FALSE
+John Jarvis,31,"West Amy, Kazakhstan",Male,07-12-22,['Electronics'],1,51.94,Debit Card,19,14,Free Shipping,Unsatisfied,FALSE,TRUE,TRUE
+Emily Terry,70,"Staceymouth, Argentina",Prefer not to say,10-09-23,"['Home Decor', 'Toys', 'Home Decor']",3,144.57,Credit Card,6,1,Free Shipping,Neutral,FALSE,FALSE,FALSE
+Ian Gomez,24,"Kennedyville, Micronesia",Prefer not to say,27-04-23,['Clothing'],1,189.59,Credit Card,4,1,Cashback,Neutral,TRUE,FALSE,TRUE
+Dave Valenzuela PhD,47,"Gilbertchester, Bolivia",Female,17-03-23,"['Electronics', 'Beauty', 'Electronics']",3,114.14,Credit Card,51,0,,,FALSE,FALSE,TRUE
+Vanessa Fischer,70,"Brownside, India",Prefer not to say,12-09-23,['Electronics'],1,174.24,Gift Card,1,0,,,FALSE,FALSE,FALSE
+Ryan Powell,55,"Makaylaside, Indonesia",Prefer not to say,08-02-23,"['Sports', 'Beauty', 'Electronics', 'Sports']",4,121.05,Cash,52,41,Free Shipping,Satisfied,TRUE,FALSE,FALSE
+Michael Hernandez,55,"East Patrick, San Marino",Male,03-07-23,"['Home Decor', 'Clothing']",2,111.8,Debit Card,28,18,Discount,Satisfied,FALSE,TRUE,TRUE
+Andrew Hernandez,38,"New Zacharyton, Algeria",Female,29-10-22,"['Home Decor', 'Home Decor']",2,294.74,Online Wallet,16,3,Buy-One-Get-One,Satisfied,TRUE,FALSE,TRUE
+David Harper,58,"New Cindyhaven, Greenland",Male,17-01-23,"['Home Decor', 'Toys', 'Toys', 'Toys', 'Toys']",5,302.03,Cash,90,15,Cashback,Neutral,TRUE,FALSE,FALSE
+Melinda Myers,62,"Danielmouth, Puerto Rico",Female,17-02-23,"['Toys', 'Clothing', 'Sports', 'Sports']",4,711.55,Online Wallet,52,44,Buy-One-Get-One,Very Satisfied,FALSE,TRUE,FALSE
+Frank Leon,33,"Port Leslie, Cocos (Keeling) Islands",Female,11-03-23,"['Beauty', 'Home Decor', 'Sports', 'Electronics']",4,385,Online Wallet,56,25,Cashback,Very Satisfied,FALSE,TRUE,FALSE
+Scott Parker,69,"West Nathanton, Rwanda",Female,24-08-23,"['Electronics', 'Books']",2,237.74,Credit Card,20,14,Free Shipping,Unsatisfied,FALSE,FALSE,TRUE
+Steven Baker,33,"Watersland, Isle of Man",Male,10-12-22,"['Electronics', 'Toys']",2,237.11,Online Wallet,40,33,Cashback,Very Satisfied,FALSE,FALSE,FALSE
+John Velasquez,61,"South Kathryn, Ukraine",Female,04-08-23,"['Books', 'Sports', 'Beauty', 'Books']",4,713.39,Gift Card,68,6,Discount,Unsatisfied,TRUE,FALSE,TRUE
+Lisa Martinez,54,"South Tammybury, Lebanon",Prefer not to say,18-09-23,"['Books', 'Home Decor', 'Electronics']",3,102.02,Gift Card,48,31,Gift Card,Satisfied,TRUE,FALSE,FALSE
+Jonathan Jackson,24,"Mauricestad, Gambia",Male,02-09-23,['Toys'],1,70.43,Debit Card,1,0,,,FALSE,TRUE,TRUE
+Stephanie White,32,"Longmouth, Faroe Islands",Prefer not to say,16-06-23,"['Books', 'Books']",2,141.11,Debit Card,36,10,Buy-One-Get-One,Neutral,TRUE,FALSE,FALSE
+Elizabeth Elliott,19,"Camerontown, Belgium",Female,23-03-23,"['Clothing', 'Home Decor']",2,177.6,Cash,30,10,Discount,Very Unsatisfied,FALSE,FALSE,TRUE
+Scott Campbell,54,"Mccoybury, Western Sahara",Male,05-01-23,"['Electronics', 'Sports', 'Beauty']",3,375.27,Debit Card,6,3,Free Shipping,Unsatisfied,TRUE,TRUE,TRUE
+Kaitlin Brown,35,"East Angela, Serbia",Female,05-10-23,"['Books', 'Electronics', 'Electronics']",3,233,Debit Card,9,2,Discount,Very Unsatisfied,TRUE,TRUE,FALSE
+Omar Douglas,49,"Vangland, Canada",Male,05-01-23,"['Toys', 'Electronics', 'Beauty', 'Clothing']",4,734.21,Gift Card,28,3,Buy-One-Get-One,Satisfied,TRUE,TRUE,FALSE
+Richard Fowler,62,"New Christophermouth, Brunei Darussalam",Female,13-07-23,"['Toys', 'Toys', 'Sports', 'Clothing']",4,387.73,Online Wallet,48,28,Gift Card,Very Satisfied,FALSE,FALSE,TRUE
+James Miller,34,"Christinestad, Benin",Female,11-10-23,"['Clothing', 'Clothing']",2,40.56,Gift Card,22,15,Gift Card,Satisfied,FALSE,FALSE,FALSE
+James Banks,59,"North Rachel, Guadeloupe",Prefer not to say,02-03-23,"['Beauty', 'Toys', 'Books']",3,592.75,Online Wallet,27,4,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,TRUE
+Jordan Sanchez,47,"Port Catherineberg, San Marino",Female,27-08-23,"['Home Decor', 'Electronics']",2,249.26,Online Wallet,18,18,Cashback,Very Satisfied,TRUE,TRUE,FALSE
+Christopher Little,36,"Irwinmouth, Suriname",Prefer not to say,18-02-23,"['Books', 'Home Decor', 'Clothing', 'Toys', 'Books']",5,274.74,Cash,5,5,Discount,Satisfied,FALSE,TRUE,FALSE
+Erica Strong,60,"West Judithville, Bolivia",Female,04-01-23,"['Sports', 'Electronics', 'Clothing', 'Clothing', 'Beauty']",5,923.91,Credit Card,30,10,Discount,Neutral,TRUE,TRUE,TRUE
+Joseph Barnett MD,57,"Lake Emily, Heard Island and McDonald Islands",Male,20-11-22,"['Sports', 'Beauty', 'Toys', 'Beauty', 'Toys']",5,559.33,Debit Card,25,1,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+Anthony Tucker,51,"Martinside, Saint Martin",Prefer not to say,26-05-23,['Clothing'],1,32.74,Online Wallet,14,6,Discount,Unsatisfied,TRUE,TRUE,TRUE
+John Martin,65,"Esparzaborough, France",Female,16-02-23,"['Toys', 'Electronics', 'Books']",3,426.58,Debit Card,6,6,Gift Card,Unsatisfied,TRUE,TRUE,FALSE
+Christina Dunn,26,"East Emilychester, Dominican Republic",Female,13-12-22,"['Electronics', 'Beauty', 'Home Decor', 'Home Decor', 'Electronics']",5,399.83,Credit Card,25,24,Discount,Satisfied,FALSE,FALSE,TRUE
+Keith Williams,28,"Scottbury, Zambia",Prefer not to say,29-09-23,['Electronics'],1,151.72,Cash,11,6,Discount,Very Satisfied,TRUE,FALSE,FALSE
+Jason Murphy,25,"Johnsonfort, Niue",Male,16-11-22,"['Beauty', 'Home Decor', 'Electronics']",3,497.64,Credit Card,24,12,Gift Card,Satisfied,TRUE,TRUE,FALSE
+Sarah Gonzalez,37,"Jordanbury, Guernsey",Female,21-09-23,"['Books', 'Sports', 'Clothing', 'Home Decor', 'Home Decor']",5,946.99,Debit Card,45,34,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,FALSE
+James Crawford,52,"South Brad, Guatemala",Prefer not to say,31-12-22,['Sports'],1,170.78,Gift Card,10,9,Buy-One-Get-One,Satisfied,FALSE,FALSE,FALSE
+Keith Reyes,28,"Woodsville, French Guiana",Prefer not to say,10-09-23,"['Toys', 'Electronics', 'Sports', 'Sports', 'Books']",5,441.06,Debit Card,60,44,Discount,Very Unsatisfied,TRUE,FALSE,TRUE
+Amanda Brown,42,"Garymouth, Turkey",Male,10-04-23,"['Toys', 'Electronics', 'Clothing', 'Home Decor']",4,555.05,Gift Card,24,11,Discount,Unsatisfied,TRUE,TRUE,FALSE
+Joy Ross,51,"South Jeffreymouth, Egypt",Male,18-11-22,"['Home Decor', 'Beauty', 'Books', 'Books', 'Clothing']",5,917.54,Gift Card,100,48,Free Shipping,Neutral,TRUE,FALSE,TRUE
+Jacob Mclaughlin,46,"West Shaneview, Haiti",Prefer not to say,02-04-23,['Toys'],1,47.96,Debit Card,10,0,,,FALSE,TRUE,TRUE
+Ralph Hall,54,"Jonathanburgh, Isle of Man",Prefer not to say,03-09-23,"['Toys', 'Sports', 'Clothing', 'Sports', 'Electronics']",5,885.41,Online Wallet,90,45,Free Shipping,Neutral,FALSE,FALSE,TRUE
+Christopher Cox,65,"West Jeffrey, Burkina Faso",Female,10-07-23,"['Electronics', 'Sports', 'Home Decor', 'Beauty', 'Clothing']",5,747.98,Debit Card,5,1,Free Shipping,Unsatisfied,FALSE,FALSE,FALSE
+Denise Barnes,43,"Port Jeremyborough, Zambia",Prefer not to say,03-07-23,"['Beauty', 'Sports', 'Books', 'Beauty']",4,303.05,Credit Card,76,75,Gift Card,Satisfied,FALSE,TRUE,FALSE
+Lawrence Bradshaw,48,"Kristenmouth, Oman",Male,10-01-23,['Toys'],1,96.25,Debit Card,20,19,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+John Jackson,69,"Stephanieton, Bahrain",Male,21-01-23,"['Toys', 'Toys', 'Toys']",3,516.9,Online Wallet,36,29,Cashback,Satisfied,TRUE,FALSE,FALSE
+Laura Gibbs,35,"South Alyssa, Ireland",Female,23-04-23,"['Books', 'Sports', 'Clothing', 'Clothing', 'Sports']",5,600.11,Online Wallet,75,20,Cashback,Neutral,FALSE,FALSE,FALSE
+Cynthia Clark,30,"Lake Margaret, Belgium",Male,29-09-23,"['Sports', 'Books']",2,338.11,Debit Card,26,23,Cashback,Satisfied,TRUE,TRUE,TRUE
+Christopher George,48,"North Stephanieville, Slovakia (Slovak Republic)",Male,13-09-23,"['Electronics', 'Sports']",2,240.29,Credit Card,6,6,Discount,Neutral,TRUE,FALSE,TRUE
+Teresa Vargas,50,"Lopezside, Liberia",Male,11-02-23,"['Home Decor', 'Home Decor', 'Electronics', 'Sports']",4,682.77,Debit Card,48,44,Discount,Very Unsatisfied,FALSE,FALSE,FALSE
+Eric Johnson,53,"South Evelynhaven, Portugal",Male,28-01-23,"['Clothing', 'Books', 'Clothing', 'Beauty']",4,391.74,Debit Card,36,6,Discount,Unsatisfied,TRUE,FALSE,TRUE
+Meghan Patterson,25,"Santosberg, Gambia",Female,01-02-23,"['Electronics', 'Beauty', 'Books']",3,293.02,Debit Card,18,1,Free Shipping,Neutral,FALSE,FALSE,TRUE
+James Mendez,47,"Lake Chloe, Benin",Male,24-10-23,"['Books', 'Home Decor']",2,222.01,Online Wallet,28,2,Cashback,Very Unsatisfied,FALSE,TRUE,FALSE
+Anthony Rojas,43,"New Karenfort, Saint Barthelemy",Male,28-07-23,"['Sports', 'Sports', 'Clothing', 'Home Decor']",4,747.26,Debit Card,56,5,Gift Card,Very Unsatisfied,TRUE,FALSE,TRUE
+Veronica Johnson,20,"Kimmouth, Belgium",Male,06-12-22,"['Toys', 'Sports', 'Toys']",3,377.29,Gift Card,9,8,Cashback,Very Unsatisfied,TRUE,FALSE,TRUE
+James Lester,21,"Lake Kara, Fiji",Male,25-06-23,"['Sports', 'Books', 'Home Decor']",3,332.44,Gift Card,45,13,Gift Card,Neutral,FALSE,TRUE,FALSE
+Crystal Young,26,"Kellyview, Fiji",Female,23-09-23,"['Clothing', 'Sports']",2,242.8,Debit Card,40,18,Free Shipping,Neutral,TRUE,TRUE,FALSE
+Noah Marshall,48,"Port Tinaview, Lebanon",Male,26-12-22,"['Home Decor', 'Home Decor', 'Books', 'Books', 'Home Decor']",5,605.38,Debit Card,45,12,Free Shipping,Satisfied,TRUE,FALSE,TRUE
+Stephen Galvan,24,"Marissatown, Grenada",Male,04-04-23,"['Beauty', 'Home Decor', 'Clothing', 'Books', 'Clothing']",5,270.43,Gift Card,80,43,Gift Card,Very Satisfied,TRUE,FALSE,TRUE
+Dawn Bradley,58,"Port Richardmouth, Congo",Female,24-08-23,"['Beauty', 'Clothing', 'Beauty', 'Sports', 'Home Decor']",5,527.33,Online Wallet,25,7,Gift Card,Very Unsatisfied,TRUE,TRUE,TRUE
+Joshua Cox,25,"Burkeville, Poland",Male,23-07-23,"['Books', 'Beauty', 'Home Decor', 'Books']",4,326.17,Credit Card,76,29,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,FALSE
+Marissa Cochran,50,"Leeland, United Arab Emirates",Female,04-11-22,"['Clothing', 'Sports', 'Toys']",3,416.46,Debit Card,57,52,Gift Card,Neutral,FALSE,TRUE,FALSE
+Charles Sullivan,45,"Spenceborough, Qatar",Male,01-04-23,"['Books', 'Books']",2,332.52,Debit Card,8,4,Gift Card,Satisfied,TRUE,FALSE,FALSE
+Shawn Cooley,31,"Jessicashire, Vanuatu",Male,06-11-22,['Clothing'],1,40.79,Gift Card,10,1,Gift Card,Satisfied,TRUE,TRUE,TRUE
+Jared Smith,39,"Aaronstad, Belize",Female,18-07-23,"['Home Decor', 'Beauty', 'Home Decor', 'Clothing', 'Sports']",5,911.68,Gift Card,65,55,Cashback,Very Satisfied,FALSE,FALSE,FALSE
+William Hart,33,"Allisonland, Nigeria",Male,09-05-23,"['Books', 'Toys', 'Home Decor', 'Home Decor']",4,688.62,Credit Card,76,30,Buy-One-Get-One,Satisfied,TRUE,TRUE,TRUE
+Brian Gordon,35,"Port Meganview, Guyana",Prefer not to say,14-01-23,['Home Decor'],1,48.19,Cash,4,2,Gift Card,Unsatisfied,TRUE,TRUE,TRUE
+Michael Soto,19,"Christinaport, Paraguay",Female,02-02-23,"['Electronics', 'Books', 'Sports', 'Electronics']",4,411.34,Cash,20,4,Cashback,Very Satisfied,FALSE,FALSE,TRUE
+Brenda Phillips,60,"Kimbury, Cameroon",Male,01-11-22,"['Books', 'Sports', 'Home Decor', 'Home Decor', 'Books']",5,617.85,Cash,45,43,Discount,Satisfied,TRUE,FALSE,TRUE
+Thomas Dawson,26,"Kimberlymouth, Austria",Prefer not to say,10-12-22,"['Clothing', 'Home Decor', 'Clothing']",3,473.75,Credit Card,42,31,Gift Card,Very Unsatisfied,FALSE,FALSE,TRUE
+Alan Wong,41,"Mckinneybury, Suriname",Female,02-07-23,"['Toys', 'Home Decor', 'Sports', 'Home Decor']",4,769.67,Online Wallet,16,4,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,FALSE
+Mark Adams,28,"Port Michaelchester, Ukraine",Female,22-08-23,"['Beauty', 'Sports']",2,370.49,Credit Card,4,1,Buy-One-Get-One,Neutral,FALSE,FALSE,TRUE
+Ashley Martinez,38,"Carlchester, Pitcairn Islands",Female,31-01-23,"['Clothing', 'Home Decor', 'Clothing', 'Clothing', 'Home Decor']",5,839.98,Cash,75,58,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,FALSE
+Rachael Johnson,34,"North Markchester, San Marino",Male,28-08-23,"['Books', 'Toys', 'Home Decor', 'Books']",4,333.17,Gift Card,76,25,Cashback,Satisfied,TRUE,FALSE,TRUE
+Elizabeth Russell,59,"East Linda, Saint Martin",Female,29-01-23,"['Books', 'Beauty', 'Electronics', 'Electronics']",4,791.29,Debit Card,72,13,Gift Card,Very Unsatisfied,FALSE,FALSE,TRUE
+Nicholas Burch,24,"East Johnny, Korea",Male,21-04-23,"['Electronics', 'Sports', 'Sports']",3,317.44,Debit Card,48,2,Gift Card,Satisfied,FALSE,FALSE,FALSE
+Jeffrey Lopez,68,"Michaelbury, Georgia",Prefer not to say,02-07-23,"['Toys', 'Beauty', 'Electronics']",3,155.66,Cash,45,32,Buy-One-Get-One,Very Satisfied,FALSE,TRUE,FALSE
+Cynthia Johnson,60,"Pachecoburgh, Western Sahara",Male,13-02-23,['Electronics'],1,140.06,Online Wallet,17,15,Buy-One-Get-One,Very Unsatisfied,FALSE,TRUE,TRUE
+Janet Mosley,57,"Port Sandymouth, Mayotte",Prefer not to say,09-08-23,"['Books', 'Books', 'Toys', 'Sports', 'Books']",5,834.97,Debit Card,25,6,Cashback,Neutral,FALSE,FALSE,FALSE
+James Alvarez,20,"Lake Katherinestad, Luxembourg",Female,06-08-23,['Sports'],1,63.46,Credit Card,12,2,Free Shipping,Neutral,FALSE,FALSE,FALSE
+Monica Vaughn,62,"Melanieland, Slovenia",Prefer not to say,15-12-22,['Beauty'],1,127.06,Gift Card,20,7,Gift Card,Unsatisfied,TRUE,TRUE,TRUE
+Hannah Gutierrez,31,"Port Crystalfurt, Estonia",Male,20-01-23,['Beauty'],1,133.93,Cash,4,2,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+John Collins,68,"New Crystal, Denmark",Prefer not to say,13-03-23,"['Sports', 'Toys']",2,104.65,Gift Card,2,0,,,TRUE,FALSE,FALSE
+Kathryn Manning,64,"New Johnville, Luxembourg",Prefer not to say,13-12-22,['Books'],1,139.42,Cash,8,4,Gift Card,Satisfied,FALSE,FALSE,TRUE
+Shelby Mcneil,18,"Paigeview, Reunion",Male,16-03-23,"['Sports', 'Home Decor', 'Clothing', 'Toys']",4,499.75,Credit Card,72,72,Free Shipping,Unsatisfied,TRUE,FALSE,TRUE
+Megan Lewis,66,"Bergland, Kyrgyz Republic",Female,12-03-23,"['Books', 'Clothing']",2,191.79,Cash,14,13,Discount,Unsatisfied,FALSE,FALSE,FALSE
+Deanna Sellers,32,"Kaitlynstad, Burundi",Male,09-11-22,"['Sports', 'Beauty']",2,121.11,Cash,6,0,,,FALSE,FALSE,FALSE
+Amy Lamb,23,"New Carlachester, Hong Kong",Female,02-01-23,['Beauty'],1,158.04,Cash,7,7,Cashback,Very Satisfied,FALSE,TRUE,FALSE
+Lauren Sanchez,61,"Port Kathrynmouth, United States Minor Outlying Islands",Female,22-11-22,"['Clothing', 'Clothing']",2,225.38,Online Wallet,40,10,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,FALSE
+Caitlyn Williams,57,"North Karenfurt, Comoros",Female,28-07-23,['Home Decor'],1,87.85,Credit Card,15,1,Buy-One-Get-One,Unsatisfied,TRUE,FALSE,TRUE
+Rachel Stewart,29,"Kimmouth, Azerbaijan",Female,30-01-23,"['Electronics', 'Electronics', 'Electronics', 'Beauty', 'Toys']",5,440.04,Debit Card,25,13,Cashback,Unsatisfied,FALSE,TRUE,TRUE
+Charles Williams,30,"West Jose, Somalia",Male,19-03-23,"['Clothing', 'Clothing', 'Electronics', 'Clothing']",4,633.25,Cash,20,8,Free Shipping,Very Unsatisfied,FALSE,FALSE,TRUE
+Kristi Dickson,21,"Stevenshire, Russian Federation",Female,31-03-23,"['Sports', 'Toys', 'Sports', 'Beauty']",4,596.05,Cash,4,0,,,FALSE,FALSE,FALSE
+Derek Graves,61,"Port Marietown, Cameroon",Male,07-06-23,['Beauty'],1,167.72,Cash,8,3,Free Shipping,Satisfied,TRUE,FALSE,TRUE
+Justin Pugh,35,"Port Jacob, Marshall Islands",Male,13-04-23,"['Beauty', 'Sports', 'Sports', 'Books']",4,716.7,Debit Card,24,18,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,TRUE
+Darin Mitchell,31,"Lake Heather, Poland",Male,19-03-23,"['Home Decor', 'Clothing', 'Beauty']",3,451.25,Cash,45,40,Discount,Very Unsatisfied,FALSE,FALSE,TRUE
+Debra Garcia,43,"Colemanville, Northern Mariana Islands",Male,19-09-23,['Beauty'],1,84.34,Debit Card,6,2,Cashback,Satisfied,TRUE,TRUE,TRUE
+Teresa Robinson,30,"East Markfort, Martinique",Female,01-01-23,['Toys'],1,108.24,Cash,5,3,Gift Card,Satisfied,FALSE,FALSE,FALSE
+Crystal Cooley,49,"Michaelport, Vietnam",Male,06-11-22,"['Clothing', 'Sports', 'Toys']",3,300.63,Debit Card,39,4,Gift Card,Neutral,FALSE,FALSE,TRUE
+Audrey Gardner,38,"West Christinaburgh, Bosnia and Herzegovina",Female,09-04-23,"['Sports', 'Books', 'Beauty']",3,288.59,Debit Card,48,12,Free Shipping,Unsatisfied,TRUE,FALSE,FALSE
+Teresa Mathis,28,"South Rick, Solomon Islands",Female,09-11-22,['Sports'],1,34.32,Debit Card,19,6,Cashback,Satisfied,TRUE,FALSE,TRUE
+Kimberly Snyder,45,"Lake Cynthiaview, Kyrgyz Republic",Female,04-06-23,"['Electronics', 'Home Decor', 'Electronics', 'Toys']",4,561.48,Gift Card,20,6,Discount,Very Unsatisfied,FALSE,FALSE,TRUE
+Nicole Cline,27,"Ryanburgh, Dominica",Female,16-12-22,"['Clothing', 'Books']",2,246.99,Credit Card,36,0,,,FALSE,TRUE,FALSE
+Alyssa Knight,35,"Carolynton, Burkina Faso",Male,20-06-23,['Electronics'],1,158.33,Online Wallet,18,2,Free Shipping,Unsatisfied,TRUE,FALSE,FALSE
+Sarah Alvarez,67,"West Johnfort, Martinique",Male,14-06-23,"['Beauty', 'Books', 'Toys']",3,274.98,Gift Card,30,11,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,TRUE
+Mary Stephens,26,"New Amandashire, Antigua and Barbuda",Female,22-07-23,"['Books', 'Books', 'Clothing']",3,172.25,Gift Card,9,8,Cashback,Neutral,TRUE,FALSE,TRUE
+Christy Sanchez,44,"Connieborough, Panama",Prefer not to say,16-09-23,['Toys'],1,162.22,Debit Card,18,1,Discount,Very Satisfied,FALSE,FALSE,FALSE
+Cory Gomez,22,"Martinezbury, Kiribati",Male,26-04-23,"['Electronics', 'Clothing']",2,100.66,Gift Card,22,21,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,FALSE
+Joseph Fisher,29,"Port Sarahchester, El Salvador",Female,03-04-23,['Beauty'],1,181.78,Debit Card,15,5,Buy-One-Get-One,Satisfied,FALSE,TRUE,FALSE
+Travis Riddle,30,"Port Tammybury, Cook Islands",Prefer not to say,01-12-22,"['Electronics', 'Home Decor']",2,361.2,Debit Card,26,15,Free Shipping,Very Satisfied,TRUE,FALSE,FALSE
+Matthew Pollard,22,"Port Jessicaland, Timor-Leste",Prefer not to say,10-04-23,"['Books', 'Clothing', 'Electronics', 'Books']",4,717.86,Gift Card,8,2,Discount,Neutral,TRUE,FALSE,TRUE
+Christopher Browning,55,"Lake Heathertown, Saudi Arabia",Female,01-08-23,"['Toys', 'Books', 'Home Decor', 'Toys', 'Home Decor']",5,597.94,Gift Card,10,5,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,FALSE
+Stephanie Lane,18,"Stevenville, Malta",Prefer not to say,28-03-23,"['Beauty', 'Home Decor', 'Toys', 'Books', 'Toys']",5,802.19,Cash,80,65,Discount,Very Satisfied,TRUE,FALSE,FALSE
+Jennifer Pruitt,50,"Jonathanton, Algeria",Male,06-09-23,"['Beauty', 'Toys', 'Toys']",3,180.25,Credit Card,33,13,Gift Card,Satisfied,TRUE,FALSE,FALSE
+Elizabeth Wang,21,"East Sonya, Rwanda",Male,17-09-23,"['Sports', 'Electronics']",2,200.9,Debit Card,40,29,Buy-One-Get-One,Neutral,FALSE,FALSE,TRUE
+Vanessa Walker,61,"Thompsonfurt, Cape Verde",Male,10-05-23,"['Clothing', 'Electronics', 'Books']",3,215.3,Gift Card,48,6,Cashback,Satisfied,TRUE,TRUE,TRUE
+Nathan Morris,42,"Ricardoton, El Salvador",Female,23-04-23,"['Home Decor', 'Toys']",2,174.72,Gift Card,6,3,Cashback,Very Satisfied,TRUE,FALSE,FALSE
+Jonathan Madden,26,"East Paulberg, Angola",Female,27-11-22,['Clothing'],1,44.32,Cash,14,12,Cashback,Neutral,TRUE,FALSE,FALSE
+Andrea Lin,66,"Justintown, Ecuador",Male,06-10-23,"['Sports', 'Sports', 'Clothing']",3,411.82,Gift Card,33,23,Gift Card,Neutral,FALSE,FALSE,TRUE
+Jennifer Blackburn,56,"Williamsmouth, Senegal",Male,25-09-23,"['Beauty', 'Home Decor', 'Home Decor', 'Electronics', 'Home Decor']",5,614.74,Online Wallet,60,45,Gift Card,Neutral,FALSE,FALSE,FALSE
+Jamie Thomas,28,"Bairdmouth, Greece",Male,13-05-23,['Beauty'],1,131.56,Gift Card,3,1,Cashback,Unsatisfied,FALSE,FALSE,FALSE
+William Walker,34,"West Marilyn, Botswana",Female,03-07-23,['Books'],1,119.72,Cash,8,7,Cashback,Neutral,FALSE,FALSE,FALSE
+Rhonda Payne,50,"Carterside, Germany",Female,20-01-23,"['Home Decor', 'Clothing', 'Home Decor']",3,147.31,Credit Card,51,29,Free Shipping,Very Unsatisfied,TRUE,FALSE,FALSE
+Brett Richardson,27,"Toddfurt, Denmark",Prefer not to say,18-02-23,"['Toys', 'Clothing', 'Books']",3,589.87,Online Wallet,39,32,Gift Card,Very Satisfied,TRUE,FALSE,FALSE
+Joseph Owens,56,"Phillipsmouth, Lebanon",Male,19-06-23,"['Home Decor', 'Books']",2,203.26,Debit Card,20,9,Cashback,Satisfied,FALSE,FALSE,FALSE
+Aaron Wade,66,"Hallchester, Costa Rica",Female,10-10-23,"['Home Decor', 'Sports', 'Electronics', 'Clothing']",4,505.57,Debit Card,52,10,Discount,Very Satisfied,TRUE,FALSE,TRUE
+Brian Weber,47,"New Ryan, Fiji",Female,22-05-23,"['Beauty', 'Home Decor', 'Beauty', 'Sports']",4,570.09,Online Wallet,44,42,Discount,Unsatisfied,FALSE,FALSE,FALSE
+Summer Campbell,21,"New Georgechester, Ukraine",Male,17-08-23,"['Electronics', 'Toys']",2,247.16,Gift Card,28,1,Discount,Unsatisfied,TRUE,FALSE,FALSE
+Brandi Hernandez,53,"East Jennifer, Uruguay",Prefer not to say,26-02-23,['Electronics'],1,151.67,Cash,12,7,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+Daniel Harris,58,"Markhaven, Czech Republic",Male,07-04-23,['Home Decor'],1,97.05,Debit Card,6,4,Cashback,Neutral,FALSE,FALSE,TRUE
+Justin Carter,63,"Lake Brian, Andorra",Female,11-11-22,"['Books', 'Books', 'Electronics', 'Books']",4,556.16,Credit Card,12,5,Buy-One-Get-One,Satisfied,TRUE,FALSE,FALSE
+Ms. Tracy Davis,58,"Lake Daniel, Sri Lanka",Male,05-02-23,"['Books', 'Books', 'Beauty', 'Beauty', 'Home Decor']",5,565.41,Credit Card,65,21,Buy-One-Get-One,Neutral,TRUE,FALSE,FALSE
+Joe Miller,21,"West Emilyhaven, British Indian Ocean Territory (Chagos Archipelago)",Female,02-03-23,['Clothing'],1,57.52,Debit Card,16,7,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,FALSE
+Jessica Tran,64,"West Ashley, Guatemala",Prefer not to say,12-12-22,['Home Decor'],1,80.05,Debit Card,17,13,Buy-One-Get-One,Neutral,TRUE,FALSE,FALSE
+Emily Fernandez,38,"Robinsonborough, Jordan",Female,26-12-22,"['Books', 'Beauty', 'Beauty']",3,479.98,Online Wallet,15,8,Discount,Neutral,FALSE,FALSE,FALSE
+Thomas Reed,59,"West Katelynside, Turks and Caicos Islands",Male,07-07-23,['Clothing'],1,193.08,Gift Card,13,12,Cashback,Very Satisfied,FALSE,FALSE,FALSE
+Alexandra Meyer,20,"Lake Lisastad, Myanmar",Male,07-09-23,['Beauty'],1,73.08,Credit Card,10,2,Cashback,Very Satisfied,TRUE,FALSE,FALSE
+Cheryl Clark,63,"Port Heathershire, Togo",Female,09-06-23,"['Electronics', 'Sports']",2,272.36,Debit Card,2,1,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,FALSE
+Regina Chandler,31,"New Jose, Ireland",Prefer not to say,29-05-23,['Books'],1,186.32,Online Wallet,8,0,,,TRUE,FALSE,TRUE
+Jose Williams,62,"Estradahaven, Namibia",Female,24-09-23,"['Sports', 'Electronics', 'Toys']",3,508.67,Debit Card,60,36,Free Shipping,Unsatisfied,FALSE,FALSE,TRUE
+Amanda Rogers,52,"Davidmouth, Tokelau",Prefer not to say,28-05-23,"['Books', 'Books']",2,332.64,Credit Card,26,12,Gift Card,Neutral,FALSE,FALSE,TRUE
+Nancy Patel,40,"Hendersonburgh, Iceland",Female,22-08-23,"['Books', 'Books', 'Books', 'Toys']",4,377.65,Debit Card,12,8,Cashback,Very Unsatisfied,TRUE,FALSE,TRUE
+Carl Watson,58,"Wattsberg, Mali",Male,11-08-23,"['Beauty', 'Books', 'Books', 'Home Decor', 'Home Decor']",5,887.59,Debit Card,30,30,Cashback,Satisfied,FALSE,TRUE,FALSE
+Mark Scott,48,"Davidside, Albania",Male,20-06-23,"['Home Decor', 'Home Decor']",2,170.65,Cash,2,0,,,TRUE,TRUE,TRUE
+Daniel Craig,61,"Meyerhaven, Guam",Female,18-09-23,"['Clothing', 'Books']",2,107.37,Online Wallet,22,3,Gift Card,Very Unsatisfied,TRUE,TRUE,FALSE
+Stephen Carroll II,62,"Johnstonburgh, Bosnia and Herzegovina",Female,05-08-23,"['Electronics', 'Toys', 'Clothing']",3,569.35,Gift Card,21,20,Free Shipping,Neutral,TRUE,TRUE,FALSE
+Janet Evans,33,"West Janetstad, Syrian Arab Republic",Male,30-07-23,"['Toys', 'Toys', 'Sports']",3,463.12,Online Wallet,18,16,Discount,Neutral,FALSE,FALSE,TRUE
+Robin Stewart,50,"Willismouth, Iraq",Male,17-11-22,"['Clothing', 'Books']",2,83.57,Cash,26,22,Cashback,Very Satisfied,FALSE,FALSE,TRUE
+Crystal Frazier,28,"Jessefort, Martinique",Female,23-09-23,"['Electronics', 'Sports', 'Home Decor', 'Beauty', 'Toys']",5,218.19,Gift Card,40,19,Cashback,Very Unsatisfied,FALSE,FALSE,FALSE
+Stephen Paul,23,"Bergchester, Korea",Female,22-10-23,"['Books', 'Sports', 'Sports', 'Books', 'Clothing']",5,170.97,Online Wallet,30,16,Free Shipping,Very Satisfied,FALSE,FALSE,FALSE
+Steven Moody,52,"Andrewland, Panama",Male,20-08-23,['Electronics'],1,120.87,Gift Card,14,4,Cashback,Very Unsatisfied,FALSE,FALSE,TRUE
+Sean Torres,50,"Chrisborough, Maldives",Male,16-04-23,"['Home Decor', 'Clothing', 'Clothing', 'Clothing', 'Books']",5,457.46,Online Wallet,65,19,Gift Card,Very Unsatisfied,TRUE,FALSE,TRUE
+Scott Daugherty DDS,51,"Philipfurt, Vanuatu",Female,06-07-23,"['Sports', 'Beauty', 'Beauty', 'Books']",4,526.13,Online Wallet,12,3,Free Shipping,Very Satisfied,FALSE,FALSE,TRUE
+Corey Nguyen,39,"North Johnport, Gabon",Female,28-02-23,"['Beauty', 'Beauty', 'Electronics']",3,416.1,Debit Card,30,6,Discount,Unsatisfied,TRUE,FALSE,TRUE
+Jonathan White,59,"Christianbury, Martinique",Female,05-01-23,['Home Decor'],1,37.96,Cash,10,10,Gift Card,Satisfied,FALSE,FALSE,TRUE
+Rodney Boyd,41,"West Jack, Iran",Male,13-07-23,"['Beauty', 'Toys', 'Books']",3,216.83,Credit Card,57,40,Gift Card,Satisfied,FALSE,FALSE,TRUE
+Susan Taylor,49,"Lake Jerome, Bermuda",Female,25-09-23,"['Sports', 'Sports', 'Toys', 'Electronics', 'Toys']",5,728.07,Cash,10,7,Cashback,Very Satisfied,TRUE,TRUE,FALSE
+Michael Banks,33,"Albertfurt, Macao",Prefer not to say,14-02-23,"['Sports', 'Sports']",2,207.73,Credit Card,6,0,,,TRUE,TRUE,FALSE
+Craig Holt,31,"East Nancy, Czech Republic",Male,02-01-23,"['Clothing', 'Books', 'Beauty', 'Toys', 'Home Decor']",5,928.31,Online Wallet,50,47,Buy-One-Get-One,Satisfied,FALSE,FALSE,TRUE
+Heather Fleming,60,"East Jamieside, Belarus",Female,06-12-22,"['Beauty', 'Electronics', 'Toys', 'Home Decor']",4,365.97,Debit Card,60,42,Gift Card,Very Unsatisfied,FALSE,FALSE,TRUE
+John Blanchard,68,"Kaylachester, Brunei Darussalam",Female,01-08-23,['Home Decor'],1,86.21,Debit Card,1,0,,,FALSE,FALSE,TRUE
+Jason Bridges,47,"West Hollytown, Guernsey",Male,14-07-23,"['Toys', 'Beauty']",2,258.55,Gift Card,16,15,Gift Card,Very Unsatisfied,FALSE,FALSE,FALSE
+Ryan Fuller,26,"West Teresamouth, Korea",Female,07-08-23,['Home Decor'],1,166.31,Online Wallet,3,0,,,FALSE,FALSE,FALSE
+Cassie Maddox,60,"Lake Jonathanside, Lesotho",Female,30-01-23,"['Toys', 'Beauty', 'Clothing', 'Books']",4,442.22,Online Wallet,36,15,Buy-One-Get-One,Very Unsatisfied,TRUE,TRUE,FALSE
+Barbara Jones,22,"Tuckermouth, Bhutan",Female,29-03-23,['Clothing'],1,187.01,Online Wallet,12,11,Free Shipping,Unsatisfied,TRUE,FALSE,TRUE
+Kristin Hawkins,47,"Brownland, Azerbaijan",Male,26-01-23,"['Toys', 'Clothing', 'Beauty']",3,569.17,Cash,24,15,Gift Card,Neutral,FALSE,FALSE,TRUE
+Joshua Baker,65,"Cameronchester, Netherlands Antilles",Male,17-08-23,"['Home Decor', 'Home Decor']",2,276.45,Online Wallet,38,30,Cashback,Very Unsatisfied,FALSE,FALSE,TRUE
+Gregory Ingram,41,"Port Joshuafort, Cook Islands",Male,23-01-23,['Home Decor'],1,93.23,Online Wallet,3,1,Gift Card,Unsatisfied,TRUE,FALSE,FALSE
+Spencer Rosales,20,"Kristopherport, Lebanon",Male,19-07-23,['Toys'],1,23.74,Credit Card,6,2,Buy-One-Get-One,Satisfied,FALSE,FALSE,FALSE
+Rebecca Williams,27,"Carolinetown, Turkey",Male,29-01-23,"['Clothing', 'Sports', 'Beauty', 'Beauty', 'Toys']",5,478.92,Online Wallet,25,20,Cashback,Unsatisfied,TRUE,TRUE,FALSE
+Stephen Holmes,39,"Dudleyton, Antigua and Barbuda",Male,05-10-23,"['Electronics', 'Home Decor']",2,208.37,Credit Card,38,19,Cashback,Neutral,TRUE,FALSE,TRUE
+James Washington,60,"Evansmouth, Turkmenistan",Male,28-04-23,['Toys'],1,63.65,Gift Card,20,18,Buy-One-Get-One,Very Unsatisfied,TRUE,TRUE,TRUE
+Monique Owen,30,"Johnsonstad, Kyrgyz Republic",Female,09-07-23,"['Books', 'Home Decor', 'Clothing', 'Electronics', 'Home Decor']",5,317.95,Debit Card,10,6,Cashback,Unsatisfied,TRUE,FALSE,FALSE
+Caroline Powell,49,"Dominicberg, Trinidad and Tobago",Male,28-11-22,"['Beauty', 'Beauty', 'Toys', 'Electronics']",4,440.26,Debit Card,4,0,,,TRUE,TRUE,TRUE
+Brenda Stone,20,"Yoderbury, Tuvalu",Male,17-03-23,['Beauty'],1,111.17,Credit Card,8,0,,,FALSE,FALSE,FALSE
+Mrs. Grace Wilson,66,"Tarachester, Turks and Caicos Islands",Male,19-11-22,"['Beauty', 'Beauty', 'Clothing', 'Books', 'Books']",5,935.52,Cash,70,11,Cashback,Satisfied,TRUE,FALSE,TRUE
+Jessica Wells,48,"Sydneyshire, Mayotte",Female,27-12-22,"['Home Decor', 'Books', 'Electronics']",3,243.3,Credit Card,15,6,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,TRUE
+Richard Reid,42,"Geraldland, Gibraltar",Female,27-11-22,['Home Decor'],1,24.79,Online Wallet,13,8,Discount,Satisfied,FALSE,TRUE,FALSE
+Lauren Wood,35,"Rosalesberg, Isle of Man",Female,22-04-23,"['Home Decor', 'Sports']",2,74.32,Debit Card,28,14,Gift Card,Neutral,FALSE,FALSE,TRUE
+Christopher Lopez,57,"West Loriville, Serbia",Male,12-02-23,"['Clothing', 'Home Decor', 'Beauty', 'Beauty', 'Home Decor']",5,139,Credit Card,20,11,Discount,Satisfied,FALSE,FALSE,FALSE
+Daniel Vargas,44,"Brownshire, Solomon Islands",Male,07-07-23,"['Sports', 'Home Decor']",2,110.52,Gift Card,12,11,Cashback,Unsatisfied,FALSE,FALSE,FALSE
+Dr. Jon Houston Jr.,37,"South Roberttown, Seychelles",Male,02-05-23,['Sports'],1,139.94,Online Wallet,14,7,Free Shipping,Unsatisfied,FALSE,TRUE,TRUE
+Stephanie Coleman,63,"Douglasborough, Chile",Female,18-11-22,['Books'],1,39.77,Gift Card,17,6,Gift Card,Satisfied,FALSE,FALSE,FALSE
+Megan Cox,37,"North Brendatown, United Arab Emirates",Female,11-04-23,"['Sports', 'Toys']",2,87.51,Credit Card,8,1,Cashback,Neutral,FALSE,FALSE,FALSE
+Tammy Ramirez,44,"Lake Angelica, Vanuatu",Male,02-02-23,['Beauty'],1,195.19,Gift Card,5,0,,,TRUE,FALSE,TRUE
+Megan White,52,"South Charlesberg, Maldives",Male,30-06-23,['Home Decor'],1,189.25,Debit Card,13,1,Gift Card,Satisfied,FALSE,FALSE,FALSE
+Jamie Simmons,34,"Port Timothy, Antarctica (the territory South of 60 deg S)",Female,19-06-23,"['Electronics', 'Books']",2,301.1,Gift Card,28,3,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,FALSE
+Sara Ortega MD,25,"Port Anthonyland, Morocco",Female,11-08-23,"['Clothing', 'Home Decor', 'Beauty', 'Books']",4,220.24,Debit Card,60,52,Discount,Satisfied,TRUE,TRUE,TRUE
+Robert Gutierrez,37,"North Cody, Latvia",Male,17-12-22,"['Toys', 'Home Decor', 'Electronics', 'Sports', 'Beauty']",5,563.12,Cash,100,63,Gift Card,Neutral,TRUE,FALSE,FALSE
+Meghan Stark,57,"Lake Kaylafort, Singapore",Female,04-02-23,"['Sports', 'Clothing']",2,47.46,Gift Card,36,5,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,FALSE
+Carrie Armstrong,29,"Codychester, Cameroon",Female,08-05-23,"['Electronics', 'Clothing', 'Home Decor']",3,229.53,Debit Card,15,13,Gift Card,Neutral,FALSE,FALSE,FALSE
+Steven Roberts,33,"South Ricky, Bahamas",Male,06-01-23,"['Electronics', 'Home Decor', 'Toys', 'Home Decor']",4,599.91,Gift Card,24,1,Gift Card,Very Unsatisfied,TRUE,FALSE,FALSE
+Reginald Chavez,58,"East Debbie, Syrian Arab Republic",Male,03-07-23,['Sports'],1,165.45,Cash,11,2,Buy-One-Get-One,Very Unsatisfied,TRUE,TRUE,FALSE
+Gregory French,52,"Christinaside, Cambodia",Female,26-05-23,['Beauty'],1,143.7,Credit Card,16,13,Gift Card,Satisfied,FALSE,FALSE,FALSE
+Christopher Young,37,"Lake Bettytown, Myanmar",Female,17-01-23,"['Beauty', 'Beauty', 'Books', 'Sports', 'Home Decor']",5,464.46,Gift Card,45,32,Buy-One-Get-One,Very Unsatisfied,TRUE,FALSE,TRUE
+Monica Keller,19,"Lake Mark, Netherlands Antilles",Male,29-09-23,"['Toys', 'Beauty', 'Electronics', 'Beauty']",4,616.41,Credit Card,32,30,Buy-One-Get-One,Very Unsatisfied,FALSE,FALSE,TRUE
+Thomas Bailey,23,"Geraldburgh, North Macedonia",Male,02-10-23,"['Home Decor', 'Home Decor', 'Beauty']",3,512.6,Online Wallet,30,0,,,TRUE,FALSE,TRUE
+Janet Chang,44,"Kleinburgh, Kyrgyz Republic",Female,18-07-23,"['Clothing', 'Home Decor', 'Home Decor', 'Beauty', 'Electronics']",5,205.17,Credit Card,55,40,Cashback,Very Satisfied,FALSE,FALSE,TRUE
+Kevin Woods,69,"North Lauren, Austria",Male,02-05-23,['Books'],1,142.08,Cash,6,4,Discount,Very Satisfied,FALSE,FALSE,FALSE
+Michelle Cline,29,"Pageport, Uruguay",Male,24-05-23,"['Toys', 'Toys', 'Electronics', 'Home Decor']",4,414.72,Credit Card,4,2,Buy-One-Get-One,Neutral,TRUE,FALSE,FALSE
+Dr. Jack Wright,59,"West Amy, Palestinian Territory",Male,05-05-23,['Beauty'],1,94.38,Gift Card,6,0,,,TRUE,FALSE,TRUE
+Michael Smith,68,"South Robert, Peru",Male,25-02-23,"['Books', 'Toys']",2,72.21,Cash,8,6,Discount,Very Satisfied,TRUE,FALSE,TRUE
+Jordan Aguirre,45,"Waltonbury, Malaysia",Male,08-07-23,"['Sports', 'Electronics', 'Sports', 'Clothing']",4,239.2,Online Wallet,64,15,Free Shipping,Very Satisfied,TRUE,FALSE,FALSE
+Virginia Brooks,35,"South Timothyside, Czech Republic",Female,10-05-23,['Toys'],1,116.9,Online Wallet,4,4,Buy-One-Get-One,Very Satisfied,FALSE,FALSE,FALSE
+Amanda Watkins,55,"Brandytown, Singapore",Male,19-06-23,"['Electronics', 'Books']",2,269.69,Credit Card,18,16,Free Shipping,Neutral,FALSE,FALSE,FALSE
+Eileen Pham,27,"Port Donald, Netherlands",Male,25-07-23,"['Electronics', 'Beauty']",2,298.55,Cash,14,8,Buy-One-Get-One,Satisfied,TRUE,TRUE,TRUE
+Dr. Jessica Davis,25,"Port Andrewmouth, Turkmenistan",Female,25-02-23,"['Beauty', 'Beauty', 'Toys', 'Electronics', 'Clothing']",5,194.99,Gift Card,80,63,Discount,Very Satisfied,TRUE,TRUE,FALSE
+Pamela Powers,19,"Timothytown, Venezuela",Female,10-07-23,"['Home Decor', 'Toys', 'Home Decor', 'Electronics']",4,349.2,Cash,28,9,Free Shipping,Neutral,FALSE,FALSE,FALSE
+Chad Lewis,56,"Aliciahaven, Swaziland",Male,27-11-22,"['Books', 'Toys']",2,280.25,Online Wallet,12,9,Cashback,Satisfied,FALSE,FALSE,FALSE
+Stacey Boyd,18,"Adamshire, Palau",Female,26-09-23,['Home Decor'],1,38.35,Cash,1,0,,,TRUE,TRUE,TRUE
+Jared Wilson,57,"New Alexanderborough, Comoros",Male,06-04-23,"['Home Decor', 'Toys', 'Toys', 'Electronics', 'Clothing']",5,725.77,Credit Card,100,63,Free Shipping,Very Satisfied,TRUE,FALSE,FALSE
+Carol Vance,36,"Edwardborough, Bhutan",Prefer not to say,28-10-22,"['Clothing', 'Electronics', 'Books']",3,190.46,Online Wallet,12,10,Gift Card,Very Satisfied,TRUE,TRUE,FALSE
+Joseph Bautista,61,"Patelton, Myanmar",Female,01-01-23,"['Beauty', 'Clothing']",2,302.59,Gift Card,30,27,Buy-One-Get-One,Satisfied,FALSE,FALSE,TRUE
+Jack Chavez,48,"Karenmouth, New Caledonia",Male,06-07-23,"['Clothing', 'Toys', 'Beauty']",3,563.93,Debit Card,51,32,Free Shipping,Satisfied,TRUE,TRUE,TRUE
+Kyle Meyer,61,"New Abigailland, Peru",Female,29-09-23,"['Electronics', 'Home Decor', 'Toys', 'Beauty']",4,236.32,Online Wallet,44,10,Free Shipping,Unsatisfied,FALSE,FALSE,TRUE
+Joshua Garcia,54,"Port Margaretville, Christmas Island",Male,22-03-23,"['Clothing', 'Toys', 'Clothing', 'Clothing', 'Electronics']",5,137.31,Gift Card,75,65,Buy-One-Get-One,Very Satisfied,TRUE,FALSE,FALSE
+Mary Smith,21,"Millerchester, Marshall Islands",Female,26-01-23,['Books'],1,85.67,Cash,4,2,Buy-One-Get-One,Very Satisfied,TRUE,TRUE,FALSE
+Darrell Best,23,"Port Hayley, India",Male,29-08-23,"['Clothing', 'Clothing']",2,240.19,Debit Card,20,17,Cashback,Neutral,TRUE,TRUE,FALSE
+Corey Butler,47,"New David, Congo",Female,09-07-23,"['Beauty', 'Electronics', 'Electronics', 'Beauty', 'Beauty']",5,578.56,Debit Card,20,13,Free Shipping,Unsatisfied,TRUE,FALSE,TRUE
+Amanda Perez,27,"North Jeffrey, Tanzania",Female,28-12-22,['Books'],1,138.82,Credit Card,14,10,Discount,Neutral,TRUE,FALSE,FALSE
+Yesenia Robertson,64,"Franciscohaven, Georgia",Male,17-01-23,"['Sports', 'Clothing', 'Electronics']",3,104.21,Online Wallet,21,10,Cashback,Very Unsatisfied,TRUE,TRUE,TRUE
+Jose Salazar,19,"East Jeremyshire, Qatar",Male,18-10-23,"['Clothing', 'Electronics', 'Electronics', 'Books']",4,571.6,Credit Card,48,31,Free Shipping,Unsatisfied,FALSE,FALSE,TRUE
+Kevin Guzman,67,"Whitneybury, Georgia",Female,06-07-23,"['Electronics', 'Clothing']",2,307.95,Gift Card,32,19,Buy-One-Get-One,Neutral,TRUE,FALSE,TRUE
+Douglas Contreras,23,"Port Dustin, Netherlands Antilles",Female,28-04-23,['Electronics'],1,38.72,Gift Card,13,1,Gift Card,Unsatisfied,FALSE,FALSE,TRUE
+Amanda Powers,54,"Steeletown, Honduras",Female,27-09-23,"['Home Decor', 'Clothing', 'Beauty', 'Electronics', 'Toys']",5,921.57,Debit Card,95,10,Discount,Neutral,FALSE,FALSE,TRUE
+Matthew Mueller,26,"North Katherineberg, Palestinian Territory",Male,17-09-23,['Home Decor'],1,166.26,Debit Card,12,3,Gift Card,Very Unsatisfied,FALSE,TRUE,FALSE
+Christopher Cameron,44,"New Tyler, Martinique",Male,13-11-22,"['Books', 'Home Decor', 'Electronics', 'Books', 'Electronics']",5,596.64,Gift Card,15,10,Cashback,Very Unsatisfied,FALSE,FALSE,TRUE
+Kevin Carr DDS,53,"East Jacksonberg, Benin",Female,21-02-23,['Clothing'],1,187.61,Online Wallet,8,1,Gift Card,Very Unsatisfied,TRUE,FALSE,FALSE
+Brandon Maldonado,29,"Kayleeburgh, Svalbard & Jan Mayen Islands",Male,04-09-23,"['Sports', 'Home Decor', 'Toys', 'Sports']",4,569.19,Gift Card,68,23,Buy-One-Get-One,Satisfied,TRUE,TRUE,FALSE
+Mary Knight,38,"Richardsmouth, Saint Helena",Female,20-01-23,"['Sports', 'Beauty', 'Beauty']",3,194.11,Credit Card,9,0,,,FALSE,FALSE,TRUE
+Philip Graham,19,"Lake Nicholasview, Haiti",Male,22-03-23,"['Books', 'Clothing', 'Books', 'Clothing', 'Clothing']",5,125.73,Online Wallet,70,47,Buy-One-Get-One,Unsatisfied,FALSE,FALSE,TRUE
+Tammy Bird,60,"Cynthiaton, Papua New Guinea",Male,09-12-22,"['Toys', 'Electronics', 'Sports', 'Electronics']",4,664.95,Debit Card,56,6,Free Shipping,Very Unsatisfied,FALSE,TRUE,FALSE
+Michael White,18,"Robertbury, Niue",Female,18-12-22,"['Home Decor', 'Books', 'Electronics', 'Toys']",4,466.32,Debit Card,28,3,Buy-One-Get-One,Satisfied,TRUE,FALSE,TRUE
+Suzanne Davis,50,"South Heather, Uganda",Female,07-10-23,"['Electronics', 'Beauty', 'Clothing', 'Electronics', 'Beauty']",5,549.42,Online Wallet,5,1,Cashback,Satisfied,TRUE,FALSE,TRUE
+Judy Bates,49,"Port Cynthiaberg, Qatar",Female,20-12-22,['Sports'],1,24.73,Debit Card,7,6,Free Shipping,Very Satisfied,FALSE,TRUE,FALSE
+Kimberly Mccormick,55,"North Sylviaborough, Myanmar",Female,26-02-23,"['Toys', 'Home Decor']",2,90.1,Online Wallet,8,5,Free Shipping,Very Unsatisfied,FALSE,FALSE,FALSE
+Jeffrey Walker,61,"West Kevinmouth, Belarus",Female,15-09-23,"['Beauty', 'Books', 'Books', 'Clothing', 'Toys']",5,164.78,Online Wallet,60,26,Gift Card,Satisfied,FALSE,TRUE,FALSE
+Allison Williams,40,"New Lisaview, Paraguay",Female,09-05-23,"['Clothing', 'Electronics', 'Books']",3,158.35,Debit Card,9,9,Cashback,Very Unsatisfied,FALSE,FALSE,TRUE
+Jason Williamson,70,"Anthonyburgh, French Guiana",Male,12-10-23,"['Beauty', 'Clothing', 'Electronics']",3,167.63,Debit Card,48,47,Cashback,Unsatisfied,TRUE,FALSE,TRUE
+Dale Ruiz,57,"Turnerchester, North Macedonia",Female,31-07-23,"['Sports', 'Sports', 'Toys', 'Clothing', 'Books']",5,494.94,Cash,90,11,Cashback,Unsatisfied,FALSE,FALSE,FALSE
+Mr. Justin Jones,23,"Liufurt, Switzerland",Male,26-03-23,"['Home Decor', 'Electronics']",2,193.6,Debit Card,40,7,Cashback,Very Satisfied,TRUE,FALSE,TRUE
+Scott Montgomery,31,"New Amandafort, Jamaica",Female,02-06-23,"['Toys', 'Books', 'Toys']",3,156.27,Gift Card,12,5,Discount,Very Satisfied,TRUE,FALSE,FALSE
+Ashley Adams,40,"Kevinmouth, Kuwait",Female,27-12-22,['Toys'],1,32.5,Gift Card,12,7,Discount,Satisfied,TRUE,FALSE,FALSE
+Omar Smith,20,"Brandtshire, Rwanda",Male,14-02-23,"['Toys', 'Home Decor', 'Electronics']",3,181.72,Credit Card,54,48,Discount,Neutral,FALSE,FALSE,TRUE

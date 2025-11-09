@@ -1,0 +1,501 @@
+Name,Age,Location,Gender,Income,Assets,Debts,Monthly Expenses,Investment Preference,Type of Advice Sought,User Financial Goal,Action Based on Advice,Feedback on Advice,App Usability Feedback,Trust Level with Digital Advisor
+Michael Cameron,32,"Port Stephenton, Gabon",Male,8576.35,63086.9,3921.93,3046.87,Fixed Deposits,Tax Planning,Tax Savings,Partially Implemented,Very Unsatisfied,Unsatisfied,High
+Tiffany Silva,53,"Gabrielstad, Bouvet Island (Bouvetoya)",Male,3939.77,22850.65,0.0,953.26,Gold,Retirement Planning,High ROI Investments,Not Implemented,Neutral,Very Unsatisfied,Low
+Karen Mcintosh,51,"Frederickfort, Cambodia",Female,5751.37,79795.66,0.0,2654.24,Real Estate,Debt Management,Debt Reduction,Partially Implemented,Neutral,Neutral,Low
+Brian Nelson,39,"Martinezside, Ireland",Female,6966.71,45217.02,0.0,3355.37,Real Estate,Debt Management,High ROI Investments,Partially Implemented,Satisfied,Neutral,Low
+Julie James,63,"Michaelport, Sierra Leone",Female,5187.9,7766.78,3447.47,4059.88,Mutual Funds,Retirement Planning,High ROI Investments,Implemented,Very Unsatisfied,Very Satisfied,Moderate
+Erin Barnes,65,"West Lisaton, North Macedonia",Male,9006.39,43698.34,2039.2,2243.71,Bonds,Savings Plan,Tax Savings,Not Implemented,Very Unsatisfied,Neutral,Moderate
+Patrick Howard,23,"Theresaburgh, Togo",Female,8315.78,17576.3,0.0,1402.24,Gold,Savings Plan,Increase Savings,Partially Implemented,Very Unsatisfied,Neutral,Moderate
+Antonio Lee,48,"West Loriland, Syrian Arab Republic",Female,7720.4,36635.97,0.0,4796.06,Mutual Funds,Retirement Planning,Retirement Fund Building,Not Implemented,Unsatisfied,Neutral,High
+Derek Brown,39,"Donnatown, Zambia",Female,5205.21,78675.59,804.16,3070.44,Bonds,Investment Strategy,Debt Reduction,Not Implemented,Unsatisfied,Very Unsatisfied,High
+Heidi Figueroa,19,"Murphymouth, Aruba",Male,4266.01,54289.67,0.0,4966.38,Stocks,Investment Strategy,Debt Reduction,Seeking Further Consultation,Unsatisfied,Very Unsatisfied,High
+Jennifer Brown,24,"West Davidport, Aruba",Male,8882.04,25774.7,0.0,3788.3,Real Estate,Retirement Planning,Increase Savings,Implemented,Very Satisfied,Very Unsatisfied,High
+Kimberly Garcia,19,"Christophertown, Estonia",Non-binary,4593.6,86081.13,0.0,2697.13,Mutual Funds,Debt Management,Tax Savings,Partially Implemented,Satisfied,Very Satisfied,High
+Edward Hartman DDS,33,"Port Savannahborough, Italy",Female,5444.67,65842.53,4475.83,4612.66,Fixed Deposits,Investment Strategy,Debt Reduction,Seeking Further Consultation,Very Satisfied,Very Satisfied,Moderate
+Jeffrey Thornton,27,"New Bridgetchester, Hungary",Non-binary,4893.39,94130.26,3788.06,4688.44,Cryptocurrency,Investment Strategy,Increase Savings,Partially Implemented,Very Unsatisfied,Unsatisfied,Moderate
+Carl Huffman,60,"Amytown, Kazakhstan",Male,4863.87,31423.8,0.0,1020.53,Gold,Tax Planning,Debt Reduction,Partially Implemented,Satisfied,Unsatisfied,High
+Richard Smith,23,"West Allison, Suriname",Male,3615.87,63480.61,0.0,2787.28,Mutual Funds,Savings Plan,Debt Reduction,Implemented,Unsatisfied,Very Unsatisfied,Low
+Lisa Weber,55,"Randymouth, Faroe Islands",Male,2324.05,10399.52,0.0,3994.04,Fixed Deposits,Savings Plan,Tax Savings,Seeking Further Consultation,Neutral,Satisfied,High
+Daniel Johnson,69,"Morenomouth, Colombia",Male,2000.09,35189.02,0.0,4371.24,Stocks,Investment Strategy,Debt Reduction,Not Implemented,Unsatisfied,Very Satisfied,Low
+Anthony Wood,46,"Emilybury, Colombia",Non-binary,3495.98,83123.65,0.0,3792.17,Cryptocurrency,Tax Planning,Retirement Fund Building,Seeking Further Consultation,Unsatisfied,Very Satisfied,High
+Mrs. Lynn Lopez,54,"Jamesbury, Poland",Female,9869.81,17591.79,1612.26,1872.96,Mutual Funds,Retirement Planning,Retirement Fund Building,Partially Implemented,Very Satisfied,Neutral,High
+Mark Baker,54,"West Anthony, Madagascar",Non-binary,2115.0,14162.54,4735.75,4982.27,Bonds,Debt Management,Tax Savings,Partially Implemented,Satisfied,Very Unsatisfied,Moderate
+Valerie Davis,48,"New Katherine, Turks and Caicos Islands",Non-binary,6647.01,69544.19,0.0,2360.57,Mutual Funds,Debt Management,Debt Reduction,Implemented,Unsatisfied,Satisfied,Low
+Lawrence Barnes,38,"South Lindsey, Cook Islands",Female,5996.14,82554.42,2170.21,2198.15,Cryptocurrency,Investment Strategy,High ROI Investments,Partially Implemented,Unsatisfied,Unsatisfied,Moderate
+Amanda Richardson,43,"Craigmouth, Cameroon",Non-binary,5177.49,39056.53,0.0,4745.01,Stocks,Tax Planning,High ROI Investments,Seeking Further Consultation,Unsatisfied,Satisfied,Moderate
+Thomas Chavez,53,"Debbieshire, American Samoa",Male,3693.13,90837.08,0.0,995.09,Fixed Deposits,Tax Planning,Tax Savings,Not Implemented,Unsatisfied,Unsatisfied,High
+Shirley Rivera,47,"North Carrieberg, Sao Tome and Principe",Non-binary,6232.54,86652.64,0.0,3463.99,Mutual Funds,Savings Plan,Debt Reduction,Seeking Further Consultation,Neutral,Satisfied,Low
+Mary Carr,39,"Stuartmouth, Lithuania",Non-binary,3295.28,15093.66,4071.98,1957.7,Real Estate,Tax Planning,Debt Reduction,Not Implemented,Satisfied,Neutral,Moderate
+Jesse Dean,28,"Jeanberg, Suriname",Male,9400.56,13923.13,478.45,3277.38,Real Estate,Tax Planning,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Satisfied,Moderate
+Mandy Whitehead,60,"Jamesborough, Kazakhstan",Female,2456.88,55763.15,0.0,2039.07,Bonds,Debt Management,Tax Savings,Implemented,Neutral,Neutral,Low
+Andrea Young,32,"West Kristenside, Algeria",Male,3978.23,29301.95,4983.95,4202.71,Mutual Funds,Savings Plan,High ROI Investments,Implemented,Neutral,Satisfied,High
+Jason Gallagher Jr.,24,"Lukefurt, Brazil",Non-binary,7088.73,57211.35,2282.82,604.94,Cryptocurrency,Investment Strategy,Retirement Fund Building,Seeking Further Consultation,Neutral,Unsatisfied,Moderate
+Mr. Ronald Villegas,18,"West John, Singapore",Male,5975.42,24643.3,0.0,1433.62,Stocks,Debt Management,Debt Reduction,Partially Implemented,Unsatisfied,Unsatisfied,Low
+Marissa Coleman,18,"Davisport, San Marino",Male,4006.42,76564.99,0.0,3385.17,Cryptocurrency,Tax Planning,Debt Reduction,Not Implemented,Satisfied,Neutral,Moderate
+Paula Williams,31,"Alyssaport, Albania",Female,5423.99,80124.2,0.0,1711.66,Mutual Funds,Investment Strategy,Retirement Fund Building,Seeking Further Consultation,Satisfied,Very Unsatisfied,Low
+Stephanie Todd,67,"Lake Sharon, Brunei Darussalam",Non-binary,4842.53,79924.24,1359.94,3565.8,Gold,Debt Management,High ROI Investments,Implemented,Satisfied,Very Satisfied,High
+Carl Castillo,52,"Victoriamouth, Philippines",Non-binary,5609.05,82676.46,4674.83,2619.88,Mutual Funds,Debt Management,Increase Savings,Implemented,Very Satisfied,Satisfied,Low
+Brian Moore,25,"Ebonymouth, Jamaica",Female,8975.52,99921.61,4245.82,2130.58,Bonds,Retirement Planning,Retirement Fund Building,Not Implemented,Neutral,Very Unsatisfied,Low
+Tina Compton,25,"Crawfordbury, Kazakhstan",Female,2863.02,41915.96,0.0,2560.23,Real Estate,Debt Management,Increase Savings,Seeking Further Consultation,Unsatisfied,Neutral,Low
+Jessica Sutton,58,"Lake Victoriaborough, Malaysia",Non-binary,3662.15,36772.39,1378.9,2529.67,Fixed Deposits,Savings Plan,High ROI Investments,Seeking Further Consultation,Unsatisfied,Unsatisfied,Moderate
+Anna Garcia,23,"West Hayleyland, El Salvador",Male,9619.76,85759.29,2877.03,945.88,Real Estate,Investment Strategy,Tax Savings,Seeking Further Consultation,Unsatisfied,Neutral,Moderate
+Judy Snow,30,"West Randy, Serbia",Female,8820.06,14317.99,3356.35,4185.04,Mutual Funds,Investment Strategy,Tax Savings,Partially Implemented,Neutral,Satisfied,Low
+Anita Fleming,45,"Pittmanstad, Liberia",Female,4807.82,37066.02,108.23,2867.73,Stocks,Savings Plan,Debt Reduction,Not Implemented,Unsatisfied,Neutral,High
+Joseph Davis PhD,38,"Williamfort, Dominica",Non-binary,2030.35,35799.29,3236.26,3459.67,Real Estate,Tax Planning,Debt Reduction,Seeking Further Consultation,Satisfied,Unsatisfied,Low
+Megan Ramirez,32,"New Valerie, Haiti",Male,6268.98,10436.94,2279.64,2617.43,Cryptocurrency,Tax Planning,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Neutral,High
+Lucas Wong,26,"Cynthiamouth, Uzbekistan",Male,2372.7,96432.95,0.0,3462.52,Mutual Funds,Investment Strategy,High ROI Investments,Implemented,Very Satisfied,Very Unsatisfied,Moderate
+Andrew Vega,20,"Amyberg, Guatemala",Female,8690.2,89875.54,0.0,4787.61,Fixed Deposits,Savings Plan,High ROI Investments,Partially Implemented,Very Unsatisfied,Very Satisfied,High
+Tonya Stewart,21,"New Jon, Cocos (Keeling) Islands",Female,7919.32,77806.15,0.0,3172.67,Mutual Funds,Tax Planning,Retirement Fund Building,Seeking Further Consultation,Very Satisfied,Very Unsatisfied,Low
+Robert Lewis,42,"Lake Jeffreyhaven, Costa Rica",Non-binary,6036.39,64786.43,2424.26,4344.97,Cryptocurrency,Investment Strategy,Increase Savings,Not Implemented,Very Unsatisfied,Unsatisfied,High
+Thomas Olson,56,"East George, Brazil",Non-binary,2149.49,19073.97,0.0,3551.61,Fixed Deposits,Savings Plan,Retirement Fund Building,Seeking Further Consultation,Very Unsatisfied,Unsatisfied,Low
+Michael Harrison,19,"Geraldland, Jordan",Male,7596.94,8198.1,0.0,595.05,Real Estate,Tax Planning,High ROI Investments,Not Implemented,Very Unsatisfied,Very Satisfied,Low
+Lisa Baker,24,"Kingberg, Mali",Non-binary,2622.92,77389.82,168.94,854.54,Fixed Deposits,Savings Plan,Debt Reduction,Partially Implemented,Very Satisfied,Unsatisfied,Low
+Nathan Rosales,27,"West Bryan, Libyan Arab Jamahiriya",Female,6575.83,93168.73,0.0,2273.44,Fixed Deposits,Savings Plan,Tax Savings,Seeking Further Consultation,Neutral,Unsatisfied,Moderate
+Thomas Hill,19,"Hannahfurt, Saint Kitts and Nevis",Non-binary,4043.74,54834.73,3367.7,1380.19,Bonds,Debt Management,Debt Reduction,Implemented,Unsatisfied,Unsatisfied,Low
+Tammy Lyons,34,"Meyerhaven, Norfolk Island",Non-binary,5095.88,51482.85,4946.36,4994.32,Bonds,Retirement Planning,High ROI Investments,Implemented,Satisfied,Unsatisfied,Moderate
+Carla Rice,35,"Port Omar, Marshall Islands",Non-binary,7667.61,21255.08,0.0,3088.39,Mutual Funds,Retirement Planning,Increase Savings,Not Implemented,Neutral,Very Unsatisfied,Low
+Gary Dawson,36,"East Zachary, Cape Verde",Female,3142.05,63397.69,0.0,2761.02,Stocks,Tax Planning,Tax Savings,Not Implemented,Satisfied,Satisfied,Moderate
+Angela Garcia,28,"Port Danny, Mayotte",Non-binary,2389.81,18113.24,0.0,1497.76,Real Estate,Investment Strategy,Debt Reduction,Partially Implemented,Satisfied,Neutral,High
+Michelle Rodriguez,61,"Williamsfort, Belgium",Non-binary,8704.88,42460.08,0.0,4922.67,Cryptocurrency,Retirement Planning,Debt Reduction,Partially Implemented,Very Satisfied,Very Unsatisfied,Moderate
+Jose Munoz,21,"Cookborough, Italy",Male,4210.41,67620.6,0.0,1351.42,Real Estate,Investment Strategy,Increase Savings,Partially Implemented,Satisfied,Very Unsatisfied,Low
+Kelsey Wilson,27,"West Brianland, Bhutan",Non-binary,5932.93,33332.6,4393.19,4961.81,Gold,Debt Management,Retirement Fund Building,Seeking Further Consultation,Satisfied,Very Unsatisfied,Moderate
+Kenneth Williams,56,"Hunterton, Mozambique",Female,2286.88,48385.91,1830.98,2549.65,Real Estate,Investment Strategy,Retirement Fund Building,Implemented,Satisfied,Unsatisfied,High
+Jeffery Navarro,27,"North Henryview, Slovakia (Slovak Republic)",Male,9405.59,14285.59,159.78,4090.83,Real Estate,Savings Plan,Tax Savings,Partially Implemented,Very Satisfied,Very Unsatisfied,Moderate
+Francisco Page,37,"Cartershire, North Macedonia",Non-binary,8940.32,53643.38,2787.26,4536.55,Bonds,Tax Planning,Increase Savings,Not Implemented,Neutral,Very Unsatisfied,High
+Veronica Griffin,40,"Margaretside, Taiwan",Female,2562.56,76962.96,0.0,3836.96,Fixed Deposits,Retirement Planning,Tax Savings,Not Implemented,Neutral,Satisfied,Low
+Preston Smith,67,"North Tyler, Sudan",Male,5154.75,44896.88,0.0,2185.74,Gold,Retirement Planning,High ROI Investments,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+Heather Keith,48,"Ruizburgh, Honduras",Female,6693.86,31185.58,0.0,4924.4,Real Estate,Retirement Planning,Retirement Fund Building,Seeking Further Consultation,Unsatisfied,Very Satisfied,Low
+Eric Reid,44,"Lake Caleb, Isle of Man",Female,4039.36,93266.89,1247.98,2705.28,Gold,Debt Management,High ROI Investments,Not Implemented,Satisfied,Very Satisfied,High
+Jennifer Burgess,43,"Millsfurt, Bouvet Island (Bouvetoya)",Non-binary,9292.45,19244.85,0.0,3082.12,Gold,Debt Management,Debt Reduction,Seeking Further Consultation,Satisfied,Very Unsatisfied,Moderate
+Daniel Thomas,41,"Zacharytown, Wallis and Futuna",Non-binary,3018.78,58797.43,0.0,3797.74,Cryptocurrency,Tax Planning,Increase Savings,Seeking Further Consultation,Satisfied,Unsatisfied,Low
+Bailey Morris,28,"North Wendyfort, Aruba",Female,5224.13,12616.96,0.0,4495.65,Fixed Deposits,Retirement Planning,Retirement Fund Building,Not Implemented,Neutral,Very Satisfied,Low
+Rick Johnson,70,"North Richard, Grenada",Female,2394.04,11225.22,3275.79,4937.91,Cryptocurrency,Retirement Planning,High ROI Investments,Partially Implemented,Very Satisfied,Very Satisfied,Moderate
+Olivia Stewart,33,"Lake Joshuamouth, Georgia",Female,3385.48,81972.51,3362.6,1792.79,Mutual Funds,Tax Planning,High ROI Investments,Seeking Further Consultation,Satisfied,Very Satisfied,High
+Bernard Byrd,67,"Lake Ericafurt, Jamaica",Male,5816.23,56402.34,1273.83,665.67,Real Estate,Debt Management,Retirement Fund Building,Implemented,Satisfied,Neutral,High
+Ian Wade,28,"Lake Raymond, Timor-Leste",Male,9513.45,33284.58,3406.99,4541.32,Bonds,Retirement Planning,Tax Savings,Partially Implemented,Very Satisfied,Unsatisfied,Low
+Cory Cross,33,"Riveraside, Cape Verde",Female,7152.24,11373.67,1877.79,2149.04,Fixed Deposits,Savings Plan,Debt Reduction,Implemented,Very Satisfied,Unsatisfied,High
+Jessica Kirby,42,"Markborough, Equatorial Guinea",Non-binary,6418.46,41600.1,0.0,4896.12,Mutual Funds,Tax Planning,Increase Savings,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Amy Byrd,68,"Cameronstad, Turkmenistan",Female,7575.83,15537.92,0.0,1215.52,Stocks,Retirement Planning,Debt Reduction,Partially Implemented,Neutral,Unsatisfied,High
+Edward Petersen,26,"Dianeview, Italy",Male,4981.15,15049.64,1613.29,2495.34,Mutual Funds,Savings Plan,Tax Savings,Implemented,Unsatisfied,Very Satisfied,Moderate
+Cathy Smith,66,"Mckayshire, Cambodia",Female,4129.33,92490.09,0.0,3920.0,Gold,Retirement Planning,Debt Reduction,Not Implemented,Neutral,Very Satisfied,High
+Charles Mccarty,52,"West Marychester, Gambia",Female,3617.45,36812.05,0.0,1755.54,Bonds,Retirement Planning,Increase Savings,Seeking Further Consultation,Very Satisfied,Very Satisfied,Moderate
+Erica Rodriguez,25,"Tiffanytown, Turkmenistan",Male,4155.24,78252.64,804.34,4901.07,Gold,Savings Plan,Increase Savings,Implemented,Very Satisfied,Unsatisfied,Moderate
+Ashley Bird,56,"Carpenterberg, Tunisia",Male,8309.36,56349.4,2974.41,1798.72,Gold,Investment Strategy,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Very Unsatisfied,Low
+Shannon Bowman,46,"East Ambermouth, Kiribati",Female,5159.2,65191.28,0.0,4343.63,Stocks,Debt Management,Increase Savings,Not Implemented,Neutral,Neutral,Low
+Gary Hendricks,31,"Adamshire, Turks and Caicos Islands",Female,6969.39,54653.58,0.0,3451.04,Stocks,Savings Plan,Debt Reduction,Seeking Further Consultation,Satisfied,Unsatisfied,Moderate
+Dean Lopez,58,"North Amandashire, Costa Rica",Male,3453.33,97258.84,3099.36,2111.62,Fixed Deposits,Retirement Planning,High ROI Investments,Implemented,Unsatisfied,Neutral,Moderate
+Alex Cabrera,47,"East Jason, San Marino",Male,9889.54,33914.27,974.14,2073.5,Mutual Funds,Debt Management,Increase Savings,Implemented,Unsatisfied,Very Satisfied,Low
+Victor Brown,52,"New Lisamouth, Norfolk Island",Female,2053.47,69183.88,2701.57,3601.17,Mutual Funds,Investment Strategy,Tax Savings,Partially Implemented,Neutral,Very Unsatisfied,Moderate
+Julie Burke,33,"South Jessicaport, United Arab Emirates",Male,7790.57,21456.01,0.0,1896.69,Bonds,Savings Plan,Retirement Fund Building,Implemented,Unsatisfied,Neutral,Moderate
+Michael Santos,21,"North Markfurt, Congo",Female,4815.78,90472.16,360.46,1933.85,Bonds,Tax Planning,Retirement Fund Building,Not Implemented,Satisfied,Very Unsatisfied,Low
+Tara Brown,63,"Wardport, Gambia",Male,5411.7,78816.37,0.0,4163.77,Fixed Deposits,Retirement Planning,Increase Savings,Seeking Further Consultation,Very Satisfied,Neutral,Moderate
+Joyce Sanchez,52,"Parsonstown, Martinique",Female,8665.02,24414.83,756.29,4556.36,Fixed Deposits,Savings Plan,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Very Unsatisfied,Low
+Lauren Johnson,67,"South Jesus, Mali",Male,7698.2,45666.81,0.0,984.57,Gold,Savings Plan,High ROI Investments,Implemented,Unsatisfied,Unsatisfied,Moderate
+Stephanie Sanchez,46,"Wiseville, Lithuania",Male,6999.42,51550.97,1599.86,3145.26,Fixed Deposits,Tax Planning,Retirement Fund Building,Implemented,Satisfied,Satisfied,High
+Wendy King,65,"Hendricksborough, Bulgaria",Female,8977.71,77655.84,0.0,4230.96,Stocks,Retirement Planning,High ROI Investments,Implemented,Satisfied,Neutral,Low
+Patrick Wood,36,"East Barbarachester, Serbia",Male,5791.34,50231.96,0.0,4605.37,Real Estate,Debt Management,Tax Savings,Partially Implemented,Unsatisfied,Satisfied,Low
+Douglas Jones,48,"Williamsmouth, Greece",Male,6259.4,51811.8,0.0,4968.96,Real Estate,Tax Planning,Increase Savings,Seeking Further Consultation,Satisfied,Very Satisfied,Low
+James Johnson,47,"Andersenbury, Trinidad and Tobago",Non-binary,3024.32,20974.15,4657.84,4685.46,Mutual Funds,Retirement Planning,Tax Savings,Partially Implemented,Very Satisfied,Very Satisfied,Low
+Douglas Johnston,26,"North Justin, Comoros",Non-binary,2441.09,76927.03,151.6,3286.98,Mutual Funds,Savings Plan,Retirement Fund Building,Seeking Further Consultation,Unsatisfied,Very Satisfied,Moderate
+Brandon Wright,38,"Phelpsville, Hungary",Non-binary,8736.2,97175.17,0.0,4892.89,Fixed Deposits,Debt Management,Increase Savings,Implemented,Very Unsatisfied,Very Unsatisfied,High
+Brittany Lowe,29,"New Stephenport, Senegal",Non-binary,5494.71,44859.86,3591.11,2832.55,Real Estate,Investment Strategy,Retirement Fund Building,Implemented,Satisfied,Neutral,Low
+Logan Brown,63,"Port Michael, Togo",Male,4706.93,14026.07,0.0,1516.28,Mutual Funds,Retirement Planning,High ROI Investments,Partially Implemented,Satisfied,Unsatisfied,High
+Nancy Francis,56,"Mendozaland, Poland",Male,8827.14,66675.5,2633.05,1037.34,Fixed Deposits,Savings Plan,High ROI Investments,Implemented,Very Unsatisfied,Unsatisfied,High
+Lisa Rodriguez,46,"Calhounport, Pakistan",Non-binary,4439.55,67301.44,0.0,4043.55,Mutual Funds,Investment Strategy,Tax Savings,Not Implemented,Satisfied,Satisfied,Low
+Aaron Anderson,58,"North Angelica, Belize",Male,5481.53,38343.77,0.0,802.23,Bonds,Tax Planning,Debt Reduction,Seeking Further Consultation,Very Unsatisfied,Unsatisfied,Low
+Misty Byrd,20,"Christophertown, Lebanon",Female,6201.5,93950.56,0.0,3639.74,Bonds,Retirement Planning,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Colleen Davis,34,"Baileytown, Poland",Male,5658.58,91183.45,0.0,3931.93,Stocks,Savings Plan,High ROI Investments,Not Implemented,Satisfied,Unsatisfied,Low
+Elizabeth Wells,66,"Port Justin, Switzerland",Male,9486.41,47867.96,0.0,3653.76,Real Estate,Debt Management,Tax Savings,Partially Implemented,Unsatisfied,Very Unsatisfied,High
+Dr. Nancy Anderson,31,"New Adriana, Haiti",Female,5434.02,33513.49,0.0,1103.53,Gold,Tax Planning,Increase Savings,Seeking Further Consultation,Very Satisfied,Satisfied,Low
+David Daniel,64,"Lake Georgeton, Pakistan",Male,5735.0,48717.86,0.0,3850.42,Mutual Funds,Retirement Planning,Increase Savings,Partially Implemented,Satisfied,Very Satisfied,Low
+Zachary Mcconnell,47,"New Melindachester, Antarctica (the territory South of 60 deg S)",Non-binary,4629.61,37496.13,1510.21,2115.94,Real Estate,Tax Planning,Tax Savings,Seeking Further Consultation,Neutral,Very Satisfied,High
+Daniel Henderson,59,"Grahamberg, Ukraine",Male,8687.89,44718.27,0.0,1661.21,Mutual Funds,Savings Plan,Increase Savings,Partially Implemented,Neutral,Neutral,Moderate
+Jason Thompson,61,"Lake Marilynview, Luxembourg",Female,8196.85,86725.11,2005.28,4220.55,Stocks,Debt Management,Debt Reduction,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+James Cabrera,41,"Adamsfort, United States Minor Outlying Islands",Non-binary,9900.95,21607.11,0.0,3312.37,Mutual Funds,Investment Strategy,Tax Savings,Implemented,Very Satisfied,Very Satisfied,Low
+Peggy Edwards,38,"Jordanberg, Swaziland",Non-binary,5267.68,62266.49,0.0,4126.78,Stocks,Retirement Planning,Increase Savings,Implemented,Neutral,Unsatisfied,Low
+Emily Lyons,33,"East Shelby, Luxembourg",Female,9478.48,21128.28,0.0,3307.9,Gold,Debt Management,Debt Reduction,Implemented,Satisfied,Unsatisfied,Moderate
+Michael Martinez MD,65,"Robertsport, Philippines",Female,8673.1,40318.38,1464.6,793.56,Stocks,Savings Plan,Retirement Fund Building,Seeking Further Consultation,Satisfied,Unsatisfied,Moderate
+James Hall,25,"Port Isaiah, Guinea",Male,5004.44,39053.63,4081.05,1959.82,Fixed Deposits,Debt Management,High ROI Investments,Seeking Further Consultation,Satisfied,Satisfied,Moderate
+Melissa Hicks,38,"Lake Brandon, British Indian Ocean Territory (Chagos Archipelago)",Female,5735.47,20553.34,99.41,2033.15,Bonds,Retirement Planning,High ROI Investments,Seeking Further Consultation,Very Satisfied,Very Satisfied,Low
+Ronald Mcdonald,24,"Stephensshire, Cayman Islands",Non-binary,9352.96,50607.14,4522.33,1898.87,Fixed Deposits,Tax Planning,High ROI Investments,Partially Implemented,Very Satisfied,Neutral,Low
+Zachary Carr,33,"Kristyton, Christmas Island",Female,2198.33,6885.57,0.0,4405.0,Stocks,Tax Planning,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Stacey Edwards,62,"Amandaton, Cocos (Keeling) Islands",Female,3334.89,26288.25,0.0,2307.09,Bonds,Tax Planning,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Very Satisfied,Moderate
+Peter Anderson,35,"New Kathleenland, Gabon",Female,8699.09,21448.45,4791.1,4507.61,Mutual Funds,Investment Strategy,High ROI Investments,Partially Implemented,Unsatisfied,Neutral,High
+Larry Sanchez,38,"North Joshuaville, Ethiopia",Female,9965.38,84620.48,4322.87,3949.03,Fixed Deposits,Debt Management,Debt Reduction,Implemented,Very Satisfied,Very Satisfied,Low
+David Porter,20,"Kyliefurt, Tajikistan",Female,7195.77,87798.67,1073.52,2343.34,Fixed Deposits,Investment Strategy,Retirement Fund Building,Partially Implemented,Satisfied,Satisfied,Low
+Mark Patton,40,"West Danielle, Montserrat",Male,8822.27,95902.08,0.0,3736.39,Stocks,Retirement Planning,Debt Reduction,Partially Implemented,Very Satisfied,Unsatisfied,Low
+Ruth Larson,23,"Lake Angela, Mongolia",Male,7349.65,57344.15,0.0,2056.92,Cryptocurrency,Tax Planning,Retirement Fund Building,Implemented,Neutral,Unsatisfied,High
+Jeanne Castillo,45,"West Henry, Maldives",Male,9054.31,58254.75,0.0,3431.43,Cryptocurrency,Savings Plan,Tax Savings,Not Implemented,Neutral,Satisfied,High
+William Robles,30,"Simmonsberg, North Macedonia",Female,4728.32,82802.89,0.0,4506.53,Real Estate,Tax Planning,High ROI Investments,Partially Implemented,Neutral,Unsatisfied,Moderate
+Dillon Howe,40,"New Michael, New Caledonia",Male,7381.99,50594.29,0.0,3072.33,Fixed Deposits,Tax Planning,Tax Savings,Not Implemented,Unsatisfied,Neutral,Low
+Audrey Hutchinson,44,"West Jerry, Paraguay",Non-binary,7493.28,10297.84,40.25,510.05,Cryptocurrency,Tax Planning,Debt Reduction,Not Implemented,Neutral,Unsatisfied,High
+Hannah Fowler,35,"Josephstad, Dominican Republic",Female,2573.78,56588.5,0.0,3832.15,Fixed Deposits,Retirement Planning,High ROI Investments,Seeking Further Consultation,Satisfied,Satisfied,Low
+Hannah Drake,70,"North Christopher, Mauritania",Non-binary,2427.82,29633.02,3380.22,2098.56,Mutual Funds,Retirement Planning,High ROI Investments,Implemented,Very Unsatisfied,Very Satisfied,High
+Xavier Brown,39,"New Bethside, Russian Federation",Male,7670.52,24147.79,0.0,4639.97,Bonds,Tax Planning,High ROI Investments,Implemented,Very Unsatisfied,Satisfied,Low
+Alison Black,23,"Harveystad, Samoa",Female,6482.74,41461.25,1377.6,2746.35,Fixed Deposits,Investment Strategy,Increase Savings,Seeking Further Consultation,Neutral,Neutral,High
+Karen Diaz,27,"Nancyville, Namibia",Non-binary,5244.63,61496.79,4329.49,4079.0,Fixed Deposits,Tax Planning,Tax Savings,Not Implemented,Very Unsatisfied,Neutral,Low
+James Owens,42,"Edwardsfurt, Namibia",Male,8762.42,37578.08,0.0,1979.94,Stocks,Savings Plan,High ROI Investments,Partially Implemented,Unsatisfied,Satisfied,High
+William Sanchez,70,"West Kelsey, Martinique",Female,9228.68,37179.92,3350.7,3051.92,Bonds,Tax Planning,Tax Savings,Seeking Further Consultation,Satisfied,Very Satisfied,High
+Daniel Pope,21,"Kellymouth, Belgium",Male,7079.32,8251.71,0.0,2157.09,Gold,Investment Strategy,High ROI Investments,Implemented,Neutral,Neutral,Moderate
+Sharon Fields,35,"Harrisbury, Liberia",Female,7762.43,21552.57,1960.89,1338.77,Cryptocurrency,Debt Management,Increase Savings,Partially Implemented,Unsatisfied,Satisfied,Moderate
+Regina Miller,25,"Samuelfurt, Samoa",Non-binary,6881.67,15489.16,0.0,3953.21,Bonds,Retirement Planning,Increase Savings,Implemented,Neutral,Satisfied,Moderate
+Karen Pacheco,55,"Frostland, Ecuador",Non-binary,7912.15,26370.19,0.0,644.41,Gold,Savings Plan,Tax Savings,Implemented,Satisfied,Neutral,Moderate
+Courtney Perez,34,"New Jasmine, India",Female,3872.3,35506.87,0.0,2505.08,Stocks,Savings Plan,Increase Savings,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Lisa Diaz,25,"New Samantha, Turks and Caicos Islands",Male,6055.22,40426.88,403.89,1673.62,Cryptocurrency,Tax Planning,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Neutral,Moderate
+Tina Sampson,26,"East Meganfort, Chad",Female,3463.01,65975.96,3295.5,1677.08,Mutual Funds,Retirement Planning,Retirement Fund Building,Implemented,Neutral,Very Unsatisfied,Moderate
+Gabrielle Rogers,59,"Meghanstad, Guinea-Bissau",Male,4391.47,11137.71,4275.97,4188.2,Gold,Investment Strategy,Retirement Fund Building,Implemented,Satisfied,Very Satisfied,Moderate
+Joseph Hamilton,43,"North Anna, Uzbekistan",Male,7735.62,74349.69,750.34,1872.87,Stocks,Debt Management,Retirement Fund Building,Seeking Further Consultation,Satisfied,Satisfied,High
+Jason Riddle,70,"Beckerland, Mauritius",Male,3428.64,13087.78,0.0,2035.45,Gold,Investment Strategy,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Satisfied,Moderate
+John Smith,39,"Joshuachester, Croatia",Non-binary,6885.5,18774.83,2443.34,1172.34,Real Estate,Debt Management,Tax Savings,Partially Implemented,Neutral,Unsatisfied,Low
+Dana Morris,27,"Lake Victoriamouth, United States Virgin Islands",Non-binary,8836.2,39186.69,0.0,2721.25,Stocks,Debt Management,Debt Reduction,Partially Implemented,Unsatisfied,Satisfied,High
+Kent Williams,60,"Gonzalesmouth, Belgium",Female,9154.01,14749.96,1550.32,4155.05,Gold,Debt Management,Tax Savings,Implemented,Very Unsatisfied,Satisfied,High
+Stephanie Knox MD,35,"Johnsonport, Haiti",Non-binary,8662.24,27567.09,0.0,605.22,Cryptocurrency,Investment Strategy,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Satisfied,Low
+Marilyn Gordon,18,"West Kimberly, Russian Federation",Male,5639.23,25508.9,0.0,3625.9,Stocks,Savings Plan,Debt Reduction,Not Implemented,Very Unsatisfied,Neutral,High
+Ashley Sims,67,"Port Robert, Isle of Man",Male,4575.72,61260.31,0.0,4710.64,Bonds,Retirement Planning,High ROI Investments,Implemented,Very Satisfied,Unsatisfied,Moderate
+Julie Byrd,68,"Lake Williamshire, Gibraltar",Non-binary,2154.01,62081.26,0.0,2810.5,Real Estate,Retirement Planning,Debt Reduction,Not Implemented,Unsatisfied,Very Satisfied,Low
+David Wood,51,"Jamiemouth, Reunion",Non-binary,7541.8,11136.24,14.92,2077.64,Mutual Funds,Tax Planning,Debt Reduction,Not Implemented,Very Satisfied,Neutral,High
+Robert Anderson,47,"Christinachester, Burkina Faso",Male,2034.97,40904.41,2000.12,1180.76,Bonds,Savings Plan,High ROI Investments,Implemented,Neutral,Neutral,Low
+Michael Choi,20,"Olsonbury, Jersey",Female,8246.07,88981.1,2550.52,885.56,Cryptocurrency,Debt Management,Debt Reduction,Implemented,Unsatisfied,Unsatisfied,Low
+Sheila Smith,28,"Jaimeborough, Gibraltar",Male,9243.59,68793.67,0.0,1624.53,Fixed Deposits,Tax Planning,Tax Savings,Partially Implemented,Satisfied,Very Unsatisfied,Low
+Wanda Henderson,43,"Tracystad, Botswana",Female,5605.58,69578.7,681.92,1999.81,Stocks,Retirement Planning,Increase Savings,Implemented,Unsatisfied,Very Unsatisfied,Low
+Angela Wright,69,"North Dennis, Faroe Islands",Male,2082.32,57033.74,0.0,1127.46,Stocks,Retirement Planning,Retirement Fund Building,Not Implemented,Very Unsatisfied,Neutral,High
+Paul Brown,19,"Leville, Timor-Leste",Female,2924.43,90019.26,0.0,1619.02,Mutual Funds,Investment Strategy,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Satisfied,High
+Philip Herrera,55,"Marthaport, Mozambique",Female,3086.39,23263.34,0.0,4005.45,Real Estate,Debt Management,Retirement Fund Building,Implemented,Unsatisfied,Unsatisfied,High
+Kelly Clark,28,"Port Christie, Niger",Female,4179.71,44871.9,0.0,3638.38,Real Estate,Savings Plan,Retirement Fund Building,Implemented,Neutral,Satisfied,High
+Tristan Lawson,44,"Martinezfort, Poland",Male,6300.59,33700.8,0.0,3227.74,Fixed Deposits,Savings Plan,High ROI Investments,Partially Implemented,Very Satisfied,Very Unsatisfied,High
+Natasha Taylor,62,"Nicholaschester, Yemen",Non-binary,9489.81,54068.18,0.0,1159.58,Real Estate,Retirement Planning,High ROI Investments,Implemented,Unsatisfied,Neutral,High
+Carrie Ward,66,"West Heather, Latvia",Female,4221.38,56414.27,1647.91,1131.89,Cryptocurrency,Investment Strategy,Tax Savings,Seeking Further Consultation,Neutral,Very Unsatisfied,High
+Stephanie Knapp,49,"North Patriciaport, Rwanda",Female,3580.25,56083.11,0.0,2141.66,Cryptocurrency,Investment Strategy,Retirement Fund Building,Seeking Further Consultation,Neutral,Satisfied,Moderate
+Nathan Ross,67,"New Sarah, Russian Federation",Male,2078.14,6761.16,1494.37,1951.19,Gold,Tax Planning,High ROI Investments,Partially Implemented,Neutral,Neutral,Low
+Sherri Anderson,39,"Allenton, Nauru",Male,2810.93,39399.95,0.0,1372.6,Fixed Deposits,Debt Management,High ROI Investments,Seeking Further Consultation,Satisfied,Neutral,Moderate
+Steven Cook,52,"Lake Melindafort, Kyrgyz Republic",Female,3894.59,18045.45,2495.06,3184.34,Gold,Investment Strategy,Debt Reduction,Implemented,Very Satisfied,Very Satisfied,Moderate
+Olivia Cordova,40,"Tiffanyton, Kuwait",Male,6953.64,54389.96,484.72,4047.46,Mutual Funds,Tax Planning,Retirement Fund Building,Partially Implemented,Neutral,Unsatisfied,Low
+Roger Perez,62,"North Justin, Germany",Non-binary,7884.96,95055.32,4595.68,3269.55,Bonds,Debt Management,High ROI Investments,Not Implemented,Very Unsatisfied,Satisfied,Moderate
+Tammy Young,30,"Taylorbury, Canada",Non-binary,8836.4,76884.37,2254.44,960.43,Real Estate,Investment Strategy,Debt Reduction,Partially Implemented,Unsatisfied,Satisfied,High
+Michael Anderson,35,"Vanessaton, Isle of Man",Male,5094.41,55329.83,0.0,1205.27,Real Estate,Savings Plan,Debt Reduction,Implemented,Neutral,Neutral,Low
+Peter Marks,52,"Port Kylechester, Haiti",Female,3824.09,16466.08,0.0,1447.98,Gold,Investment Strategy,High ROI Investments,Implemented,Very Unsatisfied,Satisfied,Low
+Mrs. Leah Mcfarland,41,"Baileystad, Cayman Islands",Non-binary,4795.02,46178.22,0.0,4450.07,Bonds,Retirement Planning,Increase Savings,Partially Implemented,Unsatisfied,Unsatisfied,Moderate
+Jenna Fernandez,49,"South Alison, Slovenia",Non-binary,4123.54,51111.82,926.1,2329.66,Mutual Funds,Savings Plan,Debt Reduction,Seeking Further Consultation,Very Satisfied,Very Satisfied,Low
+Renee Costa,34,"West Denisebury, Namibia",Female,5694.45,74442.76,0.0,1785.89,Mutual Funds,Investment Strategy,Increase Savings,Not Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+David Boyd,52,"New Erica, Colombia",Female,4904.28,23991.11,3827.76,4644.33,Fixed Deposits,Retirement Planning,Debt Reduction,Implemented,Very Unsatisfied,Satisfied,Moderate
+Robert Daniels,45,"East Brenda, Taiwan",Male,7984.32,11946.86,0.0,3888.52,Fixed Deposits,Retirement Planning,Debt Reduction,Partially Implemented,Very Unsatisfied,Satisfied,Low
+Larry Mendoza,41,"Wilsonberg, Micronesia",Non-binary,4367.9,60308.51,4906.31,2600.31,Mutual Funds,Investment Strategy,Tax Savings,Implemented,Very Satisfied,Unsatisfied,High
+Kathryn Gutierrez,56,"South Elizabethberg, Saudi Arabia",Male,5980.48,96527.28,0.0,1279.2,Stocks,Retirement Planning,High ROI Investments,Not Implemented,Neutral,Unsatisfied,Low
+Kelly Gordon,39,"Lake Jesustown, Cambodia",Male,4396.87,33768.84,0.0,2438.36,Gold,Investment Strategy,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Very Satisfied,Low
+Jennifer Martin,37,"Debbieland, Pakistan",Male,9751.77,27708.75,4321.91,1573.22,Bonds,Investment Strategy,Increase Savings,Partially Implemented,Very Satisfied,Satisfied,Moderate
+Brandi English,28,"North Matthewstad, Netherlands Antilles",Female,9557.18,6180.05,4616.32,3420.5,Bonds,Savings Plan,Debt Reduction,Implemented,Neutral,Very Unsatisfied,Low
+Tonya Morris,66,"South Crystalhaven, Tokelau",Male,9776.95,38312.15,398.11,4459.41,Stocks,Tax Planning,Debt Reduction,Implemented,Very Satisfied,Very Unsatisfied,Low
+Scott Edwards,41,"Deniseville, San Marino",Male,5919.81,93531.85,0.0,2882.9,Gold,Retirement Planning,High ROI Investments,Not Implemented,Satisfied,Neutral,Moderate
+Aaron Everett,68,"Lake Stevenberg, Niue",Non-binary,4215.05,41602.34,3370.26,4125.59,Cryptocurrency,Retirement Planning,Debt Reduction,Seeking Further Consultation,Satisfied,Neutral,Moderate
+Daniel Watson,37,"Davidburgh, Faroe Islands",Male,8930.96,61477.64,551.65,4988.79,Mutual Funds,Debt Management,Increase Savings,Seeking Further Consultation,Satisfied,Unsatisfied,Moderate
+Sheila Williams,51,"Katherinemouth, Cocos (Keeling) Islands",Female,7226.47,55821.97,0.0,2679.43,Cryptocurrency,Retirement Planning,Debt Reduction,Implemented,Unsatisfied,Satisfied,Moderate
+Todd Bradley,46,"East Joshuaborough, Turkey",Non-binary,7630.79,95071.07,0.0,3153.46,Stocks,Retirement Planning,Increase Savings,Not Implemented,Very Unsatisfied,Satisfied,Moderate
+Matthew Rogers,23,"Michaelside, American Samoa",Male,7979.29,57371.05,0.0,1872.13,Fixed Deposits,Retirement Planning,High ROI Investments,Implemented,Unsatisfied,Neutral,High
+Darius Thompson,55,"Port Patricia, India",Non-binary,6498.26,93767.01,0.0,2791.99,Mutual Funds,Retirement Planning,Tax Savings,Partially Implemented,Satisfied,Satisfied,Low
+William Hunt,59,"South Jamesmouth, Mauritania",Female,8468.8,91680.51,3726.77,4470.91,Stocks,Savings Plan,Increase Savings,Implemented,Unsatisfied,Very Unsatisfied,High
+Adam Gibson,37,"Kellybury, Liechtenstein",Male,4742.93,98010.46,0.0,4142.62,Real Estate,Investment Strategy,High ROI Investments,Partially Implemented,Unsatisfied,Satisfied,High
+Dillon Ray,67,"South Jeffreyhaven, Eritrea",Female,4755.29,47947.54,3871.69,2236.98,Fixed Deposits,Retirement Planning,Retirement Fund Building,Implemented,Very Satisfied,Very Satisfied,Low
+Jeremiah Liu,26,"Briggsport, Italy",Non-binary,3302.2,23937.18,512.34,1702.21,Gold,Retirement Planning,Increase Savings,Implemented,Very Unsatisfied,Unsatisfied,Low
+James Mcgee,27,"Tinatown, Saudi Arabia",Female,7929.61,36569.49,3201.92,4078.69,Real Estate,Investment Strategy,Increase Savings,Seeking Further Consultation,Unsatisfied,Very Unsatisfied,Low
+Janice Ortega,39,"South Paul, Faroe Islands",Female,6221.76,15885.94,2310.16,2575.01,Real Estate,Debt Management,High ROI Investments,Partially Implemented,Very Satisfied,Satisfied,Low
+Brandon Boyle,53,"Brettland, Andorra",Male,2180.83,41684.7,0.0,2858.34,Fixed Deposits,Savings Plan,Debt Reduction,Partially Implemented,Very Unsatisfied,Unsatisfied,High
+Carlos Green,24,"Johnsonburgh, Micronesia",Male,7110.96,42309.12,2964.44,1685.36,Stocks,Debt Management,Retirement Fund Building,Not Implemented,Neutral,Unsatisfied,Low
+Wesley Johnston MD,23,"Ortizmouth, Norfolk Island",Non-binary,3141.83,74237.1,0.0,2458.47,Cryptocurrency,Retirement Planning,Debt Reduction,Implemented,Satisfied,Satisfied,High
+Jennifer Perez,38,"Port Jennifer, Peru",Male,2581.45,28593.91,0.0,2275.86,Fixed Deposits,Investment Strategy,Increase Savings,Implemented,Neutral,Very Unsatisfied,Low
+Wayne Watson,25,"Julieton, United States of America",Male,8374.7,53132.68,4147.34,845.3,Cryptocurrency,Retirement Planning,Increase Savings,Seeking Further Consultation,Unsatisfied,Unsatisfied,High
+Amanda Farrell,40,"Larryhaven, Algeria",Female,2578.45,48856.47,0.0,4313.48,Fixed Deposits,Savings Plan,Tax Savings,Partially Implemented,Unsatisfied,Very Unsatisfied,Moderate
+Samuel Acosta,38,"Brendastad, Benin",Non-binary,6028.58,69699.54,4582.98,1735.45,Gold,Retirement Planning,Increase Savings,Partially Implemented,Neutral,Neutral,Moderate
+Kenneth Fitzpatrick,70,"New Victoriafurt, Turkey",Non-binary,4819.85,42976.98,0.0,3217.77,Bonds,Debt Management,High ROI Investments,Seeking Further Consultation,Neutral,Neutral,Low
+Anthony Nelson,61,"Derektown, Swaziland",Female,8180.87,73146.98,4779.07,3090.33,Real Estate,Debt Management,Debt Reduction,Seeking Further Consultation,Very Satisfied,Very Unsatisfied,High
+Jennifer Marsh,47,"New Stephenton, El Salvador",Male,6243.54,70799.92,0.0,4454.87,Stocks,Savings Plan,Tax Savings,Implemented,Satisfied,Very Satisfied,Low
+Beth Phillips,37,"Jeffreystad, New Caledonia",Female,5970.67,12372.25,396.86,743.0,Fixed Deposits,Tax Planning,Increase Savings,Not Implemented,Satisfied,Satisfied,Low
+Alyssa Short,20,"East Ronaldfort, Kyrgyz Republic",Non-binary,9490.88,15956.23,4462.0,3159.1,Bonds,Retirement Planning,Debt Reduction,Seeking Further Consultation,Satisfied,Neutral,High
+Ryan Wallace,21,"Toddfurt, Brazil",Non-binary,5688.37,62941.32,0.0,2073.41,Gold,Savings Plan,High ROI Investments,Seeking Further Consultation,Satisfied,Very Unsatisfied,Moderate
+William Cox,58,"Williamsburgh, Syrian Arab Republic",Non-binary,7120.53,32560.84,1680.57,2216.92,Real Estate,Investment Strategy,Increase Savings,Seeking Further Consultation,Satisfied,Very Satisfied,Low
+Jose Williams,20,"Stoutmouth, Lithuania",Male,8691.05,42614.87,3946.12,1201.12,Real Estate,Investment Strategy,Debt Reduction,Seeking Further Consultation,Unsatisfied,Satisfied,Low
+Kelly Lamb,28,"Rayborough, Philippines",Non-binary,2997.35,17128.31,1753.07,2791.93,Cryptocurrency,Investment Strategy,Tax Savings,Implemented,Very Unsatisfied,Very Satisfied,Low
+Carrie Marsh,56,"Reginaldburgh, Georgia",Male,9969.49,13481.44,0.0,3809.31,Bonds,Investment Strategy,Debt Reduction,Seeking Further Consultation,Very Satisfied,Unsatisfied,Low
+Stacey Warren,24,"Barrerabury, Anguilla",Non-binary,7818.77,18124.36,2206.08,1319.94,Cryptocurrency,Tax Planning,Increase Savings,Implemented,Very Satisfied,Very Unsatisfied,Low
+Hunter Davis,60,"Jacobport, Svalbard & Jan Mayen Islands",Male,9191.98,15279.24,0.0,1981.99,Stocks,Debt Management,Tax Savings,Seeking Further Consultation,Unsatisfied,Neutral,High
+Kevin Gordon,24,"South Amandaside, El Salvador",Non-binary,3667.64,22345.83,3899.69,3132.38,Gold,Debt Management,Tax Savings,Partially Implemented,Very Unsatisfied,Neutral,High
+William Williams,55,"Danielside, Chad",Non-binary,7421.21,98581.43,686.54,4276.38,Mutual Funds,Tax Planning,Debt Reduction,Implemented,Neutral,Very Satisfied,Moderate
+Ricky Harrington,65,"West Michaelbury, Finland",Male,3249.33,87259.21,0.0,1674.31,Cryptocurrency,Debt Management,Debt Reduction,Implemented,Neutral,Satisfied,Moderate
+Mr. Edgar Davis,52,"Nguyenmouth, Seychelles",Non-binary,5800.05,64025.25,2416.42,4491.81,Mutual Funds,Savings Plan,Tax Savings,Seeking Further Consultation,Unsatisfied,Very Satisfied,High
+Joy Cook,40,"East Elizabeth, Honduras",Female,7289.81,71025.3,0.0,2184.09,Real Estate,Retirement Planning,Increase Savings,Partially Implemented,Unsatisfied,Neutral,Low
+Richard Jimenez,67,"Port Jerrystad, Grenada",Non-binary,6682.55,47971.29,0.0,823.51,Gold,Savings Plan,Increase Savings,Seeking Further Consultation,Neutral,Very Unsatisfied,High
+Steven Vaughn,59,"Lewisbury, Peru",Female,7811.19,52035.83,343.72,2614.61,Bonds,Tax Planning,Debt Reduction,Not Implemented,Satisfied,Satisfied,High
+Kelly Barnes,67,"Aaronburgh, Marshall Islands",Non-binary,7293.16,70077.37,0.0,4285.94,Fixed Deposits,Savings Plan,Retirement Fund Building,Implemented,Very Satisfied,Very Satisfied,Moderate
+Samantha Neal,22,"Contrerasside, Mauritania",Female,7458.12,27982.01,2230.87,3655.89,Gold,Savings Plan,Retirement Fund Building,Partially Implemented,Satisfied,Very Unsatisfied,Moderate
+Erin Davis,64,"Jonmouth, Thailand",Non-binary,3108.88,42785.81,626.09,4826.56,Cryptocurrency,Investment Strategy,Tax Savings,Not Implemented,Very Satisfied,Unsatisfied,Low
+Elizabeth Curtis,48,"Port Brentbury, Turkey",Non-binary,6258.13,94289.42,3068.25,678.27,Gold,Debt Management,Tax Savings,Partially Implemented,Very Unsatisfied,Satisfied,Moderate
+James Brown,24,"Spencerberg, Somalia",Female,2137.44,73916.87,0.0,1704.23,Fixed Deposits,Debt Management,Increase Savings,Partially Implemented,Very Satisfied,Unsatisfied,Low
+Francisco Diaz,35,"Port Saraside, Venezuela",Male,5514.81,70627.87,1340.4,3393.27,Gold,Tax Planning,Tax Savings,Partially Implemented,Neutral,Very Unsatisfied,Low
+Wesley Romero,61,"Alexanderberg, Timor-Leste",Male,9655.89,26772.23,0.0,4293.29,Real Estate,Debt Management,Increase Savings,Implemented,Very Satisfied,Satisfied,High
+Eric Moore,65,"Lake Carlos, Myanmar",Non-binary,6426.62,97613.54,467.04,1285.9,Real Estate,Savings Plan,High ROI Investments,Seeking Further Consultation,Very Satisfied,Very Satisfied,Low
+Robert Ferguson,46,"Lake Ralph, Svalbard & Jan Mayen Islands",Non-binary,2211.15,69108.9,0.0,3936.85,Stocks,Debt Management,Debt Reduction,Seeking Further Consultation,Unsatisfied,Unsatisfied,High
+Crystal Meyers,51,"New Laura, Andorra",Non-binary,6403.18,98942.78,4893.86,942.84,Fixed Deposits,Savings Plan,Debt Reduction,Implemented,Neutral,Very Unsatisfied,High
+Daniel Morris,32,"Nicholasland, Tajikistan",Female,5602.91,35333.19,0.0,2466.14,Bonds,Savings Plan,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Very Satisfied,High
+Julie Choi,29,"Markton, Hungary",Female,6419.87,22594.62,1246.54,4256.33,Cryptocurrency,Investment Strategy,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Very Satisfied,Moderate
+Kaylee Simmons,53,"Jeremymouth, Saint Barthelemy",Male,6355.77,82275.76,0.0,1691.51,Gold,Retirement Planning,Debt Reduction,Not Implemented,Unsatisfied,Very Satisfied,Low
+Jenna Miller,40,"South Sean, Sri Lanka",Male,7534.18,76373.39,231.88,2197.01,Real Estate,Savings Plan,Increase Savings,Implemented,Neutral,Satisfied,Moderate
+Mary Parker,43,"Williamsland, Liberia",Male,5637.07,19529.84,2589.53,532.19,Stocks,Tax Planning,Retirement Fund Building,Not Implemented,Satisfied,Satisfied,Low
+Melanie Jones,53,"Evansfurt, Qatar",Male,3924.0,8078.54,856.46,1141.39,Fixed Deposits,Debt Management,Retirement Fund Building,Partially Implemented,Neutral,Unsatisfied,Moderate
+Samantha Howard,21,"East Jenniferbury, Ghana",Non-binary,8162.41,27425.77,970.04,4220.35,Mutual Funds,Retirement Planning,Increase Savings,Implemented,Neutral,Unsatisfied,High
+Mary Rivera,36,"Whiteland, Liechtenstein",Female,3549.94,92740.18,0.0,1862.29,Gold,Retirement Planning,Tax Savings,Partially Implemented,Very Satisfied,Very Satisfied,High
+Darren Sanchez,24,"Bateschester, New Caledonia",Female,6898.21,37558.7,0.0,3730.64,Fixed Deposits,Investment Strategy,Tax Savings,Seeking Further Consultation,Satisfied,Satisfied,High
+Jennifer Singh,27,"New Robinville, Morocco",Male,8941.97,53626.91,0.0,785.81,Real Estate,Debt Management,High ROI Investments,Implemented,Very Satisfied,Satisfied,High
+Gregory Watson,39,"North Alyssamouth, Anguilla",Non-binary,9074.36,28129.27,0.0,3284.39,Cryptocurrency,Debt Management,Debt Reduction,Partially Implemented,Very Satisfied,Unsatisfied,Low
+Teresa Jenkins,39,"Port Andrewport, Gibraltar",Female,4799.95,63277.43,0.0,2107.41,Mutual Funds,Tax Planning,High ROI Investments,Partially Implemented,Very Satisfied,Very Unsatisfied,Low
+Jose Jones,35,"Lake Aaron, Guam",Non-binary,8149.58,11435.47,0.0,2646.95,Mutual Funds,Savings Plan,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Neutral,Low
+Stephen Ward,29,"East Stephanie, Northern Mariana Islands",Female,9643.26,54183.79,697.71,3672.33,Fixed Deposits,Retirement Planning,Tax Savings,Seeking Further Consultation,Satisfied,Very Unsatisfied,Moderate
+Mark Freeman,30,"South Stephaniechester, Ecuador",Non-binary,3591.58,55108.74,0.0,2527.07,Mutual Funds,Debt Management,Increase Savings,Seeking Further Consultation,Very Satisfied,Very Satisfied,High
+Jill Leon,19,"South Patty, Togo",Female,7929.23,49854.86,0.0,2265.3,Bonds,Retirement Planning,High ROI Investments,Seeking Further Consultation,Very Satisfied,Very Unsatisfied,High
+Deborah Smith,67,"West Vickieshire, Nauru",Female,5353.24,12548.78,0.0,969.44,Bonds,Savings Plan,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Very Unsatisfied,High
+Kyle Brock,66,"Faulknermouth, Guernsey",Female,4646.75,64943.91,0.0,1413.04,Bonds,Debt Management,Debt Reduction,Partially Implemented,Unsatisfied,Very Satisfied,Low
+Paula Rodriguez,50,"Barberbury, Barbados",Non-binary,7409.01,52558.93,0.0,2971.42,Gold,Retirement Planning,Increase Savings,Implemented,Unsatisfied,Very Unsatisfied,Low
+Katrina Smith,49,"New Amy, Hungary",Male,2813.93,90100.66,0.0,879.18,Stocks,Savings Plan,Debt Reduction,Implemented,Satisfied,Neutral,Low
+Gina Shaw,35,"Paulview, United Arab Emirates",Non-binary,2098.86,44969.87,0.0,1681.58,Real Estate,Tax Planning,Retirement Fund Building,Implemented,Unsatisfied,Unsatisfied,Moderate
+Brooke Butler,23,"Millsstad, Lebanon",Female,8513.09,48307.9,0.0,4976.89,Cryptocurrency,Tax Planning,Increase Savings,Partially Implemented,Very Unsatisfied,Neutral,Moderate
+Stephanie Smith,54,"Lake Nicholas, Armenia",Male,6216.51,77247.07,2071.69,1683.11,Cryptocurrency,Tax Planning,Increase Savings,Seeking Further Consultation,Satisfied,Very Satisfied,High
+Ronald Bean,49,"Port Wayne, Lebanon",Male,6234.7,58652.64,0.0,736.93,Stocks,Savings Plan,Retirement Fund Building,Implemented,Very Unsatisfied,Unsatisfied,High
+Barry Zamora,42,"Donnamouth, Netherlands",Male,3789.41,74432.21,791.02,3688.01,Cryptocurrency,Savings Plan,Retirement Fund Building,Not Implemented,Very Unsatisfied,Satisfied,Moderate
+Ruth Bentley,35,"Smithchester, Saint Barthelemy",Female,7963.53,88385.61,1153.87,1042.31,Bonds,Savings Plan,Retirement Fund Building,Partially Implemented,Unsatisfied,Satisfied,High
+Miranda Clark,65,"Samanthafort, Kuwait",Female,8758.44,8797.22,0.0,4788.8,Mutual Funds,Debt Management,Retirement Fund Building,Not Implemented,Very Unsatisfied,Satisfied,Low
+Michelle Kelly,69,"North Kevinville, Yemen",Female,5752.65,88084.65,0.0,1593.68,Cryptocurrency,Tax Planning,Increase Savings,Partially Implemented,Very Satisfied,Unsatisfied,Moderate
+Alison Adams,29,"Port Ethantown, Guernsey",Female,9037.78,35230.43,4848.67,4534.88,Stocks,Retirement Planning,Tax Savings,Seeking Further Consultation,Very Satisfied,Unsatisfied,Low
+Jesse Vasquez,24,"Torresmouth, Somalia",Male,7312.22,25551.27,0.0,2040.38,Gold,Savings Plan,Increase Savings,Not Implemented,Neutral,Neutral,High
+Natalie Lewis,39,"New Rachael, Denmark",Non-binary,9835.82,58490.98,0.0,3809.11,Bonds,Debt Management,Retirement Fund Building,Implemented,Neutral,Neutral,High
+Michael Gates,26,"South Troyhaven, New Caledonia",Non-binary,5641.52,61406.06,0.0,2529.15,Mutual Funds,Debt Management,High ROI Investments,Partially Implemented,Unsatisfied,Very Unsatisfied,Moderate
+Eddie Nicholson,27,"North Kenneth, Spain",Non-binary,9091.85,46881.49,4191.52,2349.24,Gold,Savings Plan,Debt Reduction,Not Implemented,Satisfied,Neutral,High
+Bobby Tapia,36,"South Anafort, Nepal",Male,6650.08,47946.88,0.0,3218.97,Bonds,Savings Plan,High ROI Investments,Not Implemented,Neutral,Neutral,Moderate
+Ian Miller,44,"Lake Jenniferberg, Rwanda",Male,8330.28,43756.45,0.0,1781.58,Fixed Deposits,Tax Planning,Tax Savings,Implemented,Unsatisfied,Very Unsatisfied,High
+Denise Chen,58,"New Michaelside, Heard Island and McDonald Islands",Non-binary,6009.25,26867.28,0.0,3651.4,Real Estate,Investment Strategy,Debt Reduction,Seeking Further Consultation,Very Unsatisfied,Neutral,High
+Andrew James,38,"East Maryfort, Luxembourg",Female,7790.16,61432.99,3936.67,3616.74,Cryptocurrency,Investment Strategy,Retirement Fund Building,Not Implemented,Very Satisfied,Unsatisfied,Low
+Charles Howard DVM,37,"South Jorgeport, Bulgaria",Male,7347.42,84533.18,699.86,1510.03,Bonds,Tax Planning,High ROI Investments,Implemented,Neutral,Neutral,Low
+Cassandra Werner,67,"Lake Thomas, Northern Mariana Islands",Non-binary,2774.64,18080.53,0.0,4901.54,Bonds,Retirement Planning,Tax Savings,Implemented,Very Satisfied,Very Unsatisfied,Moderate
+Derek Mccormick,48,"Kelseyton, Guernsey",Female,2657.92,80909.12,1601.01,2382.97,Fixed Deposits,Debt Management,Tax Savings,Not Implemented,Very Unsatisfied,Satisfied,High
+Tyler Torres,29,"East Monica, Colombia",Female,6325.24,60949.54,3293.02,3874.42,Gold,Investment Strategy,Increase Savings,Partially Implemented,Very Satisfied,Unsatisfied,Moderate
+Kara Wiggins,53,"Cindytown, Moldova",Non-binary,5834.92,91896.49,848.8,3553.13,Mutual Funds,Retirement Planning,Tax Savings,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Angel Le,18,"Randallstad, Palestinian Territory",Male,9469.14,23988.02,0.0,2279.25,Stocks,Savings Plan,Tax Savings,Partially Implemented,Very Unsatisfied,Very Satisfied,High
+Joann Cooke,40,"Mitchellville, Martinique",Female,7117.21,53678.96,4256.0,930.35,Mutual Funds,Investment Strategy,Tax Savings,Not Implemented,Satisfied,Very Unsatisfied,Moderate
+Patricia Rodriguez,63,"Christinemouth, Netherlands",Male,2019.34,84581.42,388.68,2694.23,Real Estate,Retirement Planning,Tax Savings,Seeking Further Consultation,Neutral,Very Unsatisfied,Moderate
+Matthew Levine,64,"New Ryanstad, Marshall Islands",Male,9298.17,24525.53,0.0,3723.36,Fixed Deposits,Investment Strategy,Retirement Fund Building,Not Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+Theresa Jackson,28,"Marshallstad, Uruguay",Male,3255.1,31867.5,0.0,2677.64,Gold,Tax Planning,Retirement Fund Building,Not Implemented,Very Unsatisfied,Satisfied,High
+Meagan Ramos,30,"Waltonmouth, Trinidad and Tobago",Female,5220.43,50820.81,0.0,3758.93,Bonds,Savings Plan,Increase Savings,Partially Implemented,Neutral,Neutral,Low
+Heather Edwards,32,"Greenborough, Lao People's Democratic Republic",Non-binary,4196.16,69740.5,2489.73,4241.56,Cryptocurrency,Tax Planning,High ROI Investments,Partially Implemented,Neutral,Unsatisfied,Low
+Austin Todd,32,"Ashleyhaven, Niue",Non-binary,2066.92,40863.05,0.0,2017.42,Real Estate,Retirement Planning,High ROI Investments,Not Implemented,Very Satisfied,Very Satisfied,Moderate
+Seth White,64,"New Zachary, France",Non-binary,8932.53,36552.74,802.78,3272.74,Cryptocurrency,Savings Plan,High ROI Investments,Seeking Further Consultation,Satisfied,Very Unsatisfied,Low
+Michael Butler,45,"North Ryan, Armenia",Non-binary,5901.53,85039.33,453.92,2864.98,Fixed Deposits,Retirement Planning,Increase Savings,Not Implemented,Very Unsatisfied,Satisfied,Moderate
+Mary Randall,33,"Dianehaven, Mongolia",Female,8140.16,79724.88,3538.23,2236.22,Gold,Savings Plan,Increase Savings,Not Implemented,Satisfied,Unsatisfied,Low
+Carol Schneider,47,"Hallborough, Romania",Non-binary,8711.73,70043.88,1697.35,1493.22,Real Estate,Savings Plan,Increase Savings,Not Implemented,Neutral,Very Unsatisfied,High
+Francis Hoffman,51,"Blackchester, Congo",Female,8176.36,64439.19,0.0,3485.19,Cryptocurrency,Investment Strategy,High ROI Investments,Seeking Further Consultation,Very Satisfied,Very Satisfied,Moderate
+Logan Adams,63,"Jasonchester, Malaysia",Non-binary,3465.77,83486.49,0.0,3731.84,Cryptocurrency,Debt Management,Debt Reduction,Not Implemented,Neutral,Very Satisfied,Low
+Jack Padilla,50,"New Makaylaberg, Nauru",Female,7897.28,15471.65,0.0,4782.34,Bonds,Debt Management,Tax Savings,Seeking Further Consultation,Satisfied,Very Satisfied,Low
+Tina Mcknight,56,"South Kristine, Cook Islands",Male,7670.11,91238.65,2072.91,3039.95,Fixed Deposits,Debt Management,Debt Reduction,Not Implemented,Unsatisfied,Neutral,Low
+Cheryl Elliott,47,"New Marcus, Somalia",Female,3262.84,94909.51,857.97,4134.28,Stocks,Retirement Planning,High ROI Investments,Not Implemented,Unsatisfied,Unsatisfied,High
+Elizabeth Hughes,19,"West Miguel, Greece",Male,5441.56,12265.91,0.0,4769.74,Stocks,Investment Strategy,Tax Savings,Partially Implemented,Satisfied,Very Unsatisfied,High
+Nicole Ball,21,"West Joseville, Eritrea",Male,8717.97,22987.03,0.0,4885.17,Stocks,Investment Strategy,Tax Savings,Not Implemented,Satisfied,Unsatisfied,Low
+Rodney Cooper,59,"Ochoafort, Wallis and Futuna",Female,9344.33,98786.68,0.0,3047.33,Mutual Funds,Debt Management,Retirement Fund Building,Implemented,Neutral,Neutral,Moderate
+John Smith,21,"Comptonberg, Egypt",Male,6742.6,69563.05,0.0,2123.52,Cryptocurrency,Debt Management,Increase Savings,Seeking Further Consultation,Satisfied,Very Satisfied,High
+Theresa Fuller,33,"Mariatown, Guernsey",Non-binary,5435.88,93737.22,0.0,3965.97,Mutual Funds,Savings Plan,Tax Savings,Seeking Further Consultation,Neutral,Satisfied,Low
+Joann Anderson,46,"Stephenberg, Central African Republic",Non-binary,4777.13,48914.06,4251.38,822.22,Real Estate,Savings Plan,Debt Reduction,Partially Implemented,Unsatisfied,Satisfied,Low
+Carlos Francis,47,"Davidchester, Northern Mariana Islands",Non-binary,7084.7,63758.32,1238.94,2530.41,Fixed Deposits,Retirement Planning,Increase Savings,Partially Implemented,Very Satisfied,Unsatisfied,High
+Tanya Fox,18,"Kathytown, Kyrgyz Republic",Non-binary,9341.46,11468.88,3223.89,2164.75,Cryptocurrency,Savings Plan,Retirement Fund Building,Not Implemented,Very Unsatisfied,Very Satisfied,Low
+Courtney Mccann,57,"South Raymond, Vanuatu",Non-binary,9299.78,43284.23,1457.32,3239.39,Fixed Deposits,Retirement Planning,Tax Savings,Seeking Further Consultation,Unsatisfied,Very Satisfied,Low
+Lisa Stephenson,41,"West Stevenburgh, Cambodia",Female,2672.34,91313.55,954.22,3930.32,Real Estate,Tax Planning,High ROI Investments,Partially Implemented,Unsatisfied,Very Satisfied,Moderate
+Dylan Torres,31,"West Derekchester, Turkmenistan",Female,7938.87,9771.53,1074.58,4082.54,Gold,Tax Planning,High ROI Investments,Implemented,Unsatisfied,Satisfied,Moderate
+Carol Hunter,37,"New Janeberg, Belarus",Non-binary,9355.78,39095.9,0.0,3613.88,Gold,Savings Plan,Tax Savings,Not Implemented,Unsatisfied,Satisfied,High
+Melissa Cochran,49,"Hughesmouth, Burkina Faso",Female,7490.28,5663.98,726.56,612.17,Bonds,Investment Strategy,High ROI Investments,Implemented,Neutral,Satisfied,Moderate
+Frank Curtis,58,"Lake Brittany, Iceland",Non-binary,4134.2,6494.2,0.0,2047.71,Bonds,Debt Management,Retirement Fund Building,Seeking Further Consultation,Very Satisfied,Unsatisfied,Low
+Kathleen Brown,31,"Jaredburgh, Micronesia",Non-binary,7622.78,89447.75,4188.31,1555.25,Real Estate,Retirement Planning,Increase Savings,Implemented,Unsatisfied,Neutral,Moderate
+Jonathan Greene,70,"West Johnville, Saint Helena",Female,6484.2,89388.64,2545.1,689.67,Fixed Deposits,Savings Plan,Tax Savings,Seeking Further Consultation,Neutral,Neutral,Moderate
+Michael Rich,67,"Portermouth, Oman",Male,9215.74,5612.01,0.0,4187.2,Mutual Funds,Investment Strategy,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Unsatisfied,High
+Eric Duncan,57,"East Kathleen, Aruba",Female,5790.21,56268.83,0.0,665.06,Gold,Debt Management,Retirement Fund Building,Not Implemented,Satisfied,Very Unsatisfied,Low
+Carmen Miller,66,"Davidville, Tajikistan",Male,8694.44,73057.13,0.0,3966.15,Fixed Deposits,Tax Planning,High ROI Investments,Implemented,Unsatisfied,Satisfied,High
+Carol Fox,64,"Burketown, Monaco",Male,5781.2,81378.99,0.0,4171.0,Bonds,Debt Management,Retirement Fund Building,Not Implemented,Satisfied,Very Unsatisfied,Moderate
+April Jones,35,"East Chad, Qatar",Non-binary,2174.48,71506.55,0.0,4320.43,Mutual Funds,Retirement Planning,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Satisfied,High
+Michael Meyer,36,"Port Jamesfurt, Liechtenstein",Male,5933.46,22046.72,0.0,4272.37,Mutual Funds,Retirement Planning,Increase Savings,Not Implemented,Neutral,Very Unsatisfied,High
+Daniel Edwards,20,"Jordanmouth, Lithuania",Non-binary,8260.59,52105.51,0.0,3679.47,Cryptocurrency,Retirement Planning,Increase Savings,Seeking Further Consultation,Satisfied,Very Unsatisfied,High
+Kevin Jarvis,43,"Mclaughlinshire, South Africa",Male,3360.65,43905.22,1187.77,1090.2,Bonds,Debt Management,Tax Savings,Partially Implemented,Unsatisfied,Unsatisfied,Low
+Christopher Smith,48,"North Jamesfurt, Ireland",Male,2895.87,21915.01,1011.35,1093.59,Bonds,Tax Planning,High ROI Investments,Not Implemented,Satisfied,Very Unsatisfied,Moderate
+Christina Doyle,60,"Amandamouth, Korea",Male,4119.53,76980.45,3047.02,4854.42,Bonds,Retirement Planning,Debt Reduction,Implemented,Satisfied,Neutral,Low
+Kyle Sweeney,48,"Harringtonville, Samoa",Female,8717.4,96824.45,0.0,3727.05,Gold,Debt Management,High ROI Investments,Implemented,Satisfied,Unsatisfied,High
+Edward Estrada,60,"Ashleyton, Niger",Non-binary,9428.11,31815.91,0.0,706.46,Mutual Funds,Debt Management,Increase Savings,Implemented,Satisfied,Very Unsatisfied,Moderate
+Maria Lee,49,"Seanburgh, Burkina Faso",Non-binary,3522.61,71200.41,0.0,2908.09,Stocks,Tax Planning,High ROI Investments,Implemented,Neutral,Unsatisfied,High
+Robert Goodwin,67,"Denisetown, Mali",Non-binary,3690.28,11363.37,0.0,4734.04,Mutual Funds,Retirement Planning,Increase Savings,Partially Implemented,Very Unsatisfied,Neutral,Low
+Dr. April Hess DDS,62,"Collinsview, Indonesia",Male,8516.41,86885.76,2033.55,3436.55,Cryptocurrency,Retirement Planning,Tax Savings,Not Implemented,Neutral,Unsatisfied,High
+Darrell Solomon,48,"Markshire, Barbados",Non-binary,3150.09,87494.58,2780.14,3892.13,Mutual Funds,Retirement Planning,Tax Savings,Seeking Further Consultation,Very Satisfied,Very Unsatisfied,Low
+Alec Mora,36,"Morenostad, Heard Island and McDonald Islands",Female,8345.5,98493.6,3891.8,1950.43,Mutual Funds,Tax Planning,Debt Reduction,Partially Implemented,Very Satisfied,Very Satisfied,Low
+Kimberly Bond,48,"Lake Christopher, Argentina",Male,8736.44,93940.24,0.0,4401.06,Cryptocurrency,Savings Plan,Increase Savings,Implemented,Satisfied,Satisfied,High
+Deborah Johnson,44,"South Michelleton, Mauritania",Female,7111.42,79592.1,3807.18,884.96,Stocks,Retirement Planning,Debt Reduction,Not Implemented,Satisfied,Very Satisfied,High
+Ruth Wood,67,"Kellymouth, Falkland Islands (Malvinas)",Non-binary,5572.09,82966.55,0.0,4826.65,Fixed Deposits,Tax Planning,Debt Reduction,Not Implemented,Very Unsatisfied,Unsatisfied,Moderate
+John Navarro,20,"West Angelicaport, Timor-Leste",Non-binary,3949.39,80333.93,0.0,2403.79,Stocks,Debt Management,Increase Savings,Not Implemented,Neutral,Very Unsatisfied,Low
+Chloe Estrada,70,"Rhodesmouth, Bahrain",Non-binary,6767.1,72675.91,0.0,1366.74,Fixed Deposits,Investment Strategy,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Unsatisfied,Moderate
+Brooke Mcdonald,63,"Port Douglashaven, Korea",Non-binary,7098.52,91130.32,0.0,3078.6,Bonds,Tax Planning,Retirement Fund Building,Partially Implemented,Unsatisfied,Satisfied,High
+Jonathan King,36,"West Christophermouth, Palau",Female,4263.93,43091.72,0.0,988.02,Stocks,Debt Management,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Very Unsatisfied,Moderate
+Gerald Koch,47,"Morganview, Hong Kong",Male,3799.89,48606.47,0.0,4054.17,Cryptocurrency,Tax Planning,Debt Reduction,Seeking Further Consultation,Neutral,Very Unsatisfied,High
+Eric Arnold,35,"Mclaughlinville, Anguilla",Female,2128.22,7745.11,2090.59,3012.41,Real Estate,Tax Planning,Increase Savings,Implemented,Unsatisfied,Unsatisfied,High
+Mark Tran,29,"Port Amber, Saint Lucia",Non-binary,3089.77,45038.16,2200.5,2729.9,Bonds,Debt Management,High ROI Investments,Not Implemented,Unsatisfied,Very Satisfied,Low
+Dwayne Diaz,30,"New Matthewville, Trinidad and Tobago",Male,3822.35,11538.11,0.0,812.94,Stocks,Investment Strategy,Increase Savings,Seeking Further Consultation,Satisfied,Very Unsatisfied,Moderate
+Logan Valenzuela,42,"Emilyville, Brunei Darussalam",Female,9907.87,84739.61,3762.4,2877.49,Bonds,Investment Strategy,Increase Savings,Seeking Further Consultation,Neutral,Very Satisfied,Low
+Kristin Flores,58,"Williamside, Denmark",Female,7559.68,70757.78,4263.64,1201.95,Real Estate,Retirement Planning,Tax Savings,Seeking Further Consultation,Very Satisfied,Neutral,Low
+Hector Murray,48,"Ramirezview, Liberia",Female,3666.05,55845.64,0.0,3923.88,Gold,Retirement Planning,High ROI Investments,Seeking Further Consultation,Very Satisfied,Very Satisfied,Moderate
+Brett Reed MD,42,"West Patriciaview, Somalia",Female,6616.51,31867.88,697.42,3567.87,Stocks,Tax Planning,High ROI Investments,Seeking Further Consultation,Satisfied,Very Unsatisfied,Low
+Chelsea Hall,33,"Romeroville, Eritrea",Male,5731.41,12994.51,0.0,2605.88,Cryptocurrency,Savings Plan,Debt Reduction,Partially Implemented,Neutral,Neutral,Low
+James Roach,44,"Lake Kristin, Chile",Female,5354.94,43188.35,4510.31,3444.7,Stocks,Retirement Planning,Debt Reduction,Not Implemented,Satisfied,Neutral,Moderate
+Jennifer Anderson,19,"Moorestad, Netherlands Antilles",Female,3071.36,42616.18,0.0,2822.7,Bonds,Retirement Planning,Debt Reduction,Partially Implemented,Unsatisfied,Satisfied,Low
+Louis Walters,44,"New Pamela, Burkina Faso",Female,8531.52,18026.2,2272.79,3219.21,Bonds,Debt Management,Increase Savings,Not Implemented,Very Unsatisfied,Neutral,Moderate
+Dana Hunt,31,"Mariaview, French Polynesia",Non-binary,8527.88,34949.2,0.0,3162.29,Bonds,Savings Plan,Retirement Fund Building,Partially Implemented,Unsatisfied,Very Satisfied,Moderate
+Vincent Rodriguez,43,"West Marcus, Bahamas",Non-binary,7275.04,58901.64,3480.85,3878.51,Fixed Deposits,Debt Management,Retirement Fund Building,Not Implemented,Satisfied,Neutral,High
+John Wiggins,21,"New Kevin, French Guiana",Female,7295.22,56330.21,4205.23,684.6,Fixed Deposits,Savings Plan,Increase Savings,Seeking Further Consultation,Neutral,Very Unsatisfied,Moderate
+Jeff Rowland,68,"New Amandatown, Niger",Non-binary,6183.72,55219.41,3237.28,746.15,Cryptocurrency,Debt Management,Tax Savings,Implemented,Very Satisfied,Very Unsatisfied,Low
+Andrea Smith,34,"Lake Zacharyberg, Gibraltar",Non-binary,4411.06,61278.19,0.0,4013.37,Cryptocurrency,Tax Planning,High ROI Investments,Implemented,Very Unsatisfied,Very Unsatisfied,High
+Roger Mason,52,"Nathanmouth, Costa Rica",Female,3504.3,30396.24,4322.27,3688.13,Gold,Savings Plan,High ROI Investments,Not Implemented,Very Satisfied,Very Unsatisfied,High
+Krystal Nguyen,40,"Johnton, Algeria",Non-binary,9607.23,57698.8,3926.44,4377.76,Bonds,Investment Strategy,Debt Reduction,Seeking Further Consultation,Very Unsatisfied,Very Satisfied,Low
+Sonia Flores,37,"New Anthonyland, Iraq",Female,7883.52,89261.66,0.0,2823.38,Cryptocurrency,Retirement Planning,Tax Savings,Implemented,Satisfied,Unsatisfied,Low
+Diana Mata,63,"North Caitlintown, Lao People's Democratic Republic",Non-binary,3550.01,41722.11,3634.27,1911.68,Gold,Debt Management,Debt Reduction,Seeking Further Consultation,Neutral,Very Unsatisfied,High
+Kelly Jones,34,"Kimbury, Palau",Female,6388.87,70531.76,4145.32,688.44,Stocks,Savings Plan,High ROI Investments,Seeking Further Consultation,Neutral,Satisfied,Moderate
+Daniel Hardin,30,"Pachecochester, Israel",Female,2498.37,26608.76,4551.04,583.98,Cryptocurrency,Investment Strategy,Increase Savings,Partially Implemented,Neutral,Very Unsatisfied,High
+Lindsey King,28,"West Johnfurt, Niue",Non-binary,8768.76,42117.13,0.0,1788.49,Fixed Deposits,Tax Planning,Increase Savings,Seeking Further Consultation,Very Unsatisfied,Satisfied,High
+Jason Mendez,46,"East Devin, Korea",Non-binary,2270.89,54177.98,0.0,3455.62,Stocks,Savings Plan,High ROI Investments,Implemented,Unsatisfied,Satisfied,Moderate
+Jose Berg,27,"Robinsonland, Greece",Female,4134.18,25797.82,1928.43,2208.02,Real Estate,Investment Strategy,High ROI Investments,Not Implemented,Satisfied,Neutral,High
+Molly Ross,33,"New Brendan, Belize",Male,7440.4,33623.23,3979.7,1733.92,Gold,Savings Plan,Tax Savings,Seeking Further Consultation,Very Satisfied,Very Satisfied,Moderate
+Patricia Hamilton,32,"Thomasstad, Cameroon",Non-binary,4968.94,7360.14,3529.18,1610.15,Gold,Investment Strategy,Increase Savings,Partially Implemented,Very Satisfied,Satisfied,High
+Jocelyn Franklin,48,"Lisatown, San Marino",Non-binary,7518.77,27528.72,0.0,4771.82,Cryptocurrency,Investment Strategy,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+Dustin Tate,64,"Dylanton, Bahrain",Female,2003.99,10971.89,677.14,830.44,Gold,Investment Strategy,High ROI Investments,Not Implemented,Very Unsatisfied,Very Unsatisfied,High
+Kristine West,18,"West Joseberg, Svalbard & Jan Mayen Islands",Male,6224.65,9041.3,0.0,1239.13,Mutual Funds,Investment Strategy,Tax Savings,Partially Implemented,Very Unsatisfied,Satisfied,High
+Robin Cooper,49,"Heatherborough, Bermuda",Male,5582.29,23513.73,3130.27,4457.87,Bonds,Tax Planning,Increase Savings,Implemented,Unsatisfied,Very Unsatisfied,Low
+Emily Ross,39,"West Erika, Antigua and Barbuda",Female,8146.79,88569.16,0.0,2679.78,Real Estate,Investment Strategy,Retirement Fund Building,Partially Implemented,Very Satisfied,Satisfied,Moderate
+Ryan Miller MD,31,"West Brittany, Guam",Male,2563.14,5623.6,4361.49,1860.61,Real Estate,Debt Management,Tax Savings,Implemented,Neutral,Neutral,Moderate
+Seth Turner,64,"Browntown, Ghana",Female,2950.4,67973.14,3955.31,3472.96,Stocks,Tax Planning,Increase Savings,Implemented,Unsatisfied,Satisfied,Low
+Preston Guerrero,62,"Mccartytown, Mexico",Non-binary,6052.07,51506.53,0.0,4276.71,Fixed Deposits,Savings Plan,Retirement Fund Building,Implemented,Neutral,Satisfied,Low
+Joseph Brown,54,"Dawnfurt, China",Non-binary,4035.78,52176.53,2560.35,2119.75,Bonds,Tax Planning,High ROI Investments,Implemented,Unsatisfied,Neutral,Moderate
+Brittney Shaffer,50,"East Amandaburgh, Bosnia and Herzegovina",Female,2186.3,89002.51,4005.73,3585.03,Real Estate,Retirement Planning,Debt Reduction,Seeking Further Consultation,Neutral,Very Unsatisfied,High
+Richard Wagner,57,"South Michael, Singapore",Non-binary,7983.96,12112.24,201.22,3381.02,Fixed Deposits,Retirement Planning,Tax Savings,Implemented,Neutral,Neutral,Moderate
+Cheryl Cross PhD,21,"Sampsonshire, Chad",Male,2028.38,38255.57,1894.3,2338.19,Bonds,Debt Management,Debt Reduction,Seeking Further Consultation,Satisfied,Very Satisfied,High
+Kristen Ho,37,"Brittanyland, Kiribati",Male,8557.31,49584.11,0.0,2186.3,Gold,Tax Planning,High ROI Investments,Implemented,Satisfied,Unsatisfied,Low
+Matthew Ramirez,49,"Byrdchester, Philippines",Non-binary,9671.55,89393.79,177.07,4847.37,Cryptocurrency,Tax Planning,Retirement Fund Building,Not Implemented,Satisfied,Very Unsatisfied,Low
+Beth Turner MD,34,"Jasontown, Belize",Male,6542.45,81044.78,0.0,3861.59,Cryptocurrency,Retirement Planning,Tax Savings,Seeking Further Consultation,Unsatisfied,Satisfied,Low
+Dana Howell,31,"Harrisport, Cameroon",Non-binary,2816.86,20505.47,4201.69,584.83,Gold,Debt Management,Debt Reduction,Seeking Further Consultation,Neutral,Neutral,Moderate
+Garrett Alexander,32,"Angieside, New Zealand",Male,6170.0,99333.72,1622.76,2448.57,Real Estate,Retirement Planning,Retirement Fund Building,Partially Implemented,Neutral,Unsatisfied,Moderate
+Cheryl Day,47,"Burnsview, Solomon Islands",Female,6476.38,68747.19,0.0,706.2,Fixed Deposits,Tax Planning,Retirement Fund Building,Partially Implemented,Very Satisfied,Very Unsatisfied,High
+Veronica Trevino,20,"Mcclureville, Canada",Non-binary,9695.82,9297.55,0.0,1750.42,Cryptocurrency,Debt Management,Tax Savings,Not Implemented,Satisfied,Unsatisfied,High
+Megan Torres,36,"Davidside, Estonia",Non-binary,9051.97,87018.98,2276.9,2309.25,Fixed Deposits,Investment Strategy,Debt Reduction,Partially Implemented,Unsatisfied,Very Satisfied,High
+Peter Cline,19,"Kellyland, Fiji",Male,7285.32,49434.41,0.0,3929.58,Mutual Funds,Retirement Planning,Increase Savings,Implemented,Very Unsatisfied,Very Unsatisfied,High
+Samantha Carter,21,"Lake Jacob, Equatorial Guinea",Male,3722.19,9264.81,0.0,1078.24,Gold,Retirement Planning,High ROI Investments,Partially Implemented,Unsatisfied,Very Satisfied,High
+Darrell Gardner,66,"South Johnfort, Malaysia",Female,8543.92,45198.69,0.0,3207.59,Real Estate,Tax Planning,Tax Savings,Partially Implemented,Satisfied,Satisfied,High
+Tyler Gillespie,36,"West Audrey, Benin",Male,6197.61,27406.97,131.25,3987.12,Cryptocurrency,Debt Management,Increase Savings,Implemented,Very Satisfied,Unsatisfied,High
+James Monroe,64,"Erikburgh, Northern Mariana Islands",Non-binary,7813.51,66521.64,0.0,674.05,Gold,Tax Planning,Increase Savings,Seeking Further Consultation,Very Satisfied,Satisfied,Moderate
+Anita Byrd,67,"Wilkersonborough, Anguilla",Male,2954.86,84785.36,0.0,4097.61,Bonds,Investment Strategy,Increase Savings,Implemented,Very Satisfied,Satisfied,High
+Sheila Crawford,48,"Patrickchester, Gibraltar",Female,5446.19,38009.66,0.0,4326.95,Fixed Deposits,Tax Planning,Increase Savings,Seeking Further Consultation,Unsatisfied,Unsatisfied,Moderate
+Elizabeth Garcia,19,"South Jillianfort, Antarctica (the territory South of 60 deg S)",Female,7586.96,36483.25,2435.72,2870.97,Cryptocurrency,Tax Planning,Retirement Fund Building,Implemented,Very Unsatisfied,Satisfied,High
+Joseph Hartman,44,"West Cynthia, Ghana",Non-binary,6618.67,73013.99,3863.01,4237.35,Cryptocurrency,Savings Plan,Debt Reduction,Implemented,Unsatisfied,Unsatisfied,High
+Alexander Torres,57,"West Tamara, Turks and Caicos Islands",Male,4985.66,8583.79,0.0,3180.17,Real Estate,Debt Management,Retirement Fund Building,Not Implemented,Satisfied,Unsatisfied,Moderate
+Abigail Pierce,54,"Gibsontown, France",Non-binary,9882.85,94776.07,0.0,2729.63,Mutual Funds,Savings Plan,High ROI Investments,Implemented,Unsatisfied,Very Satisfied,High
+Richard Wagner,69,"Clarkmouth, Nigeria",Male,2258.31,20049.8,3347.93,2308.15,Mutual Funds,Debt Management,Debt Reduction,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Low
+Jorge Madden,51,"West Sharonberg, British Indian Ocean Territory (Chagos Archipelago)",Female,4834.53,27310.47,1222.23,3292.13,Real Estate,Tax Planning,Debt Reduction,Implemented,Very Satisfied,Neutral,Low
+Angela Cohen,18,"Watkinsstad, Andorra",Female,7168.44,17737.67,4894.12,3365.16,Fixed Deposits,Savings Plan,High ROI Investments,Implemented,Very Unsatisfied,Very Unsatisfied,High
+Stephanie Middleton,70,"Lake Christopherborough, Niger",Non-binary,9223.48,97462.33,408.11,4718.05,Stocks,Tax Planning,Tax Savings,Seeking Further Consultation,Very Satisfied,Unsatisfied,High
+Devin Simmons,36,"Ricardoshire, Albania",Non-binary,5483.51,28896.4,4374.87,4496.97,Stocks,Debt Management,Increase Savings,Seeking Further Consultation,Very Satisfied,Very Unsatisfied,Moderate
+Mrs. Kelly Murphy,70,"Elizabethside, Burkina Faso",Male,6579.67,73752.15,2914.41,4073.73,Stocks,Debt Management,Tax Savings,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Dale Pace MD,68,"Port Jamesport, Micronesia",Female,8590.49,76078.84,0.0,1420.67,Gold,Retirement Planning,Debt Reduction,Implemented,Neutral,Very Unsatisfied,High
+Tamara Baker,50,"Cameronbury, Senegal",Male,3544.86,79155.26,0.0,2801.14,Real Estate,Debt Management,Debt Reduction,Partially Implemented,Neutral,Unsatisfied,High
+Kristen Hunt,63,"North Phillip, Anguilla",Male,9909.44,84817.78,0.0,3192.64,Mutual Funds,Tax Planning,Retirement Fund Building,Seeking Further Consultation,Very Satisfied,Satisfied,Low
+Logan Shaw,67,"New Angela, Belarus",Non-binary,5933.92,14045.18,0.0,4751.98,Mutual Funds,Debt Management,Debt Reduction,Seeking Further Consultation,Satisfied,Very Satisfied,Low
+Sheila Leach,31,"Nathanielview, Mexico",Female,4677.38,59388.17,4576.29,3832.95,Mutual Funds,Investment Strategy,Increase Savings,Seeking Further Consultation,Very Satisfied,Unsatisfied,Low
+Tony Benson,26,"Ryanview, United Arab Emirates",Non-binary,2648.08,42123.85,2624.0,4301.75,Mutual Funds,Debt Management,Retirement Fund Building,Seeking Further Consultation,Satisfied,Neutral,High
+James Brooks,22,"Jasonport, Malawi",Male,7637.08,24833.23,3777.17,3851.09,Stocks,Tax Planning,Increase Savings,Not Implemented,Unsatisfied,Neutral,Low
+Michael Bowers,39,"West Joshua, Iraq",Female,2600.17,22239.4,1184.2,4418.43,Stocks,Retirement Planning,Increase Savings,Not Implemented,Satisfied,Very Satisfied,Moderate
+Jeanette Smith,57,"Elizabethfort, Timor-Leste",Male,5782.28,21715.59,4130.34,1012.67,Real Estate,Tax Planning,High ROI Investments,Implemented,Neutral,Unsatisfied,Moderate
+Tonya Carrillo,36,"West Mary, Jersey",Female,8450.48,38396.05,3872.46,1805.8,Stocks,Retirement Planning,Debt Reduction,Seeking Further Consultation,Very Satisfied,Very Satisfied,Moderate
+Daniel Stokes,45,"Heatherview, Mauritania",Female,5923.08,5748.77,0.0,4686.44,Fixed Deposits,Retirement Planning,Debt Reduction,Seeking Further Consultation,Neutral,Satisfied,Moderate
+Benjamin Atkins,30,"Bowmanview, Norfolk Island",Female,5963.82,37806.31,2087.56,3696.82,Stocks,Debt Management,Tax Savings,Not Implemented,Neutral,Very Satisfied,High
+Heather Adams,40,"West Jessemouth, Mozambique",Female,5492.64,78419.9,4776.46,1007.31,Fixed Deposits,Debt Management,Increase Savings,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+Diana Hughes,68,"Lawrenceshire, Mauritania",Male,9269.54,74388.84,0.0,3871.52,Stocks,Savings Plan,Increase Savings,Implemented,Unsatisfied,Satisfied,Low
+Christopher Krueger,66,"North Michaelbury, Norway",Male,6181.59,76978.79,4845.49,2380.94,Gold,Debt Management,Debt Reduction,Partially Implemented,Very Satisfied,Neutral,Moderate
+Janet Brennan,33,"South Michaelfurt, Lao People's Democratic Republic",Non-binary,2861.64,29968.03,1886.62,4470.7,Gold,Debt Management,Debt Reduction,Not Implemented,Satisfied,Very Satisfied,Low
+Michael Schaefer,22,"New Melissabury, Namibia",Non-binary,7771.26,22533.49,0.0,4060.46,Stocks,Savings Plan,Debt Reduction,Not Implemented,Very Satisfied,Neutral,Low
+Elizabeth Allen,52,"South Justin, Barbados",Non-binary,9970.47,37018.96,3055.59,4171.63,Mutual Funds,Savings Plan,Tax Savings,Partially Implemented,Very Unsatisfied,Unsatisfied,High
+Lorraine Ferguson,24,"Lake David, French Polynesia",Male,6354.67,76429.68,0.0,1879.06,Mutual Funds,Tax Planning,Debt Reduction,Partially Implemented,Neutral,Satisfied,High
+Joyce Walker,63,"Fischerborough, Fiji",Non-binary,2173.38,85190.72,0.0,4573.33,Stocks,Retirement Planning,High ROI Investments,Seeking Further Consultation,Very Satisfied,Very Unsatisfied,Moderate
+Bethany Hughes,65,"West Lawrence, French Polynesia",Male,5378.32,67404.91,0.0,3461.22,Stocks,Retirement Planning,Retirement Fund Building,Implemented,Very Satisfied,Satisfied,Moderate
+Melvin Baker,63,"Bradleyborough, United States Virgin Islands",Non-binary,8392.05,73180.12,2219.79,2261.69,Fixed Deposits,Debt Management,Increase Savings,Seeking Further Consultation,Neutral,Very Unsatisfied,Moderate
+Travis Lee,44,"New Christopher, Saint Martin",Female,6630.11,26589.11,90.56,1881.18,Bonds,Investment Strategy,Debt Reduction,Partially Implemented,Satisfied,Neutral,Low
+Gregory Ross,29,"South Robertburgh, Philippines",Male,3988.43,79108.13,1074.18,666.76,Gold,Savings Plan,Debt Reduction,Not Implemented,Very Satisfied,Satisfied,High
+Alisha Brewer,25,"Tarahaven, Belarus",Non-binary,5354.84,60848.12,0.0,2257.41,Bonds,Tax Planning,Debt Reduction,Seeking Further Consultation,Unsatisfied,Very Unsatisfied,Low
+Devon Parker,25,"East Jamiefurt, United States Minor Outlying Islands",Male,8705.58,24048.11,0.0,4576.32,Real Estate,Debt Management,Debt Reduction,Partially Implemented,Very Unsatisfied,Unsatisfied,High
+Heather Barnett,35,"Josephland, Tuvalu",Female,6911.12,59127.02,310.44,3427.27,Cryptocurrency,Tax Planning,Debt Reduction,Partially Implemented,Very Satisfied,Very Satisfied,Low
+Justin Wolfe,41,"Williamsshire, Antigua and Barbuda",Female,9016.66,51841.33,0.0,4928.97,Fixed Deposits,Debt Management,High ROI Investments,Partially Implemented,Neutral,Satisfied,High
+Amanda Brown,66,"Alisonmouth, Colombia",Female,5726.87,69146.47,0.0,2564.32,Fixed Deposits,Investment Strategy,Increase Savings,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+Heather Mitchell,54,"Shawnview, Central African Republic",Non-binary,6835.85,61176.07,0.0,3552.46,Cryptocurrency,Tax Planning,High ROI Investments,Not Implemented,Neutral,Very Unsatisfied,Low
+Cynthia Peck,39,"East James, Saint Kitts and Nevis",Male,8125.0,29528.01,1855.57,4288.43,Cryptocurrency,Retirement Planning,Retirement Fund Building,Implemented,Satisfied,Very Unsatisfied,Moderate
+Dr. Angela Lyons MD,33,"West Steven, China",Male,2974.86,75747.58,4143.73,1219.59,Stocks,Investment Strategy,Tax Savings,Partially Implemented,Satisfied,Very Satisfied,High
+Richard Harmon,32,"North Josephfurt, Namibia",Male,2202.98,80645.74,3246.58,4665.6,Real Estate,Debt Management,Retirement Fund Building,Seeking Further Consultation,Unsatisfied,Very Satisfied,Low
+Emily Norris,62,"West Donaldside, Christmas Island",Male,9711.14,73896.93,3128.69,3117.47,Real Estate,Savings Plan,Increase Savings,Seeking Further Consultation,Neutral,Neutral,Low
+Amy Hunt MD,34,"Whiteheadmouth, Sierra Leone",Female,8415.97,28905.76,0.0,4159.62,Gold,Debt Management,Tax Savings,Implemented,Neutral,Very Satisfied,Low
+Jennifer Johnson,31,"North Bobbychester, Christmas Island",Non-binary,2162.84,83671.94,0.0,4634.42,Fixed Deposits,Savings Plan,High ROI Investments,Implemented,Very Unsatisfied,Neutral,High
+Leslie Mcdonald,50,"East Megan, Armenia",Female,7903.31,19046.35,0.0,2667.9,Stocks,Debt Management,Tax Savings,Partially Implemented,Satisfied,Very Satisfied,Moderate
+Sabrina Jefferson,53,"Davidtown, Portugal",Female,3348.3,65036.42,2956.84,2799.82,Mutual Funds,Debt Management,Tax Savings,Seeking Further Consultation,Very Unsatisfied,Neutral,Moderate
+Donna Wilson,27,"West Laurentown, Cook Islands",Non-binary,2548.51,34163.6,0.0,507.64,Cryptocurrency,Retirement Planning,Debt Reduction,Seeking Further Consultation,Unsatisfied,Satisfied,Low
+Kelsey Smith,21,"East Davidmouth, Sri Lanka",Non-binary,3843.98,23182.41,1046.3,4532.87,Bonds,Tax Planning,Debt Reduction,Partially Implemented,Neutral,Very Unsatisfied,High
+Vickie Gordon,49,"Dominguezmouth, Uzbekistan",Male,3558.01,85085.62,2837.7,4888.09,Cryptocurrency,Tax Planning,Debt Reduction,Partially Implemented,Very Satisfied,Unsatisfied,High
+Samantha Saunders,69,"Lake Martin, France",Male,3669.94,16914.78,0.0,4126.75,Fixed Deposits,Investment Strategy,Increase Savings,Implemented,Very Satisfied,Very Unsatisfied,Low
+Joshua Sanchez,70,"Combsshire, Maldives",Female,7112.59,85661.53,4982.09,4054.23,Gold,Retirement Planning,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Neutral,Low
+Brian Jacobson,46,"Andersonshire, Malta",Non-binary,3435.64,35419.08,0.0,4690.05,Mutual Funds,Debt Management,High ROI Investments,Partially Implemented,Satisfied,Neutral,Low
+Glenn Woods,18,"Sandovalfurt, Hong Kong",Non-binary,8375.78,57682.45,0.0,2616.43,Mutual Funds,Savings Plan,Debt Reduction,Seeking Further Consultation,Very Unsatisfied,Satisfied,High
+Justin Rowe,40,"South Sydneyville, Bouvet Island (Bouvetoya)",Male,2768.21,19920.25,4802.26,1452.03,Bonds,Savings Plan,Tax Savings,Seeking Further Consultation,Neutral,Very Satisfied,High
+Elizabeth Henderson,25,"West Juan, Bahrain",Non-binary,5822.36,34862.95,0.0,2205.18,Cryptocurrency,Retirement Planning,Tax Savings,Partially Implemented,Very Satisfied,Neutral,High
+Jesus Mclean,53,"North Angela, Syrian Arab Republic",Non-binary,5460.64,61626.13,0.0,4257.73,Stocks,Savings Plan,High ROI Investments,Implemented,Very Satisfied,Very Satisfied,Low
+Jesus Hamilton,29,"Patriciaton, Barbados",Male,7306.56,12367.84,0.0,2421.71,Cryptocurrency,Retirement Planning,Debt Reduction,Not Implemented,Unsatisfied,Unsatisfied,High
+Sean Good,70,"New Ernestbury, Jordan",Male,8631.83,77376.23,0.0,4374.98,Gold,Investment Strategy,Tax Savings,Partially Implemented,Very Unsatisfied,Unsatisfied,Low
+Kelly Floyd,69,"Moralesbury, Kiribati",Male,3248.84,29390.87,0.0,2959.51,Mutual Funds,Tax Planning,Increase Savings,Not Implemented,Satisfied,Very Unsatisfied,Moderate
+Derrick Holland,67,"Port Brian, Switzerland",Non-binary,8603.3,38765.53,0.0,2784.59,Real Estate,Tax Planning,Debt Reduction,Implemented,Very Unsatisfied,Unsatisfied,Low
+Connie Wilson,25,"Moralesland, Germany",Male,4657.24,76711.25,0.0,2358.7,Fixed Deposits,Savings Plan,Debt Reduction,Implemented,Very Satisfied,Unsatisfied,Moderate
+Toni Douglas,40,"Prestonstad, Saint Martin",Male,9963.69,46667.0,2452.03,4056.85,Gold,Investment Strategy,Debt Reduction,Seeking Further Consultation,Very Satisfied,Very Satisfied,Low
+Dr. Eugene Castro,34,"Fullermouth, Palau",Non-binary,6050.14,48493.04,4241.17,4117.3,Gold,Retirement Planning,Debt Reduction,Not Implemented,Very Unsatisfied,Unsatisfied,Moderate
+Kurt Berger,39,"North Sandyfort, Montenegro",Non-binary,7666.02,11321.98,0.0,851.22,Fixed Deposits,Savings Plan,Debt Reduction,Not Implemented,Unsatisfied,Satisfied,Moderate
+Amanda Hendricks,53,"Michaelfurt, Saint Vincent and the Grenadines",Male,9165.53,15980.71,383.9,1206.44,Mutual Funds,Debt Management,Increase Savings,Implemented,Unsatisfied,Unsatisfied,Low
+Erica Freeman,61,"Hawkinstown, Syrian Arab Republic",Female,6426.02,10697.88,3420.46,3362.53,Bonds,Investment Strategy,Debt Reduction,Partially Implemented,Neutral,Satisfied,High
+Rebecca Brown,56,"Tuckerview, Latvia",Female,7683.13,59710.26,0.0,4941.44,Gold,Debt Management,Debt Reduction,Implemented,Unsatisfied,Very Unsatisfied,Moderate
+Gabriel Pierce,29,"North Judy, Togo",Non-binary,7987.72,18986.67,0.0,666.05,Bonds,Retirement Planning,Tax Savings,Partially Implemented,Very Unsatisfied,Neutral,Low
+Jennifer Whitney,59,"West Carolynville, Brazil",Female,8828.46,5609.11,575.14,918.44,Real Estate,Savings Plan,Tax Savings,Implemented,Neutral,Very Unsatisfied,High
+Patricia Gallegos,23,"Port Stephanieville, Lao People's Democratic Republic",Female,5110.47,54208.26,0.0,3886.89,Cryptocurrency,Savings Plan,Retirement Fund Building,Implemented,Very Satisfied,Very Satisfied,Low
+Amanda Henderson MD,31,"Kellybury, Maldives",Non-binary,6939.45,94678.65,0.0,4847.74,Real Estate,Debt Management,Tax Savings,Implemented,Unsatisfied,Unsatisfied,High
+Cynthia Moses,31,"Alichester, Belize",Non-binary,8412.04,35835.55,0.0,1955.3,Gold,Retirement Planning,Tax Savings,Seeking Further Consultation,Very Satisfied,Neutral,Low
+Breanna Ramirez,44,"New Evanland, Martinique",Male,3552.16,90890.06,0.0,724.39,Real Estate,Savings Plan,Increase Savings,Implemented,Very Satisfied,Neutral,Moderate
+Bryan Hebert,44,"Thompsonmouth, Lithuania",Female,6225.0,29666.44,0.0,4706.07,Cryptocurrency,Tax Planning,Tax Savings,Not Implemented,Neutral,Neutral,Moderate
+Barbara Scott,39,"Alexisville, Kenya",Female,6610.9,43576.38,0.0,3488.43,Cryptocurrency,Debt Management,High ROI Investments,Seeking Further Consultation,Unsatisfied,Very Satisfied,Moderate
+Jessica Fletcher,19,"Lake Gloriamouth, Madagascar",Male,5242.37,96351.16,4476.51,598.04,Real Estate,Savings Plan,Debt Reduction,Not Implemented,Unsatisfied,Satisfied,Moderate
+Angela Brown,58,"Monicamouth, Isle of Man",Female,7747.59,20063.55,0.0,1140.03,Cryptocurrency,Tax Planning,Increase Savings,Not Implemented,Very Unsatisfied,Unsatisfied,Low
+Ashley Walton,22,"Vanessashire, Nauru",Non-binary,3759.43,63166.79,0.0,4961.35,Mutual Funds,Debt Management,High ROI Investments,Implemented,Very Unsatisfied,Satisfied,Moderate
+Brandy Price,66,"Clarkfurt, El Salvador",Non-binary,2866.03,88564.2,3244.19,1092.44,Real Estate,Savings Plan,Retirement Fund Building,Partially Implemented,Very Unsatisfied,Very Unsatisfied,Moderate
+Mark Anderson,62,"Bobbyside, Greenland",Male,2404.86,77875.48,0.0,4550.6,Bonds,Investment Strategy,Retirement Fund Building,Implemented,Very Satisfied,Neutral,Low
+Stephanie Taylor,51,"Port Tiffany, Canada",Male,2701.33,96313.48,0.0,613.87,Stocks,Debt Management,Tax Savings,Partially Implemented,Very Unsatisfied,Very Satisfied,Low
+Kelly Brown,60,"Baileyview, Tonga",Non-binary,3869.98,32435.86,0.0,4524.52,Bonds,Savings Plan,Increase Savings,Implemented,Neutral,Very Satisfied,Moderate
+Teresa Clark,66,"Lake Victoriafort, Saint Vincent and the Grenadines",Female,9041.94,99102.06,3424.28,1970.23,Gold,Savings Plan,Tax Savings,Not Implemented,Satisfied,Neutral,Moderate
+Alicia Hendrix,40,"Powellborough, Syrian Arab Republic",Non-binary,5765.31,85795.67,0.0,1288.62,Bonds,Debt Management,Debt Reduction,Not Implemented,Unsatisfied,Neutral,High
+Michelle Velazquez,30,"East Crystalshire, Cambodia",Non-binary,3107.39,65633.44,4305.77,1949.86,Cryptocurrency,Investment Strategy,Increase Savings,Not Implemented,Unsatisfied,Satisfied,Low
+Matthew Hines,59,"Lisatown, Iceland",Male,7822.8,31211.9,2084.32,2050.86,Fixed Deposits,Investment Strategy,Increase Savings,Implemented,Unsatisfied,Unsatisfied,High
+Jennifer Miller,64,"Alisonhaven, Grenada",Female,4660.02,56517.43,2426.47,3558.41,Cryptocurrency,Savings Plan,Retirement Fund Building,Implemented,Satisfied,Neutral,Low
+Tyler Clark,32,"East Elizabeth, Saint Helena",Female,2997.96,93735.11,344.01,2529.42,Mutual Funds,Investment Strategy,Tax Savings,Implemented,Satisfied,Satisfied,Low
+Terry Singh,19,"North Lisa, Heard Island and McDonald Islands",Non-binary,2680.01,14097.22,0.0,3964.54,Cryptocurrency,Debt Management,Debt Reduction,Partially Implemented,Unsatisfied,Neutral,High
+Howard Graham,61,"Lake Christopher, Saint Kitts and Nevis",Male,3245.89,12082.42,396.2,1004.44,Gold,Tax Planning,High ROI Investments,Partially Implemented,Unsatisfied,Very Satisfied,High
+Zachary Shepherd,18,"East Melvinhaven, Greenland",Female,8423.34,20040.2,0.0,3308.07,Gold,Debt Management,Tax Savings,Partially Implemented,Satisfied,Satisfied,High
+Robert Nguyen Jr.,53,"Jeffreyville, British Indian Ocean Territory (Chagos Archipelago)",Non-binary,4647.97,15432.32,0.0,2666.23,Cryptocurrency,Debt Management,Increase Savings,Implemented,Unsatisfied,Neutral,Low
+Kristina Henderson,19,"New Breannahaven, Yemen",Female,4394.28,90568.54,3712.58,4686.49,Real Estate,Investment Strategy,High ROI Investments,Partially Implemented,Satisfied,Neutral,Low
+Tracy Ponce,45,"Alicialand, Syrian Arab Republic",Non-binary,9713.02,84284.39,1842.24,3219.39,Mutual Funds,Debt Management,High ROI Investments,Implemented,Very Unsatisfied,Neutral,High
+Walter Thomas,53,"North Jeannemouth, Niger",Non-binary,8188.49,26481.91,3010.03,4396.68,Mutual Funds,Debt Management,Retirement Fund Building,Seeking Further Consultation,Very Unsatisfied,Very Unsatisfied,High
+Karen Chandler,55,"Jonesmouth, Bulgaria",Female,4812.5,11737.94,3857.1,4761.54,Real Estate,Investment Strategy,Retirement Fund Building,Not Implemented,Satisfied,Neutral,Moderate
+Cory Smith,28,"Sullivanview, Philippines",Female,6381.46,60253.56,0.0,4457.23,Fixed Deposits,Debt Management,Debt Reduction,Not Implemented,Satisfied,Very Unsatisfied,Low
+Bryan Travis,51,"Williamsfurt, Sri Lanka",Female,4207.15,26371.96,0.0,1927.27,Mutual Funds,Savings Plan,Tax Savings,Seeking Further Consultation,Satisfied,Very Unsatisfied,High
+Megan Smith,27,"East Michellebury, Bouvet Island (Bouvetoya)",Non-binary,7048.7,73265.35,984.06,4696.22,Gold,Tax Planning,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Unsatisfied,High
+Jeremiah Page,27,"Paynefort, United States Minor Outlying Islands",Female,2691.01,30426.47,0.0,597.57,Cryptocurrency,Tax Planning,Retirement Fund Building,Implemented,Very Satisfied,Very Unsatisfied,Low
+Michelle Davis,37,"Shawnfort, United States of America",Non-binary,9874.96,85070.29,0.0,692.96,Real Estate,Tax Planning,Debt Reduction,Partially Implemented,Neutral,Very Satisfied,Low
+Kirsten Osborne,51,"East Amyland, Ghana",Non-binary,4993.41,82690.0,0.0,4980.07,Mutual Funds,Savings Plan,Debt Reduction,Seeking Further Consultation,Satisfied,Unsatisfied,Moderate
+Kimberly Underwood,64,"Port Wanda, Ethiopia",Male,6788.15,24538.64,0.0,3144.19,Stocks,Retirement Planning,Debt Reduction,Partially Implemented,Unsatisfied,Very Unsatisfied,Moderate
+Lisa Robinson,61,"East Brianfurt, Saint Kitts and Nevis",Male,7364.24,64845.84,3771.41,2241.71,Fixed Deposits,Investment Strategy,Debt Reduction,Not Implemented,Very Unsatisfied,Neutral,Moderate
+Robert Hatfield,56,"New Ronaldland, North Macedonia",Male,7903.26,34877.64,4466.74,2823.71,Real Estate,Tax Planning,High ROI Investments,Seeking Further Consultation,Very Unsatisfied,Very Satisfied,Moderate
+Jeffery Norris,69,"North Ashleyborough, Christmas Island",Female,5303.56,25848.34,4469.29,4658.88,Gold,Investment Strategy,Tax Savings,Implemented,Neutral,Unsatisfied,Low
+Frederick Garcia,44,"West Christopher, Saint Lucia",Male,5509.02,97907.94,4128.04,634.44,Real Estate,Investment Strategy,Debt Reduction,Seeking Further Consultation,Very Unsatisfied,Very Unsatisfied,Low
+Kevin Williams DDS,29,"Christinaland, Australia",Male,9575.59,36869.49,3562.88,2373.85,Cryptocurrency,Savings Plan,Increase Savings,Implemented,Satisfied,Neutral,High
+Peter Bird,40,"Campbellborough, Ireland",Non-binary,2879.83,24151.17,4547.29,893.25,Gold,Savings Plan,High ROI Investments,Not Implemented,Very Unsatisfied,Neutral,Moderate
