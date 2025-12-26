@@ -1,0 +1,2518 @@
+WEBVTT
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/9-0
+00:00:03.513 --> 00:00:04.193
+<v thomas broussard>Find me.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/10-0
+00:00:06.913 --> 00:00:08.433
+<v thomas broussard>Once you have this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/11-0
+00:00:08.513 --> 00:00:08.713
+<v thomas broussard>6.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/13-0
+00:00:09.673 --> 00:00:14.142
+<v thomas broussard>Members will generate the most revenues.
+How do we do that?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/13-1
+00:00:14.142 --> 00:00:19.953
+<v thomas broussard>What's the formula to calculate members
+revenues, members generated revenues?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/14-0
+00:00:22.393 --> 00:00:28.342
+<v thomas broussard>We take the bookings.
+The bookings is where we have the number</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/14-1
+00:00:28.342 --> 00:00:31.553
+<v thomas broussard>of slots and what has been booked.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/15-0
+00:00:34.993 --> 00:00:39.953
+<v thomas broussard>Exactly.
+So then what we can do is to filter.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/16-0
+00:00:42.113 --> 00:00:44.073
+<v thomas broussard>Persons who are not members.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/17-0
+00:00:45.033 --> 00:00:49.230
+<v thomas broussard>There's actually only one person with who
+is not a member.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/17-1
+00:00:49.230 --> 00:00:53.713
+<v thomas broussard>It's the the member with ID zero.
+It's guest, if you remember.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/18-0
+00:00:55.433 --> 00:00:58.433
+<v thomas broussard>So we filter that that uh member ID and
+then.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/19-0
+00:01:00.673 --> 00:01:06.531
+<v thomas broussard>How do we compute the generated revenue?
+We need to join on the facilities to get</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/19-1
+00:01:06.531 --> 00:01:10.746
+<v thomas broussard>the member cost,
+to multiply the member cost by the number</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/19-2
+00:01:10.746 --> 00:01:15.390
+<v thomas broussard>of slots that we have booked for that
+facility from the booking,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/19-3
+00:01:15.390 --> 00:01:17.033
+<v thomas broussard>and then that gives me.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/20-0
+00:01:17.113 --> 00:01:23.105
+<v thomas broussard>The revenue for one booking,
+then I group by the member ID,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/20-1
+00:01:23.105 --> 00:01:29.596
+<v thomas broussard>I do the sum and then I should have my
+total revenue per member.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/20-2
+00:01:29.596 --> 00:01:32.193
+<v thomas broussard>Then I organize by counts.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/21-0
+00:01:32.593 --> 00:01:37.513
+<v thomas broussard>By the computed value descending and then
+I have the top.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/22-0
+00:01:38.553 --> 00:01:39.153
+<v thomas broussard>Easy, no?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/23-0
+00:01:42.353 --> 00:01:43.113
+<v thomas broussard>Superb.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/24-0
+00:01:50.113 --> 00:01:50.753
+<v thomas broussard>That's fine.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/25-0
+00:02:02.673 --> 00:02:02.753
+<v thomas broussard>Hey.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/41-0
+00:03:36.873 --> 00:03:36.993
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/60-0
+00:05:25.513 --> 00:05:26.273
+<v thomas broussard>That's OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/61-0
+00:05:28.193 --> 00:05:29.313
+<v thomas broussard>So let's.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/62-0
+00:05:32.073 --> 00:05:34.953
+<v thomas broussard>Let's start to see that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/63-0
+00:05:36.793 --> 00:05:38.313
+<v thomas broussard>To select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/64-0
+00:05:39.313 --> 00:05:39.473
+<v thomas broussard>From.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/65-0
+00:05:40.873 --> 00:05:46.676
+<v thomas broussard>So the revenues they are in the the
+central place is the booking.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/65-1
+00:05:46.676 --> 00:05:51.073
+<v thomas broussard>I do not guess actually I just have a
+look to my.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/66-0
+00:05:53.593 --> 00:05:55.753
+<v thomas broussard>Database. This is what I get here.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/67-0
+00:05:58.553 --> 00:06:02.759
+<v thomas broussard>Notation cross foot. OK,
+if I want to have the link between</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/67-1
+00:06:02.759 --> 00:06:05.633
+<v thomas broussard>facilities where we have the member cost.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/68-0
+00:06:07.553 --> 00:06:13.873
+<v thomas broussard>The slots and then the member details we
+need to have.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/69-0
+00:06:16.473 --> 00:06:23.482
+<v thomas broussard>The query over bookings because this is
+the central table that allows me to go in</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/69-1
+00:06:23.482 --> 00:06:27.073
+<v thomas broussard>two directions. So select from bookings B.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/70-0
+00:06:28.713 --> 00:06:34.153
+<v thomas broussard>What I want to have,
+I want to have the bee dot slots.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/71-0
+00:06:35.673 --> 00:06:42.539
+<v thomas broussard>The ideally what I would like to have is
+the sum of slots times the facilities</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/71-1
+00:06:42.539 --> 00:06:47.233
+<v thomas broussard>that we don't have yet,
+but the facility member cost.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/72-0
+00:06:51.033 --> 00:06:56.113
+<v thomas broussard>I don't remember exactly the syntax.
+It's all attached to member cost.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/73-0
+00:06:57.753 --> 00:07:01.193
+<v thomas broussard>So that means that I need to do what I
+need to do a.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/74-0
+00:07:03.313 --> 00:07:04.873
+<v thomas broussard>In order to have this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/75-0
+00:07:07.033 --> 00:07:13.433
+<v thomas broussard>I don't have it in the bookings,
+so I need to have a join.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/76-0
+00:07:15.433 --> 00:07:16.993
+<v thomas broussard>Join.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/77-0
+00:07:18.113 --> 00:07:21.233
+<v thomas broussard>Facilities on.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/78-0
+00:07:24.033 --> 00:07:29.280
+<v thomas broussard>Be careful. If you miss that part,
+you will have very weird results,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/78-1
+00:07:29.280 --> 00:07:34.755
+<v thomas broussard>so don't mess with the quality.
+It has to be clear because it goes very</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/78-2
+00:07:34.755 --> 00:07:37.113
+<v thomas broussard>fast to do something like this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/79-0
+00:07:40.473 --> 00:07:45.602
+<v thomas broussard>It's almost silent. It will fail,
+but it's only a functional failure.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/79-1
+00:07:45.602 --> 00:07:49.559
+<v thomas broussard>It's not a technical failure.
+It will return results,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/79-2
+00:07:49.559 --> 00:07:53.882
+<v thomas broussard>but results which are very bad because of
+course it's not.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/79-3
+00:07:53.882 --> 00:07:57.473
+<v thomas broussard>We are not talking about the same kind of
+ideas.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/80-0
+00:07:58.313 --> 00:08:02.495
+<v thomas broussard>So be careful about that.
+Here it's a bit obvious that with the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/80-1
+00:08:02.495 --> 00:08:06.089
+<v thomas broussard>stress and with the different tables,
+names, etcetera,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/80-2
+00:08:06.089 --> 00:08:10.271
+<v thomas broussard>it can be difficult to troubleshoot why
+you have weird results.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/80-3
+00:08:10.271 --> 00:08:13.473
+<v thomas broussard>So you join on facility,
+you join facilities on.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/81-0
+00:08:13.833 --> 00:08:17.993
+<v thomas broussard>Disk retire this condition and now you
+have access to this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/82-0
+00:08:18.753 --> 00:08:25.766
+<v thomas broussard>Now what you would like to have is the
+ability to group by the member names O</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/82-1
+00:08:25.766 --> 00:08:29.273
+<v thomas broussard>this is where you need to join members.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/83-0
+00:08:31.473 --> 00:08:32.513
+<v thomas broussard>On M.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/84-0
+00:08:36.033 --> 00:08:44.791
+<v thomas broussard>Memid = bmemid and now you have all the
+member information as well O here you can</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/84-1
+00:08:44.791 --> 00:08:45.753
+<v thomas broussard>group by.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/85-0
+00:08:47.593 --> 00:08:47.993
+<v thomas broussard>M.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/86-0
+00:08:50.873 --> 00:08:57.649
+<v thomas broussard>Mem ID because you want the members who
+generate the most revenue and that's</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/86-1
+00:08:57.649 --> 00:08:58.353
+<v thomas broussard>surname.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/87-0
+00:09:01.473 --> 00:09:03.473
+<v thomas broussard>And here you will use that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/88-0
+00:09:05.233 --> 00:09:07.633
+<v thomas broussard>As the row titles.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/89-0
+00:09:12.313 --> 00:09:16.901
+<v thomas broussard>So for each member ID and surname you
+will display this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/89-1
+00:09:16.901 --> 00:09:18.833
+<v thomas broussard>Don't forget to exclude.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/92-0
+00:09:30.193 --> 00:09:34.365
+<v thomas broussard>Don't forget to exclude the member ID
+with 0,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/92-1
+00:09:34.365 --> 00:09:41.713
+<v thomas broussard>the member ID 0 because this is guest.
+You don't want guest to be into the list.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/93-0
+00:09:45.513 --> 00:09:48.673
+<v thomas broussard>OK, we just miss another by.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/96-0
+00:10:04.873 --> 00:10:08.033
+<v thomas broussard>And here apparently we have no tie,
+so I'm not wrong.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/97-0
+00:10:17.273 --> 00:10:19.393
+<v thomas broussard>Every number is different, huh?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/98-0
+00:10:21.553 --> 00:10:25.993
+<v thomas broussard>So apparently this person is the one who
+is the most.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/100-0
+00:10:27.633 --> 00:10:32.433
+<v thomas broussard>Generating revenue into our club.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/101-0
+00:10:38.473 --> 00:10:43.986
+<v thomas broussard>So you should be able to find that kind
+of queries alone now because it's only</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/101-1
+00:10:43.986 --> 00:10:48.593
+<v thomas broussard>navigating with data and then grouping
+back on the right gritter.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/102-0
+00:10:51.473 --> 00:10:55.574
+<v thomas broussard>As promised, we can do a break, OK,
+5 minutes, 510 minutes maximum,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/102-1
+00:10:55.574 --> 00:11:00.581
+<v thomas broussard>the time you take a coffee or some water.
+And then after that we start what I call</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/102-2
+00:11:00.581 --> 00:11:03.537
+<v thomas broussard>the data comp,
+which is I provide you with a new</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/102-3
+00:11:03.537 --> 00:11:07.699
+<v thomas broussard>database. It's a bit like in the exam,
+you have an unknown database,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/102-4
+00:11:07.699 --> 00:11:10.353
+<v thomas broussard>you have to navigate through this
+database.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/103-0
+00:11:10.633 --> 00:11:13.553
+<v thomas broussard>And you have a list of queries for your
+data extractions, OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/104-0
+00:11:17.633 --> 00:11:23.513
+<v thomas broussard>Let's go in break and I'll provide the
+dump just after the break.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/108-0
+00:11:50.273 --> 00:11:50.353
+<v thomas broussard>It.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/109-0
+00:11:53.953 --> 00:11:54.673
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/110-0
+00:11:56.993 --> 00:11:57.113
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/111-0
+00:12:02.593 --> 00:12:02.873
+<v thomas broussard>What?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/112-0
+00:12:05.553 --> 00:12:14.113
+<v thomas broussard>Thanks. My query's kind of different.
+It's different. Yes, this is what I have.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/113-0
+00:12:15.313 --> 00:12:16.953
+<v thomas broussard>Ignoring the comments.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/114-0
+00:12:22.553 --> 00:12:26.430
+<v thomas broussard>Yep, but we are.
+You have still computed the wrong,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/114-1
+00:12:26.430 --> 00:12:31.277
+<v thomas broussard>which is good. I didn't. OK, I have it.
+But what counts is this,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/114-2
+00:12:31.277 --> 00:12:36.943
+<v thomas broussard>and it's the formula which is here.
+So I was trying to do something also to</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/114-3
+00:12:36.943 --> 00:12:37.913
+<v thomas broussard>see if I can.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/115-0
+00:12:38.753 --> 00:12:42.307
+<v thomas broussard>Instead of do this,
+be careful because this is not the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/115-1
+00:12:42.307 --> 00:12:47.348
+<v thomas broussard>revenue that you have computed here.
+This is the revenue rank because here it</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/115-2
+00:12:47.348 --> 00:12:50.773
+<v thomas broussard>can be a bit ambiguous.
+Someone will read the query.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/115-3
+00:12:50.773 --> 00:12:55.168
+<v thomas broussard>Here we have the impression that this is
+the revenue, but it's not.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/115-4
+00:12:55.168 --> 00:12:56.913
+<v thomas broussard>It's only the revenue rank.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/116-0
+00:12:57.673 --> 00:13:02.729
+<v thomas broussard>Once you can display this quantity here
+in uh as a column of your this something</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/116-1
+00:13:02.729 --> 00:13:03.353
+<v thomas broussard>like this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/117-0
+00:13:06.113 --> 00:13:14.083
+<v thomas broussard>Um, no, no, keep, keep revenue.
+Then I'll do of revenue like this. No, no,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/117-1
+00:13:14.083 --> 00:13:16.953
+<v thomas broussard>no, no, because you cannot.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/118-0
+00:13:18.633 --> 00:13:25.900
+<v thomas broussard>What is here? What is in the over?
+It's here you are having a quantity.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/118-1
+00:13:25.900 --> 00:13:30.442
+<v thomas broussard>What you want to display is this right?
+Yes,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/118-2
+00:13:30.442 --> 00:13:35.993
+<v thomas broussard>but here in the over you are giving not
+OK a quantity.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/119-0
+00:13:36.273 --> 00:13:40.455
+<v thomas broussard>Or dot by something like will this work?
+This this is better,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/119-1
+00:13:40.455 --> 00:13:45.514
+<v thomas broussard>but it would not run because no,
+because actually here it does not rely on</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/119-2
+00:13:45.514 --> 00:13:48.954
+<v thomas broussard>what has been computed before in the
+query. Oh OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/119-3
+00:13:48.954 --> 00:13:51.113
+<v thomas broussard>it has to be standalone you see.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/120-0
+00:13:51.873 --> 00:13:56.755
+<v thomas broussard>So how do I if I you have to repeat in
+the I have to repeat the repeat this</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/120-1
+00:13:56.755 --> 00:13:59.581
+<v thomas broussard>revenue and reference. Yeah, OK,
+thank you.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/120-2
+00:13:59.581 --> 00:14:04.785
+<v thomas broussard>Be careful here because you have a desk
+in the middle that will break the query.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/120-3
+00:14:04.785 --> 00:14:09.153
+<v thomas broussard>So here you have a new desk. Is it?
+We want the user to spare that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/121-0
+00:14:09.553 --> 00:14:13.214
+<v thomas broussard>That has the highest number.
+So the highest number should be the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/121-1
+00:14:13.214 --> 00:14:17.383
+<v thomas broussard>lowest round. That's why I used this.
+Yeah, I I I know. But here, I mean,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/121-2
+00:14:17.383 --> 00:14:20.086
+<v thomas broussard>you have some desk in in the middle of
+nowhere,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/121-3
+00:14:20.086 --> 00:14:24.593
+<v thomas broussard>so it should be reintegrated here. OK.
+Just your checks, right? Yeah, Yeah. OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/122-0
+00:14:25.393 --> 00:14:31.032
+<v thomas broussard>Thank you. You're welcome. Yes,
+let's make the the version with the rank</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/122-1
+00:14:31.032 --> 00:14:33.273
+<v thomas broussard>because that was the purpose.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/124-0
+00:14:42.753 --> 00:14:43.873
+<v thomas broussard>Good.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/125-0
+00:14:45.313 --> 00:14:50.666
+<v thomas broussard>Yeah, and still,
+this is not maybe calling the tables of</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/125-1
+00:14:50.666 --> 00:14:56.394
+<v thomas broussard>the prefix N can we just? Yeah,
+for example, like team user,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/125-2
+00:14:56.394 --> 00:15:01.090
+<v thomas broussard>team customer, team booking.
+There's much easier.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/125-3
+00:15:01.090 --> 00:15:04.753
+<v thomas broussard>So we see the team people know exactly.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/126-0
+00:15:05.153 --> 00:15:11.901
+<v thomas broussard>Yeah, but here you have 3 tables. Yeah,
+but I'm saying instead of having that in</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/126-1
+00:15:11.901 --> 00:15:15.984
+<v thomas broussard>here B and we just call them probably C
+booking,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/126-2
+00:15:15.984 --> 00:15:20.233
+<v thomas broussard>probably C the T as in three fields. Hi,
+you like.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/127-0
+00:15:20.633 --> 00:15:25.923
+<v thomas broussard>Yeah, if you like, there's no I tried.
+Here we are entering into what we call</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/127-1
+00:15:25.923 --> 00:15:31.553
+<v thomas broussard>the conventions and the conventions are
+different from one company to another, so.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/128-0
+00:15:32.873 --> 00:15:37.565
+<v thomas broussard>It's it's justified of course. Well,
+I understand what you say and it could</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/128-1
+00:15:37.565 --> 00:15:41.516
+<v thomas broussard>match, but maybe not in.
+So it depends so much. But for for me,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/128-2
+00:15:41.516 --> 00:15:45.961
+<v thomas broussard>you do whatever you like. OK,
+there's no whenever let's say for example</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/128-3
+00:15:45.961 --> 00:15:50.776
+<v thomas broussard>you provide the insert free for creating
+the table, can we change and put it?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/128-4
+00:15:50.776 --> 00:15:52.073
+<v thomas broussard>Of course, of course.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/129-0
+00:15:52.793 --> 00:15:56.190
+<v thomas broussard>Of course,
+do do what fits the best for you with</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/129-1
+00:15:56.190 --> 00:16:01.113
+<v thomas broussard>your usage, with your productivity,
+and I I will not mind. No worries.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/146-0
+00:17:38.393 --> 00:17:38.513
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/147-0
+00:17:45.913 --> 00:17:46.033
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/148-0
+00:17:53.833 --> 00:17:54.873
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/149-0
+00:17:58.273 --> 00:17:58.393
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/150-0
+00:18:05.233 --> 00:18:05.353
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/151-0
+00:18:11.113 --> 00:18:18.547
+<v thomas broussard>So practically here that could be a query
+to see what you who you want to keep</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/151-1
+00:18:18.547 --> 00:18:24.005
+<v thomas broussard>absolutely in your club,
+because of course those guys are</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/151-2
+00:18:24.005 --> 00:18:27.393
+<v thomas broussard>generating a lot of incomes for you.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/152-0
+00:18:28.233 --> 00:18:31.233
+<v thomas broussard>So you don't want them to to leave?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/153-0
+00:18:35.033 --> 00:18:36.113
+<v thomas broussard>The first one is.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/154-0
+00:18:37.433 --> 00:18:42.859
+<v thomas broussard>What could be interesting once you have
+identified that is to identify in the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/154-1
+00:18:42.859 --> 00:18:45.920
+<v thomas broussard>breakdown what's the usage for each
+member,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/154-2
+00:18:45.920 --> 00:18:51.764
+<v thomas broussard>what's the facilities booking so that you
+can adjust as well your offer to maybe do</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/154-3
+00:18:51.764 --> 00:18:56.913
+<v thomas broussard>something which would generate more
+revenue because you see that the top.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/155-0
+00:18:57.353 --> 00:19:05.516
+<v thomas broussard>uh The top usages maybe should be favored.
+So if this guy wants more message,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/155-1
+00:19:05.516 --> 00:19:13.993
+<v thomas broussard>maybe you should offer more message to
+the the top three members regarding that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/158-0
+00:19:30.553 --> 00:19:30.713
+<v thomas broussard>Mm.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/159-0
+00:19:38.113 --> 00:19:39.953
+<v thomas broussard>Thank you.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/160-0
+00:19:45.473 --> 00:19:45.633
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/161-0
+00:19:50.843 --> 00:19:51.083
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/162-0
+00:19:52.993 --> 00:19:59.193
+<v thomas broussard>If you have in seven minutes.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/167-0
+00:20:23.393 --> 00:20:23.633
+<v thomas broussard>Hmm.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/168-0
+00:20:28.953 --> 00:20:29.073
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/171-0
+00:20:46.433 --> 00:20:51.606
+<v thomas broussard>So just one thing I I I'm going to fetch
+a coffee,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/171-1
+00:20:51.606 --> 00:20:54.953
+<v thomas broussard>but in the meantime you can load.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/172-0
+00:21:06.353 --> 00:21:08.153
+<v thomas broussard>You can load the north winds.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/173-0
+00:21:09.833 --> 00:21:10.553
+<v thomas broussard>Database.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/174-0
+00:21:12.193 --> 00:21:15.153
+<v thomas broussard>That I just joined here.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/176-0
+00:21:17.553 --> 00:21:21.640
+<v thomas broussard>OK guys,
+so you have a new database to create and</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/176-1
+00:21:21.640 --> 00:21:27.608
+<v thomas broussard>a new SQL file to load exactly as in the
+exam. You will have to do that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/176-2
+00:21:27.608 --> 00:21:32.513
+<v thomas broussard>So let's be in autonomy now.
+You have the SQL for the dump.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/177-0
+00:21:32.873 --> 00:21:40.393
+<v thomas broussard>You know normally how to load this on
+your system and then on lecture 5.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/178-0
+00:21:41.993 --> 00:21:43.793
+<v thomas broussard>You have on lecture 5.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/179-0
+00:21:51.913 --> 00:21:54.433
+<v thomas broussard>This data extractions list.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/181-0
+00:22:05.433 --> 00:22:11.633
+<v thomas broussard>That you can or you still find to extract
+all those information OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/182-0
+00:22:12.993 --> 00:22:13.633
+<v thomas broussard>That's it.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/183-0
+00:22:15.073 --> 00:22:15.193
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/184-0
+00:22:21.953 --> 00:22:23.913
+<v thomas broussard>Thank you.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/190-0
+00:23:09.153 --> 00:23:09.593
+<v thomas broussard>Yes.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/193-0
+00:23:52.473 --> 00:24:04.015
+<v thomas broussard>No, no, I'm not. No, no,
+because of the expectation. I mean,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/193-1
+00:24:04.015 --> 00:24:09.313
+<v thomas broussard>it's really good. It's good.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/194-0
+00:24:11.193 --> 00:24:30.473
+<v thomas broussard>No, no.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/199-0
+00:25:21.633 --> 00:25:35.793
+<v thomas broussard>OK, I'm not.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/201-0
+00:25:54.273 --> 00:26:09.553
+<v thomas broussard>We want to.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/202-0
+00:26:10.753 --> 00:26:12.073
+<v thomas broussard>Was I?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/203-0
+00:26:13.953 --> 00:26:14.433
+<v thomas broussard>So.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/208-0
+00:27:00.193 --> 00:27:04.193
+<v thomas broussard>Yeah, that's.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/209-0
+00:27:05.273 --> 00:27:07.553
+<v thomas broussard>I really.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/210-0
+00:27:08.913 --> 00:27:09.033
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/211-0
+00:27:11.913 --> 00:27:28.073
+<v thomas broussard>I think that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/212-0
+00:27:34.033 --> 00:27:46.273
+<v thomas broussard>Thank you.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/214-0
+00:28:02.433 --> 00:28:03.073
+<v thomas broussard>It's OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/215-0
+00:28:07.913 --> 00:28:09.873
+<v thomas broussard>Is it loading?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/216-0
+00:28:14.633 --> 00:28:17.193
+<v thomas broussard>What do we do to create a new database?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/217-0
+00:28:21.193 --> 00:28:23.993
+<v thomas broussard>New North winds.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/218-0
+00:28:29.273 --> 00:28:31.633
+<v thomas broussard>In the scripts we create a new folder.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/219-0
+00:28:33.193 --> 00:28:34.153
+<v thomas broussard>North winds.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/220-0
+00:28:39.553 --> 00:28:40.993
+<v thomas broussard>Let's copy paste.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/221-0
+00:28:42.553 --> 00:28:42.673
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/226-0
+00:29:10.913 --> 00:29:16.920
+<v thomas broussard>OK,
+so let's connect to this and to the new</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/226-1
+00:29:16.920 --> 00:29:23.473
+<v thomas broussard>database and let's execute everything as
+great.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/227-0
+00:29:25.873 --> 00:29:29.473
+<v thomas broussard>It says something about large scripts can
+take some time. We don't care.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/228-0
+00:29:35.913 --> 00:29:37.953
+<v thomas broussard>Includes the values, et cetera.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/230-0
+00:29:45.433 --> 00:29:48.233
+<v thomas broussard>Normally you should get this at the end.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/231-0
+00:29:50.033 --> 00:29:57.033
+<v thomas broussard>OK, updated rows 10,400, six 7576.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/232-0
+00:30:03.833 --> 00:30:10.272
+<v thomas broussard>Then how to start the data extraction?
+It's not possible if you don't know the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/232-1
+00:30:10.272 --> 00:30:12.473
+<v thomas broussard>database, you cannot guess.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/233-0
+00:30:13.833 --> 00:30:17.795
+<v thomas broussard>You have to analyze first.
+You have to understand how to understand</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/233-1
+00:30:17.795 --> 00:30:18.553
+<v thomas broussard>the database.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/234-0
+00:30:19.633 --> 00:30:20.593
+<v thomas broussard>Go on the north winds.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/236-0
+00:30:22.233 --> 00:30:23.393
+<v thomas broussard>You have a look to the diagram.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/237-0
+00:30:25.113 --> 00:30:31.353
+<v thomas broussard>You check the notation you prefer for us,
+probably to be well.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/238-0
+00:30:33.113 --> 00:30:36.273
+<v thomas broussard>That's a huge later, yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/239-0
+00:30:38.793 --> 00:30:43.633
+<v thomas broussard>I'm sorry for you.
+You missed a very good lecture, actually.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/240-0
+00:30:50.033 --> 00:30:53.096
+<v thomas broussard>OK,
+so you see that we have way more tables.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/240-1
+00:30:53.096 --> 00:30:57.113
+<v thomas broussard>This structure is more like what we will
+have in the exam.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/241-0
+00:30:57.993 --> 00:31:02.178
+<v thomas broussard>Like 15, around 15 tables,
+different tables. OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/241-1
+00:31:02.178 --> 00:31:06.789
+<v thomas broussard>of course you will have the database
+before the exam.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/241-2
+00:31:06.789 --> 00:31:13.793
+<v thomas broussard>During the vacations you will have that.
+So you will spend a very nice Christmas.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/242-0
+00:31:13.913 --> 00:31:20.949
+<v thomas broussard>Thinking at thinking at me and my
+database and trying to do select instead</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/242-1
+00:31:20.949 --> 00:31:25.827
+<v thomas broussard>of being bored by all the the festivities
+etcetera.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/242-2
+00:31:25.827 --> 00:31:32.113
+<v thomas broussard>So on my side I will be working on
+databases as well on Christmas.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/243-0
+00:31:32.313 --> 00:31:34.313
+<v thomas broussard>It's so boring.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/244-0
+00:31:35.593 --> 00:31:38.953
+<v thomas broussard>I'm joking of course.
+So you will have the database.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/244-1
+00:31:38.953 --> 00:31:43.708
+<v thomas broussard>You will have to load this before the
+exam and to train as much as you can</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/244-2
+00:31:43.708 --> 00:31:47.131
+<v thomas broussard>before the exam.
+So normally on the exam day you know</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/244-3
+00:31:47.131 --> 00:31:51.379
+<v thomas broussard>perfectly the database,
+you know the tables, you know the columns,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/244-4
+00:31:51.379 --> 00:31:54.993
+<v thomas broussard>you know the structure,
+how to make the queries or what?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/245-0
+00:31:55.153 --> 00:31:59.821
+<v thomas broussard>It's possible to be joined, etc.
+It should not be a question.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/245-1
+00:31:59.821 --> 00:32:05.092
+<v thomas broussard>It should have like reflexes. OK,
+so here we have a database which is</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/245-2
+00:32:05.092 --> 00:32:06.673
+<v thomas broussard>composed of products.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/246-0
+00:32:08.953 --> 00:32:09.193
+<v thomas broussard>Orders.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/247-0
+00:32:10.153 --> 00:32:13.273
+<v thomas broussard>Customers,
+so we understand that it is a retail.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/248-0
+00:32:14.713 --> 00:32:18.306
+<v thomas broussard>It's a retail company database.
+We have employees.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/248-1
+00:32:18.306 --> 00:32:22.323
+<v thomas broussard>Employees are linked to orders,
+orders to other details,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/248-2
+00:32:22.323 --> 00:32:26.833
+<v thomas broussard>order details to products,
+products to categories to suppliers.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/249-0
+00:32:27.993 --> 00:32:31.473
+<v thomas broussard>We have some customers as well connected
+to others.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/250-0
+00:32:32.753 --> 00:32:38.513
+<v thomas broussard>And we have as well employees connected
+to territories, connected to regions, etc.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/251-0
+00:32:40.153 --> 00:32:42.948
+<v thomas broussard>OK,
+so this is all what we have in this</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/251-1
+00:32:42.948 --> 00:32:46.233
+<v thomas broussard>database.
+So now let's see the first question.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/252-0
+00:32:50.153 --> 00:32:54.433
+<v thomas broussard>First question is the list of customers.
+How do we do that? Select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/253-0
+00:32:55.873 --> 00:32:57.633
+<v thomas broussard>style from customers.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/254-0
+00:32:59.833 --> 00:33:03.193
+<v thomas broussard>Mm-hmm. Select stuff from customers.
+Very good.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/255-0
+00:33:03.833 --> 00:33:08.793
+<v thomas broussard>Let's go on here. Let's open a new script.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/256-0
+00:33:13.993 --> 00:33:20.324
+<v thomas broussard>Something that can be a bit shorter if
+you have multiple files is to set your</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/256-1
+00:33:20.324 --> 00:33:25.031
+<v thomas broussard>database as default.
+You can say see here set as default.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/256-2
+00:33:25.031 --> 00:33:30.713
+<v thomas broussard>So everything that you will connect to
+this connection will directly.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/257-0
+00:33:30.713 --> 00:33:34.993
+<v thomas broussard>He tried to be executed against North.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/258-0
+00:33:41.113 --> 00:33:45.113
+<v thomas broussard>Very important during the exam,
+copy the question.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/259-0
+00:33:46.793 --> 00:33:51.505
+<v thomas broussard>So that you can know even after what is
+going with what.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/259-1
+00:33:51.505 --> 00:33:54.233
+<v thomas broussard>So this is the list of customers.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/260-0
+00:33:55.793 --> 00:33:59.073
+<v thomas broussard>OK, select Star.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/261-0
+00:34:00.353 --> 00:34:01.753
+<v thomas broussard>From customers.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/262-0
+00:34:05.873 --> 00:34:11.299
+<v thomas broussard>This is not a very good query here
+because there's no order by. Yes,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/262-1
+00:34:11.299 --> 00:34:12.793
+<v thomas broussard>you had a question.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/263-0
+00:34:14.513 --> 00:34:14.673
+<v thomas broussard>Yep.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/264-0
+00:34:18.793 --> 00:34:21.793
+<v thomas broussard>Yeah, it's.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/265-0
+00:34:24.073 --> 00:34:28.625
+<v thomas broussard>Yeah, this is what I wanted to say.
+Actually,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/265-1
+00:34:28.625 --> 00:34:33.969
+<v thomas broussard>here we are missing three things.
+The column details,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/265-2
+00:34:33.969 --> 00:34:37.433
+<v thomas broussard>what has to be selected, the order.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/266-0
+00:34:38.633 --> 00:34:43.897
+<v thomas broussard>Here we have defined arbitrarily on
+ourselves what is what should be the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/266-1
+00:34:43.897 --> 00:34:49.089
+<v thomas broussard>other and the limits the number of rules
+we want to return in the exam.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/266-2
+00:34:49.089 --> 00:34:54.353
+<v thomas broussard>For each question it will be stated the
+column selection, the order and.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/267-0
+00:34:54.473 --> 00:35:01.873
+<v thomas broussard>The limits the number of rows that is
+expected. Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/268-0
+00:35:05.113 --> 00:35:10.073
+<v thomas broussard>Yes, this is not. This is too ambiguous.
+I agree.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/269-0
+00:35:13.153 --> 00:35:13.273
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/271-0
+00:35:14.313 --> 00:35:17.319
+<v thomas broussard>Yeah,
+actually a lot of answers are acceptable</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/271-1
+00:35:17.319 --> 00:35:20.198
+<v thomas broussard>because the the question is very vague
+here.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/271-2
+00:35:20.198 --> 00:35:25.443
+<v thomas broussard>But in the exam what I wanted to say is
+that it will be way more precise plus you</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/271-3
+00:35:25.443 --> 00:35:28.578
+<v thomas broussard>will have the screenshot of the expected
+result.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/271-4
+00:35:28.578 --> 00:35:31.073
+<v thomas broussard>So normally you cannot miss the target.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/272-0
+00:35:31.353 --> 00:35:31.633
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/273-0
+00:35:34.193 --> 00:35:42.993
+<v thomas broussard>Exactly. Yeah. So very,
+very interesting notice. Have a look here.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/274-0
+00:35:44.553 --> 00:35:48.530
+<v thomas broussard>If for instance,
+what is important is to have the contact</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/274-1
+00:35:48.530 --> 00:35:48.873
+<v thomas broussard>name.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/276-0
+00:35:50.233 --> 00:35:53.433
+<v thomas broussard>K and in the list it is.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/278-0
+00:35:55.353 --> 00:35:56.033
+<v thomas broussard>Like this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/279-0
+00:36:00.473 --> 00:36:06.664
+<v thomas broussard>You cannot cannot have the full mark if
+the column name doesn't match exactly</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/279-1
+00:36:06.664 --> 00:36:12.300
+<v thomas broussard>what is in the screenshot. OK,
+but it will be said select contact name</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/279-2
+00:36:12.300 --> 00:36:15.793
+<v thomas broussard>as it would be said I mean in the
+question.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/280-0
+00:36:16.513 --> 00:36:23.673
+<v thomas broussard>You will have to provide as an output the
+column contact name renamed as contact.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/281-0
+00:36:24.873 --> 00:36:28.342
+<v thomas broussard>OK,
+and if it is not stated then you have to</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/281-1
+00:36:28.342 --> 00:36:34.048
+<v thomas broussard>match the screenshot makes is the ground
+truth because I will compare the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/281-2
+00:36:34.048 --> 00:36:40.293
+<v thomas broussard>screenshot is actually my my own answer.
+OK and so you will have to match my own</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/281-3
+00:36:40.293 --> 00:36:40.833
+<v thomas broussard>answer.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/282-0
+00:36:41.353 --> 00:36:44.510
+<v thomas broussard>OK,
+so if it is something is not clear in the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/282-1
+00:36:44.510 --> 00:36:50.001
+<v thomas broussard>statement in the title of the question,
+then you can refer to the screenshot to</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/282-2
+00:36:50.001 --> 00:36:53.433
+<v thomas broussard>match the screenshot.
+But normally I paid a very.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/283-0
+00:36:54.313 --> 00:37:01.035
+<v thomas broussard>Find attention to the statements to the
+requirements so that it is clear for you</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/283-1
+00:37:01.035 --> 00:37:05.433
+<v thomas broussard>the number of different products.
+How do we do that?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/284-0
+00:37:12.353 --> 00:37:12.833
+<v thomas broussard>Select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/285-0
+00:37:20.033 --> 00:37:20.353
+<v thomas broussard>Stop.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/286-0
+00:37:26.793 --> 00:37:27.473
+<v thomas broussard>Like this?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/287-0
+00:37:28.793 --> 00:37:32.753
+<v thomas broussard>Yeah, can can work. That can work,
+but maybe that's not.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/288-0
+00:37:35.513 --> 00:37:40.315
+<v thomas broussard>Or maybe we should verify something
+because here it said number of different</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/288-1
+00:37:40.315 --> 00:37:43.370
+<v thomas broussard>different products,
+not only number of products,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/288-2
+00:37:43.370 --> 00:37:47.424
+<v thomas broussard>number of different products,
+maybe inferring that we could have</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/288-3
+00:37:47.424 --> 00:37:50.355
+<v thomas broussard>duplicates.
+So how can we make sure there's no</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/288-4
+00:37:50.355 --> 00:37:51.353
+<v thomas broussard>duplicates here?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/289-0
+00:37:52.553 --> 00:37:53.993
+<v thomas broussard>On the based on the name.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/291-0
+00:38:07.673 --> 00:38:12.018
+<v thomas broussard>You see just one tip.
+Here you see that I do not have any</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/291-1
+00:38:12.018 --> 00:38:15.989
+<v thomas broussard>completion.
+So what I suggest is that you start with</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/291-2
+00:38:15.989 --> 00:38:22.058
+<v thomas broussard>the from and then you you have completion
+based on what you have selected in the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/291-3
+00:38:22.058 --> 00:38:22.433
+<v thomas broussard>from.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/292-0
+00:38:24.753 --> 00:38:30.786
+<v thomas broussard>So in the way you write your queries,
+what I would do is to do select from then</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/292-1
+00:38:30.786 --> 00:38:34.633
+<v thomas broussard>your your table and then what you want to
+do with.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/293-0
+00:38:37.913 --> 00:38:41.193
+<v thomas broussard>That and here we want to identify if
+there's.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/294-0
+00:38:42.833 --> 00:38:43.913
+<v thomas broussard>Still the same number.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/295-0
+00:38:46.513 --> 00:38:50.084
+<v thomas broussard>Of different product names and actually
+this is true. OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/295-1
+00:38:50.084 --> 00:38:52.793
+<v thomas broussard>so there's no duplicate regarding the
+name.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/296-0
+00:39:01.513 --> 00:39:03.393
+<v thomas broussard>The council of employees.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/297-0
+00:39:04.753 --> 00:39:04.833
+<v thomas broussard>It.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/298-0
+00:39:12.593 --> 00:39:13.233
+<v thomas broussard>Same.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/299-0
+00:39:14.873 --> 00:39:22.753
+<v thomas broussard>Same as the what we have in two,
+but this time it's from employees.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/300-0
+00:39:27.273 --> 00:39:29.793
+<v thomas broussard>Then the four I will let you do.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/301-0
+00:39:32.353 --> 00:39:39.314
+<v thomas broussard>I'll let you think a bit on the form,
+not not that you have been warmed up a</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/301-1
+00:39:39.314 --> 00:39:45.553
+<v thomas broussard>little bit. Think about the form,
+where to find the data, where and.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/303-0
+00:39:54.793 --> 00:39:55.233
+<v thomas broussard>Chip.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/304-0
+00:40:00.113 --> 00:40:00.913
+<v thomas broussard>Like this?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/305-0
+00:40:03.753 --> 00:40:06.473
+<v thomas broussard>I will send the file on by the way.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/306-0
+00:40:10.113 --> 00:40:10.193
+<v thomas broussard>The.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/307-0
+00:40:14.793 --> 00:40:17.913
+<v thomas broussard>If one comes here, it's not arrived.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/309-0
+00:40:30.873 --> 00:40:31.273
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/312-0
+00:40:51.353 --> 00:40:51.913
+<v thomas broussard>Mhm.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/327-0
+00:41:59.473 --> 00:42:04.953
+<v thomas broussard>So how do we find the information to
+compute a revenue?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/328-0
+00:42:07.633 --> 00:42:12.375
+<v thomas broussard>Let's have a look to database. No,
+nothing can be guessed.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/328-1
+00:42:12.375 --> 00:42:17.439
+<v thomas broussard>You have to to find your.
+In other details we have unit price,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/328-2
+00:42:17.439 --> 00:42:22.664
+<v thomas broussard>quantity and discount.
+So normally we should be able to build if</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/328-3
+00:42:22.664 --> 00:42:24.513
+<v thomas broussard>we sum everything here.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/329-0
+00:42:24.993 --> 00:42:31.475
+<v thomas broussard>we should be able to to build the total
+overall revenue, whatever the dates,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/329-1
+00:42:31.475 --> 00:42:37.873
+<v thomas broussard>constraints here, we can generate this.
+So how do we build the formula now?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/330-0
+00:42:38.753 --> 00:42:44.473
+<v thomas broussard>So as I said,
+we should do select from other details.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/331-0
+00:42:46.393 --> 00:42:48.193
+<v thomas broussard>And then what's the formula?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/332-0
+00:42:50.193 --> 00:42:54.233
+<v thomas broussard>It will be a sum, it's true, of what?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/333-0
+00:42:55.913 --> 00:42:56.473
+<v thomas broussard>OD dot.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/334-0
+00:42:58.113 --> 00:42:59.593
+<v thomas broussard>Unit price times.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/335-0
+00:43:02.713 --> 00:43:06.633
+<v thomas broussard>So this is the the rule price.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/336-0
+00:43:09.073 --> 00:43:14.987
+<v thomas broussard>We need to subtract the discount which is
+a ercentage as well.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/336-1
+00:43:14.987 --> 00:43:18.273
+<v thomas broussard>O we need to do OD discounts times.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/337-0
+00:43:19.153 --> 00:43:27.323
+<v thomas broussard>But because I look at the data,
+because I looked at the data,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/337-1
+00:43:27.323 --> 00:43:36.153
+<v thomas broussard>I know I know the database,
+but it's it's a good thing to to find.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/338-0
+00:43:36.553 --> 00:43:41.313
+<v thomas broussard>data,
+and we see that the discount is never</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/338-1
+00:43:41.313 --> 00:43:48.129
+<v thomas broussard>above one. It's .25, .1, .2.
+You see that here we have decimal</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/338-2
+00:43:48.129 --> 00:43:54.513
+<v thomas broussard>rounding issues,
+but we have never normally, we have never</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/339-0
+00:43:54.593 --> 00:43:57.993
+<v thomas broussard>Above one, so it's a percentage.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/340-0
+00:43:59.273 --> 00:44:03.835
+<v thomas broussard>So it's minus discount times unit price
+and quantity.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/340-1
+00:44:03.835 --> 00:44:09.750
+<v thomas broussard>And normally you are super good at
+mathematics, right? Yes. OK, good.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/340-2
+00:44:09.750 --> 00:44:15.073
+<v thomas broussard>So we can optimize a bit.
+We can reduce a bit that expression.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/341-0
+00:44:18.873 --> 00:44:21.593
+<v thomas broussard>Can we reduce a bit that expression?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/342-0
+00:44:25.953 --> 00:44:30.993
+<v thomas broussard>If I ask the question, the answer is yes,
+yes we can.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/343-0
+00:44:32.433 --> 00:44:37.033
+<v thomas broussard>We can can we reduce this expression
+because it's a bit long?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/344-0
+00:44:42.713 --> 00:44:43.593
+<v thomas broussard>Times.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/345-0
+00:44:53.273 --> 00:44:54.233
+<v thomas broussard>Like this.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/346-0
+00:44:57.873 --> 00:45:01.593
+<v thomas broussard>Does that work like this?
+The answer is yes.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/347-0
+00:45:15.033 --> 00:45:15.513
+<v thomas broussard>Thank you.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/348-0
+00:45:16.753 --> 00:45:17.713
+<v thomas broussard>Works.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/349-0
+00:45:21.033 --> 00:45:25.553
+<v thomas broussard>Let's see. Huh?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/350-0
+00:45:26.513 --> 00:45:31.993
+<v thomas broussard>It's changing the value, no?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/351-0
+00:45:37.313 --> 00:45:39.793
+<v thomas broussard>Maybe what can happen is rounding issues.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/353-0
+00:45:54.393 --> 00:45:54.793
+<v thomas broussard>Welcome.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/354-0
+00:45:55.953 --> 00:45:56.873
+<v thomas broussard>That was my only.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/355-0
+00:46:04.233 --> 00:46:05.273
+<v thomas broussard>Same one.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/356-0
+00:46:07.113 --> 00:46:11.154
+<v thomas broussard>Hopefully,
+but it's true that sometimes you can have</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/356-1
+00:46:11.154 --> 00:46:17.406
+<v thomas broussard>some some slight difference at the ends
+of the decimal due to rounding issues and</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/356-2
+00:46:17.406 --> 00:46:23.353
+<v thomas broussard>in the way the engine is processing the
+values, maybe not in the same orders.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/357-0
+00:46:23.753 --> 00:46:24.993
+<v thomas broussard>Always.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/358-0
+00:46:27.673 --> 00:46:32.221
+<v thomas broussard>OK, so this and that are strictly current.
+Let's stay.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/358-1
+00:46:32.221 --> 00:46:35.033
+<v thomas broussard>Let's stay with the short version.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/359-0
+00:46:36.713 --> 00:46:38.313
+<v thomas broussard>OK guys, understood.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/360-0
+00:46:39.633 --> 00:46:40.433
+<v thomas broussard>Goods.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/361-0
+00:46:42.113 --> 00:46:47.273
+<v thomas broussard>A bit harder now,
+the total revenue for one specific year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/362-0
+00:46:52.593 --> 00:46:57.513
+<v thomas broussard>I'm not sure you are talking about the
+question five. Am I wrong?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/365-0
+00:47:06.593 --> 00:47:10.153
+<v thomas broussard>There's a what?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/366-0
+00:47:12.513 --> 00:47:17.115
+<v thomas broussard>There's not a revenue table,
+but we have just computed here what</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/366-1
+00:47:17.115 --> 00:47:18.673
+<v thomas broussard>should be the revenue.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/367-0
+00:47:19.873 --> 00:47:27.113
+<v thomas broussard>And now we need to make it organized per
+year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/368-0
+00:47:29.513 --> 00:47:29.753
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/370-0
+00:47:33.233 --> 00:47:33.633
+<v thomas broussard>Yes, because.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/371-0
+00:47:35.633 --> 00:47:41.126
+<v thomas broussard>We need to join because we do not have
+any dates information in orders order</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/371-1
+00:47:41.126 --> 00:47:44.621
+<v thomas broussard>details.
+In order details we have nothing but in</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/371-2
+00:47:44.621 --> 00:47:46.833
+<v thomas broussard>orders we have the order dates.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/373-0
+00:47:53.313 --> 00:47:57.713
+<v thomas broussard>Let's have a look from what table should
+we fetch?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/374-0
+00:47:59.393 --> 00:48:01.873
+<v thomas broussard>From order, Are you sure?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/375-0
+00:48:05.793 --> 00:48:08.705
+<v thomas broussard>So OK,
+let me let's let me know about your</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/375-1
+00:48:08.705 --> 00:48:11.753
+<v thomas broussard>strategy and then I will compare with
+yours.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/376-0
+00:48:15.433 --> 00:48:15.673
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/377-0
+00:48:21.233 --> 00:48:27.891
+<v thomas broussard>Yes, but we don't need 2 sub selects here.
+2 selects we can one with one it works.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/377-1
+00:48:27.891 --> 00:48:34.550
+<v thomas broussard>It's only that it's true that we need to
+join at some point. We need to join what?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/377-2
+00:48:34.550 --> 00:48:35.593
+<v thomas broussard>What to what?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/378-0
+00:48:38.313 --> 00:48:39.353
+<v thomas broussard>But from where?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/379-0
+00:48:40.593 --> 00:48:44.236
+<v thomas broussard>Yes,
+we we keep other details as the primary</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/379-1
+00:48:44.236 --> 00:48:50.712
+<v thomas broussard>table and for each other detail we have
+one single order which is very good for</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/379-2
+00:48:50.712 --> 00:48:54.355
+<v thomas broussard>us because it means that we do not
+multiply,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/379-3
+00:48:54.355 --> 00:48:57.513
+<v thomas broussard>we do not have any combinatory problem.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/380-0
+00:48:57.793 --> 00:49:01.875
+<v thomas broussard>Remember the problem with if you do the
+reverse here,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/380-1
+00:49:01.875 --> 00:49:07.922
+<v thomas broussard>if you select orders and then you join on
+on order details for each order line,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/380-2
+00:49:07.922 --> 00:49:13.970
+<v thomas broussard>you will create duplicates here because
+there are several other details for one</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/380-3
+00:49:13.970 --> 00:49:14.953
+<v thomas broussard>single order.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/381-0
+00:49:16.353 --> 00:49:20.087
+<v thomas broussard>What's an order detail?
+It's actually the sub,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/381-1
+00:49:20.087 --> 00:49:22.153
+<v thomas broussard>the component of an order.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/382-0
+00:49:23.713 --> 00:49:28.114
+<v thomas broussard>So for instance, if you're on Amazon,
+you buy three products,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/382-1
+00:49:28.114 --> 00:49:33.793
+<v thomas broussard>you will have three order details entries
+for one big order. You see the point.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/383-0
+00:49:35.473 --> 00:49:42.726
+<v thomas broussard>Yes, so one order can be projected,
+uh can be decomposed,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/383-1
+00:49:42.726 --> 00:49:48.353
+<v thomas broussard>broke down into three or more order
+details.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/384-0
+00:49:49.313 --> 00:49:54.780
+<v thomas broussard>So that's not good to to fetch from
+orders because we will have this problem.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/384-1
+00:49:54.780 --> 00:49:59.827
+<v thomas broussard>It's visible here, it's multiple.
+So the the good thing is to keep with</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/384-2
+00:49:59.827 --> 00:50:03.472
+<v thomas broussard>other details,
+join on on on orders and extract the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/384-3
+00:50:03.472 --> 00:50:04.313
+<v thomas broussard>other dates.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/385-0
+00:50:04.953 --> 00:50:08.953
+<v thomas broussard>If you remember,
+we have seen date functions.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/386-0
+00:50:10.273 --> 00:50:13.772
+<v thomas broussard>Very quickly,
+but we have introduced it and among the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/386-1
+00:50:13.772 --> 00:50:17.336
+<v thomas broussard>date functions there were there was the
+year function.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/386-2
+00:50:17.336 --> 00:50:21.872
+<v thomas broussard>So the year function will extract only
+the year components of a date.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/386-3
+00:50:21.872 --> 00:50:26.473
+<v thomas broussard>So if you apply year on all the dates,
+you will extract only the year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/387-0
+00:50:26.513 --> 00:50:34.500
+<v thomas broussard>It's it's not a cast, it's an extraction.
+It will return the year as a as a number.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/387-1
+00:50:34.500 --> 00:50:39.730
+<v thomas broussard>OK, for instance,
+here we can have the database or the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/387-2
+00:50:39.730 --> 00:50:42.393
+<v thomas broussard>dates are from 1996 to 1998.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/389-0
+00:50:42.513 --> 00:50:49.913
+<v thomas broussard>So we can have 1996, 1998 or 1990,
+1997 and then 1998, OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/390-0
+00:50:51.633 --> 00:50:55.414
+<v thomas broussard>So then you will have to extract for one
+specific year,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/390-1
+00:50:55.414 --> 00:50:57.913
+<v thomas broussard>so with the where clause or with the.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/391-0
+00:51:02.433 --> 00:51:07.593
+<v thomas broussard>How can we have the revenue per year?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/392-0
+00:51:08.953 --> 00:51:09.433
+<v thomas broussard>Reserve.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/393-0
+00:51:11.233 --> 00:51:11.673
+<v thomas broussard>Yes.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/394-0
+00:51:14.193 --> 00:51:19.056
+<v thomas broussard>With a with a group by, we can have the.
+If we group by year,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/394-1
+00:51:19.056 --> 00:51:24.233
+<v thomas broussard>we'll have not only for one specific year,
+but for all the years.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/395-0
+00:51:25.313 --> 00:51:31.367
+<v thomas broussard>So that's more that that's more
+interesting maybe to have this than to</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/395-1
+00:51:31.367 --> 00:51:38.019
+<v thomas broussard>have a fixed where close with only one
+year selected. OK for a specific year,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/395-2
+00:51:38.019 --> 00:51:40.833
+<v thomas broussard>but you have two ways to do that.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/396-0
+00:51:41.153 --> 00:51:46.390
+<v thomas broussard>Either you use the group by as an
+intermediate and then you do you do a</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/396-1
+00:51:46.390 --> 00:51:50.318
+<v thomas broussard>work close or you have you fix one
+specific year. OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/396-2
+00:51:50.318 --> 00:51:56.210
+<v thomas broussard>but the more natural way would be to use
+a group by because by advance you don't</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/396-3
+00:51:56.210 --> 00:52:00.793
+<v thomas broussard>know the range of dates that you can have,
+so you cannot have.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/397-0
+00:52:00.993 --> 00:52:06.663
+<v thomas broussard>You cannot see even what specific year
+you would like to to extract because you</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/397-1
+00:52:06.663 --> 00:52:11.837
+<v thomas broussard>don't know in advance what specific years
+you have in this database. OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/397-2
+00:52:11.837 --> 00:52:17.650
+<v thomas broussard>so the most natural way would be to do a
+a group by year and then to see what you</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/397-3
+00:52:17.650 --> 00:52:18.713
+<v thomas broussard>want to select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/398-0
+00:52:19.073 --> 00:52:19.193
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/399-0
+00:52:21.033 --> 00:52:26.833
+<v thomas broussard>Do one or the other. I don't mind.
+Just try.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/403-0
+00:52:45.753 --> 00:52:45.793
+<v thomas broussard>Oh.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/404-0
+00:52:58.673 --> 00:52:58.793
+<v thomas broussard>Oh.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/409-0
+00:53:24.833 --> 00:53:38.310
+<v thomas broussard>You mean in the exam? In the exam, yes,
+it would be for year, for instance,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/409-1
+00:53:38.310 --> 00:53:40.793
+<v thomas broussard>for year 1996.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/410-0
+00:53:44.433 --> 00:53:47.673
+<v thomas broussard>Yep. Equal. Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/411-0
+00:53:49.113 --> 00:53:49.593
+<v thomas broussard>Exactly.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/412-0
+00:53:52.433 --> 00:53:59.673
+<v thomas broussard>Well, that this is, well, right,
+one specific year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/413-0
+00:54:01.273 --> 00:54:04.233
+<v thomas broussard>Alright, for all the, yeah, for each year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/414-0
+00:54:06.673 --> 00:54:12.272
+<v thomas broussard>But that's no worries about that because
+really in the exam it will be like guided</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/414-1
+00:54:12.272 --> 00:54:15.443
+<v thomas broussard>100%.
+You will have normally no question about</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/414-2
+00:54:15.443 --> 00:54:20.503
+<v thomas broussard>what should be the output because you
+will have the output as a as a as an</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/414-3
+00:54:20.503 --> 00:54:21.313
+<v thomas broussard>example, OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/415-0
+00:54:25.873 --> 00:54:28.633
+<v thomas broussard>Mm-hmm. If there was.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/416-0
+00:54:29.633 --> 00:54:33.920
+<v thomas broussard>Yes,
+but you can use between or the dates</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/416-1
+00:54:33.920 --> 00:54:39.227
+<v thomas broussard>subtract.
+But here I can tell you in the exam there</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/416-2
+00:54:39.227 --> 00:54:41.473
+<v thomas broussard>will be no date range.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/417-0
+00:54:42.353 --> 00:54:47.913
+<v thomas broussard>I'm not done yet with the preparation,
+but it's not in my my objectives.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/418-0
+00:54:48.953 --> 00:54:50.393
+<v thomas broussard>OK, so</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/419-0
+00:54:52.513 --> 00:54:52.873
+<v thomas broussard>Yes.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/420-0
+00:54:59.033 --> 00:54:59.513
+<v thomas broussard>Mhm.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/421-0
+00:55:00.993 --> 00:55:05.524
+<v thomas broussard>But not in the group by,
+not in the other by, yes,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/421-1
+00:55:05.524 --> 00:55:11.388
+<v thomas broussard>but not in the group by.
+But because this is another computation,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/421-2
+00:55:11.388 --> 00:55:11.833
+<v thomas broussard>yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/422-0
+00:55:13.553 --> 00:55:14.393
+<v thomas broussard>Yeah, yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/423-0
+00:55:16.113 --> 00:55:20.633
+<v thomas broussard>And the group by is is computed before
+the select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/424-0
+00:55:21.793 --> 00:55:27.640
+<v thomas broussard>uh Same kind of problem, yes.
+Yeah So only that the wrong it's not a</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/424-1
+00:55:27.640 --> 00:55:31.962
+<v thomas broussard>problem,
+since you until you want to use it in the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/424-2
+00:55:31.962 --> 00:55:36.793
+<v thomas broussard>WHERE clause. Remember it's FROM,
+WHERE and then SELECT.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/425-0
+00:55:38.153 --> 00:55:41.269
+<v thomas broussard>OK,
+and the group by is before the where</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/425-1
+00:55:41.269 --> 00:55:41.953
+<v thomas broussard>actually.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/426-0
+00:55:45.073 --> 00:55:48.709
+<v thomas broussard>So you will have from group by where and
+then select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/426-1
+00:55:48.709 --> 00:55:54.028
+<v thomas broussard>So This is why you cannot use what you
+have defined in the select in the group</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/426-2
+00:55:54.028 --> 00:55:57.529
+<v thomas broussard>by because it's something different.
+It's not step,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/426-3
+00:55:57.529 --> 00:55:59.953
+<v thomas broussard>it's not processed at the same time.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/427-0
+00:56:02.433 --> 00:56:06.473
+<v thomas broussard>It's in the. It's a select function,
+so it's at at the end, yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/428-0
+00:56:09.033 --> 00:56:09.233
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/429-0
+00:56:13.833 --> 00:56:16.073
+<v thomas broussard>O Let's start with what we have already.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/430-0
+00:56:17.993 --> 00:56:19.313
+<v thomas broussard>So select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/431-0
+00:56:20.473 --> 00:56:24.054
+<v thomas broussard>No, no, no, no.
+As revenue from all the details. OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/431-1
+00:56:24.054 --> 00:56:27.433
+<v thomas broussard>so that's the base stuff.
+Now we we need to have.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/432-0
+00:56:29.113 --> 00:56:38.393
+<v thomas broussard>Some dates related elements so we can do
+left join orders on.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/433-0
+00:56:43.113 --> 00:56:49.276
+<v thomas broussard>Be very careful here to match the exact
+same concept. If you don't,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/433-1
+00:56:49.276 --> 00:56:52.993
+<v thomas broussard>then you will have unpredictable results.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/434-0
+00:56:54.993 --> 00:56:59.913
+<v thomas broussard>Left join orders on that condition.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/435-0
+00:57:02.553 --> 00:57:09.471
+<v thomas broussard>And then we want to let's use the group
+by fashion group by year of four dots for</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/435-1
+00:57:09.471 --> 00:57:12.593
+<v thomas broussard>the dates. Pay attention now because.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/436-0
+00:57:15.913 --> 00:57:21.608
+<v thomas broussard>The revenue you don't know if it is
+linked to the order date or to the</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/436-1
+00:57:21.608 --> 00:57:26.020
+<v thomas broussard>shipped date,
+which can be different because there can</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/436-2
+00:57:26.020 --> 00:57:30.593
+<v thomas broussard>be a difference between the order dates
+and the shipped.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/437-0
+00:57:30.833 --> 00:57:32.073
+<v thomas broussard>The shipment date.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/438-0
+00:57:33.993 --> 00:57:38.299
+<v thomas broussard>If you have a shipment date which is in
+the next year,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/438-1
+00:57:38.299 --> 00:57:44.406
+<v thomas broussard>it can change a lot your computation,
+so be careful how to know that you have</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/438-2
+00:57:44.406 --> 00:57:48.086
+<v thomas broussard>to ask.
+You have to ask to the business domain</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/438-3
+00:57:48.086 --> 00:57:48.713
+<v thomas broussard>experts.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/439-0
+00:57:50.193 --> 00:57:54.317
+<v thomas broussard>We grou by that,
+so if we grou by that then it means that</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/439-1
+00:57:54.317 --> 00:57:57.873
+<v thomas broussard>we need to put it in the column in the
+row title.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/440-0
+00:58:00.473 --> 00:58:03.273
+<v thomas broussard>And then we can order by.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/441-0
+00:58:08.793 --> 00:58:09.033
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/442-0
+00:58:14.593 --> 00:58:20.548
+<v thomas broussard>Here the other by I can use the year that
+I've defined here because the other by is</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/442-1
+00:58:20.548 --> 00:58:21.753
+<v thomas broussard>after the select.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/443-0
+00:58:24.633 --> 00:58:28.393
+<v thomas broussard>So this is the breakdown of the overall
+revenue per year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/444-0
+00:58:29.593 --> 00:58:36.289
+<v thomas broussard>So at least now I know that there's 1996.
+I could have used another strategy as</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/444-1
+00:58:36.289 --> 00:58:38.633
+<v thomas broussard>well to say select distinct.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/445-0
+00:58:43.993 --> 00:58:44.553
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/448-0
+00:58:55.833 --> 00:59:00.138
+<v thomas broussard>And here it gives me only the different
+years. OK,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/448-1
+00:59:00.138 --> 00:59:05.879
+<v thomas broussard>you see that there's a very close
+relationship between group by and</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/448-2
+00:59:05.879 --> 00:59:10.100
+<v thomas broussard>distinct,
+because if you notice what we have here</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/448-3
+00:59:10.100 --> 00:59:11.873
+<v thomas broussard>is nothing more than.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/449-0
+00:59:12.393 --> 00:59:17.761
+<v thomas broussard>Nothing different from what we have in
+the distinct. Why is that?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/449-1
+00:59:17.761 --> 00:59:24.431
+<v thomas broussard>Because we use the same key to group here.
+We use those unique values in order to</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/449-2
+00:59:24.431 --> 00:59:26.953
+<v thomas broussard>group the values by those keys.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/450-0
+00:59:28.073 --> 00:59:32.961
+<v thomas broussard>So if you want to have only,
+let's say the column type, the row titles,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/450-1
+00:59:32.961 --> 00:59:35.473
+<v thomas broussard>you can use a distinct with the same.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/451-0
+00:59:36.473 --> 00:59:42.633
+<v thomas broussard>Arguments as the group by and you will
+have the only the unique values.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/452-0
+00:59:44.313 --> 00:59:44.713
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/453-0
+00:59:47.633 --> 00:59:49.793
+<v thomas broussard>Now if you want to have.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/457-0
+01:00:13.313 --> 01:00:13.433
+<v thomas broussard>OK.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/458-0
+01:00:18.353 --> 01:00:24.169
+<v thomas broussard>This is for one specific year.
+This is the list of the different years</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/458-1
+01:00:24.169 --> 01:00:26.873
+<v thomas broussard>and this is the revenue per year.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/459-0
+01:00:28.593 --> 01:00:29.953
+<v thomas broussard>So difference.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/460-0
+01:00:30.993 --> 01:00:32.633
+<v thomas broussard>Ways to reach the same results.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/462-0
+01:00:34.233 --> 01:00:39.517
+<v thomas broussard>The only thing is that this one is way
+more portable because you can reuse.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/462-1
+01:00:39.517 --> 01:00:42.993
+<v thomas broussard>Of course,
+if you need to move from 1996 to 1997,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/462-2
+01:00:42.993 --> 01:00:45.913
+<v thomas broussard>you don't have to rewrite the whole query.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/463-0
+01:00:45.953 --> 01:00:46.793
+<v thomas broussard>Very good.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/464-0
+01:00:51.833 --> 01:00:54.710
+<v thomas broussard>OK, guys,
+let's do the attendance and we will be</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/464-1
+01:00:54.710 --> 01:00:59.114
+<v thomas broussard>done for today. Next time what we will do,
+we'll continue that set of data</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/464-2
+01:00:59.114 --> 01:01:02.696
+<v thomas broussard>extractions a bit on the same format.
+You work a little bit.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/464-3
+01:01:02.696 --> 01:01:06.513
+<v thomas broussard>I'm proposing a solution.
+You ask me questions, we will discuss.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/465-0
+01:01:06.553 --> 01:01:12.113
+<v thomas broussard>And we move to the next question so that
+I think doing that you will practice,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/465-1
+01:01:12.113 --> 01:01:17.673
+<v thomas broussard>you will be more prepared and you will
+reach the the level I want you to have.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/466-0
+01:01:25.593 --> 01:01:27.233
+<v thomas broussard>Yes, I know what that means.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/467-0
+01:01:32.593 --> 01:01:34.233
+<v thomas broussard>Yes.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/468-0
+01:01:37.033 --> 01:01:37.353
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/469-0
+01:01:45.353 --> 01:01:46.233
+<v thomas broussard>Here you are.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/470-0
+01:01:50.473 --> 01:01:51.033
+<v thomas broussard>Aravind.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/471-0
+01:01:53.793 --> 01:01:54.793
+<v thomas broussard>Aryans.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/474-0
+01:02:07.153 --> 01:02:08.273
+<v thomas broussard>You would I yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/475-0
+01:02:09.193 --> 01:02:10.513
+<v thomas broussard>Are you sure?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/476-0
+01:02:12.673 --> 01:02:13.273
+<v thomas broussard>A month.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/478-0
+01:02:15.033 --> 01:02:21.953
+<v thomas broussard>Hakeem, Isabel, Janice, Choadi,</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/479-0
+01:02:25.633 --> 01:02:26.793
+<v thomas broussard>Khalid.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/480-0
+01:02:28.913 --> 01:02:30.313
+<v thomas broussard>Sure, Mohammed.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/481-0
+01:02:32.233 --> 01:02:33.193
+<v thomas broussard>The shops.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/482-0
+01:02:34.553 --> 01:02:36.673
+<v thomas broussard>Same for Muhammad.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/483-0
+01:02:38.873 --> 01:02:39.433
+<v thomas broussard>Mohsin.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/484-0
+01:02:41.033 --> 01:02:41.433
+<v thomas broussard>Navin.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/485-0
+01:02:43.593 --> 01:02:47.353
+<v thomas broussard>Muhammad sure Muhammad Danish.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/486-0
+01:02:50.913 --> 01:02:51.393
+<v thomas broussard>Obaid.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/487-0
+01:02:53.673 --> 01:02:53.913
+<v thomas broussard>Achin.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/489-0
+01:03:08.393 --> 01:03:08.873
+<v thomas broussard>Soup.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/491-0
+01:03:19.873 --> 01:03:22.953
+<v thomas broussard>And are you low? Are you?</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/492-0
+01:03:25.273 --> 01:03:28.073
+<v thomas broussard>They are.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/493-0
+01:03:26.273 --> 01:03:28.473
+<v Arihant Jain>Sir, I am also present.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/494-0
+01:03:36.113 --> 01:03:36.513
+<v thomas broussard>Yeah.</v>
+
+b9523a45-10e2-4949-87bc-3b9d9ffa8240/495-0
+01:03:37.913 --> 01:03:38.273
+<v thomas broussard>Thank you.</v>

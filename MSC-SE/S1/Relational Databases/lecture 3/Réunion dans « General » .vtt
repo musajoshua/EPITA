@@ -1,0 +1,4644 @@
+WEBVTT
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/8-0
+00:00:38.950 --> 00:00:39.990
+<v thomas broussard>That's.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/18-0
+00:01:38.390 --> 00:01:39.030
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/21-0
+00:01:46.590 --> 00:01:51.590
+<v thomas broussard>So if I'm not wrong,
+last time we did not do any join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/23-0
+00:01:53.070 --> 00:01:56.669
+<v thomas broussard>Statements, right?
+We have not started yet,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/23-1
+00:01:56.669 --> 00:02:00.350
+<v thomas broussard>so we are a bit behind in terms of
+contents.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/24-0
+00:02:06.190 --> 00:02:08.030
+<v thomas broussard>Let's me uh.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/25-0
+00:02:11.390 --> 00:02:11.670
+<v thomas broussard>Check that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/26-0
+00:02:15.030 --> 00:02:16.550
+<v thomas broussard>This is right here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/28-0
+00:02:28.870 --> 00:02:29.350
+<v thomas broussard>So.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/29-0
+00:02:35.070 --> 00:02:37.830
+<v thomas broussard>OK, so let's just have a look. Bonjour.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/30-0
+00:02:40.990 --> 00:02:47.150
+<v thomas broussard>Let's just have a look to the to the
+overall. Um</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/31-0
+00:02:49.270 --> 00:02:51.710
+<v thomas broussard>Map I would say of this database.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/32-0
+00:02:53.270 --> 00:02:55.150
+<v thomas broussard>It looks like this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/33-0
+00:03:00.150 --> 00:03:03.470
+<v thomas broussard>If you remember the last thing that we
+did.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/35-0
+00:03:06.750 --> 00:03:14.425
+<v thomas broussard>Last thing that we did was to import the
+club data database in my database,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/35-1
+00:03:14.425 --> 00:03:21.190
+<v thomas broussard>in my private close down database and the
+diagram looks like this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/36-0
+00:03:22.350 --> 00:03:28.390
+<v thomas broussard>What does that mean? We have 3 tables and.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/37-0
+00:03:31.470 --> 00:03:33.350
+<v thomas broussard>How many leaks?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/39-0
+00:03:37.150 --> 00:03:42.532
+<v thomas broussard>We have feelings. What is good,
+what is usual I would say is to check</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/39-1
+00:03:42.532 --> 00:03:48.529
+<v thomas broussard>that we have good things which is in
+between facilities and members that that</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/39-2
+00:03:48.529 --> 00:03:54.142
+<v thomas broussard>it's like normal, it's central.
+We have this news connection from member</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/39-3
+00:03:54.142 --> 00:03:54.910
+<v thomas broussard>to member.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/40-0
+00:03:54.910 --> 00:03:55.910
+<v thomas broussard>What does that mean?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/41-0
+00:03:58.670 --> 00:04:01.190
+<v thomas broussard>We have this real connection.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/42-0
+00:04:02.590 --> 00:04:06.430
+<v thomas broussard>That's the next members, the members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/43-0
+00:04:08.270 --> 00:04:15.630
+<v thomas broussard>Do you remember? Do you know what it is?
+Why do we have a loop on members?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/44-0
+00:04:18.310 --> 00:04:21.190
+<v thomas broussard>There's a connection from member to
+member.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/47-0
+00:04:26.590 --> 00:04:34.336
+<v thomas broussard>What is good is with that diagram is that
+you have only one Click to understand</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/47-1
+00:04:34.336 --> 00:04:38.790
+<v thomas broussard>what makes the link if you click on the
+link.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/48-0
+00:04:40.350 --> 00:04:45.795
+<v thomas broussard>You will see what connects what data in
+connection with what order from the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/48-1
+00:04:45.795 --> 00:04:49.520
+<v thomas broussard>remote table.
+So here bookings we point the I think</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/48-2
+00:04:49.520 --> 00:04:52.672
+<v thomas broussard>here points to make my idea of the
+members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/48-3
+00:04:52.672 --> 00:04:56.110
+<v thomas broussard>So that means that here we have what we
+call a.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/49-0
+00:05:00.590 --> 00:05:08.418
+<v thomas broussard>That's with key. We have a foreign key.
+We have a foreign key between bookings</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/49-1
+00:05:08.418 --> 00:05:13.868
+<v thomas broussard>and members,
+and here we can see that this name ID has</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/49-2
+00:05:13.868 --> 00:05:15.750
+<v thomas broussard>a special symbolic.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/50-0
+00:05:16.750 --> 00:05:23.986
+<v thomas broussard>Representation is because this is the the
+primary queue of members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/50-1
+00:05:23.986 --> 00:05:32.073
+<v thomas broussard>So MMI is the primary queue of members
+and it is targeted by authority from</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/50-2
+00:05:32.073 --> 00:05:33.030
+<v thomas broussard>bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/51-0
+00:05:33.310 --> 00:05:33.830
+<v thomas broussard>To remember.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/53-0
+00:05:35.470 --> 00:05:38.670
+<v thomas broussard>OK, so why do we do that? You remember?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/54-0
+00:05:40.350 --> 00:05:46.150
+<v thomas broussard>Why do we do these primary piece for
+increase and so on?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/55-0
+00:05:49.750 --> 00:05:55.630
+<v thomas broussard>It will send data, so real use data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/57-0
+00:05:58.750 --> 00:06:03.823
+<v thomas broussard>To connect data, yes.
+When you have to retrieve data from to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/57-1
+00:06:03.823 --> 00:06:09.977
+<v thomas broussard>make the production to avoid repeating
+the booking member names, address,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/57-2
+00:06:09.977 --> 00:06:14.051
+<v thomas broussard>etcetera.
+Every every time when we do a booking,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/57-3
+00:06:14.051 --> 00:06:17.710
+<v thomas broussard>we just say we have a booking ID number
+ID.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/58-0
+00:06:17.790 --> 00:06:22.476
+<v thomas broussard>And then we point to this number ID
+whenever we need to make a reference to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/58-1
+00:06:22.476 --> 00:06:25.620
+<v thomas broussard>that number.
+And that's the same for the facility.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/58-2
+00:06:25.620 --> 00:06:30.367
+<v thomas broussard>I don't care of repeating all those
+information because I know them already.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/58-3
+00:06:30.367 --> 00:06:33.203
+<v thomas broussard>So instead of repeating them,
+what I will do,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/58-4
+00:06:33.203 --> 00:06:34.990
+<v thomas broussard>I will create a link between.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/59-0
+00:06:35.150 --> 00:06:41.473
+<v thomas broussard>Bookings and facilities through the
+correspondence of facility ID equal</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/59-1
+00:06:41.473 --> 00:06:45.951
+<v thomas broussard>facility ID.
+The question now is what if I want to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/59-2
+00:06:45.951 --> 00:06:46.390
+<v thomas broussard>have?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/60-0
+00:06:47.550 --> 00:06:57.190
+<v thomas broussard>A research of a query that will aggregate
+several data from different tables.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/61-0
+00:06:58.950 --> 00:06:59.430
+<v thomas broussard>For me.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/62-0
+00:07:02.710 --> 00:07:07.750
+<v thomas broussard>Next time the last one,
+we'll bring the breakfast for everyone.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/63-0
+00:07:09.990 --> 00:07:10.750
+<v thomas broussard>At this phone.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/65-0
+00:07:12.350 --> 00:07:16.523
+<v thomas broussard>OK,
+so what I said here is it's easy to get</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/65-1
+00:07:16.523 --> 00:07:22.688
+<v thomas broussard>all the data from one paper.
+Do you remember I've seen that very</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/65-2
+00:07:22.688 --> 00:07:27.430
+<v thomas broussard>quickly at the end of the last lecture is
+select.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/66-0
+00:07:28.550 --> 00:07:33.494
+<v thomas broussard>Start from the table.
+Select start from table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/66-1
+00:07:33.494 --> 00:07:38.647
+<v thomas broussard>We return everything which we have in the
+table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/66-2
+00:07:38.647 --> 00:07:43.590
+<v thomas broussard>Select for instance here name and member
+cost.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/67-0
+00:07:43.790 --> 00:07:51.566
+<v thomas broussard>From facilities we will get only the name
+and the number cost for this table for</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/67-1
+00:07:51.566 --> 00:07:57.806
+<v thomas broussard>each entry in this table.
+So you see you select the column names</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/67-2
+00:07:57.806 --> 00:07:59.630
+<v thomas broussard>and it will return.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/68-0
+00:07:59.950 --> 00:08:06.790
+<v thomas broussard>In the output the problem now is what if
+I want to have the list of bookings plus</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/68-1
+00:08:06.790 --> 00:08:13.128
+<v thomas broussard>not the facility ID because I haven't
+already on in each booking I have the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/68-2
+00:08:13.128 --> 00:08:15.630
+<v thomas broussard>facility ID which is good but.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/69-0
+00:08:15.710 --> 00:08:18.900
+<v thomas broussard>As a human,
+I don't care about the facilitators.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/69-1
+00:08:18.900 --> 00:08:23.458
+<v thomas broussard>If you see a list of pilots,
+you will be a bit trust if I try to dump</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/69-2
+00:08:23.458 --> 00:08:25.150
+<v thomas broussard>the list of students here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/70-0
+00:08:26.230 --> 00:08:29.110
+<v thomas broussard>If I have only the IDs.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/71-0
+00:08:30.510 --> 00:08:38.470
+<v thomas broussard>We have been dry because I don't know who
+it was. No response to what I.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/72-0
+00:08:40.190 --> 00:08:43.645
+<v thomas broussard>So it would be a bit difficult if we work
+only with IDs.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/72-1
+00:08:43.645 --> 00:08:47.282
+<v thomas broussard>Humans need to have the functional data,
+the business data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/72-2
+00:08:47.282 --> 00:08:50.070
+<v thomas broussard>So that means that here we need to have
+that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/73-0
+00:08:51.350 --> 00:09:00.372
+<v thomas broussard>Resolution of the link that we have here
+in order to in order to have to take</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/73-1
+00:09:00.372 --> 00:09:06.270
+<v thomas broussard>advantage of the link that we have set up
+between.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/74-0
+00:09:08.790 --> 00:09:14.776
+<v thomas broussard>Let's let's maybe let's do a small
+introduction about whispering.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/74-1
+00:09:14.776 --> 00:09:17.950
+<v thomas broussard>Whispering it when you talk. Let's.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/75-0
+00:09:19.230 --> 00:09:25.997
+<v thomas broussard>So that's it. Sure. You see,
+you can't even even maybe listen to me</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/75-1
+00:09:25.997 --> 00:09:33.858
+<v thomas broussard>because it's too low, but that's perfect.
+If you want to chat, use whispering.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/75-2
+00:09:33.858 --> 00:09:35.350
+<v thomas broussard>Thank you guys.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/76-0
+00:09:35.710 --> 00:09:39.867
+<v thomas broussard>OK, so you can check. OK,
+I'm not sure whether you want to talk</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/76-1
+00:09:39.867 --> 00:09:42.270
+<v thomas broussard>about everything extend the database.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/77-0
+00:09:43.630 --> 00:09:49.293
+<v thomas broussard>You will be concerned at the end because
+of course the the results of your exam</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/77-1
+00:09:49.293 --> 00:09:53.257
+<v thomas broussard>will be a bit down,
+maybe low because you will not have</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/77-2
+00:09:53.257 --> 00:09:57.433
+<v thomas broussard>listen, but except of the receipt,
+I will not be troubled.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/77-3
+00:09:57.433 --> 00:09:58.990
+<v thomas broussard>Just do not bother me.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/79-0
+00:09:59.150 --> 00:10:03.582
+<v thomas broussard>By talking loud. OK,
+So what I said is that if we can't,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/79-1
+00:10:03.582 --> 00:10:09.413
+<v thomas broussard>if we can take advantage of the link that
+we have set up between 2 tables,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/79-2
+00:10:09.413 --> 00:10:15.710
+<v thomas broussard>it means that we can as well resolve data
+from one primary table to another one.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/80-0
+00:10:15.750 --> 00:10:19.470
+<v thomas broussard>One for instance is that if I want to
+have the bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/81-0
+00:10:20.390 --> 00:10:28.585
+<v thomas broussard>Not only facility ID but facility name.
+I will have to use an operator which is</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/81-1
+00:10:28.585 --> 00:10:34.219
+<v thomas broussard>called join.
+OK so for instance here I could say in my</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/81-2
+00:10:34.219 --> 00:10:35.550
+<v thomas broussard>query editor.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/82-0
+00:10:42.670 --> 00:10:43.590
+<v thomas broussard>If I have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/83-0
+00:10:44.870 --> 00:10:47.830
+<v thomas broussard>The list of Boo if I want the list of
+bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/84-0
+00:10:53.430 --> 00:10:55.390
+<v thomas broussard>This is to limit the the result to 10.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/85-0
+00:10:58.910 --> 00:10:59.950
+<v thomas broussard>OK, so.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/87-0
+00:11:01.510 --> 00:11:05.910
+<v thomas broussard>You see it's not so usable the actually
+the only functional data are here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/88-0
+00:11:07.070 --> 00:11:11.688
+<v thomas broussard>Which is the time,
+date and time and then the duration of</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/88-1
+00:11:11.688 --> 00:11:15.669
+<v thomas broussard>the booking.
+Slots is actually the number of time</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/88-2
+00:11:15.669 --> 00:11:21.799
+<v thomas broussard>slots that you are taking for one booking.
+OK, so imagine that we have this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/88-3
+00:11:21.799 --> 00:11:23.550
+<v thomas broussard>Now I want to resolve.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/89-0
+00:11:24.190 --> 00:11:28.470
+<v thomas broussard>The facilities using the link that we
+have set up.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/91-0
+00:11:35.750 --> 00:11:37.550
+<v thomas broussard>Between bookings and facility.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/92-0
+00:11:39.230 --> 00:11:40.030
+<v thomas broussard>What's sorry?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/93-0
+00:11:42.390 --> 00:11:48.220
+<v thomas broussard>What's the correspondence?
+It's actually facilities ID is</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/93-1
+00:11:48.220 --> 00:11:54.350
+<v thomas broussard>corresponding corresponding to booking
+facility ID. Bonjour.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/94-0
+00:11:55.590 --> 00:12:01.717
+<v thomas broussard>That makes me having all the data
+corresponding to my facility.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/94-1
+00:12:01.717 --> 00:12:07.844
+<v thomas broussard>I'm resolving everything.
+It means that here on the left side I</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/94-2
+00:12:07.844 --> 00:12:12.630
+<v thomas broussard>have the original query SELECT star from
+booking.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/95-0
+00:12:13.670 --> 00:12:19.247
+<v thomas broussard>But after the last column of booking,
+I can see new columns here and are</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/95-1
+00:12:19.247 --> 00:12:22.150
+<v thomas broussard>corresponding to the facilities table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/96-0
+00:12:24.750 --> 00:12:34.984
+<v thomas broussard>So it's like we have merged 2 tables
+merged on what's on what criteria on this</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/96-1
+00:12:34.984 --> 00:12:36.150
+<v thomas broussard>equality.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/97-0
+00:12:38.990 --> 00:12:43.583
+<v thomas broussard>So what happens behind the scenes when we
+do that?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/97-1
+00:12:43.583 --> 00:12:50.428
+<v thomas broussard>It's taking all the data from the
+bookings and every time it finds one data</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/97-2
+00:12:50.428 --> 00:12:54.750
+<v thomas broussard>in the facilities which matches this
+condition.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/98-0
+00:12:55.070 --> 00:12:59.790
+<v thomas broussard>It happens it at the end of the line for
+each line.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/99-0
+00:13:00.790 --> 00:13:04.603
+<v thomas broussard>So it's like a merge,
+but it's a horizontal merge.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/99-1
+00:13:04.603 --> 00:13:08.190
+<v thomas broussard>It's not appending,
+it's just appending at the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/99-2
+00:13:08.190 --> 00:13:14.095
+<v thomas broussard>For each data that we have for bookings,
+we are adding new columns on based on</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/99-3
+00:13:14.095 --> 00:13:15.590
+<v thomas broussard>that correspondence.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/100-0
+00:13:16.910 --> 00:13:25.350
+<v thomas broussard>OK, mainly here it's a bit long.
+We can have only maybe the the time slots.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/101-0
+00:13:26.990 --> 00:13:29.510
+<v thomas broussard>The time, sorry, the start time.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/102-0
+00:13:35.630 --> 00:13:38.470
+<v thomas broussard>And the name and maybe the number of
+slots.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/103-0
+00:13:44.750 --> 00:13:50.710
+<v thomas broussard>And now we know,
+at least for those 10 results, we know.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/105-0
+00:13:53.470 --> 00:13:58.103
+<v thomas broussard>What has been booked for how long and at
+what date inside?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/105-1
+00:13:58.103 --> 00:14:04.228
+<v thomas broussard>Do you understand the concept of join?
+It's good that we have spread our data</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/105-2
+00:14:04.228 --> 00:14:08.390
+<v thomas broussard>over several favors because now we are
+raising them.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/106-0
+00:14:08.710 --> 00:14:14.107
+<v thomas broussard>The problem is now to retrieve the word
+that I said that we wanted to use,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/106-1
+00:14:14.107 --> 00:14:19.936
+<v thomas broussard>maybe to present within an application,
+maybe to build a prediction that assets,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/106-2
+00:14:19.936 --> 00:14:23.390
+<v thomas broussard>maybe to do visualizations, etcetera. OK,
+good.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/107-0
+00:14:23.830 --> 00:14:26.430
+<v thomas broussard>So let's go back to the theory.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/111-0
+00:14:48.470 --> 00:14:49.870
+<v thomas broussard>Bonjour.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/112-0
+00:15:01.230 --> 00:15:01.350
+<v thomas broussard>But.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/113-0
+00:15:04.230 --> 00:15:07.950
+<v thomas broussard>Yes,
+one point that is important to recall.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/114-0
+00:15:09.950 --> 00:15:14.430
+<v thomas broussard>I will base my evaluation on this
+exercise.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/115-0
+00:15:20.230 --> 00:15:25.479
+<v thomas broussard>I'm I'm not sure.
+I can't remember if I've introduced that</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/115-1
+00:15:25.479 --> 00:15:29.837
+<v thomas broussard>website to you. OK, I have. I did that.
+Bonjour.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/115-2
+00:15:29.837 --> 00:15:32.950
+<v thomas broussard>So you can check this and train as.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/116-0
+00:15:35.550 --> 00:15:37.070
+<v thomas broussard>Much as possible.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/117-0
+00:15:44.230 --> 00:15:51.910
+<v thomas broussard>Because the exam will be based on this
+kind of of exercise.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/118-0
+00:15:54.030 --> 00:15:54.790
+<v thomas broussard>OK guys.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/119-0
+00:16:00.270 --> 00:16:00.310
+<v thomas broussard>Uh.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/120-0
+00:16:02.350 --> 00:16:06.496
+<v thomas broussard>OK,
+so if I summarize what we have done here,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/120-1
+00:16:06.496 --> 00:16:12.264
+<v thomas broussard>it's not so interesting.
+I think what could be interesting more</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/120-2
+00:16:12.264 --> 00:16:16.950
+<v thomas broussard>likely is to to the reverse.
+Here we are selecting.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/121-0
+00:16:18.310 --> 00:16:18.910
+<v thomas broussard>The bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/124-0
+00:16:36.070 --> 00:16:41.504
+<v thomas broussard>What does it do here?
+It's it select all the bookings where the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/124-1
+00:16:41.504 --> 00:16:45.578
+<v thomas broussard>facilities have a monthly maintenance
+below 15.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/124-2
+00:16:45.578 --> 00:16:52.030
+<v thomas broussard>What's the interest is maybe to have the
+cheapest bookings to to record to.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/125-0
+00:16:52.870 --> 00:16:59.000
+<v thomas broussard>To to manage, I would say here.
+So maybe if I want to do a a a</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/125-1
+00:16:59.000 --> 00:17:05.324
+<v thomas broussard>profitability calculus,
+maybe that could be interesting to start</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/125-2
+00:17:05.324 --> 00:17:07.950
+<v thomas broussard>with that list of bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/126-0
+00:17:09.110 --> 00:17:09.390
+<v thomas broussard>Let's see.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/127-0
+00:17:11.470 --> 00:17:16.822
+<v thomas broussard>Now you see that here I'm using a join.
+Actually join like this can be replaced</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/127-1
+00:17:16.822 --> 00:17:20.100
+<v thomas broussard>by inner join.
+There are different types of join</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/127-2
+00:17:20.100 --> 00:17:24.046
+<v thomas broussard>depending on of what you want to isolate
+in terms of data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/127-3
+00:17:24.046 --> 00:17:27.190
+<v thomas broussard>Here we are not asking ourselves,
+we just say.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/128-0
+00:17:27.510 --> 00:17:32.521
+<v thomas broussard>Inner join means that you will get all
+the connected data,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/128-1
+00:17:32.521 --> 00:17:39.654
+<v thomas broussard>but sometimes you may have some isolated
+data, like data connected to anything. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/128-2
+00:17:39.654 --> 00:17:44.070
+<v thomas broussard>let me find the illustration because I
+can see the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/129-0
+00:17:44.350 --> 00:17:48.670
+<v thomas broussard>The website I was referring to is dead,
+apparently.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/134-0
+00:18:14.150 --> 00:18:19.230
+<v thomas broussard>Well, I can't find exactly what I want,
+but this one I think will do.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/135-0
+00:18:29.870 --> 00:18:29.990
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/136-0
+00:18:34.950 --> 00:18:36.510
+<v thomas broussard>What we will do?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/137-0
+00:18:40.910 --> 00:18:45.710
+<v thomas broussard>We do this, this, this, this and that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/138-0
+00:18:47.830 --> 00:18:52.796
+<v thomas broussard>Because the those ones are not supported
+in my secret. Very simple,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/138-1
+00:18:52.796 --> 00:18:54.110
+<v thomas broussard>as simple as that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/139-0
+00:18:56.070 --> 00:19:01.395
+<v thomas broussard>But let me take some examples and while
+we have Venn diagrams,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/139-1
+00:19:01.395 --> 00:19:08.241
+<v thomas broussard>maybe it will remind you of the of the
+algebra lectures when you have ensembles,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/139-2
+00:19:08.241 --> 00:19:11.030
+<v thomas broussard>etcetera. That's exactly it here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/140-0
+00:19:11.270 --> 00:19:16.432
+<v thomas broussard>We have A&amp;
+B which are actually two entities and the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/140-1
+00:19:16.432 --> 00:19:22.499
+<v thomas broussard>space inside represent data.
+So what we have here in the circle is</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/140-2
+00:19:22.499 --> 00:19:26.030
+<v thomas broussard>data. We have data from A, data from B.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/141-0
+00:19:26.750 --> 00:19:32.998
+<v thomas broussard>Hence the red parts of the diagram is
+actually the selected data,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/141-1
+00:19:32.998 --> 00:19:35.270
+<v thomas broussard>the data we enrich with.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/142-0
+00:19:37.430 --> 00:19:41.730
+<v thomas broussard>Let's take some example because A&amp;
+B is a I'll be the abstracts.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/142-1
+00:19:41.730 --> 00:19:43.910
+<v thomas broussard>Let's take attendance and students.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/143-0
+00:19:44.910 --> 00:19:44.990
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/144-0
+00:19:46.710 --> 00:19:51.995
+<v thomas broussard>All grades and students,
+because I know that you like grades.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/144-1
+00:19:51.995 --> 00:19:53.870
+<v thomas broussard>You like grades a lot.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/145-0
+00:19:55.550 --> 00:19:58.968
+<v thomas broussard>And that's why we are talking about
+grades.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/145-1
+00:19:58.968 --> 00:20:03.938
+<v thomas broussard>So we have grades and we have students
+here. What are we doing?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/145-2
+00:20:03.938 --> 00:20:06.190
+<v thomas broussard>We are taking all the grades.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/146-0
+00:20:07.670 --> 00:20:11.186
+<v thomas broussard>And you see that there's an intersection
+between grades and students.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/146-1
+00:20:11.186 --> 00:20:12.190
+<v thomas broussard>What does that mean?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/147-0
+00:20:13.270 --> 00:20:19.699
+<v thomas broussard>We have grades and the students connected
+to the grades and then we have empty</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/147-1
+00:20:19.699 --> 00:20:24.093
+<v thomas broussard>things here,
+which means that we may have some grades</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/147-2
+00:20:24.093 --> 00:20:27.510
+<v thomas broussard>not connected to anything in the students.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/148-0
+00:20:27.550 --> 00:20:34.630
+<v thomas broussard>Is that is that possible to have grades?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/150-0
+00:20:36.150 --> 00:20:43.950
+<v thomas broussard>No, no. In reality it's not possible.
+We should have only.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/152-0
+00:20:43.990 --> 00:20:48.880
+<v thomas broussard>Connected data.
+So normally when we want to retrieve data,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/152-1
+00:20:48.880 --> 00:20:54.764
+<v thomas broussard>there should be no A which is not
+connected to B as in this diagram in</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/152-2
+00:20:54.764 --> 00:20:58.576
+<v thomas broussard>reality,
+but in real life it can happen maybe</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/152-3
+00:20:58.576 --> 00:21:01.310
+<v thomas broussard>because you have denties as well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/153-0
+00:21:01.510 --> 00:21:07.868
+<v thomas broussard>But not deleted this grade and so that
+means that here we have some grades</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/153-1
+00:21:07.868 --> 00:21:14.819
+<v thomas broussard>without any connected student can happen
+maybe due to a bug or due to a a missing</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/153-2
+00:21:14.819 --> 00:21:17.870
+<v thomas broussard>step in the in the delete procedure.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/154-0
+00:21:18.150 --> 00:21:22.463
+<v thomas broussard>OK, so do you understand?
+Here we select all the grades,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/154-1
+00:21:22.463 --> 00:21:28.289
+<v thomas broussard>all the grades connected with students
+and here we may have some unconnected</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/154-2
+00:21:28.289 --> 00:21:31.996
+<v thomas broussard>students.
+In that case means that we have grades</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/154-3
+00:21:31.996 --> 00:21:34.190
+<v thomas broussard>with no student attached, OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/155-0
+00:21:34.910 --> 00:21:35.990
+<v thomas broussard>What is that?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/156-0
+00:21:37.070 --> 00:21:39.110
+<v thomas broussard>If we follow the same example.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/157-0
+00:21:39.990 --> 00:21:45.870
+<v thomas broussard>What's the use for that? For example,
+there is no, as you said,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/157-1
+00:21:45.870 --> 00:21:52.760
+<v thomas broussard>no waste connected to no student.
+I agree that normally there should be in</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/157-2
+00:21:52.760 --> 00:21:54.230
+<v thomas broussard>the ideal world.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/158-0
+00:21:55.190 --> 00:22:01.156
+<v thomas broussard>There should be no difference between
+left joint and inner joint. If you miss,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/158-1
+00:22:01.156 --> 00:22:06.820
+<v thomas broussard>you have full walking, free walking,
+rational database because the goal of</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/158-2
+00:22:06.820 --> 00:22:12.030
+<v thomas broussard>rational database is greatly and if you
+have deadly then means that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/159-0
+00:22:12.230 --> 00:22:13.510
+<v thomas broussard>You have an issue.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/160-0
+00:22:14.710 --> 00:22:18.675
+<v thomas broussard>So in reality,
+you always have to follow one table</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/160-1
+00:22:18.675 --> 00:22:20.230
+<v thomas broussard>compared to another.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/161-0
+00:22:21.270 --> 00:22:25.670
+<v thomas broussard>Then ask yourself what's what's important
+to have the grace.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/162-0
+00:22:27.270 --> 00:22:31.150
+<v thomas broussard>All to have only the greatest that are
+connected to things.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/163-0
+00:22:32.470 --> 00:22:33.350
+<v thomas broussard>This is the first question.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/164-0
+00:22:35.070 --> 00:22:40.833
+<v thomas broussard>You want all the data from table or all
+the connected data compared to another</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/164-1
+00:22:40.833 --> 00:22:41.270
+<v thomas broussard>table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/165-0
+00:22:42.430 --> 00:22:47.933
+<v thomas broussard>See because this and that can be a price
+and this is why the left joint ensure</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/165-1
+00:22:47.933 --> 00:22:50.510
+<v thomas broussard>that you will have all the data from.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/166-0
+00:22:52.470 --> 00:22:58.070
+<v thomas broussard>The left join exclusive which is just
+below here is all the data from A which</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/166-1
+00:22:58.070 --> 00:23:02.520
+<v thomas broussard>are not connected to B.
+So here mainly this is a level query.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/166-2
+00:23:02.520 --> 00:23:07.833
+<v thomas broussard>You want to have all the data which
+should be connected but which are not</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/166-3
+00:23:07.833 --> 00:23:08.550
+<v thomas broussard>connected.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/167-0
+00:23:09.030 --> 00:23:12.251
+<v thomas broussard>Here the inner join only the connected
+data,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/167-1
+00:23:12.251 --> 00:23:17.620
+<v thomas broussard>but be careful because if you do inner
+join you will miss potentially some</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/167-2
+00:23:17.620 --> 00:23:22.129
+<v thomas broussard>unconnected data. OK,
+so it depends what you want to do if you</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/167-3
+00:23:22.129 --> 00:23:26.710
+<v thomas broussard>want to have for instance all the the
+counts of all the grades.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/168-0
+00:23:29.270 --> 00:23:31.959
+<v thomas broussard>True,
+it's weird to have great which are not</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/168-1
+00:23:31.959 --> 00:23:35.844
+<v thomas broussard>connected to students,
+so maybe we should ask ourselves why they</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/168-2
+00:23:35.844 --> 00:23:40.505
+<v thomas broussard>are here and should we count steps.
+But if they are here and you are asked to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/168-3
+00:23:40.505 --> 00:23:43.612
+<v thomas broussard>do statistics,
+then maybe you should dump your full</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/168-4
+00:23:43.612 --> 00:23:44.030
+<v thomas broussard>counts.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/169-0
+00:23:44.310 --> 00:23:49.590
+<v thomas broussard>Of the the grades that you have.
+So amazing more this one. OK hence.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/170-0
+00:23:52.350 --> 00:23:55.830
+<v thomas broussard>It should not be different from this one,
+but it could be.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/171-0
+00:23:56.790 --> 00:23:56.990
+<v thomas broussard>You see?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/172-0
+00:23:59.270 --> 00:24:03.548
+<v thomas broussard>So if you have a difference in counts in
+terms of count between this and that,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/172-1
+00:24:03.548 --> 00:24:07.230
+<v thomas broussard>it means that you have somewhere some
+data which are not connected.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/173-0
+00:24:09.070 --> 00:24:09.190
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/174-0
+00:24:10.430 --> 00:24:16.466
+<v thomas broussard>Here what it does in in addition to the
+original select star from A,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/174-1
+00:24:16.466 --> 00:24:23.639
+<v thomas broussard>it does select star from A plus all the
+dates are connected to A from and you see</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/174-2
+00:24:23.639 --> 00:24:26.350
+<v thomas broussard>that we have a long space here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/175-0
+00:24:26.910 --> 00:24:30.544
+<v thomas broussard>Actually,
+it will appear as new values in our</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/175-1
+00:24:30.544 --> 00:24:34.573
+<v thomas broussard>results. We'll see.
+We'll practice that very soon.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/175-2
+00:24:34.573 --> 00:24:40.656
+<v thomas broussard>Let's keep in mind simple example,
+A equal attendance, B equal students. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/175-3
+00:24:40.656 --> 00:24:42.630
+<v thomas broussard>and here what we do here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/176-0
+00:24:43.830 --> 00:24:49.954
+<v thomas broussard>If we go on the reverse,
+so here we select all the students and</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/176-1
+00:24:49.954 --> 00:24:57.990
+<v thomas broussard>potentially the attached grades and here
+we select all the students with no grades.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/177-0
+00:24:59.590 --> 00:25:04.524
+<v thomas broussard>Which is weird as well.
+Maybe it's a student who has declared</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/177-1
+00:25:04.524 --> 00:25:08.981
+<v thomas broussard>himself as a student but never came to
+the new lecture,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/177-2
+00:25:08.981 --> 00:25:14.710
+<v thomas broussard>never came to a new exam and so he has no
+grades. Or maybe he was sick.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/178-0
+00:25:14.990 --> 00:25:19.126
+<v thomas broussard>I don't know,
+but this is a way to isolate those</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/178-1
+00:25:19.126 --> 00:25:23.430
+<v thomas broussard>specific data.
+So your added value as an engineer.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/179-0
+00:25:24.870 --> 00:25:27.990
+<v thomas broussard>Is not to know how to write this,
+but to identify the case.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/180-0
+00:25:29.750 --> 00:25:34.451
+<v thomas broussard>You see,
+to play on I I need to have all the data</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/180-1
+00:25:34.451 --> 00:25:39.810
+<v thomas broussard>from A by default,
+so it means that I will have to use a</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/180-2
+00:25:39.810 --> 00:25:40.750
+<v thomas broussard>left join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/181-0
+00:25:41.910 --> 00:25:46.306
+<v thomas broussard>And after that, how to write a left join,
+it's a detail.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/181-1
+00:25:46.306 --> 00:25:50.239
+<v thomas broussard>So it's the conversion between the
+business input.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/181-2
+00:25:50.239 --> 00:25:55.791
+<v thomas broussard>I want this from the business,
+so I want all the students which have no</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/181-3
+00:25:55.791 --> 00:25:57.950
+<v thomas broussard>grade and you have to think.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/182-0
+00:25:58.470 --> 00:26:01.816
+<v thomas broussard>And in your mind you should have this
+diagram,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/182-1
+00:26:01.816 --> 00:26:07.510
+<v thomas broussard>small diagram that says student with no
+grade could be right join excluding OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/183-0
+00:26:10.670 --> 00:26:13.590
+<v thomas broussard>So how do we write this?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/184-0
+00:26:14.470 --> 00:26:16.910
+<v thomas broussard>Let's do an exercise.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/185-0
+00:26:22.030 --> 00:26:23.710
+<v thomas broussard>I have um.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/186-0
+00:26:28.190 --> 00:26:28.950
+<v thomas broussard>A script.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/187-0
+00:26:33.790 --> 00:26:36.310
+<v thomas broussard>Let me share it with you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/190-0
+00:26:47.470 --> 00:26:52.964
+<v thomas broussard>OK, so the first exercise,
+the first small exercise is to create a</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/190-1
+00:26:52.964 --> 00:26:54.030
+<v thomas broussard>new database.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/191-0
+00:26:55.550 --> 00:27:02.190
+<v thomas broussard>On your system and this database has to
+be called SQL join exercise.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/192-0
+00:27:03.710 --> 00:27:06.750
+<v thomas broussard>Let's create a new database join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/194-0
+00:27:08.270 --> 00:27:09.150
+<v thomas broussard>Exercises.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/195-0
+00:27:12.750 --> 00:27:17.193
+<v thomas broussard>You see that as soon as I create
+something here,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/195-1
+00:27:17.193 --> 00:27:20.910
+<v thomas broussard>I will create a new folder join exercise.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/196-0
+00:27:25.230 --> 00:27:31.110
+<v thomas broussard>And then once you have this,
+the idea is to take.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/197-0
+00:27:33.630 --> 00:27:33.910
+<v thomas broussard>Peace.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/198-0
+00:27:37.230 --> 00:27:37.550
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/199-0
+00:27:42.270 --> 00:27:44.470
+<v thomas broussard>Create new file.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/200-0
+00:27:47.070 --> 00:27:51.470
+<v thomas broussard>That's it. OK, first load the data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/201-0
+00:27:55.710 --> 00:28:00.070
+<v thomas broussard>And you see that here it's said known,
+so that means not connected to anything.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/202-0
+00:28:01.310 --> 00:28:04.830
+<v thomas broussard>Not grab data join exercise.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/203-0
+00:28:07.870 --> 00:28:08.110
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/204-0
+00:28:10.710 --> 00:28:15.667
+<v thomas broussard>And then if you remember that if you want
+to execute as a script,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/204-1
+00:28:15.667 --> 00:28:21.524
+<v thomas broussard>just use the third execution button.
+Normally you should have two tables plus</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/204-2
+00:28:21.524 --> 00:28:26.781
+<v thomas broussard>16 rows, so that means 18 queries.
+If you have a look now to the join</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/204-3
+00:28:26.781 --> 00:28:30.310
+<v thomas broussard>exercise,
+you should have table A and table B.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/205-0
+00:28:30.350 --> 00:28:34.802
+<v thomas broussard>B.
+You recognize that what I want is to have</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/205-1
+00:28:34.802 --> 00:28:39.550
+<v thomas broussard>table A and table B here,
+so let's just select.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/206-0
+00:28:40.870 --> 00:28:46.150
+<v thomas broussard>Anything.
+Let's rename this to dump dot SQL.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/207-0
+00:28:47.790 --> 00:28:51.070
+<v thomas broussard>Let's create a new file.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/208-0
+00:28:52.470 --> 00:28:56.990
+<v thomas broussard>That I could join practice.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/209-0
+00:29:01.150 --> 00:29:05.470
+<v thomas broussard>And then I do select star from A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/210-0
+00:29:12.030 --> 00:29:14.870
+<v thomas broussard>It's not a, actually it's table A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/211-0
+00:29:17.070 --> 00:29:18.790
+<v thomas broussard>OK, this is what I have in a.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/212-0
+00:29:19.590 --> 00:29:24.670
+<v thomas broussard>Now let's see what what happens when we
+have a left join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/213-0
+00:29:26.310 --> 00:29:27.590
+<v thomas broussard>Table B.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/214-0
+00:29:31.150 --> 00:29:31.750
+<v thomas broussard>On.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/217-0
+00:29:46.550 --> 00:29:46.830
+<v thomas broussard>Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/218-0
+00:29:48.190 --> 00:29:49.670
+<v thomas broussard>What happens here?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/219-0
+00:29:53.510 --> 00:29:54.990
+<v thomas broussard>We are doing a join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/220-0
+00:29:56.830 --> 00:30:02.224
+<v thomas broussard>And to to make sure the join does not
+create rows that could match several</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/220-1
+00:30:02.224 --> 00:30:06.683
+<v thomas broussard>times, we use the PK.
+Usually we use the primary key in order</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/220-2
+00:30:06.683 --> 00:30:10.350
+<v thomas broussard>to set up the match condition between 2
+rows, yes.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/222-0
+00:30:20.710 --> 00:30:22.110
+<v thomas broussard>Come again, please.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/223-0
+00:30:23.710 --> 00:30:24.110
+<v thomas broussard>Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/224-0
+00:30:29.430 --> 00:30:34.378
+<v thomas broussard>Yes, you you could on general on NSSQL,
+but here it's not possible. Yeah,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/224-1
+00:30:34.378 --> 00:30:38.590
+<v thomas broussard>because actually there's no name for the
+primary key in MySQL.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/225-0
+00:30:41.310 --> 00:30:44.030
+<v thomas broussard>You see, it's this one is optional.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/226-0
+00:30:46.430 --> 00:30:46.590
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/228-0
+00:30:48.470 --> 00:30:55.013
+<v thomas broussard>It will take by default the primary key,
+but here we have no primary key,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/228-1
+00:30:55.013 --> 00:31:02.085
+<v thomas broussard>so I feel it's a bit tricky to rely on
+this on this default behavior because it</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/228-2
+00:31:02.085 --> 00:31:04.030
+<v thomas broussard>does not force you to.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/229-0
+00:31:04.150 --> 00:31:07.665
+<v thomas broussard>To think about what should match,
+but usually yes,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/229-1
+00:31:07.665 --> 00:31:13.110
+<v thomas broussard>we we match on primary key and but it's
+not mandatory, you can have more than.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/230-0
+00:31:14.470 --> 00:31:17.870
+<v thomas broussard>One condition here can have hands.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/231-0
+00:31:19.190 --> 00:31:24.683
+<v thomas broussard>And do your list of conditions.
+So if you have a very specific join which</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/231-1
+00:31:24.683 --> 00:31:28.618
+<v thomas broussard>is not only relying on the presence of
+primary keys,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/231-2
+00:31:28.618 --> 00:31:32.032
+<v thomas broussard>but you want to filter as well some
+elements,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/231-3
+00:31:32.032 --> 00:31:34.630
+<v thomas broussard>you can have another kind of match.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/232-0
+00:31:35.470 --> 00:31:35.590
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/233-0
+00:31:38.070 --> 00:31:44.671
+<v thomas broussard>Let's stay on the simple aspect for now
+and let's see what happens if we do that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/233-1
+00:31:44.671 --> 00:31:48.696
+<v thomas broussard>If you notice here,
+we have all the rules from A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/233-2
+00:31:48.696 --> 00:31:50.950
+<v thomas broussard>We have all the data from A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/234-0
+00:31:52.790 --> 00:31:56.070
+<v thomas broussard>We have some data from me.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/235-0
+00:31:57.030 --> 00:32:04.853
+<v thomas broussard>Here at line 123 and line 67.
+OK and we have some null values here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/235-1
+00:32:04.853 --> 00:32:11.870
+<v thomas broussard>If we think it's actually here,
+we have all the data from A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/236-0
+00:32:12.630 --> 00:32:19.518
+<v thomas broussard>We will have some data from A that
+corresponds to B and we have assigned to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/236-1
+00:32:19.518 --> 00:32:26.497
+<v thomas broussard>an A value some values in B which are
+empty and that means that we have null</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/236-2
+00:32:26.497 --> 00:32:26.950
+<v thomas broussard>here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/237-0
+00:32:29.750 --> 00:32:31.550
+<v thomas broussard>How to select only?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/238-0
+00:32:33.470 --> 00:32:35.670
+<v thomas broussard>The table which are only in A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/239-0
+00:32:41.270 --> 00:32:43.630
+<v thomas broussard>How to select the data which are only in
+A?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/240-0
+00:32:49.230 --> 00:32:50.590
+<v thomas broussard>I mean just looking at this query.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/241-0
+00:32:52.790 --> 00:32:58.559
+<v thomas broussard>And the result, the table.
+What's the condition that I should add to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/241-1
+00:32:58.559 --> 00:33:03.910
+<v thomas broussard>this result in order to have only the
+data which are only in A?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/242-0
+00:33:09.270 --> 00:33:09.430
+<v thomas broussard>If.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/243-0
+00:33:11.470 --> 00:33:12.670
+<v thomas broussard>No idea.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/244-0
+00:33:14.630 --> 00:33:16.990
+<v thomas broussard>Tell me what rules are only in a.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/245-0
+00:33:21.750 --> 00:33:25.270
+<v thomas broussard>What are the rules which are only in A?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/246-0
+00:33:27.550 --> 00:33:27.910
+<v thomas broussard>This one.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/247-0
+00:33:30.670 --> 00:33:33.968
+<v thomas broussard>No, no,
+because here we have some data which are</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/247-1
+00:33:33.968 --> 00:33:34.910
+<v thomas broussard>OK, it should.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/248-0
+00:33:36.190 --> 00:33:42.367
+<v thomas broussard>Let me reformulate the question.
+What are the data which are which are</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/248-1
+00:33:42.367 --> 00:33:45.150
+<v thomas broussard>only a PK value which is only a?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/249-0
+00:33:47.350 --> 00:33:56.884
+<v thomas broussard>The least like like John and then there
+will be exactly where PK is or PK is not.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/249-1
+00:33:56.884 --> 00:34:03.510
+<v thomas broussard>If you look at the condition,
+the data which are only a.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/250-0
+00:34:04.390 --> 00:34:09.312
+<v thomas broussard>It's line 4, line 5 and line 8. Yep,
+because how do we know that?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/250-1
+00:34:09.312 --> 00:34:14.756
+<v thomas broussard>Because it has null on the B side.
+So that means it's not connected to B</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/250-2
+00:34:14.756 --> 00:34:19.230
+<v thomas broussard>point and that means what?
+That means that we have as well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/251-0
+00:34:22.590 --> 00:34:29.390
+<v thomas broussard>A very easy way to isolate them is to do
+where?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/252-0
+00:34:33.390 --> 00:34:33.630
+<v thomas broussard>Where?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/253-0
+00:34:36.790 --> 00:34:41.110
+<v thomas broussard>V dot PK is new.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/254-0
+00:34:45.590 --> 00:34:52.830
+<v thomas broussard>And here we have the table A data which
+are only in A and not found in B.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/255-0
+00:34:54.390 --> 00:34:55.670
+<v thomas broussard>Understood.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/256-0
+00:34:56.750 --> 00:35:06.310
+<v thomas broussard>Good. So if you have understood,
+then let's do all the rest of the joins.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/258-0
+00:35:15.310 --> 00:35:15.390
+<v thomas broussard>Um.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/259-0
+00:35:22.110 --> 00:35:23.510
+<v thomas broussard>So this is.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/260-0
+00:35:24.910 --> 00:35:25.030
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/261-0
+00:35:26.070 --> 00:35:29.590
+<v thomas broussard>Left join exclusive.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/262-0
+00:35:35.750 --> 00:35:38.390
+<v thomas broussard>Left join is this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/263-0
+00:35:41.030 --> 00:35:41.470
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/264-0
+00:35:45.830 --> 00:35:51.787
+<v thomas broussard>And now I would like you to find to
+practice inner join. It's pretty easy.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/264-1
+00:35:51.787 --> 00:35:58.061
+<v thomas broussard>Inner join is instead of left you do
+inner and right join you do right instead</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/264-2
+00:35:58.061 --> 00:36:02.190
+<v thomas broussard>of left.
+So but just to have a look to the results.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/265-0
+00:36:02.750 --> 00:36:03.670
+<v thomas broussard>It provides.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/266-0
+00:36:04.670 --> 00:36:10.990
+<v thomas broussard>Please do me the three remaining jobs,
+inner join, right join, right join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/273-0
+00:36:52.790 --> 00:36:53.310
+<v thomas broussard>Yes.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/283-0
+00:37:50.990 --> 00:37:51.110
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/284-0
+00:37:57.710 --> 00:37:58.070
+<v thomas broussard>Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/288-0
+00:38:16.070 --> 00:38:17.870
+<v thomas broussard>So, so again.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/289-0
+00:38:21.310 --> 00:38:31.793
+<v thomas broussard>So it means that some of the ancestry are
+not here. I would send you the link,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/289-1
+00:38:31.793 --> 00:38:38.295
+<v thomas broussard>the redistributable,
+which I'm not here anymore.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/289-2
+00:38:38.295 --> 00:38:40.550
+<v thomas broussard>I don't know why.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/290-0
+00:38:41.870 --> 00:38:44.510
+<v thomas broussard>Maybe you haven't installed something? No.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/291-0
+00:38:46.070 --> 00:38:49.320
+<v thomas broussard>Yeah,
+but have you uninstalled something which</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/291-1
+00:38:49.320 --> 00:38:53.398
+<v thomas broussard>is not MySQL but you have still
+uninstalled something? No,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/291-2
+00:38:53.398 --> 00:38:58.030
+<v thomas broussard>you have made no change on the on the
+data, on the on your system.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/297-0
+00:39:31.990 --> 00:39:32.190
+<v thomas broussard>So.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/298-0
+00:39:38.310 --> 00:39:39.630
+<v thomas broussard>What's your name?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/299-0
+00:39:43.470 --> 00:39:43.870
+<v thomas broussard>Yes.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/301-0
+00:39:52.150 --> 00:39:52.950
+<v thomas broussard>This one.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/306-0
+00:40:19.230 --> 00:40:19.710
+<v thomas broussard>Mhm.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/311-0
+00:40:56.830 --> 00:40:58.030
+<v thomas broussard>All right.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/312-0
+00:41:01.870 --> 00:41:02.510
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/314-0
+00:41:12.750 --> 00:41:13.230
+<v thomas broussard>Mhm.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/316-0
+00:41:24.830 --> 00:41:25.310
+<v thomas broussard>Mhm.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/324-0
+00:42:14.710 --> 00:42:16.030
+<v thomas broussard>Let's see.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/328-0
+00:42:31.950 --> 00:42:33.710
+<v thomas broussard>OK, so.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/330-0
+00:42:36.870 --> 00:42:42.270
+<v thomas broussard>Normally 3 queries should be very easy to
+and quick to write.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/331-0
+00:42:44.350 --> 00:42:44.710
+<v thomas broussard>So I.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/332-0
+00:42:46.510 --> 00:42:51.070
+<v thomas broussard>Go again. This is the left join exclusive.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/333-0
+00:42:52.590 --> 00:42:56.956
+<v thomas broussard>Have a look here. It's two comments,
+some lines.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/333-1
+00:42:56.956 --> 00:43:00.430
+<v thomas broussard>It's dash O we can have the right join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/334-0
+00:43:05.230 --> 00:43:09.824
+<v thomas broussard>You see,
+it's a bit weird because we select from</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/334-1
+00:43:09.824 --> 00:43:14.230
+<v thomas broussard>the table,
+but here what do we expect to have?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/335-0
+00:43:15.870 --> 00:43:18.070
+<v thomas broussard>All the data from.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/336-0
+00:43:19.190 --> 00:43:24.525
+<v thomas broussard>B. So we select table A,
+but we expect to have all the values from</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/336-1
+00:43:24.525 --> 00:43:30.895
+<v thomas broussard>B. For me it's a bit counterintuitive.
+This is why I'm not using the right join</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/336-2
+00:43:30.895 --> 00:43:34.717
+<v thomas broussard>so fun,
+but this is in the result what we have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/336-3
+00:43:34.717 --> 00:43:36.230
+<v thomas broussard>So we have all the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/337-0
+00:43:36.750 --> 00:43:38.230
+<v thomas broussard>Data from here as expected.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/338-0
+00:43:39.390 --> 00:43:45.317
+<v thomas broussard>Data from B,
+some data connected from A connected to B.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/338-1
+00:43:45.317 --> 00:43:50.185
+<v thomas broussard>OK,
+so based on the equivalence of the PK and</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/338-2
+00:43:50.185 --> 00:43:54.630
+<v thomas broussard>some non matching data from A from B in A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/340-0
+00:43:54.710 --> 00:43:58.350
+<v thomas broussard>OK, so if I want to isolate only the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/341-0
+00:43:59.990 --> 00:44:02.510
+<v thomas broussard>Not connected data, the unconnected data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/342-0
+00:44:04.070 --> 00:44:06.510
+<v thomas broussard>I can do my right join exclusive.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/346-0
+00:44:17.990 --> 00:44:25.674
+<v thomas broussard>Pay attention, it's not equal null,
+it's is null, or is not null. So this is,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/346-1
+00:44:25.674 --> 00:44:32.470
+<v thomas broussard>these are the data from B,
+which are not connected to anything in A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/347-0
+00:44:33.510 --> 00:44:36.030
+<v thomas broussard>Now let's do the inner join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/354-0
+00:45:11.230 --> 00:45:15.150
+<v thomas broussard>Self join. What do you mean by self join?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/356-0
+00:45:28.670 --> 00:45:28.990
+<v thomas broussard>Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/357-0
+00:45:34.830 --> 00:45:42.968
+<v thomas broussard>Self join. OK, yeah, actually self join.
+I think it's not something which is in</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/357-1
+00:45:42.968 --> 00:45:48.868
+<v thomas broussard>the common SQL. Well,
+so it's maybe a shortcut to join on</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/357-2
+00:45:48.868 --> 00:45:50.190
+<v thomas broussard>yourself and.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/358-0
+00:45:50.470 --> 00:45:56.221
+<v thomas broussard>Honestly, I never used it, so I can tell.
+But if we go back to the previews</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/358-1
+00:45:56.221 --> 00:46:00.156
+<v thomas broussard>database,
+you remember that we have something which</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/358-2
+00:46:00.156 --> 00:46:05.830
+<v thomas broussard>points to itself, which is the members,
+and here it's interesting because.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/359-0
+00:46:06.350 --> 00:46:11.030
+<v thomas broussard>Thanks to this, for instance,
+if we do a join on the same table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/360-0
+00:46:12.670 --> 00:46:16.590
+<v thomas broussard>Like this select star from members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/361-0
+00:46:19.350 --> 00:46:24.347
+<v thomas broussard>Join so we can do inner join.
+We expect all the data to be connected.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/361-1
+00:46:24.347 --> 00:46:29.344
+<v thomas broussard>Maybe that could be interesting to have
+as well the unconnected data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/361-2
+00:46:29.344 --> 00:46:34.555
+<v thomas broussard>So we take all the members list,
+we keep it full and then we will try to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/361-3
+00:46:34.555 --> 00:46:36.910
+<v thomas broussard>append the corresponding members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/362-0
+00:46:37.750 --> 00:46:41.550
+<v thomas broussard>On the right side, so left join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/363-0
+00:46:43.030 --> 00:46:43.950
+<v thomas broussard>Members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/364-0
+00:46:48.350 --> 00:46:57.987
+<v thomas broussard>On M dot memid equal M2 dot recommended
+by because we have seen it was the the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/364-1
+00:46:57.987 --> 00:47:00.670
+<v thomas broussard>foreign key to itself.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/365-0
+00:47:03.350 --> 00:47:08.468
+<v thomas broussard>And here, what do we see?
+We see all the information from A,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/365-1
+00:47:08.468 --> 00:47:13.585
+<v thomas broussard>which is the member,
+and some corresponding values here. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/365-2
+00:47:13.585 --> 00:47:18.870
+<v thomas broussard>these on the right side are actually the
+percent that we have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/366-0
+00:47:18.870 --> 00:47:21.150
+<v thomas broussard>That have recommended.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/367-0
+00:47:22.150 --> 00:47:26.430
+<v thomas broussard>The the first part of the members,
+so we can say maybe.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/368-0
+00:47:29.470 --> 00:47:30.830
+<v thomas broussard>Instead of star.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/369-0
+00:47:32.150 --> 00:47:33.710
+<v thomas broussard>First name.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/370-0
+00:47:35.270 --> 00:47:35.950
+<v thomas broussard>Surname.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/371-0
+00:47:38.750 --> 00:47:40.990
+<v thomas broussard>And here we can say.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/372-0
+00:47:43.830 --> 00:47:54.310
+<v thomas broussard>M2 dot first name M2 dot last name.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/373-0
+00:47:57.310 --> 00:47:58.910
+<v thomas broussard>It's surname, sorry.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/377-0
+00:48:21.270 --> 00:48:23.310
+<v thomas broussard>OK, so I've run here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/378-0
+00:48:25.590 --> 00:48:31.720
+<v thomas broussard>We can see the links of persons who have
+been recommended by someone else.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/378-1
+00:48:31.720 --> 00:48:37.523
+<v thomas broussard>So apparently guest has been recommended
+by no one. That seems normal.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/378-2
+00:48:37.523 --> 00:48:40.710
+<v thomas broussard>But this person has been recommended by</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/379-0
+00:48:41.870 --> 00:48:42.190
+<v thomas broussard>This.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/380-0
+00:48:43.590 --> 00:48:47.883
+<v thomas broussard>Janice droplets,
+but as well these gerald butters,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/380-1
+00:48:47.883 --> 00:48:51.670
+<v thomas broussard>that's a bit weird to have this in that
+way.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/381-0
+00:48:57.030 --> 00:48:58.910
+<v thomas broussard>You commented by yes.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/382-0
+00:49:00.310 --> 00:49:02.350
+<v thomas broussard>I maybe.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/383-0
+00:49:06.950 --> 00:49:11.487
+<v thomas broussard>Sorry,
+I would have expected to find only one</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/383-1
+00:49:11.487 --> 00:49:12.670
+<v thomas broussard>person here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/384-0
+00:49:14.590 --> 00:49:18.350
+<v thomas broussard>Maximum on this side,
+but apparently we have more than one.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/386-0
+00:49:21.870 --> 00:49:26.804
+<v thomas broussard>So what does that mean when we have
+person who are not connected to anything?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/386-1
+00:49:26.804 --> 00:49:32.118
+<v thomas broussard>They have not been recommended by anyone.
+They just came to the club like this. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/386-2
+00:49:32.118 --> 00:49:36.293
+<v thomas broussard>so maybe self join was to do something
+like this. I I don't know.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/386-3
+00:49:36.293 --> 00:49:38.190
+<v thomas broussard>Maybe I should document a bit.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/387-0
+00:49:38.630 --> 00:49:43.417
+<v thomas broussard>But you see there are plenty of
+variations in SQL that we that we don't</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/387-1
+00:49:43.417 --> 00:49:47.672
+<v thomas broussard>know. It depends on the vendors,
+depends on the usages as well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/387-2
+00:49:47.672 --> 00:49:53.190
+<v thomas broussard>So sometimes you just work with a company
+and you only what the company gives you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/388-0
+00:49:55.390 --> 00:50:02.857
+<v thomas broussard>But normally with right, left, inner,
+you should cover whatever is needed. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/388-1
+00:50:02.857 --> 00:50:06.070
+<v thomas broussard>so let's go back to the club data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/389-0
+00:50:07.390 --> 00:50:13.630
+<v thomas broussard>And I would like you to practice a bit to
+find 2-3,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/389-1
+00:50:13.630 --> 00:50:23.350
+<v thomas broussard>maybe maximum 5 queries that are using
+joint. OK, no more point to connect data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/390-0
+00:50:24.590 --> 00:50:26.110
+<v thomas broussard>The.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/391-0
+00:50:29.870 --> 00:50:30.350
+<v thomas broussard>Mhm.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/395-0
+00:50:44.830 --> 00:50:45.110
+<v thomas broussard>Small.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/396-0
+00:50:48.110 --> 00:50:48.310
+<v thomas broussard>So.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/397-0
+00:50:50.590 --> 00:50:50.750
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/398-0
+00:50:56.030 --> 00:50:56.750
+<v thomas broussard>We.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/400-0
+00:51:09.470 --> 00:51:09.670
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/402-0
+00:51:11.710 --> 00:51:17.144
+<v thomas broussard>Maybe it's because you have not imported
+the the club data, the club data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/402-1
+00:51:17.144 --> 00:51:22.794
+<v thomas broussard>It's in the I provided it last time.
+So in teams you should have done the SQL</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/402-2
+00:51:22.794 --> 00:51:24.750
+<v thomas broussard>file. Have a look at teams.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/403-0
+00:51:30.670 --> 00:51:31.230
+<v thomas broussard>What?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/404-0
+00:51:34.550 --> 00:51:41.014
+<v thomas broussard>This one you should create a new database.
+How to create a new database?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/404-1
+00:51:41.014 --> 00:51:43.670
+<v thomas broussard>It's right click on databases.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/405-0
+00:51:45.590 --> 00:51:53.665
+<v thomas broussard>Create new database and then once you
+have this you will open a new SQL scripts,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/405-1
+00:51:53.665 --> 00:51:58.550
+<v thomas broussard>copy paste the dum dot SQL,
+run the dum dot SQL.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/406-0
+00:52:05.910 --> 00:52:08.190
+<v thomas broussard>Yes, but this is.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/407-0
+00:52:09.350 --> 00:52:11.590
+<v thomas broussard>I will look to what is inside.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/408-0
+00:52:12.990 --> 00:52:13.710
+<v thomas broussard>Language.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/409-0
+00:52:15.030 --> 00:52:20.709
+<v thomas broussard>So you have nothing my recommend.
+I recommend that you you name the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/409-1
+00:52:20.709 --> 00:52:25.218
+<v thomas broussard>databases accordingly to what we what
+they are doing.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/409-2
+00:52:25.218 --> 00:52:31.230
+<v thomas broussard>So if you practice what it's not so
+useful to understand what it means.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/409-3
+00:52:31.230 --> 00:52:33.150
+<v thomas broussard>So I will create maybe.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/410-0
+00:52:33.430 --> 00:52:38.510
+<v thomas broussard>But to clear then create new database
+data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/411-0
+00:52:42.550 --> 00:52:42.670
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/412-0
+00:52:48.630 --> 00:52:59.870
+<v thomas broussard>That's it now. Let's credit the talk.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/413-0
+00:53:01.430 --> 00:53:09.423
+<v thomas broussard>And then we copy paste like that's here.
+But don't that you have just what you</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/413-1
+00:53:09.423 --> 00:53:11.750
+<v thomas broussard>have that I don't know.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/414-0
+00:53:18.670 --> 00:53:21.070
+<v thomas broussard>Sure. Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/415-0
+00:53:25.030 --> 00:53:25.390
+<v thomas broussard>General.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/416-0
+00:53:30.150 --> 00:53:30.750
+<v thomas broussard>I took you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/417-0
+00:53:34.350 --> 00:53:34.390
+<v thomas broussard>Oh.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/418-0
+00:53:36.070 --> 00:53:36.270
+<v thomas broussard>S.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/419-0
+00:53:40.910 --> 00:53:46.590
+<v thomas broussard>And now you execute everything.
+It's the self.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/420-0
+00:53:50.190 --> 00:53:54.310
+<v thomas broussard>So now you should refresh this one,
+wipe it.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/421-0
+00:53:55.390 --> 00:53:55.950
+<v thomas broussard>Refresh.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/422-0
+00:54:01.550 --> 00:54:03.590
+<v thomas broussard>What's going through them?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/423-0
+00:54:07.790 --> 00:54:08.110
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/424-0
+00:54:09.270 --> 00:54:14.990
+<v thomas broussard>Uh, so this one is a new data,
+the other one. So now it will be quick.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/425-0
+00:54:16.150 --> 00:54:19.790
+<v thomas broussard>So I click on that. It's great, yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/426-0
+00:54:21.870 --> 00:54:23.150
+<v thomas broussard>Join the service.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/427-0
+00:54:28.110 --> 00:54:35.656
+<v thomas broussard>OK. And then yes,
+create a new file actually you'll have it.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/427-1
+00:54:35.656 --> 00:54:42.830
+<v thomas broussard>So you can here join practice other joins
+practices just.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/428-0
+00:54:43.230 --> 00:54:55.950
+<v thomas broussard>Yeah, but we will reorganize later.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/429-0
+00:54:58.270 --> 00:55:00.350
+<v thomas broussard>OK, so now you execute.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/430-0
+00:55:05.390 --> 00:55:07.310
+<v thomas broussard>OK, this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/431-0
+00:55:10.390 --> 00:55:17.043
+<v thomas broussard>Yes,
+it's it's it's the transit in favors of</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/431-1
+00:55:17.043 --> 00:55:20.590
+<v thomas broussard>this one. That's in the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/432-0
+00:55:22.070 --> 00:55:26.670
+<v thomas broussard>Refresher, you will see.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/433-0
+00:55:30.910 --> 00:55:36.094
+<v thomas broussard>After you get into it,
+if you if you can remove and drop this,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/433-1
+00:55:36.094 --> 00:55:39.550
+<v thomas broussard>this Johnny says because you're having to.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/434-0
+00:55:40.910 --> 00:55:42.190
+<v thomas broussard>So I really got it.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/435-0
+00:55:44.110 --> 00:55:44.470
+<v thomas broussard>Thanks.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/437-0
+00:55:51.270 --> 00:55:56.310
+<v thomas broussard>You have to remember that practice 31 is
+actually the joint.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/438-0
+00:55:57.470 --> 00:55:57.590
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/439-0
+00:55:59.030 --> 00:55:59.630
+<v thomas broussard>Yup.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/440-0
+00:56:01.070 --> 00:56:09.870
+<v thomas broussard>Yeah, yeah, yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/441-0
+00:56:12.630 --> 00:56:18.807
+<v thomas broussard>Yeah, of course. Of course you can do the.
+If you notice the right join is nothing</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/441-1
+00:56:18.807 --> 00:56:22.230
+<v thomas broussard>more than the left join,
+but starting from B.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/442-0
+00:56:23.790 --> 00:56:31.707
+<v thomas broussard>Do select from a left right join B.
+It's the same as select B left join A.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/442-1
+00:56:31.707 --> 00:56:38.779
+<v thomas broussard>It's exactly exactly the same.
+It's a matter of the point of view.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/442-2
+00:56:38.779 --> 00:56:42.790
+<v thomas broussard>Sometimes you're forced to query from.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/443-0
+00:56:42.830 --> 00:56:43.070
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/444-0
+00:56:44.710 --> 00:56:48.608
+<v thomas broussard>Because B is not the only table you want
+to join. You have,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/444-1
+00:56:48.608 --> 00:56:52.570
+<v thomas broussard>you can join several times.
+It will be the case in bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/444-2
+00:56:52.570 --> 00:56:57.962
+<v thomas broussard>If we need to have both the members and
+facilities details, we need to join twice.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/444-3
+00:56:57.962 --> 00:56:59.910
+<v thomas broussard>We need to join in facilities.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/445-0
+00:57:00.670 --> 00:57:04.230
+<v thomas broussard>We need to join our members, OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/446-0
+00:57:05.150 --> 00:57:07.950
+<v thomas broussard>Let's do 5 minute break.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/447-0
+00:57:10.470 --> 00:57:15.790
+<v thomas broussard>And after that I show 5 queries on the
+club data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/448-0
+00:57:28.150 --> 00:57:29.750
+<v thomas broussard>I just switched something to.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/452-0
+00:57:57.990 --> 00:57:59.150
+<v thomas broussard>So.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/454-0
+00:58:15.870 --> 00:58:15.950
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/457-0
+00:58:39.470 --> 00:58:43.470
+<v thomas broussard>Thank you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/458-0
+00:58:45.670 --> 00:58:53.070
+<v thomas broussard>That's what I'm trying to do now.
+It's like I'm.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/459-0
+00:58:54.550 --> 00:59:03.110
+<v thomas broussard>Like this?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/460-0
+00:59:14.470 --> 00:59:20.350
+<v thomas broussard>It's still, it's easier for me.
+I use it for the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/461-0
+00:59:21.430 --> 00:59:35.310
+<v thomas broussard>Yeah. Oh, OK. You want to click on.
+That's it. Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/462-0
+00:59:39.070 --> 00:59:56.430
+<v thomas broussard>Oh, OK, it's I'll sign the scripts. Yeah,
+we need the script. No, the script.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/463-0
+00:59:59.910 --> 01:00:12.631
+<v thomas broussard>OK, yes, this is what we used to do today.
+Yes, that's what I'm about to do.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/463-1
+01:00:12.631 --> 01:00:16.430
+<v thomas broussard>I think it's something.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/464-0
+01:00:16.710 --> 01:00:29.990
+<v thomas broussard>Save it according to the distructure.
+Yeah, you can.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/465-0
+01:00:31.510 --> 01:00:32.190
+<v thomas broussard>They are writing.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/466-0
+01:00:33.830 --> 01:00:39.808
+<v thomas broussard>Yes, it's definitely.
+It's in the gambling and moving.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/466-1
+01:00:39.808 --> 01:00:47.091
+<v thomas broussard>We we said, but what's up?
+And that's when you're still dependent.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/466-2
+01:00:47.091 --> 01:00:49.590
+<v thomas broussard>That's it. That's fine.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/467-0
+01:00:49.630 --> 01:00:49.750
+<v thomas broussard>But.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/468-0
+01:00:51.270 --> 01:00:58.937
+<v thomas broussard>OK, good. Yeah, the one itself.
+That's fine. It's not for you to have it,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/468-1
+01:00:58.937 --> 01:01:05.464
+<v thomas broussard>but basically it's the right. Yeah,
+when you click the inside,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/468-2
+01:01:05.464 --> 01:01:07.950
+<v thomas broussard>when you click the next.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/470-0
+01:01:07.990 --> 01:01:17.416
+<v thomas broussard>The first thing you need to always... Yes,
+we can make the scripts and everything to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/470-1
+01:01:17.416 --> 01:01:21.630
+<v thomas broussard>the script you need to direct it to...</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/471-0
+01:01:23.110 --> 01:01:31.770
+<v thomas broussard>No, no beta exist, but suggested. Yeah,
+so you do it. You see here,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/471-1
+01:01:31.770 --> 01:01:40.430
+<v thomas broussard>you just look for this, right?
+You click on it and you select your.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/472-0
+01:01:41.110 --> 01:01:52.343
+<v thomas broussard>And it flips a little bit.
+So you select right later. That's all.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/472-1
+01:01:52.343 --> 01:01:58.470
+<v thomas broussard>So now every part you run are drawn.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/473-0
+01:01:59.030 --> 01:02:02.630
+<v thomas broussard>Yes, it doesn't matter.
+You can even do baby.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/474-0
+01:02:05.870 --> 01:02:06.510
+<v thomas broussard>Which?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/475-0
+01:02:13.150 --> 01:02:20.859
+<v thomas broussard>I'm just saying I want to drop the whole
+point is you need to connect it to this</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/475-1
+01:02:20.859 --> 01:02:21.430
+<v thomas broussard>group.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/476-0
+01:02:22.950 --> 01:02:24.710
+<v thomas broussard>Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/477-0
+01:02:25.590 --> 01:02:27.590
+<v thomas broussard>You have the the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/482-0
+01:02:57.470 --> 01:03:01.150
+<v thomas broussard>But sometimes you don't.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/483-0
+01:03:12.030 --> 01:03:12.510
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/484-0
+01:03:14.150 --> 01:03:15.350
+<v thomas broussard>Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/485-0
+01:03:15.990 --> 01:03:18.910
+<v thomas broussard>Thank you very much and I do for you
+tonight.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/488-0
+01:03:29.910 --> 01:03:42.670
+<v thomas broussard>Yes. No, we have. We have. We have. Yeah.
+So we think we look at the difference.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/493-0
+01:04:09.350 --> 01:04:14.906
+<v thomas broussard>It's OK. I want you,
+if you from here to recruit to me,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/493-1
+01:04:14.906 --> 01:04:22.744
+<v thomas broussard>what I would advise is every time you
+have a script that is to create the good</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/493-2
+01:04:22.744 --> 01:04:24.430
+<v thomas broussard>that means right.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/496-0
+01:04:32.270 --> 01:04:38.550
+<v thomas broussard>Right? So then, actually,
+don't think of this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/497-0
+01:04:40.310 --> 01:04:46.280
+<v thomas broussard>Yes, so none connected to the .</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/498-0
+01:04:47.750 --> 01:04:47.870
+<v thomas broussard>See.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/499-0
+01:04:49.150 --> 01:04:57.470
+<v thomas broussard>Yep, and the next one you have to connect.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/500-0
+01:04:59.470 --> 01:05:00.590
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/501-0
+01:05:03.790 --> 01:05:10.310
+<v thomas broussard>Thank you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/502-0
+01:05:13.430 --> 01:05:17.987
+<v thomas broussard>OK,
+so do you have any question regarding the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/502-1
+01:05:17.987 --> 01:05:25.418
+<v thomas broussard>join? Do you see the the concept?
+I think if you have understood why we do</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/502-2
+01:05:25.418 --> 01:05:29.975
+<v thomas broussard>links,
+it's pretty easy to understand why now</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/502-3
+01:05:29.975 --> 01:05:32.550
+<v thomas broussard>it's a matter of practice.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/503-0
+01:05:33.110 --> 01:05:38.865
+<v thomas broussard>As usual,
+you will not learn it without practice.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/503-1
+01:05:38.865 --> 01:05:46.230
+<v thomas broussard>So have you found 5 queries regarding the
+collab data database?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/504-0
+01:05:47.910 --> 01:05:51.546
+<v thomas broussard>That could be interesting.
+So for instance,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/504-1
+01:05:51.546 --> 01:05:56.918
+<v thomas broussard>could be all the bookings with the
+corresponding facility names.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/504-2
+01:05:56.918 --> 01:06:00.719
+<v thomas broussard>This is what we have here.
+If we remove this,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/504-3
+01:06:00.719 --> 01:06:02.950
+<v thomas broussard>of course we need to limit.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/505-0
+01:06:05.390 --> 01:06:06.630
+<v thomas broussard>To a certain number.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/506-0
+01:06:10.110 --> 01:06:14.990
+<v thomas broussard>Because otherwise what happens if we do a
+select star with no limits?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/507-0
+01:06:16.150 --> 01:06:16.550
+<v thomas broussard>You will have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/508-0
+01:06:18.590 --> 01:06:19.630
+<v thomas broussard>The world data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/509-0
+01:06:21.070 --> 01:06:27.334
+<v thomas broussard>The whole table data that will be dumped.
+OK, so that's why it's important.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/509-1
+01:06:27.334 --> 01:06:33.598
+<v thomas broussard>So here it's a left it's an inner join.
+OK, what if I want to have as well?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/509-2
+01:06:33.598 --> 01:06:36.070
+<v thomas broussard>Not everything, but maybe the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/510-0
+01:06:37.150 --> 01:06:38.510
+<v thomas broussard>Facility name.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/513-0
+01:06:48.670 --> 01:06:52.630
+<v thomas broussard>Facility name,
+then the maybe the booking time.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/514-0
+01:06:55.350 --> 01:06:59.150
+<v thomas broussard>The facility name, the number of slots.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/515-0
+01:07:01.670 --> 01:07:07.059
+<v thomas broussard>And maybe we what could be interesting is
+to have the members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/515-1
+01:07:07.059 --> 01:07:09.710
+<v thomas broussard>How do I do to get the members?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/516-0
+01:07:16.190 --> 01:07:20.390
+<v thomas broussard>What should I add here in order to get
+the members as well?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/517-0
+01:07:23.830 --> 01:07:29.750
+<v thomas broussard>Hello. Someone is talking to you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/518-0
+01:07:30.670 --> 01:07:31.990
+<v thomas broussard>Here we have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/519-0
+01:07:34.590 --> 01:07:35.070
+<v thomas broussard>This.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/520-0
+01:07:37.510 --> 01:07:42.402
+<v thomas broussard>We should have a inner join and next
+another join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/520-1
+01:07:42.402 --> 01:07:46.910
+<v thomas broussard>Actually can be inner join as well inner
+join.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/521-0
+01:07:49.350 --> 01:07:49.630
+<v thomas broussard>Members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/522-0
+01:07:52.590 --> 01:07:52.750
+<v thomas broussard>On.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/523-0
+01:07:54.510 --> 01:07:58.672
+<v thomas broussard>And you see,
+if you are patient for at least 200</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/523-1
+01:07:58.672 --> 01:08:03.173
+<v thomas broussard>milliseconds,
+it will check if there's a primary key</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/523-2
+01:08:03.173 --> 01:08:08.353
+<v thomas broussard>that exists and the primary key and
+foreign key that exists.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/523-3
+01:08:08.353 --> 01:08:11.070
+<v thomas broussard>It will propose this by default.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/524-0
+01:08:11.630 --> 01:08:14.667
+<v thomas broussard>OK,
+so you don't even have to write if your</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/524-1
+01:08:14.667 --> 01:08:19.774
+<v thomas broussard>database constraints are correctly set up.
+OK and what should it do here?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/524-2
+01:08:19.774 --> 01:08:24.950
+<v thomas broussard>Would it change the query if I do this?
+Would it change the result timing?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/525-0
+01:08:26.430 --> 01:08:29.310
+<v thomas broussard>It will not change the result. Why?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/526-0
+01:08:30.550 --> 01:08:37.030
+<v thomas broussard>Because I did not select anything else.
+So here I need to select first name.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/527-0
+01:08:38.910 --> 01:08:40.030
+<v thomas broussard>And last name.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/530-0
+01:08:53.350 --> 01:08:55.550
+<v thomas broussard>OK, so here we know.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/531-0
+01:08:59.190 --> 01:09:00.990
+<v thomas broussard>We know exactly.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/532-0
+01:09:03.230 --> 01:09:08.750
+<v thomas broussard>Who has booked what at what time?
+Give me another idea.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/537-0
+01:09:36.590 --> 01:09:36.710
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/539-0
+01:09:49.950 --> 01:09:50.590
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/541-0
+01:10:00.470 --> 01:10:03.790
+<v thomas broussard>Wait, you have a question?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/542-0
+01:10:06.470 --> 01:10:15.030
+<v thomas broussard>No, exactly.
+So you see here the question is.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/543-0
+01:10:18.990 --> 01:10:26.121
+<v thomas broussard>Do we have to always rename the table
+name here to put an alias on it and then</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/543-1
+01:10:26.121 --> 01:10:31.536
+<v thomas broussard>to use this alias as prefix? No,
+it's not always necessary,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/543-2
+01:10:31.536 --> 01:10:36.590
+<v thomas broussard>but this is only because we have in the
+select at list.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/544-0
+01:10:36.870 --> 01:10:40.930
+<v thomas broussard>No ambiguity.
+Here you see it's mandatory because we</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/544-1
+01:10:40.930 --> 01:10:44.989
+<v thomas broussard>need to to precise what column are we
+talking about.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/544-2
+01:10:44.989 --> 01:10:50.809
+<v thomas broussard>Here this column is not the same as this
+one, even if the name is the same.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/544-3
+01:10:50.809 --> 01:10:53.030
+<v thomas broussard>So in that case you would be.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/545-0
+01:10:53.070 --> 01:10:58.714
+<v thomas broussard>Forced to prefix at least by the table
+name if you have no alias because the the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/545-1
+01:10:58.714 --> 01:11:03.451
+<v thomas broussard>engine will say I don't know of what
+column you are thinking about.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/545-2
+01:11:03.451 --> 01:11:06.935
+<v thomas broussard>It's ambiguous.
+What about when like when you are</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/545-3
+01:11:06.935 --> 01:11:07.910
+<v thomas broussard>displaying it?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/547-0
+01:11:08.150 --> 01:11:12.815
+<v thomas broussard>Yeah, I you can as well.
+So without doing as that's what you did</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/547-1
+01:11:12.815 --> 01:11:18.341
+<v thomas broussard>as refill first name and you just like
+this everything to use the table name</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/547-2
+01:11:18.341 --> 01:11:23.149
+<v thomas broussard>automatically as a prefix when displaying
+it, when it displays it.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/547-3
+01:11:23.149 --> 01:11:27.670
+<v thomas broussard>So instead of start time new first name,
+I'm sorry let's call.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/548-0
+01:11:27.790 --> 01:11:32.651
+<v thomas broussard>Bookings dot start time.
+You mean here you would like to have the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/548-1
+01:11:32.651 --> 01:11:38.321
+<v thomas broussard>the prefix of the table? Yeah, no,
+it's not possible to have it because here</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/548-2
+01:11:38.321 --> 01:11:43.550
+<v thomas broussard>it's something that does not exist.
+It's only for for you to help. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/548-3
+01:11:43.550 --> 01:11:46.790
+<v thomas broussard>if you really want to have B dot
+something.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/549-0
+01:11:47.430 --> 01:11:51.350
+<v thomas broussard>You have to have an eyes or simply like
+this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/550-0
+01:11:58.710 --> 01:11:59.030
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/551-0
+01:12:00.430 --> 01:12:06.546
+<v thomas broussard>The as is implicit here. Yeah,
+but usually this is not what we want.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/551-1
+01:12:06.546 --> 01:12:12.839
+<v thomas broussard>Now you have two two cases,
+but actually it's a kind of the same case.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/551-2
+01:12:12.839 --> 01:12:16.030
+<v thomas broussard>It's normally you are doing a query.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/552-0
+01:12:17.790 --> 01:12:21.190
+<v thomas broussard>To feed some a part of the software.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/553-0
+01:12:22.710 --> 01:12:27.464
+<v thomas broussard>It can be a back end aspect,
+so in that case what you need is</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/553-1
+01:12:27.464 --> 01:12:31.297
+<v thomas broussard>something which is unique and not so
+presentable.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/553-2
+01:12:31.297 --> 01:12:37.430
+<v thomas broussard>You don't care about the presentation.
+What comes here as long as it is unique.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/554-0
+01:12:37.910 --> 01:12:42.401
+<v thomas broussard>And you can map it easily from your
+software. You don't care.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/554-1
+01:12:42.401 --> 01:12:47.906
+<v thomas broussard>Sometimes you are doing a select query to
+be directly presented in the user</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/554-2
+01:12:47.906 --> 01:12:53.338
+<v thomas broussard>interface by using for instance a
+dashboard system or like I don't know if</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/554-3
+01:12:53.338 --> 01:12:53.990
+<v thomas broussard>you know.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/555-0
+01:12:54.470 --> 01:12:58.542
+<v thomas broussard>Power BI or tools like this that do
+dashboard from data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/555-1
+01:12:58.542 --> 01:13:03.113
+<v thomas broussard>It's exactly the case here.
+If you want to have something which</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/555-2
+01:13:03.113 --> 01:13:08.470
+<v thomas broussard>presents well from the beginning,
+you will rename your columns directly at</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/555-3
+01:13:08.470 --> 01:13:09.470
+<v thomas broussard>the SQL level.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/556-0
+01:13:09.870 --> 01:13:16.017
+<v thomas broussard>But usually it's not the case because you
+will have to aggregate with other data</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/556-1
+01:13:16.017 --> 01:13:22.163
+<v thomas broussard>and you will finally rename your view so
+that it it is well looking for the user</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/556-2
+01:13:22.163 --> 01:13:22.390
+<v thomas broussard>so.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/557-0
+01:13:24.350 --> 01:13:31.190
+<v thomas broussard>Usually you what you want really is
+something which is unique here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/558-0
+01:13:35.190 --> 01:13:39.940
+<v thomas broussard>OK, so we have this,
+but we are a bit limited here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/558-1
+01:13:39.940 --> 01:13:44.780
+<v thomas broussard>For instance,
+if we want to have the user who is the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/558-2
+01:13:44.780 --> 01:13:49.712
+<v thomas broussard>most active,
+the the member who is the most active in</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/558-3
+01:13:49.712 --> 01:13:50.990
+<v thomas broussard>this database.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/559-0
+01:13:52.070 --> 01:13:52.870
+<v thomas broussard>How can I do?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/560-0
+01:13:55.390 --> 01:13:57.510
+<v thomas broussard>What? What data should I have?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/561-0
+01:14:00.030 --> 01:14:06.041
+<v thomas broussard>Yes, we need an aggregation. We need to.
+Sorry,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/561-1
+01:14:06.041 --> 01:14:14.430
+<v thomas broussard>you see I'm getting old and a bit diff
+maybe. So the question was.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/562-0
+01:14:15.390 --> 01:14:22.365
+<v thomas broussard>If I want to identify who are the most
+active members in this database,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/562-1
+01:14:22.365 --> 01:14:25.270
+<v thomas broussard>how do I do? What should I do?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/563-0
+01:14:26.630 --> 01:14:27.990
+<v thomas broussard>What are the data I should have?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/564-0
+01:14:30.750 --> 01:14:36.684
+<v thomas broussard>The counts of bookings per member and
+then if I have this I will be able to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/564-1
+01:14:36.684 --> 01:14:43.243
+<v thomas broussard>identify who has booked the most in among
+the members. Do you see the the approach?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/564-2
+01:14:43.243 --> 01:14:49.333
+<v thomas broussard>The problem is that here we we have a
+count function. I did not introduce it,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/564-3
+01:14:49.333 --> 01:14:50.270
+<v thomas broussard>but we have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/565-0
+01:14:50.350 --> 01:14:54.813
+<v thomas broussard>The count function,
+but we'd like to have a count function</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/565-1
+01:14:54.813 --> 01:14:59.276
+<v thomas broussard>per member, per booking,
+per members booking actually. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/565-2
+01:14:59.276 --> 01:15:05.176
+<v thomas broussard>so we need to have the bookings for one
+member and then to count specifically</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/565-3
+01:15:05.176 --> 01:15:06.310
+<v thomas broussard>those bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/566-0
+01:15:06.510 --> 01:15:10.310
+<v thomas broussard>This is where we are missing some some
+tools here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/567-0
+01:15:17.190 --> 01:15:17.350
+<v thomas broussard>Sure.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/568-0
+01:15:23.350 --> 01:15:26.070
+<v thomas broussard>And this is if you want to.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/569-0
+01:15:27.070 --> 01:15:30.884
+<v thomas broussard>This if you want to do the few previous
+slides,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/569-1
+01:15:30.884 --> 01:15:37.080
+<v thomas broussard>if it's if you want to connect to some
+programming languages before we go for</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/569-2
+01:15:37.080 --> 01:15:43.118
+<v thomas broussard>the for the aggregate functions etc.
+Just a small introduction to the other</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/569-3
+01:15:43.118 --> 01:15:44.230
+<v thomas broussard>SQL functions.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/570-0
+01:15:45.750 --> 01:15:49.585
+<v thomas broussard>So we have concat.
+If you want to concatenate strings,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/570-1
+01:15:49.585 --> 01:15:54.257
+<v thomas broussard>for instance in the to calculate the the
+display name of a member,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/570-2
+01:15:54.257 --> 01:15:59.138
+<v thomas broussard>you could concatenate first name plus
+surname within the same column.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/570-3
+01:15:59.138 --> 01:16:00.950
+<v thomas broussard>So it will look like this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/571-0
+01:16:02.070 --> 01:16:03.550
+<v thomas broussard>Just to let you know.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/572-0
+01:16:09.630 --> 01:16:09.830
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/573-0
+01:16:11.710 --> 01:16:13.750
+<v thomas broussard>Maybe just with her.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/574-0
+01:16:14.750 --> 01:16:16.590
+<v thomas broussard>Separate all space in between.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/575-0
+01:16:19.150 --> 01:16:27.476
+<v thomas broussard>Here we can have as display name. OK,
+so it merges joins, strings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/575-1
+01:16:27.476 --> 01:16:34.310
+<v thomas broussard>Concat could be called joins as well,
+but join string.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/576-0
+01:16:36.510 --> 01:16:40.732
+<v thomas broussard>Upper lower case to transform the the the
+results,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/576-1
+01:16:40.732 --> 01:16:45.036
+<v thomas broussard>the values to their corresponding upper
+lower case.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/576-2
+01:16:45.036 --> 01:16:49.506
+<v thomas broussard>A substring to extract a string from a
+bigger string,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/576-3
+01:16:49.506 --> 01:16:53.230
+<v thomas broussard>the length which is the size of of the
+text.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/577-0
+01:16:53.990 --> 01:16:58.820
+<v thomas broussard>Then date and date functions we have.
+Now we have code dates,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/577-1
+01:16:58.820 --> 01:17:03.104
+<v thomas broussard>we have current date is the current date
+without time.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/577-2
+01:17:03.104 --> 01:17:08.790
+<v thomas broussard>Date add is when you want to add some
+interval to have for instance the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/578-0
+01:17:09.790 --> 01:17:17.342
+<v thomas broussard>Bookings within the two last weeks you
+could have date adds -14 and between now</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/578-1
+01:17:17.342 --> 01:17:24.704
+<v thomas broussard>and this stage the date diff to compute
+the difference in term in terms of of</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/578-2
+01:17:24.704 --> 01:17:25.270
+<v thomas broussard>dates.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/579-0
+01:17:25.750 --> 01:17:31.758
+<v thomas broussard>Principally to see if a date is before
+and after and here we have the the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/579-1
+01:17:31.758 --> 01:17:35.736
+<v thomas broussard>components,
+the date components extraction year,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/579-2
+01:17:35.736 --> 01:17:41.743
+<v thomas broussard>month and day. OK, so here year,
+month and day it's to have only the date</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/579-3
+01:17:41.743 --> 01:17:42.230
+<v thomas broussard>parts.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/580-0
+01:17:42.670 --> 01:17:45.190
+<v thomas broussard>For instance,
+it can be interesting to see.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/581-0
+01:17:47.470 --> 01:17:53.910
+<v thomas broussard>Here you see that we have some dates here
+you can have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/582-0
+01:18:00.110 --> 01:18:06.474
+<v thomas broussard>yeah only the year of the daytime,
+then only the month.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/582-1
+01:18:06.474 --> 01:18:10.110
+<v thomas broussard>Of course it has no meaning, but</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/583-0
+01:18:11.070 --> 01:18:16.148
+<v thomas broussard>It could be interesting to extract the
+month to see if there's a seasonality in</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/583-1
+01:18:16.148 --> 01:18:19.448
+<v thomas broussard>our bookings for a specific facility.
+For instance,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/583-2
+01:18:19.448 --> 01:18:22.748
+<v thomas broussard>the tennis court may be booked a lot
+during summer,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/583-3
+01:18:22.748 --> 01:18:27.190
+<v thomas broussard>but not a lot during winter,
+so that could be interesting to observe.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/584-0
+01:18:28.990 --> 01:18:35.430
+<v thomas broussard>OK, so these are the date components,
+but now let's try to go back to our.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/585-0
+01:18:40.830 --> 01:18:45.730
+<v thomas broussard>Aggregate functions.
+If we want to have bigger statistics,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/585-1
+01:18:45.730 --> 01:18:49.800
+<v thomas broussard>I mean volume statistics on the on the
+data set,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/585-2
+01:18:49.800 --> 01:18:56.277
+<v thomas broussard>we need to have what we call aggregate
+functions. Count is the first of them,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/585-3
+01:18:56.277 --> 01:18:58.270
+<v thomas broussard>so we can have the idea.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/586-0
+01:18:58.350 --> 01:19:04.081
+<v thomas broussard>Usually when it's when you import things,
+you do a count to make sure that you have</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/586-1
+01:19:04.081 --> 01:19:08.310
+<v thomas broussard>the correct number of rules.
+So here we can do select counts.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/587-0
+01:19:11.030 --> 01:19:12.390
+<v thomas broussard>From members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/588-0
+01:19:18.070 --> 01:19:18.190
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/589-0
+01:19:21.470 --> 01:19:27.510
+<v thomas broussard>You see that we can count one or count
+star as well. What's the difference?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/590-0
+01:19:29.750 --> 01:19:34.632
+<v thomas broussard>What? What means this one?
+What if I do 3 here changes? Nothing.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/590-1
+01:19:34.632 --> 01:19:37.110
+<v thomas broussard>It's actually not the increments.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/591-0
+01:19:38.230 --> 01:19:44.612
+<v thomas broussard>It's actually the column number.
+So here you are counting the third column</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/591-1
+01:19:44.612 --> 01:19:48.526
+<v thomas broussard>from members here the entries in this
+column.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/591-2
+01:19:48.526 --> 01:19:52.950
+<v thomas broussard>So the count applies on one column if you
+do start.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/592-0
+01:19:54.350 --> 01:19:59.110
+<v thomas broussard>It expands the whole list of columns that
+you have for one row.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/593-0
+01:20:00.110 --> 01:20:05.632
+<v thomas broussard>Which is not good because actually you
+need only one column to to make your</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/593-1
+01:20:05.632 --> 01:20:09.556
+<v thomas broussard>counts. OK,
+what is interesting for you is the number</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/593-2
+01:20:09.556 --> 01:20:12.971
+<v thomas broussard>of rows.
+So normally if you have a rectangular</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/593-3
+01:20:12.971 --> 01:20:15.150
+<v thomas broussard>table, which is our case here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/594-0
+01:20:15.790 --> 01:20:20.529
+<v thomas broussard>If you count column one, column two,
+column three or all the columns,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/594-1
+01:20:20.529 --> 01:20:25.877
+<v thomas broussard>it will still be a row. So it's one row,
+whatever is the number of columns you</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/594-2
+01:20:25.877 --> 01:20:29.735
+<v thomas broussard>have expanded.
+Why am I forcing one here to make sure we</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/594-3
+01:20:29.735 --> 01:20:32.510
+<v thomas broussard>are not expanding the whole columns data?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/595-0
+01:20:32.670 --> 01:20:40.870
+<v thomas broussard>To only do the counts of the room. OK,
+you can only go first. Yep, exactly. Yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/596-0
+01:20:43.350 --> 01:20:47.305
+<v thomas broussard>OK, so here's the counts.
+So you see how to apply this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/596-1
+01:20:47.305 --> 01:20:49.070
+<v thomas broussard>It's a bit weird because.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/597-0
+01:20:49.910 --> 01:20:54.430
+<v thomas broussard>Beforehand we had a result which look
+like this, so it's a table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/598-0
+01:20:54.630 --> 01:20:55.350
+<v thomas broussard>So it's a table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/601-0
+01:20:56.790 --> 01:21:03.839
+<v thomas broussard>Here the result is a very specific table.
+It's a table with one column and one row</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/601-1
+01:21:03.839 --> 01:21:10.972
+<v thomas broussard>on. This is why it's called an aggregate,
+because we are aggregating a list of data</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/601-2
+01:21:10.972 --> 01:21:12.670
+<v thomas broussard>to one single value.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/602-0
+01:21:12.750 --> 01:21:12.990
+<v thomas broussard>Value.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/603-0
+01:21:14.270 --> 01:21:18.073
+<v thomas broussard>OK,
+so when you see that it's always it can</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/603-1
+01:21:18.073 --> 01:21:24.381
+<v thomas broussard>sometimes be called aggregation and
+sometimes it can be called as well a</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/603-2
+01:21:24.381 --> 01:21:28.961
+<v thomas broussard>reduction.
+Maybe you have seen in the literature map</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/603-3
+01:21:28.961 --> 01:21:30.430
+<v thomas broussard>reduce operation.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/604-0
+01:21:31.350 --> 01:21:37.181
+<v thomas broussard>Here we are doing a reduction.
+We are reducing the data set to a single</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/604-1
+01:21:37.181 --> 01:21:37.990
+<v thomas broussard>value. OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/605-0
+01:21:39.470 --> 01:21:40.150
+<v thomas broussard>It.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/606-0
+01:21:42.390 --> 01:21:46.521
+<v thomas broussard>So we have other functions like AVG.
+For instance,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/606-1
+01:21:46.521 --> 01:21:52.109
+<v thomas broussard>if we want to see the average number of
+slots which which is booked,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/606-2
+01:21:52.109 --> 01:21:56.078
+<v thomas broussard>median percentiles,
+actually all the statistics,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/606-3
+01:21:56.078 --> 01:21:58.750
+<v thomas broussard>statistical data we have as well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/607-0
+01:21:58.950 --> 01:22:01.030
+<v thomas broussard>We can determine partitions.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/609-0
+01:22:01.990 --> 01:22:07.004
+<v thomas broussard>Based on some criteria and that will
+allow us to do some counts or some</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/609-1
+01:22:07.004 --> 01:22:10.626
+<v thomas broussard>aggregates per partition of the data.
+For instance,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/609-2
+01:22:10.626 --> 01:22:16.127
+<v thomas broussard>if you remember I said I would like to
+counts per member per different member.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/609-3
+01:22:16.127 --> 01:22:21.350
+<v thomas broussard>We can do a partition over the member ID,
+so we have a subset of the data.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/610-0
+01:22:21.510 --> 01:22:26.310
+<v thomas broussard>Data only for that member and then we can
+do a specific count only for that guy.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/612-0
+01:22:29.230 --> 01:22:35.230
+<v thomas broussard>So let's have a look here to the Select
+Counts aspect.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/613-0
+01:22:36.630 --> 01:22:42.277
+<v thomas broussard>You can also apply where clauses,
+so it's like a usual query.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/613-1
+01:22:42.277 --> 01:22:47.833
+<v thomas broussard>So if you want to filter you will have a
+another result. OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/613-2
+01:22:47.833 --> 01:22:54.482
+<v thomas broussard>you see that it works as well.
+In order to to have stable result we need</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/613-3
+01:22:54.482 --> 01:22:56.030
+<v thomas broussard>to have order by.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/614-0
+01:22:56.390 --> 01:23:01.969
+<v thomas broussard>And run cover we'll see in the next in
+the next session.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/614-1
+01:23:01.969 --> 01:23:08.134
+<v thomas broussard>The order by here allows you to fix an
+order for your results.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/614-2
+01:23:08.134 --> 01:23:11.070
+<v thomas broussard>Have a look here we have this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/615-0
+01:23:12.830 --> 01:23:14.350
+<v thomas broussard>Let's maybe do this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/617-0
+01:23:18.150 --> 01:23:20.070
+<v thomas broussard>If you do that for the exam.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/618-0
+01:23:21.030 --> 01:23:22.910
+<v thomas broussard>You are doomed.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/619-0
+01:23:24.470 --> 01:23:30.390
+<v thomas broussard>Because you have no order and even in
+real life, I mean if you do that,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/619-1
+01:23:30.390 --> 01:23:35.077
+<v thomas broussard>you are not good because if you have here
+a limit of 10,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/619-2
+01:23:35.077 --> 01:23:39.270
+<v thomas broussard>you are taking randomly 10 entries from
+the table.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/620-0
+01:23:40.030 --> 01:23:45.453
+<v thomas broussard>Which is not good if you want to do
+search, if you want to do pagination,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/620-1
+01:23:45.453 --> 01:23:50.142
+<v thomas broussard>if you want to do filtering, etcetera,
+you you it's not stable.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/620-2
+01:23:50.142 --> 01:23:54.831
+<v thomas broussard>How to make it stable?
+You are forced to add an order by close,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/620-3
+01:23:54.831 --> 01:23:56.150
+<v thomas broussard>order by and then.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/621-0
+01:23:56.230 --> 01:24:00.510
+<v thomas broussard>Usually we use functional data,
+so here apparently we are counting.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/623-0
+01:24:04.230 --> 01:24:09.101
+<v thomas broussard>We are not counting,
+but we can display what can be interested</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/623-1
+01:24:09.101 --> 01:24:11.110
+<v thomas broussard>is the list of facilities.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/625-0
+01:24:12.550 --> 01:24:14.830
+<v thomas broussard>Maybe it could be by dates.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/626-0
+01:24:18.630 --> 01:24:22.614
+<v thomas broussard>It's not date, it's start time,
+start time desk.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/626-1
+01:24:22.614 --> 01:24:28.955
+<v thomas broussard>So here I will have the most recent
+bookings first and then I can also change</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/626-2
+01:24:28.955 --> 01:24:34.158
+<v thomas broussard>with the facility name.
+So if we have something which is booked</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/626-3
+01:24:34.158 --> 01:24:36.190
+<v thomas broussard>exactly at the same time.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/627-0
+01:24:36.630 --> 01:24:40.590
+<v thomas broussard>We can do then an order within that
+subgroup.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/628-0
+01:24:47.110 --> 01:24:49.230
+<v thomas broussard>Look at the results here, it will change.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/630-0
+01:24:50.710 --> 01:24:54.074
+<v thomas broussard>For sure,
+because now we are booking by this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/630-1
+01:24:54.074 --> 01:24:57.950
+<v thomas broussard>Let's just remove this because it's a bit
+troubling.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/631-0
+01:25:00.990 --> 01:25:01.230
+<v thomas broussard>Right.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/632-0
+01:25:02.270 --> 01:25:02.390
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/633-0
+01:25:05.430 --> 01:25:12.337
+<v thomas broussard>So here we have the latest bookings and
+then if we have something which is at the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/633-1
+01:25:12.337 --> 01:25:17.644
+<v thomas broussard>same date and time,
+you see it's the case here. What do we do?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/633-2
+01:25:17.644 --> 01:25:21.350
+<v thomas broussard>We organize,
+we order by the facility name.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/634-0
+01:25:21.910 --> 01:25:25.930
+<v thomas broussard>And we see that here we have an equality
+as well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/634-1
+01:25:25.930 --> 01:25:30.190
+<v thomas broussard>So in order to make it 100% stable,
+we can order by.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/635-0
+01:25:40.230 --> 01:25:45.070
+<v thomas broussard>And so we are sure that what we see here
+is always in the same order.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/636-0
+01:25:46.630 --> 01:25:52.060
+<v thomas broussard>It's super important because all the
+pagination you would like to implement,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/636-1
+01:25:52.060 --> 01:25:57.490
+<v thomas broussard>all the filtering you'd like to implement.
+If you don't have an order at the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/636-2
+01:25:57.490 --> 01:26:00.310
+<v thomas broussard>beginning, it will not work as properly.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/638-0
+01:26:01.870 --> 01:26:06.625
+<v thomas broussard>And here I'm talking about the
+application from the application point of</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/638-1
+01:26:06.625 --> 01:26:06.950
+<v thomas broussard>view.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/639-0
+01:26:09.150 --> 01:26:10.430
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/640-0
+01:26:11.950 --> 01:26:13.590
+<v thomas broussard>Um, OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/641-0
+01:26:15.430 --> 01:26:18.230
+<v thomas broussard>What is the difference between order by?
+Oops.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/642-0
+01:26:21.390 --> 01:26:22.910
+<v thomas broussard>And rank over.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/645-0
+01:26:36.390 --> 01:26:43.710
+<v thomas broussard>Just classified which, which, yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/646-0
+01:26:44.870 --> 01:26:50.906
+<v thomas broussard>Usually the common problem that you will
+have with business analysts and business</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/646-1
+01:26:50.906 --> 01:26:55.028
+<v thomas broussard>representatives,
+user representatives is that they will</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/646-2
+01:26:55.028 --> 01:27:00.990
+<v thomas broussard>come to you with a question like I would
+like to to see the top three countries.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/647-0
+01:27:01.350 --> 01:27:06.889
+<v thomas broussard>For that count or for that statistic,
+and actually the top three is very</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/647-1
+01:27:06.889 --> 01:27:10.910
+<v thomas broussard>difficult to achieve because if you have
+inequality.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/648-0
+01:27:12.510 --> 01:27:17.874
+<v thomas broussard>It's a mess. For instance,
+if you have 10 countries which have</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/648-1
+01:27:17.874 --> 01:27:22.642
+<v thomas broussard>exactly the same stats,
+how do you make the the choice?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/648-2
+01:27:22.642 --> 01:27:27.750
+<v thomas broussard>So the question which is behind is maybe
+not the top three.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/649-0
+01:27:27.750 --> 01:27:34.348
+<v thomas broussard>But the countries at rank three,
+up to rank three, you see the point?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/649-1
+01:27:34.348 --> 01:27:40.945
+<v thomas broussard>It's like in the competition.
+Imagine that you have a car competition</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/649-2
+01:27:40.945 --> 01:27:42.830
+<v thomas broussard>and 10 cars arrives.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/650-0
+01:27:43.350 --> 01:27:48.963
+<v thomas broussard>In the first three places,
+how do you determine who will step up on</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/650-1
+01:27:48.963 --> 01:27:49.870
+<v thomas broussard>the podium?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/651-0
+01:27:51.910 --> 01:27:55.222
+<v thomas broussard>You see,
+it's not fair if you give by name,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/651-1
+01:27:55.222 --> 01:27:59.513
+<v thomas broussard>if you give off,
+if you take randomly for the 3rd place,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/651-2
+01:27:59.513 --> 01:28:03.352
+<v thomas broussard>all the remaining piece per person,
+it's not fair.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/651-3
+01:28:03.352 --> 01:28:08.470
+<v thomas broussard>So what is done in competition usually is
+that we have an equality.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/652-0
+01:28:08.870 --> 01:28:14.520
+<v thomas broussard>Between all the three, the step,
+the wrong three.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/652-1
+01:28:14.520 --> 01:28:17.910
+<v thomas broussard>Let's me give an example here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/653-0
+01:28:19.670 --> 01:28:19.790
+<v thomas broussard>Um.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/654-0
+01:28:25.150 --> 01:28:35.430
+<v thomas broussard>Let's try to organize by join date.
+Select star. Let's take from facilities.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/655-0
+01:28:37.430 --> 01:28:38.870
+<v thomas broussard>Auto byte.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/656-0
+01:28:40.230 --> 01:28:43.350
+<v thomas broussard>Member cost listen.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/657-0
+01:28:46.830 --> 01:28:48.510
+<v thomas broussard>It's typical here.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/658-0
+01:28:53.910 --> 01:28:59.215
+<v thomas broussard>Here I would like you to give me the top
+three facilities regarding the member</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/658-1
+01:28:59.215 --> 01:28:59.550
+<v thomas broussard>cost.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/659-0
+01:29:06.030 --> 01:29:06.950
+<v thomas broussard>What does that mean?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/660-0
+01:29:08.310 --> 01:29:16.230
+<v thomas broussard>Okay, the the top, the cheapest,
+the three cheapest uh facilities.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/661-0
+01:29:17.190 --> 01:29:18.710
+<v thomas broussard>Regarding the member cost.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/662-0
+01:29:20.830 --> 01:29:20.870
+<v thomas broussard>Oh.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/663-0
+01:29:22.870 --> 01:29:29.190
+<v thomas broussard>There are four because member cost here
+we see that we have 4% for facilities</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/663-1
+01:29:29.190 --> 01:29:35.510
+<v thomas broussard>which are which are having member cost 0.
+How do you give the top three then?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/664-0
+01:29:36.710 --> 01:29:41.710
+<v thomas broussard>I can tell you the first reflex of a
+software engineer is to say OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/665-0
+01:29:45.270 --> 01:29:52.145
+<v thomas broussard>I will do ask and as what is asked is to
+do to have the top three,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/665-1
+01:29:52.145 --> 01:29:57.070
+<v thomas broussard>we limit three and boom,
+we have the top three.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/666-0
+01:29:59.790 --> 01:30:01.710
+<v thomas broussard>No, have a look.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/669-0
+01:30:21.790 --> 01:30:29.724
+<v thomas broussard>I've just organized by name now and it's
+not the same result as before O my top</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/669-1
+01:30:29.724 --> 01:30:31.310
+<v thomas broussard>three has moved.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/670-0
+01:30:33.870 --> 01:30:34.790
+<v thomas broussard>It's not good.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/671-0
+01:30:35.550 --> 01:30:39.510
+<v thomas broussard>Not good at all.
+What means that I need to have another</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/671-1
+01:30:39.510 --> 01:30:45.521
+<v thomas broussard>way to sort and to organize my top three?
+Maybe I should tell the business analysts.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/671-2
+01:30:45.521 --> 01:30:50.470
+<v thomas broussard>Yes, but top three is not good.
+What you want is not top three, it's.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/672-0
+01:30:50.550 --> 01:30:57.539
+<v thomas broussard>The cost at rank 3 maybe.
+So how do you compute the rank?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/672-1
+01:30:57.539 --> 01:31:00.430
+<v thomas broussard>This will form rank one.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/673-0
+01:31:01.230 --> 01:31:01.390
+<v thomas broussard>1.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/675-0
+01:31:03.550 --> 01:31:08.241
+<v thomas broussard>And then you have two or three other ways
+to calculate the rank.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/675-1
+01:31:08.241 --> 01:31:12.138
+<v thomas broussard>You have the dense rank and you have the
+sparse rank.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/675-2
+01:31:12.138 --> 01:31:17.405
+<v thomas broussard>If you use the sparse rank here,
+you will move directly from rank one to</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/675-3
+01:31:17.405 --> 01:31:17.910
+<v thomas broussard>rank 4.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/676-0
+01:31:18.030 --> 01:31:22.470
+<v thomas broussard>And then five and then six, et cetera.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/678-0
+01:31:24.670 --> 01:31:28.022
+<v thomas broussard>You see,
+we'll see that a bit later in detail,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/678-1
+01:31:28.022 --> 01:31:32.515
+<v thomas broussard>I mean for the rank,
+but it's only to explain that usually the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/678-2
+01:31:32.515 --> 01:31:38.434
+<v thomas broussard>top three something is very difficult to
+compute and this is why we need to have a</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/678-3
+01:31:38.434 --> 01:31:38.790
+<v thomas broussard>rank.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/679-0
+01:31:40.190 --> 01:31:43.510
+<v thomas broussard>Good. So let's talk about the rank later.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/680-0
+01:31:44.590 --> 01:31:47.310
+<v thomas broussard>The other buy is like this.
+You have seen it in action.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/681-0
+01:31:48.990 --> 01:31:56.338
+<v thomas broussard>Now let's try to have if you remember the
+aggregate function that we are were</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/681-1
+01:31:56.338 --> 01:32:01.519
+<v thomas broussard>talking about.
+Now we can have this aggregate function</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/681-2
+01:32:01.519 --> 01:32:04.910
+<v thomas broussard>applied pair group. How do we group?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/682-0
+01:32:05.230 --> 01:32:07.310
+<v thomas broussard>We have to have common things.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/683-0
+01:32:08.550 --> 01:32:13.190
+<v thomas broussard>Here I can tell you it tries to count the
+booking per member.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/684-0
+01:32:16.910 --> 01:32:19.509
+<v thomas broussard>How do you do that if you have no
+database?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/684-1
+01:32:19.509 --> 01:32:21.990
+<v thomas broussard>I give you an Excel with all the bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/685-0
+01:32:23.790 --> 01:32:29.265
+<v thomas broussard>And you don't know the crosstab.
+You don't know the crosstab that allows</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/685-1
+01:32:29.265 --> 01:32:34.590
+<v thomas broussard>you to group by counts, etc.
+How do you do to to first find the groups</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/685-2
+01:32:34.590 --> 01:32:35.790
+<v thomas broussard>pair member IDs?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/686-0
+01:32:40.350 --> 01:32:45.710
+<v thomas broussard>I give you a rule list of bookings.
+Inside there's the start time,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/686-1
+01:32:45.710 --> 01:32:48.830
+<v thomas broussard>there's the member ID, the facility ID.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/687-0
+01:32:50.550 --> 01:32:54.150
+<v thomas broussard>How do you find manually?
+I mean the groups.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/688-0
+01:32:56.110 --> 01:32:57.110
+<v thomas broussard>Of members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/691-0
+01:33:08.710 --> 01:33:14.710
+<v thomas broussard>All the by, yeah,
+let's do a select star from bookings.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/692-0
+01:33:18.590 --> 01:33:24.139
+<v thomas broussard>Looks like this.
+You see we have member IDs with a lot of</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/692-1
+01:33:24.139 --> 01:33:27.870
+<v thomas broussard>different values. Now if I do order by.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/693-0
+01:33:30.510 --> 01:33:32.390
+<v thomas broussard>Member ID descending.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/694-0
+01:33:33.950 --> 01:33:36.470
+<v thomas broussard>What do I see here? Groups.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/695-0
+01:33:37.870 --> 01:33:42.362
+<v thomas broussard>The seven first rows are for the member
+ID 36.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/695-1
+01:33:42.362 --> 01:33:49.434
+<v thomas broussard>The following rows are for member ID 35,
+et cetera, et cetera, et cetera.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/695-2
+01:33:49.434 --> 01:33:53.830
+<v thomas broussard>You see the point.
+So here we see the groups.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/697-0
+01:33:54.390 --> 01:33:59.488
+<v thomas broussard>The only thing is that we don't want to
+do the groups ourselves.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/697-1
+01:33:59.488 --> 01:34:04.036
+<v thomas broussard>We want to the engine to find the group.
+So how do we do?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/697-2
+01:34:04.036 --> 01:34:08.270
+<v thomas broussard>If we want to to achieve that,
+we will do a group by.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/699-0
+01:34:20.630 --> 01:34:23.950
+<v thomas broussard>And it deends what you want to alley then
+on this.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/702-0
+01:34:32.830 --> 01:34:37.387
+<v thomas broussard>What do you want to know for that member?
+Usually what we want at first is the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/702-1
+01:34:37.387 --> 01:34:37.790
+<v thomas broussard>counts.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/705-0
+01:34:46.990 --> 01:34:53.854
+<v thomas broussard>OK, you see here that we are,
+we are having the count of the bookings</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/705-1
+01:34:53.854 --> 01:34:55.030
+<v thomas broussard>pair member.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/706-0
+01:34:56.670 --> 01:35:00.058
+<v thomas broussard>It's only that here it's not a usual
+source.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/706-1
+01:35:00.058 --> 01:35:06.156
+<v thomas broussard>It's not a unexpected source that we have,
+because usually when we count things,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/706-2
+01:35:06.156 --> 01:35:09.469
+<v thomas broussard>it's to organize by counts and not pair
+ID.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/706-3
+01:35:09.469 --> 01:35:12.630
+<v thomas broussard>So what we do here is more likely to have.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/707-0
+01:35:16.390 --> 01:35:19.590
+<v thomas broussard>The top booking members.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/708-0
+01:35:22.350 --> 01:35:28.709
+<v thomas broussard>The here what we see here is the count of
+bookings per member.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/708-1
+01:35:28.709 --> 01:35:35.976
+<v thomas broussard>It's here select the member ID.
+For each member ID you count the number</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/708-2
+01:35:35.976 --> 01:35:39.710
+<v thomas broussard>of rows associated to this member ID.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/709-0
+01:35:39.990 --> 01:35:44.395
+<v thomas broussard>How do we,
+how is it possible to have at the same</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/709-1
+01:35:44.395 --> 01:35:50.914
+<v thomas broussard>time an aggregate and a column?
+It's because we have made a group and you</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/709-2
+01:35:50.914 --> 01:35:55.230
+<v thomas broussard>see here what is here.
+I call it the group, the.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/710-0
+01:35:55.350 --> 01:36:00.222
+<v thomas broussard>Group title. This is the group title.
+We have set this to be the group title.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/710-1
+01:36:00.222 --> 01:36:02.470
+<v thomas broussard>If I want, I can give another title.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/711-0
+01:36:04.910 --> 01:36:09.830
+<v thomas broussard>I can group by name, by surname,
+by surname, plus last, plus first name,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/711-1
+01:36:09.830 --> 01:36:11.110
+<v thomas broussard>for instance, yeah.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/712-0
+01:36:13.390 --> 01:36:14.790
+<v thomas broussard>Do you see the the approach?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/713-0
+01:36:16.150 --> 01:36:19.950
+<v thomas broussard>Do you see how we have?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/714-0
+01:36:22.030 --> 01:36:26.981
+<v thomas broussard>We have used a group by here to determine
+partitions,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/714-1
+01:36:26.981 --> 01:36:34.223
+<v thomas broussard>groups of data within the main table.
+So we have extracted groups and for each</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/714-2
+01:36:34.223 --> 01:36:36.790
+<v thomas broussard>group we apply an aggregate.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/715-0
+01:36:38.270 --> 01:36:43.270
+<v thomas broussard>It can be as well, not the content.
+It can be for instance.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/716-0
+01:36:50.590 --> 01:36:56.710
+<v thomas broussard>Usually when a member books something,
+what's the average duration it is taking?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/717-0
+01:37:00.910 --> 01:37:02.990
+<v thomas broussard>So here we see that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/718-0
+01:37:05.030 --> 01:37:11.190
+<v thomas broussard>0 means guest and usually those persons
+guest are looking for three slots,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/718-1
+01:37:11.190 --> 01:37:12.750
+<v thomas broussard>almost three slots.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/719-0
+01:37:14.110 --> 01:37:14.790
+<v thomas broussard>In average.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/720-0
+01:37:16.190 --> 01:37:19.401
+<v thomas broussard>Of course,
+that could be interesting to group by</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/720-1
+01:37:19.401 --> 01:37:24.185
+<v thomas broussard>member and then group by facility ID to
+see per member and per facility.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/720-2
+01:37:24.185 --> 01:37:26.150
+<v thomas broussard>What's the average of looking?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/721-0
+01:37:27.150 --> 01:37:30.378
+<v thomas broussard>See.
+So we'll go again on that point next time</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/721-1
+01:37:30.378 --> 01:37:33.881
+<v thomas broussard>and of course we'll do the we'll do the
+data comp.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/721-2
+01:37:33.881 --> 01:37:36.972
+<v thomas broussard>So next time we'll do the data comp as
+well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/721-3
+01:37:36.972 --> 01:37:41.230
+<v thomas broussard>Once the data comp is I provide you with
+an unknown database.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/722-0
+01:37:42.270 --> 01:37:46.449
+<v thomas broussard>And we do like in the exam I ask you
+functional questions.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/722-1
+01:37:46.449 --> 01:37:52.257
+<v thomas broussard>You have to extract data and that will be
+the occasion to practice again to group</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/722-2
+01:37:52.257 --> 01:37:54.310
+<v thomas broussard>by and the rank over as well.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/723-0
+01:37:56.670 --> 01:37:58.470
+<v thomas broussard>Let me share with you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/724-0
+01:38:01.190 --> 01:38:03.270
+<v thomas broussard>Data extraction.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/737-0
+01:39:13.190 --> 01:39:13.870
+<v thomas broussard>OK, guys.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/738-0
+01:39:15.750 --> 01:39:19.187
+<v thomas broussard>So for next time, if I were you,
+what would I do?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/738-1
+01:39:19.187 --> 01:39:22.212
+<v thomas broussard>I would redo with you the the lectures.
+OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/738-2
+01:39:22.212 --> 01:39:25.030
+<v thomas broussard>maybe I did not share with you lecture 4.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/739-0
+01:39:35.950 --> 01:39:40.390
+<v thomas broussard>OK, so the lecture three and four,
+the joints.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/740-0
+01:39:41.870 --> 01:39:46.477
+<v thomas broussard>The review the what we have in the data
+extraction dot SQL and do your</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/740-1
+01:39:46.477 --> 01:39:49.917
+<v thomas broussard>pgexercises.com.
+Normally you have almost all of the</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/740-2
+01:39:49.917 --> 01:39:53.550
+<v thomas broussard>theoretical material which is necessary
+to practice it.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/740-3
+01:39:53.550 --> 01:39:56.470
+<v thomas broussard>So if you really if you do pgexercises.
+com.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/741-0
+01:39:58.190 --> 01:40:03.081
+<v thomas broussard>Between now and next time you will be
+like super sharp for the data pump,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/741-1
+01:40:03.081 --> 01:40:05.790
+<v thomas broussard>so I I strongly encourage you to do that.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/742-0
+01:40:06.750 --> 01:40:10.890
+<v thomas broussard>Because if you think you master the data
+count,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/742-1
+01:40:10.890 --> 01:40:15.030
+<v thomas broussard>then it's very profitable for you and the
+exam.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/743-0
+01:40:16.550 --> 01:40:25.110
+<v thomas broussard>Thank you, guys. Oh, yes, the attendance.
+Sorry, need to do attendance, attendance.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/748-0
+01:40:49.230 --> 01:40:50.990
+<v thomas broussard>G1.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/749-0
+01:40:54.950 --> 01:40:56.630
+<v thomas broussard>Uh, yes, important notice.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/750-0
+01:40:58.030 --> 01:41:02.202
+<v thomas broussard>I can see that there are still,
+but it's not for you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/750-1
+01:41:02.202 --> 01:41:07.223
+<v thomas broussard>It's for the next groups,
+so I will not be here on December 9th.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/750-2
+01:41:07.223 --> 01:41:08.150
+<v thomas broussard>That's what.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/751-0
+01:41:09.270 --> 01:41:13.990
+<v thomas broussard>Uh, Group one. Group one. Where are you?
+Group one?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/752-0
+01:41:19.590 --> 01:41:20.510
+<v thomas broussard>Borgav.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/753-0
+01:41:20.550 --> 01:41:21.390
+<v thomas broussard>I haven't.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/754-0
+01:41:24.190 --> 01:41:25.190
+<v thomas broussard>Alliance.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/755-0
+01:41:27.070 --> 01:41:27.270
+<v thomas broussard>Yirish.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/756-0
+01:41:29.790 --> 01:41:31.790
+<v thomas broussard>Arun Kumar.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/758-0
+01:41:42.950 --> 01:41:44.150
+<v thomas broussard>Jordi.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/759-0
+01:41:45.670 --> 01:41:49.990
+<v thomas broussard>Janice. Yeah, Isabel.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/761-0
+01:41:51.350 --> 01:41:53.870
+<v thomas broussard>Joshua Khalid.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/762-0
+01:41:55.750 --> 01:41:57.150
+<v thomas broussard>Mahfouzur.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/763-0
+01:41:59.750 --> 01:42:00.070
+<v thomas broussard>Mussen.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/764-0
+01:42:02.310 --> 01:42:04.430
+<v thomas broussard>Mohammed Najumuddin.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/765-0
+01:42:06.190 --> 01:42:06.350
+<v thomas broussard>Huh.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/766-0
+01:42:08.110 --> 01:42:09.270
+<v thomas broussard>In the chat.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/768-0
+01:42:17.710 --> 01:42:18.750
+<v thomas broussard>Navin Venkat.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/769-0
+01:42:20.470 --> 01:42:20.750
+<v thomas broussard>Achin.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/770-0
+01:42:22.590 --> 01:42:22.950
+<v thomas broussard>Obate.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/771-0
+01:42:29.230 --> 01:42:30.270
+<v thomas broussard>Ocean.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/772-0
+01:42:32.550 --> 01:42:33.710
+<v thomas broussard>Send me.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/774-0
+01:42:39.670 --> 01:42:41.150
+<v thomas broussard>Squids up.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/775-0
+01:42:44.390 --> 01:42:46.310
+<v thomas broussard>Pretty Kraj.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/776-0
+01:42:48.550 --> 01:42:50.070
+<v thomas broussard>Are you do what to me?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/778-0
+01:42:54.710 --> 01:42:56.430
+<v thomas broussard>And Vaishnavi.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/779-0
+01:43:00.190 --> 01:43:03.150
+<v thomas broussard>Thank you guys. Take care.
+See you next week.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/783-0
+01:43:17.790 --> 01:43:23.590
+<v thomas broussard>So let's see if you have a.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/786-0
+01:43:25.390 --> 01:43:30.439
+<v thomas broussard>And you let's say join and because you
+not join and you want to that's the first</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/786-1
+01:43:30.439 --> 01:43:35.487
+<v thomas broussard>thing you want to use that the another
+query you have to write it on because I'm</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/786-2
+01:43:35.487 --> 01:43:38.852
+<v thomas broussard>not to do something like you can see 80
+or something.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/786-3
+01:43:38.852 --> 01:43:43.900
+<v thomas broussard>I don't know if you do that you can do
+two things either you will name it within</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/786-4
+01:43:43.900 --> 01:43:44.710
+<v thomas broussard>the parallel.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/787-0
+01:43:44.710 --> 01:43:50.680
+<v thomas broussard>Something and then you can do whatever
+you want as a table or in some some</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/787-1
+01:43:50.680 --> 01:43:55.218
+<v thomas broussard>database engines you can create virtual
+tables. Well OK,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/787-2
+01:43:55.218 --> 01:44:00.630
+<v thomas broussard>that's what it's using views, views, yeah,
+but it's only for query.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/791-0
+01:44:01.030 --> 01:44:06.901
+<v thomas broussard>Not only not for for instance, yeah,
+just for a query like I'm optimizing so I</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/791-1
+01:44:06.901 --> 01:44:13.068
+<v thomas broussard>don't have to if you are doing always the
+same thing like if you want the students</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/791-2
+01:44:13.068 --> 01:44:18.121
+<v thomas broussard>and the attendants you are doing this
+always you can create a view.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/791-3
+01:44:18.121 --> 01:44:20.870
+<v thomas broussard>Can you can you try an example maybe?</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/792-0
+01:44:20.950 --> 01:44:23.790
+<v thomas broussard>Yeah, sure. Thank you.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/793-0
+01:44:31.070 --> 01:44:31.310
+<v thomas broussard>OK.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/806-0
+01:45:44.470 --> 01:46:00.910
+<v thomas broussard>How we do it? Yeah, yeah,
+you finish your last class.</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/808-0
+01:46:02.230 --> 01:46:06.390
+<v thomas broussard>Don't get a set up. Uh,
+it's just on this one. Uh, yes,</v>
+
+2ae56c84-ee58-44e2-affa-aaa961767d51/808-1
+01:46:06.390 --> 01:46:08.470
+<v thomas broussard>it was allowed to be paid 0.</v>

@@ -1,0 +1,4816 @@
+WEBVTT
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/8-0
+00:00:03.316 --> 00:00:05.916
+<v thomas broussard>It's true that once you have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/10-0
+00:00:07.476 --> 00:00:13.556
+<v thomas broussard>You have a database to be used, so that's.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/11-0
+00:00:14.556 --> 00:00:18.098
+<v thomas broussard>I'm in a bit of a temptation to try to
+use it,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/11-1
+00:00:18.098 --> 00:00:23.299
+<v thomas broussard>but actually it's not good because it it
+can break the whole system.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/11-2
+00:00:23.299 --> 00:00:26.917
+<v thomas broussard>So the first thing that we will do when
+we try,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/11-3
+00:00:26.917 --> 00:00:30.836
+<v thomas broussard>when we work with this is to create a new
+database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/12-0
+00:00:32.596 --> 00:00:37.870
+<v thomas broussard>And if you remember last time we have
+designed the medical system with the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/12-1
+00:00:37.870 --> 00:00:42.442
+<v thomas broussard>appointments etcetera.
+So now we will try to implement it within</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/12-2
+00:00:42.442 --> 00:00:43.356
+<v thomas broussard>the database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/13-0
+00:00:46.276 --> 00:00:51.841
+<v thomas broussard>And This is why I'm creating a new one.
+Just a matter of organization regarding</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/13-1
+00:00:51.841 --> 00:00:54.276
+<v thomas broussard>the organization of your work here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/14-0
+00:00:55.396 --> 00:00:55.476
+<v thomas broussard>Um.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/15-0
+00:00:58.556 --> 00:01:00.396
+<v thomas broussard>You have sore strategies.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/16-0
+00:01:01.276 --> 00:01:06.996
+<v thomas broussard>But you can see here that you have a
+scripts folder here in the.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/17-0
+00:01:09.596 --> 00:01:15.078
+<v thomas broussard>In the in the files tab you have a
+scripts folder.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/17-1
+00:01:15.078 --> 00:01:18.196
+<v thomas broussard>This is where we will create.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/18-0
+00:01:20.476 --> 00:01:28.448
+<v thomas broussard>All of our architecture to work.
+So here I will create a folder named</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/18-1
+00:01:28.448 --> 00:01:30.156
+<v thomas broussard>medical system.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/19-0
+00:01:33.676 --> 00:01:38.236
+<v thomas broussard>It's actually to reflect the database
+name that I just created.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/21-0
+00:01:38.916 --> 00:01:44.707
+<v thomas broussard>Thanks to this strategy,
+we know exactly what scripts will be for</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/21-1
+00:01:44.707 --> 00:01:49.006
+<v thomas broussard>what database.
+And here usually we have 2-3 very</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/21-2
+00:01:49.006 --> 00:01:52.516
+<v thomas broussard>characteristic files, but the first one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/22-0
+00:01:54.316 --> 00:01:54.676
+<v thomas broussard>Should be.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/23-0
+00:01:57.276 --> 00:01:58.556
+<v thomas broussard>The DDL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/24-0
+00:02:08.876 --> 00:02:11.396
+<v thomas broussard>OK, so bonjour.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/26-0
+00:02:13.836 --> 00:02:20.186
+<v thomas broussard>This DDL is actually.
+Do you remember what DDL means from what</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/26-1
+00:02:20.186 --> 00:02:25.226
+<v thomas broussard>we have seen last time?
+Data definition language.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/26-2
+00:02:25.226 --> 00:02:28.956
+<v thomas broussard>Data definition language is actually.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/27-0
+00:02:29.356 --> 00:02:34.749
+<v thomas broussard>The way you will create the data
+structure so that you can you can fill</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/27-1
+00:02:34.749 --> 00:02:40.142
+<v thomas broussard>data in the in the proper way in the
+database. OK, so that's mandatory.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/27-2
+00:02:40.142 --> 00:02:45.236
+<v thomas broussard>Of course this is where we will create
+all the tables for instance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/28-0
+00:02:45.676 --> 00:02:45.836
+<v thomas broussard>3.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/29-0
+00:02:47.196 --> 00:02:52.236
+<v thomas broussard>So in the DDL as you can see here I have
+a known.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/30-0
+00:02:53.756 --> 00:02:59.302
+<v thomas broussard>In front of the name. This is not good.
+This means that the script is not</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/30-1
+00:02:59.302 --> 00:03:03.723
+<v thomas broussard>connected to any database.
+In order to resolve that issue,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/30-2
+00:03:03.723 --> 00:03:06.796
+<v thomas broussard>you can click on NA here, pick localhost.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/31-0
+00:03:08.876 --> 00:03:12.793
+<v thomas broussard>Click on NA here and pick the right
+database name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/31-1
+00:03:12.793 --> 00:03:18.706
+<v thomas broussard>So whatever you will do now is will
+impact only the medical system database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/31-2
+00:03:18.706 --> 00:03:22.316
+<v thomas broussard>Understood. OK,
+that's very important because.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/32-0
+00:03:23.996 --> 00:03:31.396
+<v thomas broussard>Otherwise you may just face some issues
+and the error messages are not so</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/32-1
+00:03:31.396 --> 00:03:38.796
+<v thomas broussard>explicit, so you may be a bit in trouble,
+so be careful in order to have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/33-0
+00:03:39.116 --> 00:03:46.342
+<v thomas broussard>The script that executes correctly.
+You need to have the teach the connection</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/33-1
+00:03:46.342 --> 00:03:51.716
+<v thomas broussard>here which is done and the chosen
+database which is here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/34-0
+00:03:54.156 --> 00:03:55.036
+<v thomas broussard>Understood.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/35-0
+00:03:57.036 --> 00:03:57.156
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/36-0
+00:03:58.356 --> 00:03:58.836
+<v thomas broussard>From where?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/37-0
+00:04:00.396 --> 00:04:05.944
+<v thomas broussard>The scripts. Yeah, let's do it once again.
+Let's create a new file.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/37-1
+00:04:05.944 --> 00:04:09.860
+<v thomas broussard>You see that I'm creating a file from
+here. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/37-2
+00:04:09.860 --> 00:04:15.163
+<v thomas broussard>I'm renaming this file because script dot
+SQL is not so obvious.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/37-3
+00:04:15.163 --> 00:04:16.876
+<v thomas broussard>Imagine in two weeks.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/39-0
+00:04:17.316 --> 00:04:23.293
+<v thomas broussard>You'll have scrit 1, scrit 2, et cetera,
+so better to name it from the beginning</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/39-1
+00:04:23.293 --> 00:04:24.916
+<v thomas broussard>and what we can do is.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/40-0
+00:04:27.996 --> 00:04:31.681
+<v thomas broussard>To simulate that we have another DDL to
+import,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/40-1
+00:04:31.681 --> 00:04:37.516
+<v thomas broussard>you see at the beginning it's known.
+Just click here to pick the connection</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/40-2
+00:04:37.516 --> 00:04:43.582
+<v thomas broussard>that you have set up and click here to
+pick the database name that you want to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/40-3
+00:04:43.582 --> 00:04:44.196
+<v thomas broussard>work on.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/41-0
+00:04:46.196 --> 00:04:50.476
+<v thomas broussard>In case you don't do, what will happen?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/44-0
+00:05:10.916 --> 00:05:13.316
+<v thomas broussard>Maybe you should install Windows?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/45-0
+00:05:18.316 --> 00:05:21.156
+<v thomas broussard>No, Marie's the same. Same too.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/46-0
+00:05:22.756 --> 00:05:26.922
+<v thomas broussard>OK,
+if you that's not look so much at the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/46-1
+00:05:26.922 --> 00:05:31.682
+<v thomas broussard>script here because I will change it very
+soon,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/46-2
+00:05:31.682 --> 00:05:39.716
+<v thomas broussard>but only to to run an exec something here
+you see that if you try to run an SQL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/47-0
+00:05:40.116 --> 00:05:48.092
+<v thomas broussard>Query without having selected the
+connections and then you will have this</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/47-1
+00:05:48.092 --> 00:05:50.356
+<v thomas broussard>error message. OK so.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/48-0
+00:05:51.956 --> 00:05:56.044
+<v thomas broussard>Remember it because if you see that error
+again,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/48-1
+00:05:56.044 --> 00:06:00.883
+<v thomas broussard>it means that you that you have
+misconfigured the script.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/48-2
+00:06:00.883 --> 00:06:03.636
+<v thomas broussard>Of course I will just now delete.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/49-0
+00:06:05.436 --> 00:06:05.596
+<v thomas broussard>Them.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/50-0
+00:06:11.276 --> 00:06:14.276
+<v thomas broussard>To keep on my DDL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/51-0
+00:06:16.796 --> 00:06:19.276
+<v thomas broussard>If I remember well last time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/52-0
+00:06:23.756 --> 00:06:25.556
+<v thomas broussard>We did something like this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/53-0
+00:06:31.276 --> 00:06:32.796
+<v thomas broussard>I mean.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/58-0
+00:06:59.956 --> 00:07:00.756
+<v thomas broussard>This was.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/59-0
+00:07:03.476 --> 00:07:12.836
+<v thomas broussard>The diagram we did last time, OK,
+and what was missing aarently was to fill.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/60-0
+00:07:15.436 --> 00:07:21.773
+<v thomas broussard>To fill the the the boxes and as well to
+handle the case of the payments and the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/60-1
+00:07:21.773 --> 00:07:25.920
+<v thomas broussard>insurances.
+Because here we can see that the payment</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/60-2
+00:07:25.920 --> 00:07:31.709
+<v thomas broussard>is done for one patient and it is done by
+one insurance at the same time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/60-3
+00:07:31.709 --> 00:07:33.196
+<v thomas broussard>So that's not good.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/61-0
+00:07:36.476 --> 00:07:39.156
+<v thomas broussard>So have you found a solution?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/62-0
+00:07:42.796 --> 00:07:45.876
+<v thomas broussard>You have time to think about it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/63-0
+00:07:48.156 --> 00:07:56.519
+<v thomas broussard>A new what? A new party? Yes,
+I that was what I thought. A new what?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/63-1
+00:07:56.519 --> 00:08:00.276
+<v thomas broussard>The new party. So my insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/64-0
+00:08:03.356 --> 00:08:08.876
+<v thomas broussard>Was it? I can be doing that, yes,
+but then you will have the same issue.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/65-0
+00:08:09.836 --> 00:08:16.196
+<v thomas broussard>With that middle man toward patients or
+insurance, the the the problem was.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/66-0
+00:08:17.356 --> 00:08:20.450
+<v thomas broussard>That at some point if we need to make a
+payment,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/66-1
+00:08:20.450 --> 00:08:24.996
+<v thomas broussard>that the payment should be made by either
+the patient or the insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/67-0
+00:08:26.396 --> 00:08:30.516
+<v thomas broussard>We can have here at the same time both.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/68-0
+00:08:32.076 --> 00:08:35.253
+<v thomas broussard>You see,
+so if you add something in the middle,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/68-1
+00:08:35.253 --> 00:08:40.283
+<v thomas broussard>it means that this middle thing will have
+the same issue because it will be</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/68-2
+00:08:40.283 --> 00:08:44.916
+<v thomas broussard>potentially linked to one patient and one
+insurance at the same time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/69-0
+00:08:46.276 --> 00:08:46.516
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/70-0
+00:08:47.596 --> 00:08:52.329
+<v thomas broussard>So it's not bad,
+but it means that it's a source of of</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/70-1
+00:08:52.329 --> 00:08:56.460
+<v thomas broussard>problems.
+It's a source of bug because you will</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/70-2
+00:08:56.460 --> 00:09:01.796
+<v thomas broussard>have potentially two things,
+fields as you expected one only.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/71-0
+00:09:03.476 --> 00:09:07.596
+<v thomas broussard>So the the first thing that we can try.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/72-0
+00:09:10.116 --> 00:09:14.836
+<v thomas broussard>Is to have something like this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/74-0
+00:09:23.996 --> 00:09:29.755
+<v thomas broussard>Which means that the payments could be
+made by a patient and could be made by</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/74-1
+00:09:29.755 --> 00:09:33.446
+<v thomas broussard>insurance,
+but in that case it's not good as well</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/74-2
+00:09:33.446 --> 00:09:36.916
+<v thomas broussard>because we have here potentially none of
+them.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/75-0
+00:09:38.796 --> 00:09:43.836
+<v thomas broussard>You see beforehand it was both.
+Now we have known in the worst case.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/76-0
+00:09:46.516 --> 00:09:51.407
+<v thomas broussard>So the question is, how do we solve it?
+It's a bit tricky actually,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/76-1
+00:09:51.407 --> 00:09:54.356
+<v thomas broussard>because the answer is not in the diagram.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/77-0
+00:09:56.436 --> 00:10:00.885
+<v thomas broussard>The answer is more with the data you will
+have. I give you the solution.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/77-1
+00:10:00.885 --> 00:10:05.333
+<v thomas broussard>You will tell me. I give you a solution.
+You will tell me what you like,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/77-2
+00:10:05.333 --> 00:10:06.796
+<v thomas broussard>what you think about it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/78-0
+00:10:07.796 --> 00:10:12.316
+<v thomas broussard>So let's connect the payments to always.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/79-0
+00:10:13.476 --> 00:10:14.756
+<v thomas broussard>To the insurances.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/80-0
+00:10:16.476 --> 00:10:17.556
+<v thomas broussard>O We'll remove it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/81-0
+00:10:18.556 --> 00:10:19.756
+<v thomas broussard>From here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/83-0
+00:10:21.596 --> 00:10:29.098
+<v thomas broussard>And here the payment is always made by an
+insurance which is not so valid because</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/83-1
+00:10:29.098 --> 00:10:36.326
+<v thomas broussard>actually we say it in the specification
+that the patient can can pay some from</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/83-2
+00:10:36.326 --> 00:10:37.516
+<v thomas broussard>time to time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/84-0
+00:10:37.716 --> 00:10:42.316
+<v thomas broussard>Yes, but we will add a comment here if.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/85-0
+00:10:44.436 --> 00:10:47.356
+<v thomas broussard>Patient has no insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/86-0
+00:10:51.476 --> 00:10:52.916
+<v thomas broussard>It is.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/87-0
+00:10:54.636 --> 00:10:57.076
+<v thomas broussard>Having by default.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/88-0
+00:10:58.996 --> 00:10:59.916
+<v thomas broussard>The insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/89-0
+00:11:02.836 --> 00:11:03.076
+<v thomas broussard>No.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/90-0
+00:11:07.516 --> 00:11:08.236
+<v thomas broussard>Insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/91-0
+00:11:12.116 --> 00:11:14.796
+<v thomas broussard>You see so the patient.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/92-0
+00:11:16.356 --> 00:11:18.836
+<v thomas broussard>Always have an insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/93-0
+00:11:20.316 --> 00:11:24.896
+<v thomas broussard>OK.
+And if the payment is made by the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/93-1
+00:11:24.896 --> 00:11:29.596
+<v thomas broussard>insurance, no insurance, it means that.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/94-0
+00:11:30.956 --> 00:11:33.236
+<v thomas broussard>It is the patient to face.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/95-0
+00:11:34.396 --> 00:11:35.316
+<v thomas broussard>Understood.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/96-0
+00:11:36.716 --> 00:11:41.656
+<v thomas broussard>It's very common actually to find that
+kind of trick because it's not possible</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/96-1
+00:11:41.656 --> 00:11:45.784
+<v thomas broussard>to make an if else at the diagram level,
+at the conception level,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/96-2
+00:11:45.784 --> 00:11:48.598
+<v thomas broussard>because here we are talking about
+structure.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/96-3
+00:11:48.598 --> 00:11:53.350
+<v thomas broussard>It's either the structure is here or it's
+not here, but there's no if else.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/96-4
+00:11:53.350 --> 00:11:54.476
+<v thomas broussard>You see the point.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/97-0
+00:11:54.996 --> 00:11:59.436
+<v thomas broussard>So here we find a trick but at the data
+level.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/98-0
+00:12:00.716 --> 00:12:05.535
+<v thomas broussard>And of course at the diagram level,
+because now that we have solved that</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/98-1
+00:12:05.535 --> 00:12:09.562
+<v thomas broussard>issue of the payments not connected to
+the patient directly,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/98-2
+00:12:09.562 --> 00:12:14.778
+<v thomas broussard>we can connect all the payments to the
+insurance and then the insurance itself</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/98-3
+00:12:14.778 --> 00:12:15.636
+<v thomas broussard>is connected.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/99-0
+00:12:16.036 --> 00:12:17.956
+<v thomas broussard>To the patients, of course.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/100-0
+00:12:19.956 --> 00:12:25.116
+<v thomas broussard>Here it means that the patient always
+have an insurance. Always.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/100-1
+00:12:25.116 --> 00:12:30.356
+<v thomas broussard>It's either no insurance or a real
+insurance company. Understood.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/101-0
+00:12:32.636 --> 00:12:33.076
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/102-0
+00:12:35.076 --> 00:12:35.596
+<v thomas broussard>What if?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/103-0
+00:12:38.596 --> 00:12:38.716
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/104-0
+00:12:40.996 --> 00:12:41.236
+<v thomas broussard>See.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/106-0
+00:12:49.116 --> 00:12:55.080
+<v thomas broussard>This is what we had before,
+but actually it was a source of problem.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/106-1
+00:12:55.080 --> 00:12:59.662
+<v thomas broussard>Why is that?
+Because at some point the payment could</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/106-2
+00:12:59.662 --> 00:13:01.996
+<v thomas broussard>be made by the two of them.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/107-0
+00:13:03.836 --> 00:13:09.556
+<v thomas broussard>You see on the line I should have in the
+previous model which was mandatory to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/107-1
+00:13:09.556 --> 00:13:13.610
+<v thomas broussard>have a link to the patient and a link to
+the insurance,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/107-2
+00:13:13.610 --> 00:13:16.796
+<v thomas broussard>but we don't know who is doing the
+payment.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/108-0
+00:13:17.356 --> 00:13:23.352
+<v thomas broussard>At the end because it's connected to both.
+So after that we can have a payment type,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/108-1
+00:13:23.352 --> 00:13:27.232
+<v thomas broussard>patient, etc.
+But actually this is a very common trick</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/108-2
+00:13:27.232 --> 00:13:32.876
+<v thomas broussard>as well and what is good is that the only
+link that you have from the payments.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/109-0
+00:13:33.356 --> 00:13:37.204
+<v thomas broussard>Is toward the insurance,
+so it reduces a bit the complexity as</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/109-1
+00:13:37.204 --> 00:13:37.876
+<v thomas broussard>well, yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/110-0
+00:13:39.956 --> 00:13:40.756
+<v thomas broussard>Good, so.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/111-0
+00:13:43.156 --> 00:13:50.536
+<v thomas broussard>Let's keep with that. I would like you.
+Maybe it was not very clear at the end of</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/111-1
+00:13:50.536 --> 00:13:55.846
+<v thomas broussard>the of the session last time,
+but normally we should have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/111-2
+00:13:55.846 --> 00:14:01.876
+<v thomas broussard>You should have filled the boxes with
+some attributes. Did you do?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/112-0
+00:14:02.076 --> 00:14:07.368
+<v thomas broussard>Do that. Yeah. OK, good.
+So let's have a look to what you did.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/112-1
+00:14:07.368 --> 00:14:12.996
+<v thomas broussard>Let me know what you had in the what you
+have done in the doctors.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/113-0
+00:14:19.876 --> 00:14:20.076
+<v thomas broussard>True.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/114-0
+00:14:21.556 --> 00:14:22.196
+<v thomas broussard>Mhm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/115-0
+00:14:24.836 --> 00:14:25.716
+<v thomas broussard>Thank you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/116-0
+00:14:33.156 --> 00:14:33.236
+<v thomas broussard>Um.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/117-0
+00:14:35.116 --> 00:14:35.276
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/118-0
+00:14:38.836 --> 00:14:39.396
+<v thomas broussard>Then.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/119-0
+00:14:43.916 --> 00:14:44.796
+<v thomas broussard>The name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/120-0
+00:14:45.756 --> 00:14:48.796
+<v thomas broussard>What's the type? Let's put text.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/121-0
+00:14:51.316 --> 00:14:51.636
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/122-0
+00:14:53.076 --> 00:14:54.436
+<v thomas broussard>And spit.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/123-0
+00:14:59.156 --> 00:14:59.276
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/124-0
+00:15:01.516 --> 00:15:03.556
+<v thomas broussard>OK, what about the appointments?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/125-0
+00:15:07.636 --> 00:15:07.956
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/126-0
+00:15:15.956 --> 00:15:17.876
+<v thomas broussard>What's the type here?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/127-0
+00:15:19.556 --> 00:15:20.436
+<v thomas broussard>A joke?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/128-0
+00:15:25.076 --> 00:15:26.036
+<v thomas broussard>Updates.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/129-0
+00:15:28.756 --> 00:15:28.916
+<v thomas broussard>Dates.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/131-0
+00:15:30.076 --> 00:15:32.836
+<v thomas broussard>What's state or date and time?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/132-0
+00:15:34.396 --> 00:15:39.956
+<v thomas broussard>Date. OK. If it is date,
+then we need to have the time somewhere.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/133-0
+00:15:46.956 --> 00:15:50.916
+<v thomas broussard>But we need to have the time before, no?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/134-0
+00:15:51.836 --> 00:15:57.469
+<v thomas broussard>We can use timestamp as well.
+In that case it's date time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/134-1
+00:15:57.469 --> 00:16:01.956
+<v thomas broussard>Here we can have date,
+date time or timestamp.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/135-0
+00:16:03.636 --> 00:16:05.556
+<v thomas broussard>It's it's possible to have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/136-0
+00:16:06.796 --> 00:16:08.636
+<v thomas broussard>Everything here OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/137-0
+00:16:09.996 --> 00:16:12.836
+<v thomas broussard>The the duration as well is important.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/138-0
+00:16:17.596 --> 00:16:19.556
+<v thomas broussard>Let's express it in minutes, OK?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/139-0
+00:16:22.076 --> 00:16:28.156
+<v thomas broussard>And then I heard several other things
+patient ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/140-0
+00:16:29.876 --> 00:16:30.036
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/141-0
+00:16:35.316 --> 00:16:35.716
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/142-0
+00:16:43.556 --> 00:16:44.876
+<v thomas broussard>How do I know?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/143-0
+00:16:46.956 --> 00:16:53.726
+<v thomas broussard>Yes.
+How do I know the type of doctor the app</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/143-1
+00:16:53.726 --> 00:16:58.436
+<v thomas broussard>doc ID here FK? Why is that int?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/144-0
+00:17:01.836 --> 00:17:07.417
+<v thomas broussard>Exact.
+So this is the correspondence key toward</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/144-1
+00:17:07.417 --> 00:17:13.115
+<v thomas broussard>this key.
+So This is why it is mandatory to have</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/144-2
+00:17:13.115 --> 00:17:16.836
+<v thomas broussard>the same type. OK and of course.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/146-0
+00:17:17.516 --> 00:17:24.356
+<v thomas broussard>On the patients I have to have here,
+we have not yet defined a patient,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/146-1
+00:17:24.356 --> 00:17:31.956
+<v thomas broussard>but here it creates a constraint that the
+patient's ID should be itself an int.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/147-0
+00:17:33.196 --> 00:17:34.916
+<v thomas broussard>OK, let's go for a patience.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/148-0
+00:17:38.556 --> 00:17:43.316
+<v thomas broussard>But ID int which will be the K.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/149-0
+00:17:48.436 --> 00:17:48.676
+<v thomas broussard>Hmm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/150-0
+00:17:55.156 --> 00:17:55.476
+<v thomas broussard>K.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/151-0
+00:17:56.876 --> 00:18:02.196
+<v thomas broussard>Let's we could have way more details,
+but it's OK for now.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/152-0
+00:18:03.676 --> 00:18:05.196
+<v thomas broussard>Phone number, yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/153-0
+00:18:06.916 --> 00:18:07.236
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/154-0
+00:18:08.516 --> 00:18:09.556
+<v thomas broussard>Uh, no.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/155-0
+00:18:10.956 --> 00:18:12.636
+<v thomas broussard>No, we never start the age.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/156-0
+00:18:13.916 --> 00:18:14.516
+<v thomas broussard>Why is that?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/157-0
+00:18:19.356 --> 00:18:23.744
+<v thomas broussard>It changes every every year.
+You have to update the age.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/157-1
+00:18:23.744 --> 00:18:29.441
+<v thomas broussard>That's not bad. That's not good.
+What we can do is to record the age when</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/157-2
+00:18:29.441 --> 00:18:34.291
+<v thomas broussard>it is an history data.
+So for instance if you it's the I don't</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/157-3
+00:18:34.291 --> 00:18:34.676
+<v thomas broussard>know.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/158-0
+00:18:35.396 --> 00:18:41.648
+<v thomas broussard>Seen the records of the of the
+appointments that we receive a patient of,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/158-1
+00:18:41.648 --> 00:18:45.872
+<v thomas broussard>I don't know, 39 years old, et cetera,
+et cetera.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/158-2
+00:18:45.872 --> 00:18:50.772
+<v thomas broussard>So this is interesting to to save the age
+at this moment,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/158-3
+00:18:50.772 --> 00:18:53.476
+<v thomas broussard>but if this is like an identity.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/159-0
+00:18:53.676 --> 00:18:58.756
+<v thomas broussard>Source.
+It's important to keep the date of birth.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/160-0
+00:19:00.076 --> 00:19:00.556
+<v thomas broussard>Phone number.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/161-0
+00:19:04.516 --> 00:19:09.116
+<v thomas broussard>OK, let's keep it like this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/163-0
+00:19:11.436 --> 00:19:16.762
+<v thomas broussard>The insurance ID. Yeah,
+that could be interesting to to have as</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/163-1
+00:19:16.762 --> 00:19:18.676
+<v thomas broussard>well. The insurance ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/164-0
+00:19:26.116 --> 00:19:31.356
+<v thomas broussard>What will be the type here int FK?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/165-0
+00:19:33.876 --> 00:19:34.716
+<v thomas broussard>OK, good.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/166-0
+00:19:36.356 --> 00:19:43.476
+<v thomas broussard>Just a very quick question,
+why don't we put the reference the link?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/167-0
+00:19:44.556 --> 00:19:48.796
+<v thomas broussard>Between insurance and patients on the
+insurance site.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/168-0
+00:19:52.556 --> 00:19:52.636
+<v thomas broussard>Why?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/169-0
+00:19:54.476 --> 00:20:00.008
+<v thomas broussard>Don't we do the reverse,
+meaning that we have the insurance that</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/169-1
+00:20:00.008 --> 00:20:01.796
+<v thomas broussard>holds a patient's ID?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/171-0
+00:20:04.676 --> 00:20:09.557
+<v thomas broussard>Yes, OK,
+but we still we could still store some</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/171-1
+00:20:09.557 --> 00:20:10.676
+<v thomas broussard>some field.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/172-0
+00:20:11.676 --> 00:20:15.189
+<v thomas broussard>Exactly.
+An entrance can have many patients,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/172-1
+00:20:15.189 --> 00:20:21.121
+<v thomas broussard>which means that it's not possible to
+store a single cell. If you remember,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/172-2
+00:20:21.121 --> 00:20:26.820
+<v thomas broussard>we say that it was one value pair
+intersection row column if I have more</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/172-3
+00:20:26.820 --> 00:20:29.396
+<v thomas broussard>than one value for one attribute.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/174-0
+00:20:29.556 --> 00:20:35.441
+<v thomas broussard>It means that we are not enforcing the
+normal form, so that's not good.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/174-1
+00:20:35.441 --> 00:20:40.264
+<v thomas broussard>So that's why you will have when you have
+links like this,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/174-2
+00:20:40.264 --> 00:20:44.596
+<v thomas broussard>the position of where we store the link
+information.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/175-0
+00:20:44.876 --> 00:20:49.249
+<v thomas broussard>Is a bit forced.
+It's forced where we have maximum one in</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/175-1
+00:20:49.249 --> 00:20:54.904
+<v thomas broussard>terms of number of instances connected.
+So one appointment is connected to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/175-2
+00:20:54.904 --> 00:20:59.051
+<v thomas broussard>exactly 1 doctor.
+That means that the appointment will</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/175-3
+00:20:59.051 --> 00:21:01.916
+<v thomas broussard>store the reference. Now here we have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/176-0
+00:21:01.916 --> 00:21:02.796
+<v thomas broussard>Another case.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/177-0
+00:21:04.236 --> 00:21:06.996
+<v thomas broussard>Where bills and appointments?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/178-0
+00:21:08.356 --> 00:21:11.716
+<v thomas broussard>Have a one one relationship.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/179-0
+00:21:13.236 --> 00:21:15.916
+<v thomas broussard>So the question is where do we start the
+reference?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/180-0
+00:21:22.676 --> 00:21:23.956
+<v thomas broussard>In both.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/181-0
+00:21:25.036 --> 00:21:27.476
+<v thomas broussard>Yes, but that would create duplications,
+no?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/182-0
+00:21:31.996 --> 00:21:33.716
+<v thomas broussard>I think we can keep with one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/183-0
+00:21:35.356 --> 00:21:39.276
+<v thomas broussard>The question is where in the bill or in
+the appointments?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/184-0
+00:21:42.036 --> 00:21:46.099
+<v thomas broussard>The question is where do we store the
+reference from bill to appointment or</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/184-1
+00:21:46.099 --> 00:21:47.436
+<v thomas broussard>from appointment to bill?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/185-0
+00:21:48.516 --> 00:21:48.636
+<v thomas broussard>But.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/186-0
+00:21:50.756 --> 00:21:55.934
+<v thomas broussard>From appointment to bill. OK,
+what happens when we have an appointment?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/186-1
+00:21:55.934 --> 00:22:01.545
+<v thomas broussard>You create an appointment OK and then
+that here it means that if you store on</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/186-2
+00:22:01.545 --> 00:22:06.076
+<v thomas broussard>the appointment site,
+the appointments needs to know the bill.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/187-0
+00:22:06.556 --> 00:22:10.528
+<v thomas broussard>So the bill has to be created and then
+update the appointment,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/187-1
+00:22:10.528 --> 00:22:12.356
+<v thomas broussard>which is I think a bit heavy.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/188-0
+00:22:13.516 --> 00:22:18.163
+<v thomas broussard>I think in my opinion what is more
+logical is that the appointment exists</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/188-1
+00:22:18.163 --> 00:22:23.186
+<v thomas broussard>and then later we can create the bill
+because if we don't do that then it means</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/188-2
+00:22:23.186 --> 00:22:28.335
+<v thomas broussard>that we need to create the bill 1st and
+then to create the appointment and to set</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/188-3
+00:22:28.335 --> 00:22:30.156
+<v thomas broussard>up the reference to the bill.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/189-0
+00:22:30.396 --> 00:22:34.377
+<v thomas broussard>You see,
+so it's more logical in the workflow,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/189-1
+00:22:34.377 --> 00:22:39.797
+<v thomas broussard>but maybe it's not the case. I don't,
+I don't know. In reality,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/189-2
+00:22:39.797 --> 00:22:44.201
+<v thomas broussard>I have to ask what's the best in terms of
+workflow,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/189-3
+00:22:44.201 --> 00:22:46.996
+<v thomas broussard>because here it's not so precise.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/190-0
+00:22:47.276 --> 00:22:51.076
+<v thomas broussard>So that we can take a fixed decision like
+this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/191-0
+00:22:52.516 --> 00:22:54.396
+<v thomas broussard>OK, so here we'll have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/192-0
+00:22:56.196 --> 00:22:57.556
+<v thomas broussard>The bill ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/193-0
+00:22:58.956 --> 00:23:03.236
+<v thomas broussard>Hints PK What can be in the bill?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/194-0
+00:23:04.596 --> 00:23:06.636
+<v thomas broussard>Yeah, months, of course.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/195-0
+00:23:10.956 --> 00:23:13.689
+<v thomas broussard>OK,
+and we'll have the reference to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/195-1
+00:23:13.689 --> 00:23:14.676
+<v thomas broussard>appointments.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/198-0
+00:23:33.716 --> 00:23:40.196
+<v thomas broussard>OK, yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/199-0
+00:23:41.596 --> 00:23:48.687
+<v thomas broussard>So what we have status, status.
+Actually we can determine the status if</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/199-1
+00:23:48.687 --> 00:23:56.565
+<v thomas broussard>we see no payments as attached to it. OK,
+so we can query in the database a bit</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/199-2
+00:23:56.565 --> 00:23:57.156
+<v thomas broussard>later.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/200-0
+00:23:57.676 --> 00:24:04.238
+<v thomas broussard>We will do something like select
+everything from payments where bill ID</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/200-1
+00:24:04.238 --> 00:24:11.256
+<v thomas broussard>equal something and then if we see
+nothing then it means that the bill ID in</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/200-2
+00:24:11.256 --> 00:24:12.076
+<v thomas broussard>question.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/201-0
+00:24:12.796 --> 00:24:22.699
+<v thomas broussard>He's outstanding. OK, excuse me. Yes,
+of course you can see that the payments</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/201-1
+00:24:22.699 --> 00:24:27.396
+<v thomas broussard>here has a reference to the bill, so.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/202-0
+00:24:27.876 --> 00:24:29.636
+<v thomas broussard>If I take an example here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/203-0
+00:24:31.156 --> 00:24:31.716
+<v thomas broussard>Payments.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/204-0
+00:24:33.316 --> 00:24:34.356
+<v thomas broussard>They ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/205-0
+00:24:35.876 --> 00:24:36.836
+<v thomas broussard>It's a.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/206-0
+00:24:38.516 --> 00:24:38.636
+<v thomas broussard>Bait.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/207-0
+00:24:42.996 --> 00:24:43.396
+<v thomas broussard>It's right.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/208-0
+00:24:44.476 --> 00:24:45.516
+<v thomas broussard>Uh, I want.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/209-0
+00:24:48.516 --> 00:24:56.196
+<v thomas broussard>Decimal. And here pay a bill. I need FK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/210-0
+00:24:58.396 --> 00:24:59.476
+<v thomas broussard>Of course.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/211-0
+00:25:02.156 --> 00:25:04.916
+<v thomas broussard>Here we have to link to the entrance as
+well.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/212-0
+00:25:06.436 --> 00:25:07.716
+<v thomas broussard>Pay insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/213-0
+00:25:10.316 --> 00:25:10.436
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/214-0
+00:25:19.836 --> 00:25:21.436
+<v thomas broussard>And now the insurance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/215-0
+00:25:26.276 --> 00:25:31.356
+<v thomas broussard>Inside the int's name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/216-0
+00:25:33.156 --> 00:25:33.356
+<v thomas broussard>Text.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/217-0
+00:25:38.356 --> 00:25:38.996
+<v thomas broussard>That's it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/218-0
+00:25:40.276 --> 00:25:43.196
+<v thomas broussard>Here we have our database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/219-0
+00:25:44.556 --> 00:25:50.522
+<v thomas broussard>You see that once you have the links,
+it's way easier to determine where to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/219-1
+00:25:50.522 --> 00:25:55.076
+<v thomas broussard>store things because because you have
+already the answer.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/221-0
+00:25:56.836 --> 00:26:02.850
+<v thomas broussard>Behind between the lines you you can see
+the answer of where to put extra</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/221-1
+00:26:02.850 --> 00:26:06.507
+<v thomas broussard>attributes to start the links.
+If you don't,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/221-2
+00:26:06.507 --> 00:26:12.196
+<v thomas broussard>if you don't do that a first,
+then you will ask. Always ask yourself.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/222-0
+00:26:12.436 --> 00:26:17.273
+<v thomas broussard>In what direction should I store the link
+etcetera.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/222-1
+00:26:17.273 --> 00:26:24.809
+<v thomas broussard>So I repeat on the answer the the process
+to that kind of exam exercise sorry is</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/222-2
+00:26:24.809 --> 00:26:28.716
+<v thomas broussard>you will first design the boxes as we did.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/223-0
+00:26:29.196 --> 00:26:33.871
+<v thomas broussard>Identify the entities,
+then find the relationships between the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/223-1
+00:26:33.871 --> 00:26:34.316
+<v thomas broussard>boxes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/224-0
+00:26:36.116 --> 00:26:41.763
+<v thomas broussard>And then fill the attributes,
+knowing that the attributes are</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/224-1
+00:26:41.763 --> 00:26:47.137
+<v thomas broussard>conditioned by the links that you have on
+the diagram. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/224-2
+00:26:47.137 --> 00:26:51.236
+<v thomas broussard>so now the big goal is to to implement
+that.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/225-0
+00:26:51.436 --> 00:26:55.560
+<v thomas broussard>Into the database.
+We are very close because now we have the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/225-1
+00:26:55.560 --> 00:26:58.873
+<v thomas broussard>structure,
+we have a good knowledge of the links</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/225-2
+00:26:58.873 --> 00:27:03.133
+<v thomas broussard>between the entities.
+So the only remaining effort to create a</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/225-3
+00:27:03.133 --> 00:27:06.716
+<v thomas broussard>real database from that concept is to
+switch to DDL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/226-0
+00:27:06.916 --> 00:27:11.716
+<v thomas broussard>Just a first point here if you're a bit
+lazy.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/227-0
+00:27:14.396 --> 00:27:15.556
+<v thomas broussard>Are you lazy?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/228-0
+00:27:16.436 --> 00:27:17.636
+<v thomas broussard>You're lazy.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/229-0
+00:27:18.876 --> 00:27:19.316
+<v thomas broussard>That's bad.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/230-0
+00:27:20.716 --> 00:27:21.076
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/231-0
+00:27:28.636 --> 00:27:30.916
+<v thomas broussard>That's bad, but sometimes good to be lazy.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/232-0
+00:27:35.636 --> 00:27:35.756
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/235-0
+00:27:52.356 --> 00:27:52.476
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/236-0
+00:27:58.276 --> 00:28:01.956
+<v thomas broussard>OK, I'm sure you had the idea already.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/237-0
+00:28:02.876 --> 00:28:11.453
+<v thomas broussard>So let's let's make it it's work and
+we'll compare later. Just one notice,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/237-1
+00:28:11.453 --> 00:28:19.916
+<v thomas broussard>one warning. When you use Genai,
+it's it suppresses the learning process.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/238-0
+00:28:20.476 --> 00:28:24.287
+<v thomas broussard>If you don't pay attention,
+you will not learn.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/238-1
+00:28:24.287 --> 00:28:29.050
+<v thomas broussard>So if for new things and I I just notice
+it for me as well.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/238-2
+00:28:29.050 --> 00:28:34.211
+<v thomas broussard>For new things that I do with Jain AI,
+I don't learn new things.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/238-3
+00:28:34.211 --> 00:28:36.116
+<v thomas broussard>I'm faster to do things.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/239-0
+00:28:36.316 --> 00:28:39.574
+<v thomas broussard>Some things,
+but I'm not learning new things.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/239-1
+00:28:39.574 --> 00:28:44.108
+<v thomas broussard>And for some of you who are not already
+trained with databases,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/239-2
+00:28:44.108 --> 00:28:46.516
+<v thomas broussard>I think this is a pitfall because.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/240-0
+00:28:47.916 --> 00:28:53.189
+<v thomas broussard>Actually the goal is that you can manage
+this without the AI.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/240-1
+00:28:53.189 --> 00:28:59.823
+<v thomas broussard>So if you don't learn what will remain
+after this semester, I don't know. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/240-2
+00:28:59.823 --> 00:29:05.436
+<v thomas broussard>the exam is made so that normally you
+cannot use Gen. AI. OK, so.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/241-0
+00:29:05.436 --> 00:29:08.560
+<v thomas broussard>Genera will not be allowed during the
+exam,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/241-1
+00:29:08.560 --> 00:29:12.395
+<v thomas broussard>even if I know that some of you will try.
+If you try,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/241-2
+00:29:12.395 --> 00:29:17.721
+<v thomas broussard>it will be 0 and disciplinary cancel
+because it's against the rules of the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/241-3
+00:29:17.721 --> 00:29:18.076
+<v thomas broussard>exam.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/242-0
+00:29:19.516 --> 00:29:22.516
+<v thomas broussard>We are in first semester, so we should.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/243-0
+00:29:24.636 --> 00:29:24.996
+<v thomas broussard>Normally.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/244-0
+00:29:27.356 --> 00:29:36.036
+<v thomas broussard>Not use JAI in the first semester for any
+task to check the the the skills of our</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/244-1
+00:29:36.036 --> 00:29:41.963
+<v thomas broussard>students. OK,
+so you see here you have the actually the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/244-2
+00:29:41.963 --> 00:29:42.916
+<v thomas broussard>world DL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/245-0
+00:29:43.276 --> 00:29:44.356
+<v thomas broussard>So do.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/246-0
+00:29:45.916 --> 00:29:51.396
+<v thomas broussard>Just to show you that once you have done
+the effort of doing your ear diagram.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/247-0
+00:29:52.716 --> 00:29:58.423
+<v thomas broussard>This is your added value, actually,
+because this is what the general can't do</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/247-1
+00:29:58.423 --> 00:29:58.716
+<v thomas broussard>now.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/248-0
+00:29:59.676 --> 00:30:05.354
+<v thomas broussard>More or less cannot do because what is
+your ability is to take some</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/248-1
+00:30:05.354 --> 00:30:11.032
+<v thomas broussard>specifications from human language,
+understand them with the person</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/248-2
+00:30:11.032 --> 00:30:14.956
+<v thomas broussard>representing the users,
+and then convert them.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/249-0
+00:30:14.996 --> 00:30:17.756
+<v thomas broussard>Into the diagram that we have made.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/251-0
+00:30:18.756 --> 00:30:23.914
+<v thomas broussard>OK, O your added value is there.
+It's not in the way that you write SQL</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/251-1
+00:30:23.914 --> 00:30:26.636
+<v thomas broussard>because tools like this can write SQL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/252-0
+00:30:27.636 --> 00:30:32.842
+<v thomas broussard>What you can also capitalize on is once
+you know how to write SQL,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/252-1
+00:30:32.842 --> 00:30:39.290
+<v thomas broussard>is that you don't ask yourself how to do
+things. It's already as a reflex for you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/252-2
+00:30:39.290 --> 00:30:42.476
+<v thomas broussard>So that means that even without any tool.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/253-0
+00:30:42.796 --> 00:30:47.196
+<v thomas broussard>You can still do your job.
+I I know some customers where remote</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/253-1
+00:30:47.196 --> 00:30:50.220
+<v thomas broussard>tools,
+online tools are not accessible like</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/253-2
+00:30:50.220 --> 00:30:54.895
+<v thomas broussard>banks, insurances. They don't have Gemini,
+they don't have ChatGPT,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/253-3
+00:30:54.895 --> 00:30:58.676
+<v thomas broussard>they don't have nothing.
+So it's you and the database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/254-0
+00:31:00.876 --> 00:31:06.178
+<v thomas broussard>So that's where it's interesting as well
+to still have SQL skills. But honestly,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/254-1
+00:31:06.178 --> 00:31:11.349
+<v thomas broussard>if you want to create your startup,
+it's not where you should spend some time,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/254-2
+00:31:11.349 --> 00:31:13.836
+<v thomas broussard>not where I mean creating SQL queries.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/255-0
+00:31:14.396 --> 00:31:19.723
+<v thomas broussard>It's not where you make value, OK,
+because you can have those tools that do</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/255-1
+00:31:19.723 --> 00:31:21.756
+<v thomas broussard>it for you, but the concepts.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/256-0
+00:31:22.996 --> 00:31:28.961
+<v thomas broussard>Really, it's where you have value.
+Now it's because you have this idea of</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/256-1
+00:31:28.961 --> 00:31:35.008
+<v thomas broussard>chaining the data like this that
+corresponds to a workflow from a customer</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/256-2
+00:31:35.008 --> 00:31:38.716
+<v thomas broussard>that you need to implement as an
+application.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/257-0
+00:31:39.076 --> 00:31:45.109
+<v thomas broussard>Where this is where you will make,
+you will create value. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/257-1
+00:31:45.109 --> 00:31:52.700
+<v thomas broussard>so just after that warning about Gen. AI,
+let's try to create things ourself.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/257-2
+00:31:52.700 --> 00:31:58.636
+<v thomas broussard>You see in the learning process,
+copy pasting is also a bad.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/258-0
+00:31:59.876 --> 00:32:06.584
+<v thomas broussard>Reflex. OK, so even if you don't use JDPT,
+if you stack stack overflow of things</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/258-1
+00:32:06.584 --> 00:32:11.636
+<v thomas broussard>with pre-made things, it's not good.
+So let's try to create.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/259-0
+00:32:12.996 --> 00:32:14.236
+<v thomas broussard>The table duck toes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/260-0
+00:32:22.796 --> 00:32:29.316
+<v thomas broussard>And you will see how well it helps to
+have this text base stuff.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/261-0
+00:32:30.956 --> 00:32:34.876
+<v thomas broussard>Because it's nearly one to one here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/264-0
+00:32:50.756 --> 00:33:05.836
+<v thomas broussard>We the Microsoft SVM don't mention stuff.
+OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/265-0
+00:33:07.516 --> 00:33:11.131
+<v thomas broussard>Yeah, OK.
+Actually here auto increment is not</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/265-1
+00:33:11.131 --> 00:33:16.552
+<v thomas broussard>necessary for this specific exercise,
+but you can do it in two ways.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/265-2
+00:33:16.552 --> 00:33:21.503
+<v thomas broussard>Either you want to be,
+you want it to be part of the structure</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/265-3
+00:33:21.503 --> 00:33:22.996
+<v thomas broussard>so that you create.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/266-0
+00:33:23.076 --> 00:33:29.503
+<v thomas broussard>The auto increments directive at the same
+time as your column or you can alter the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/266-1
+00:33:29.503 --> 00:33:33.065
+<v thomas broussard>column later to add the auto increments
+flag.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/266-2
+00:33:33.065 --> 00:33:38.796
+<v thomas broussard>I think even you will have to drop the
+column and to recreate the column.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/267-0
+00:33:39.076 --> 00:33:46.461
+<v thomas broussard>If you if you made a mistake and then
+copy all the previous values into this</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/267-1
+00:33:46.461 --> 00:33:47.516
+<v thomas broussard>new column.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/268-0
+00:33:49.396 --> 00:33:53.843
+<v thomas broussard>We can have auto increment defined like
+this for now.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/268-1
+00:33:53.843 --> 00:34:00.266
+<v thomas broussard>What is important is that you can also
+see here that we create a primary key.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/268-2
+00:34:00.266 --> 00:34:05.866
+<v thomas broussard>Honestly, I'm not a fond.
+I'm not fond of create making the primary</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/268-3
+00:34:05.866 --> 00:34:06.196
+<v thomas broussard>key.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/269-0
+00:34:06.716 --> 00:34:10.516
+<v thomas broussard>Definition here. Why is that?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/270-0
+00:34:11.636 --> 00:34:11.956
+<v thomas broussard>Because.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/271-0
+00:34:14.196 --> 00:34:16.076
+<v thomas broussard>Actually when you have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/272-0
+00:34:17.236 --> 00:34:21.364
+<v thomas broussard>The table structure like this, it's good,
+but what counts?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/272-1
+00:34:21.364 --> 00:34:24.652
+<v thomas broussard>It's not really the constraints that you
+have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/272-2
+00:34:24.652 --> 00:34:28.990
+<v thomas broussard>Of course it will count for the
+applications which is behind.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/272-3
+00:34:28.990 --> 00:34:32.698
+<v thomas broussard>The application will require some unique
+values etc.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/272-4
+00:34:32.698 --> 00:34:36.756
+<v thomas broussard>So that's important and it has the
+primary key, but it's.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/273-0
+00:34:36.836 --> 00:34:40.571
+<v thomas broussard>Even more important to have the data
+themselves,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/273-1
+00:34:40.571 --> 00:34:46.593
+<v thomas broussard>and sometimes when you import data you
+have errors in the data with duplicates</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/273-2
+00:34:46.593 --> 00:34:51.015
+<v thomas broussard>primary keys. OK,
+so I prefer to have a database which is</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/273-3
+00:34:51.015 --> 00:34:55.436
+<v thomas broussard>imported with duplicate primary keys than
+no data at all.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/274-0
+00:34:55.876 --> 00:35:00.701
+<v thomas broussard>OK,
+This is why usually what I favor in terms</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/274-1
+00:35:00.701 --> 00:35:05.316
+<v thomas broussard>of approach is that minimal data
+structure.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/275-0
+00:35:06.596 --> 00:35:07.116
+<v thomas broussard>Then.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/276-0
+00:35:10.916 --> 00:35:12.076
+<v thomas broussard>That's our import.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/277-0
+00:35:20.356 --> 00:35:21.116
+<v thomas broussard>And then?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/278-0
+00:35:22.556 --> 00:35:26.196
+<v thomas broussard>Constraint creation.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/279-0
+00:35:28.756 --> 00:35:34.020
+<v thomas broussard>OK, so if you do like this,
+you you are sure you will have all your</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/279-1
+00:35:34.020 --> 00:35:39.904
+<v thomas broussard>data, even if they are a bit messy,
+because potentially you have no foreign</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/279-2
+00:35:39.904 --> 00:35:43.775
+<v thomas broussard>foreign keys,
+you have some missing primary keys,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/279-3
+00:35:43.775 --> 00:35:47.569
+<v thomas broussard>etcetera,
+due to the fact you have faults in the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/279-4
+00:35:47.569 --> 00:35:47.956
+<v thomas broussard>data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/280-0
+00:35:49.156 --> 00:35:50.236
+<v thomas broussard>But at least you have your data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/282-0
+00:35:51.716 --> 00:35:56.488
+<v thomas broussard>What counts for you? You are what?
+What's what's AC? OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/282-1
+00:35:56.488 --> 00:36:03.354
+<v thomas broussard>so in AC it's good because we are a bit
+balanced in data domains like AIS or DSA.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/282-2
+00:36:03.354 --> 00:36:09.885
+<v thomas broussard>They would prefer to have at all price
+the data and they don't care about the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/282-3
+00:36:09.885 --> 00:36:11.476
+<v thomas broussard>constraint because.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/283-0
+00:36:11.476 --> 00:36:16.909
+<v thomas broussard>Of course what counts for them is the raw
+data to do their training. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/283-1
+00:36:16.909 --> 00:36:22.640
+<v thomas broussard>but for us what counts is to have the
+data and to have them in a good format</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/283-2
+00:36:22.640 --> 00:36:28.223
+<v thomas broussard>because we will be responsible of taking
+those data to display them in the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/283-3
+00:36:28.223 --> 00:36:29.116
+<v thomas broussard>application.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/284-0
+00:36:29.556 --> 00:36:36.930
+<v thomas broussard>And back saving the the data in the right
+format so that the next cycle will be</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/284-1
+00:36:36.930 --> 00:36:42.276
+<v thomas broussard>operational as well,
+but if you have to make a trade off.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/285-0
+00:36:43.796 --> 00:36:48.148
+<v thomas broussard>I mean in production what counts is to
+have the data,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/285-1
+00:36:48.148 --> 00:36:53.064
+<v thomas broussard>because if you have bad constraints,
+if you have bad things,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/285-2
+00:36:53.064 --> 00:36:57.900
+<v thomas broussard>it's bad to say that,
+but it's preferable that the user can</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/285-3
+00:36:57.900 --> 00:37:00.076
+<v thomas broussard>save the data at all price.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/286-0
+00:37:00.676 --> 00:37:05.244
+<v thomas broussard>Than to to have perfect model with
+perfect constraint application.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/286-1
+00:37:05.244 --> 00:37:09.676
+<v thomas broussard>OK you you will be there in the next step
+to fix all the issues.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/287-0
+00:37:10.796 --> 00:37:14.316
+<v thomas broussard>OK.
+I don't wish you that because of course</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/287-1
+00:37:14.316 --> 00:37:20.236
+<v thomas broussard>that's very painful and and stressful
+because when you work in production</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/287-2
+00:37:20.236 --> 00:37:25.516
+<v thomas broussard>system with bad model, bad database model,
+you will suffer a lot.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/288-0
+00:37:25.876 --> 00:37:32.166
+<v thomas broussard>To understand what happens and to make
+sure that by doing your fix you do not</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/288-1
+00:37:32.166 --> 00:37:38.537
+<v thomas broussard>remove some critical data or you do not
+alter some critical data that the user</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/288-2
+00:37:38.537 --> 00:37:40.956
+<v thomas broussard>will need in the in his usage.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/289-0
+00:37:41.316 --> 00:37:46.320
+<v thomas broussard>OK, so but this is what we can do.
+We can create the tables,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/289-1
+00:37:46.320 --> 00:37:53.211
+<v thomas broussard>then importing the data and then creating
+the constraints so that you are sure that</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/289-2
+00:37:53.211 --> 00:37:55.836
+<v thomas broussard>at least you have all your data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/290-0
+00:37:56.276 --> 00:38:03.315
+<v thomas broussard>So the minimal that create table order
+that will take the constraints that we</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/290-1
+00:38:03.315 --> 00:38:10.264
+<v thomas broussard>have here is the not the constraint,
+but the definition that we have here is</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/290-2
+00:38:10.264 --> 00:38:11.076
+<v thomas broussard>this one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/291-0
+00:38:11.836 --> 00:38:19.779
+<v thomas broussard>If I want to play it to to apply it on
+the database, I click on the play button,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/291-1
+00:38:19.779 --> 00:38:26.349
+<v thomas broussard>the play orange button here,
+which is here normally in the medical</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/291-2
+00:38:26.349 --> 00:38:27.036
+<v thomas broussard>system.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/292-0
+00:38:27.716 --> 00:38:31.547
+<v thomas broussard>You should see a table.
+It's not the case here,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/292-1
+00:38:31.547 --> 00:38:37.372
+<v thomas broussard>but it's because you need to refresh.
+So take the reflex to have the the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/292-2
+00:38:37.372 --> 00:38:41.762
+<v thomas broussard>refresh here whenever you do a create
+table statement.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/292-3
+00:38:41.762 --> 00:38:44.076
+<v thomas broussard>Otherwise you may think that.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/293-0
+00:38:44.436 --> 00:38:48.507
+<v thomas broussard>The order has not been ***** correctly,
+but it is now here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/293-1
+00:38:48.507 --> 00:38:53.053
+<v thomas broussard>If you want you can you have an
+interesting view which is the view</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/293-2
+00:38:53.053 --> 00:38:53.596
+<v thomas broussard>diagram.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/294-0
+00:38:55.356 --> 00:39:01.982
+<v thomas broussard>The view diagram will normally look like
+this at the end of the DDL creation,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/294-1
+00:39:01.982 --> 00:39:03.596
+<v thomas broussard>the DDL imports OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/295-0
+00:39:06.556 --> 00:39:08.716
+<v thomas broussard>So just for fun.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/296-0
+00:39:12.276 --> 00:39:13.996
+<v thomas broussard>I will send this to you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/297-0
+00:39:22.276 --> 00:39:28.701
+<v thomas broussard>And I would like you to try execute this
+into your system and once it works you</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/297-1
+00:39:28.701 --> 00:39:32.556
+<v thomas broussard>can do the rest of the CREATE TABLE
+statements.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/298-0
+00:39:34.156 --> 00:39:35.916
+<v thomas broussard>Uh, with the rest of the entities, OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/300-0
+00:39:46.116 --> 00:39:54.636
+<v thomas broussard>But suggest that you have first the MySQL
+that runs and you'll have your.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/303-0
+00:40:06.836 --> 00:40:07.436
+<v thomas broussard>See.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/305-0
+00:40:23.916 --> 00:40:24.436
+<v thomas broussard>Yeah, I.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/306-0
+00:40:24.516 --> 00:40:24.556
+<v thomas broussard>Uh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/307-0
+00:40:27.476 --> 00:40:33.466
+<v thomas broussard>Yeah, it's good.
+So you have to have then into the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/307-1
+00:40:33.466 --> 00:40:40.396
+<v thomas broussard>database you need to create a new
+database. Yeah, refresh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/308-0
+00:40:41.596 --> 00:40:41.836
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/312-0
+00:40:53.476 --> 00:40:56.596
+<v thomas broussard>Are you students here? Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/314-0
+00:41:03.676 --> 00:41:07.396
+<v thomas broussard>Who is not yet added to the team as well.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/315-0
+00:41:08.956 --> 00:41:09.196
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/316-0
+00:41:16.236 --> 00:41:17.036
+<v thomas broussard>Maybe.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/317-0
+00:41:19.476 --> 00:41:22.516
+<v thomas broussard>E like this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/318-0
+00:41:36.236 --> 00:41:37.916
+<v thomas broussard>Uh, this one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/319-0
+00:41:41.276 --> 00:41:42.676
+<v thomas broussard>And what's your name?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/320-0
+00:41:44.396 --> 00:41:45.076
+<v thomas broussard>Who's?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/321-0
+00:41:46.356 --> 00:41:48.596
+<v thomas broussard>I just send you all because.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/322-0
+00:41:49.556 --> 00:41:52.316
+<v thomas broussard>Like this?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/323-0
+00:41:54.916 --> 00:41:57.356
+<v thomas broussard>If you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/324-0
+00:42:05.036 --> 00:42:06.236
+<v thomas broussard>Uh, you as well.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/325-0
+00:42:07.756 --> 00:42:07.996
+<v thomas broussard>Hmm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/326-0
+00:42:13.636 --> 00:42:14.396
+<v thomas broussard>M here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/327-0
+00:42:21.156 --> 00:42:21.596
+<v thomas broussard>This one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/328-0
+00:42:28.396 --> 00:42:32.156
+<v thomas broussard>Next ones will be 10 euro per people, OK?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/330-0
+00:42:40.036 --> 00:42:40.796
+<v thomas broussard>It's.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/331-0
+00:42:45.596 --> 00:42:45.756
+<v thomas broussard>2.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/332-0
+00:42:46.996 --> 00:42:50.436
+<v thomas broussard>My support. Here we work with my support.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/334-0
+00:42:56.916 --> 00:43:02.738
+<v thomas broussard>Maybe this I should share with you.
+I did not share the the whole diagram.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/334-1
+00:43:02.738 --> 00:43:04.756
+<v thomas broussard>That would help of course.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/337-0
+00:43:33.196 --> 00:43:33.316
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/338-0
+00:43:36.236 --> 00:43:36.356
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/339-0
+00:43:47.476 --> 00:43:47.676
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/347-0
+00:44:26.076 --> 00:44:35.370
+<v thomas broussard>As you said,
+which is the the one which is the most</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/347-1
+00:44:35.370 --> 00:44:40.196
+<v thomas broussard>always in MySQL PostgreSQL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/348-0
+00:44:43.156 --> 00:44:48.476
+<v thomas broussard>And what close in the on some definitions?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/349-0
+00:44:49.796 --> 00:45:09.276
+<v thomas broussard>We create the the medical system set up.
+Let me show you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/360-0
+00:46:17.356 --> 00:46:17.436
+<v thomas broussard>It.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/361-0
+00:46:23.396 --> 00:46:23.996
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/363-0
+00:46:31.676 --> 00:46:31.836
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/364-0
+00:46:36.716 --> 00:46:37.676
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/365-0
+00:46:39.476 --> 00:46:39.916
+<v thomas broussard>She.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/366-0
+00:46:40.876 --> 00:46:41.076
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/367-0
+00:46:42.556 --> 00:46:42.996
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/375-0
+00:47:19.156 --> 00:47:19.596
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/378-0
+00:47:31.276 --> 00:47:31.356
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/380-0
+00:47:46.476 --> 00:47:46.596
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/383-0
+00:48:05.076 --> 00:48:05.236
+<v thomas broussard>And.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/384-0
+00:48:12.156 --> 00:48:12.276
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/389-0
+00:48:36.956 --> 00:48:43.116
+<v thomas broussard>OK, so we can do.
+I will show the solution for as well.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/391-0
+00:48:49.996 --> 00:48:51.676
+<v thomas broussard>So it's always.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/392-0
+00:48:52.836 --> 00:48:55.916
+<v thomas broussard>Um, once you you see once you have the.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/393-0
+00:48:59.036 --> 00:49:03.384
+<v thomas broussard>Where is my editor.
+Once you have this actually you are very</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/393-1
+00:49:03.384 --> 00:49:09.157
+<v thomas broussard>close to have a create table statement
+because here you have you have only to to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/393-2
+00:49:09.157 --> 00:49:14.574
+<v thomas broussard>create table then the name of the table
+instead of curly bracket it's round</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/393-3
+00:49:14.574 --> 00:49:16.356
+<v thomas broussard>bracket it's parenthesis.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/394-0
+00:49:16.956 --> 00:49:21.556
+<v thomas broussard>And then you have all the types,
+et cetera, that is even a bit compatible.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/395-0
+00:49:23.316 --> 00:49:26.156
+<v thomas broussard>O here we have a ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/396-0
+00:49:28.076 --> 00:49:30.716
+<v thomas broussard>We have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/397-0
+00:49:32.956 --> 00:49:33.116
+<v thomas broussard>Dates.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/398-0
+00:49:34.916 --> 00:49:40.432
+<v thomas broussard>Please do me a favour.
+Never store dates under the string format</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/398-1
+00:49:40.432 --> 00:49:45.524
+<v thomas broussard>under voucher format.
+It's the worst idea you could have to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/398-2
+00:49:45.524 --> 00:49:50.276
+<v thomas broussard>represent a date because we have very
+convenient dates.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/399-0
+00:49:50.796 --> 00:49:53.676
+<v thomas broussard>Date, time or time stamp?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/400-0
+00:49:55.876 --> 00:49:59.814
+<v thomas broussard>Which is all which are all better than
+string. Why is that?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/400-1
+00:49:59.814 --> 00:50:05.130
+<v thomas broussard>Because here you if you do string then
+you are limiting yourself to use symbolic</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/400-2
+00:50:05.130 --> 00:50:08.542
+<v thomas broussard>calculation.
+So you'll have to do within your query</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/400-3
+00:50:08.542 --> 00:50:13.596
+<v thomas broussard>some processing to convert a string to a
+date and then to do the same thing.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/401-0
+00:50:13.956 --> 00:50:19.161
+<v thomas broussard>As you could have done it from the from
+the start,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/401-1
+00:50:19.161 --> 00:50:27.018
+<v thomas broussard>I don't know why people are keep are
+keeping managing the dates with string.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/401-2
+00:50:27.018 --> 00:50:29.876
+<v thomas broussard>For me it's it's an unknown.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/402-0
+00:50:29.916 --> 00:50:29.996
+<v thomas broussard>You.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/403-0
+00:50:32.476 --> 00:50:33.356
+<v thomas broussard>The deep.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/404-0
+00:50:35.636 --> 00:50:35.716
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/405-0
+00:50:36.876 --> 00:50:44.185
+<v thomas broussard>The dates and we set the date because
+when you created like is the current it's</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/405-1
+00:50:44.185 --> 00:50:49.941
+<v thomas broussard>it's not by default. It's not by default.
+Maybe we have a way,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/405-2
+00:50:49.941 --> 00:50:52.316
+<v thomas broussard>but honestly I don't know.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/406-0
+00:50:52.356 --> 00:50:55.636
+<v thomas broussard>I never.
+I never use that at the database level.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/408-0
+00:50:57.196 --> 00:51:03.956
+<v thomas broussard>'Cause normally, yeah, but honestly,
+I've never used that, so I cannot tell.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/409-0
+00:51:08.076 --> 00:51:09.276
+<v thomas broussard>Hop uh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/410-0
+00:51:11.756 --> 00:51:16.076
+<v thomas broussard>What we said duration means up.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/411-0
+00:51:19.036 --> 00:51:20.716
+<v thomas broussard>OK, but ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/412-0
+00:51:23.876 --> 00:51:24.956
+<v thomas broussard>have the ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/413-0
+00:51:29.516 --> 00:51:29.916
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/414-0
+00:51:31.316 --> 00:51:31.596
+<v thomas broussard>Then.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/415-0
+00:51:36.116 --> 00:51:38.316
+<v thomas broussard>Createable patience.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/416-0
+00:51:40.836 --> 00:51:42.076
+<v thomas broussard>Uh, Teji.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/417-0
+00:51:42.996 --> 00:51:43.476
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/418-0
+00:51:46.876 --> 00:51:47.836
+<v thomas broussard>But name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/419-0
+00:51:48.836 --> 00:51:49.316
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/420-0
+00:51:54.356 --> 00:51:54.476
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/421-0
+00:51:57.556 --> 00:52:00.636
+<v thomas broussard>And we have said that we had a fat.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/422-0
+00:52:03.436 --> 00:52:03.756
+<v thomas broussard>Ins.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/423-0
+00:52:05.596 --> 00:52:12.063
+<v thomas broussard>ID which will be the reference to the to
+the entrance. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/423-1
+00:52:12.063 --> 00:52:16.996
+<v thomas broussard>for now let's just play with those 3
+tables.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/424-0
+00:52:18.836 --> 00:52:19.476
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/425-0
+00:52:25.516 --> 00:52:26.156
+<v thomas broussard>No.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/426-0
+00:52:27.556 --> 00:52:33.880
+<v thomas broussard>Yeah, yeah, sure, sure.
+It's it's easier actually here this</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/426-1
+00:52:33.880 --> 00:52:39.045
+<v thomas broussard>convention.
+You will see it a lot in all systems</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/426-2
+00:52:39.045 --> 00:52:43.156
+<v thomas broussard>because they did not have at that time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/427-0
+00:52:44.876 --> 00:52:50.162
+<v thomas broussard>They did not have any code completion IDE
+like what we have. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/427-1
+00:52:50.162 --> 00:52:55.936
+<v thomas broussard>why do we have do I have this?
+First of all that visually when I write</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/427-2
+00:52:55.936 --> 00:53:00.652
+<v thomas broussard>the query you are not mixed between the
+different fields,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/427-3
+00:53:00.652 --> 00:53:04.556
+<v thomas broussard>so it's a bit for you and if you take the
+code.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/428-0
+00:53:04.876 --> 00:53:08.945
+<v thomas broussard>Outside of any ID,
+it will be as well a bit easier to to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/428-1
+00:53:08.945 --> 00:53:12.371
+<v thomas broussard>read,
+but it's true once you are start you have</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/428-2
+00:53:12.371 --> 00:53:16.868
+<v thomas broussard>started your project.
+If you are sure that you have everything</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/428-3
+00:53:16.868 --> 00:53:20.366
+<v thomas broussard>modern,
+go with what you want in terms of naming</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/428-4
+00:53:20.366 --> 00:53:22.436
+<v thomas broussard>convention or apply the ones.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/429-0
+00:53:22.436 --> 00:53:28.199
+<v thomas broussard>That you have from from your company,
+because some companies have have as well</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/429-1
+00:53:28.199 --> 00:53:31.774
+<v thomas broussard>their own way to to to name the the
+columns. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/429-2
+00:53:31.774 --> 00:53:34.036
+<v thomas broussard>but there's no constraint here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/430-0
+00:53:36.276 --> 00:53:42.153
+<v thomas broussard>OK, so let's create everything.
+I'm happy about what I see here,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/430-1
+00:53:42.153 --> 00:53:46.764
+<v thomas broussard>so I would like to import everything.
+How do I do?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/430-2
+00:53:46.764 --> 00:53:53.273
+<v thomas broussard>I do not click on the play button here if
+I want to execute everything.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/430-3
+00:53:53.273 --> 00:53:56.076
+<v thomas broussard>What I will do, I will execute.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/431-0
+00:53:56.196 --> 00:54:01.339
+<v thomas broussard>As a script here,
+here it says that we have an error that's</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/431-1
+00:54:01.339 --> 00:54:06.996
+<v thomas broussard>normal because it says that table doctors
+already exist. So here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/432-0
+00:54:11.316 --> 00:54:13.396
+<v thomas broussard>I will have to select and.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/433-0
+00:54:15.276 --> 00:54:17.756
+<v thomas broussard>Execute a script refresh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/434-0
+00:54:19.516 --> 00:54:21.956
+<v thomas broussard>And now we should have doctors and
+patients.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/436-0
+00:54:23.876 --> 00:54:30.276
+<v thomas broussard>In the diagram you see that we have now
+the different entities represented,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/436-1
+00:54:30.276 --> 00:54:36.002
+<v thomas broussard>but they are not linked yet.
+It's normal because we have not set up</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/436-2
+00:54:36.002 --> 00:54:41.476
+<v thomas broussard>the primary keys nor the foreign keys.
+So let me share with you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/441-0
+00:55:04.916 --> 00:55:05.196
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/442-0
+00:55:09.756 --> 00:55:10.236
+<v thomas broussard>So just.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/443-0
+00:55:11.396 --> 00:55:12.876
+<v thomas broussard>In terms of constraints.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/446-0
+00:55:21.956 --> 00:55:28.831
+<v thomas broussard>Here you see we are not we are using the
+Alter statement, the Alter verb.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/446-1
+00:55:28.831 --> 00:55:34.684
+<v thomas broussard>What do we alter the table doctors to add
+a constraint doc PK?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/446-2
+00:55:34.684 --> 00:55:39.236
+<v thomas broussard>Actually this name is is not mandatory in
+MySQL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/447-0
+00:55:40.156 --> 00:55:46.569
+<v thomas broussard>It would be mandatory in PostgreSQL and
+probably as well in MSSQL even if I don't</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/447-1
+00:55:46.569 --> 00:55:50.636
+<v thomas broussard>know it well.
+So usually we add the constraint name</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/447-2
+00:55:50.636 --> 00:55:54.156
+<v thomas broussard>even if it's not mandatory,
+the primary key.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/448-0
+00:55:56.276 --> 00:56:02.116
+<v thomas broussard>Constraints and this is the target field,
+so this points to this doc ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/449-0
+00:56:06.916 --> 00:56:09.396
+<v thomas broussard>Let's just see what's the effect.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/450-0
+00:56:16.916 --> 00:56:21.436
+<v thomas broussard>You see that now the primary key appears
+in the bolds.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/451-0
+00:56:22.996 --> 00:56:24.716
+<v thomas broussard>OK, let's have a look to the seconds.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/452-0
+00:56:27.516 --> 00:56:28.916
+<v thomas broussard>Let's take only the three first lines.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/453-0
+00:56:31.156 --> 00:56:38.482
+<v thomas broussard>Altera table appointments add the
+constraint called FK doc.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/453-1
+00:56:38.482 --> 00:56:47.396
+<v thomas broussard>The foreign key will apply on app doc ID
+and it will target the doctors.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/454-0
+00:56:47.396 --> 00:56:53.588
+<v thomas broussard>Docker ID. So here what I'm saying,
+I'm saying that this value and this value</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/454-1
+00:56:53.588 --> 00:56:57.796
+<v thomas broussard>should be the same OK where the when
+there's a link.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/455-0
+00:56:59.276 --> 00:57:01.596
+<v thomas broussard>I'm playing this. I'm refreshing.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/456-0
+00:57:05.796 --> 00:57:09.476
+<v thomas broussard>And here you see that there's a link now
+between the two tables.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/457-0
+00:57:13.996 --> 00:57:19.201
+<v thomas broussard>You can change the notation as well to
+have to have crew foot so that it's</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/457-1
+00:57:19.201 --> 00:57:23.990
+<v thomas broussard>closer to what we know already.
+If we zoom a little bit here it says</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/457-2
+00:57:23.990 --> 00:57:27.876
+<v thomas broussard>appointments to doctors.
+Here you can see that it's 01.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/458-0
+00:57:30.316 --> 00:57:36.476
+<v thomas broussard>So why it's 01?
+Because here we have not said that this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/459-0
+00:57:37.556 --> 00:57:41.476
+<v thomas broussard>Uh, sorry, this cannot be null.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/460-0
+00:57:43.876 --> 00:57:50.463
+<v thomas broussard>So if we had made not null here as a
+second as a complementary constraint,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/460-1
+00:57:50.463 --> 00:57:56.436
+<v thomas broussard>it forces this to be not null and so the
+the sign here will be one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/461-0
+00:57:57.396 --> 00:57:58.156
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/462-0
+00:58:00.516 --> 00:58:08.415
+<v thomas broussard>So what is important here to understand
+is how to set up the primary key and the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/462-1
+00:58:08.415 --> 00:58:15.436
+<v thomas broussard>foreign key. Playing on that,
+I would like you to create the remaining.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/463-0
+00:58:16.196 --> 00:58:19.848
+<v thomas broussard>Links that exist between tables that are
+here,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/463-1
+00:58:19.848 --> 00:58:23.499
+<v thomas broussard>so the appointments and patients for
+instance,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/463-2
+00:58:23.499 --> 00:58:29.870
+<v thomas broussard>but you can play a little bit as well on
+the whole system if you have implemented</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/463-3
+00:58:29.870 --> 00:58:31.036
+<v thomas broussard>all the tables.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/464-0
+00:58:34.276 --> 00:58:34.436
+<v thomas broussard>No</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/465-0
+00:58:37.436 --> 00:58:37.676
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/466-0
+00:58:42.516 --> 00:58:44.636
+<v thomas broussard>So I repeat.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/467-0
+00:58:45.956 --> 00:58:54.099
+<v thomas broussard>The slides try to apply set up the
+primary keys everywhere and the foreign</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/467-1
+00:58:54.099 --> 00:58:55.836
+<v thomas broussard>keys when it is.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/468-0
+00:58:57.436 --> 00:59:00.716
+<v thomas broussard>Based on this syntax example.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/469-0
+00:59:02.156 --> 00:59:08.306
+<v thomas broussard>Do you want me to to to explain again the
+structure of this of those alter</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/469-1
+00:59:08.306 --> 00:59:10.356
+<v thomas broussard>statements or is that OK?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/470-0
+00:59:11.476 --> 00:59:16.178
+<v thomas broussard>We modify the table to other constraints,
+then the name of the constraint,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/470-1
+00:59:16.178 --> 00:59:20.128
+<v thomas broussard>then the type of the constraint,
+and then the affected fields.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/470-2
+00:59:20.128 --> 00:59:24.016
+<v thomas broussard>You see that here it expects potentially
+more than one field.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/470-3
+00:59:24.016 --> 00:59:28.405
+<v thomas broussard>So it means that the primary key would be
+composed of several fields,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/470-4
+00:59:28.405 --> 00:59:29.596
+<v thomas broussard>several attributes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/471-0
+00:59:29.956 --> 00:59:30.076
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/472-0
+00:59:31.476 --> 00:59:39.085
+<v thomas broussard>I can see that maybe you need some rest.
+So let's do a small break of 5-10 minutes</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/472-1
+00:59:39.085 --> 00:59:44.494
+<v thomas broussard>just to relax a little bit.
+Take some hair, take a coffee,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/472-2
+00:59:44.494 --> 00:59:46.236
+<v thomas broussard>take some vitamins.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/473-0
+00:59:47.756 --> 00:59:51.596
+<v thomas broussard>And then let's raise your.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/475-0
+01:00:07.996 --> 01:00:08.116
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/481-0
+01:00:51.916 --> 01:00:53.156
+<v thomas broussard>It's needed.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/483-0
+01:01:13.996 --> 01:01:14.756
+<v thomas broussard>No.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/485-0
+01:01:17.316 --> 01:01:32.116
+<v thomas broussard>OK, yeah, thanks. I don't.
+It doesn't mean.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/486-0
+01:01:38.236 --> 01:01:47.036
+<v thomas broussard>So we have to install the server and then
+we'll say.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/487-0
+01:01:48.196 --> 01:01:59.676
+<v thomas broussard>So today's for today's.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/488-0
+01:02:04.556 --> 01:02:04.676
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/489-0
+01:02:07.996 --> 01:02:10.876
+<v thomas broussard>It only subject absolutely positive.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/490-0
+01:02:11.516 --> 01:02:12.476
+<v thomas broussard>Or perhaps.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/496-0
+01:02:46.636 --> 01:03:00.396
+<v thomas broussard>Do you know the question? That's answered.
+You know, I have a question.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/497-0
+01:03:07.876 --> 01:03:07.996
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/498-0
+01:03:09.876 --> 01:03:24.956
+<v thomas broussard>Don't worry about it.
+This is what we have to do.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/501-0
+01:03:42.516 --> 01:03:50.916
+<v thomas broussard>I'm sorry.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/502-0
+01:03:54.876 --> 01:03:55.596
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/507-0
+01:04:19.716 --> 01:04:19.756
+<v thomas broussard>Uh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/513-0
+01:05:15.236 --> 01:05:15.356
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/514-0
+01:05:16.436 --> 01:05:16.556
+<v thomas broussard>It.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/516-0
+01:05:25.156 --> 01:05:25.556
+<v thomas broussard>Right.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/518-0
+01:05:38.796 --> 01:05:38.956
+<v thomas broussard>Mm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/523-0
+01:06:09.756 --> 01:06:10.196
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/524-0
+01:06:13.636 --> 01:06:18.076
+<v thomas broussard>So like in the.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/525-0
+01:06:25.876 --> 01:06:25.996
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/526-0
+01:06:27.196 --> 01:06:30.116
+<v thomas broussard>Not sure.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/529-0
+01:06:51.196 --> 01:06:58.076
+<v thomas broussard>It depends.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/530-0
+01:07:04.036 --> 01:07:09.396
+<v thomas broussard>Not my SPS.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/534-0
+01:07:44.316 --> 01:07:45.076
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/535-0
+01:07:46.636 --> 01:07:48.276
+<v thomas broussard>Yeah, this is.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/536-0
+01:07:51.956 --> 01:07:55.236
+<v thomas broussard>Yeah, excellent.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/542-0
+01:08:38.356 --> 01:08:38.476
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/545-0
+01:08:52.036 --> 01:08:52.196
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/546-0
+01:08:54.396 --> 01:08:54.916
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/549-0
+01:09:06.916 --> 01:09:07.236
+<v thomas broussard>It.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/551-0
+01:09:17.556 --> 01:09:17.796
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/552-0
+01:09:20.516 --> 01:09:20.556
+<v thomas broussard>Oh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/553-0
+01:09:21.796 --> 01:09:21.956
+<v thomas broussard>Mm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/557-0
+01:09:41.876 --> 01:09:42.276
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/561-0
+01:09:56.276 --> 01:10:11.396
+<v thomas broussard>Thank you. If you please don't,
+you should.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/562-0
+01:10:16.796 --> 01:10:28.116
+<v thomas broussard>So your experts now in create table
+statements and alter table statements.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/563-0
+01:10:40.676 --> 01:10:40.916
+<v thomas broussard>It.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/564-0
+01:10:40.956 --> 01:10:41.076
+<v thomas broussard>D,.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/570-0
+01:11:07.956 --> 01:11:12.436
+<v thomas broussard>Thank you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/572-0
+01:11:17.236 --> 01:11:33.236
+<v thomas broussard>Thank you. Thank you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/576-0
+01:11:48.116 --> 01:11:53.836
+<v thomas broussard>I don't know the security.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/577-0
+01:11:56.076 --> 01:11:56.916
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/580-0
+01:12:11.636 --> 01:12:17.356
+<v thomas broussard>What I feel very.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/582-0
+01:12:32.236 --> 01:12:32.796
+<v thomas broussard>Music.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/588-0
+01:13:02.436 --> 01:13:04.276
+<v thomas broussard>Just.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/594-0
+01:13:35.756 --> 01:13:36.076
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/599-0
+01:14:05.636 --> 01:14:06.116
+<v thomas broussard>Mhm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/600-0
+01:14:08.916 --> 01:14:15.276
+<v thomas broussard>OK, so if I I do the same here,
+I will do a alter table.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/601-0
+01:14:19.476 --> 01:14:19.956
+<v thomas broussard>Patience.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/602-0
+01:14:24.596 --> 01:14:25.556
+<v thomas broussard>That's PK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/603-0
+01:14:27.116 --> 01:14:30.854
+<v thomas broussard>That's ID.
+So what I said just before the break,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/603-1
+01:14:30.854 --> 01:14:36.576
+<v thomas broussard>you can have multiple fields included in
+the primary key. So those fields,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/603-2
+01:14:36.576 --> 01:14:41.916
+<v thomas broussard>the combination should be unique to form
+the primary key. Understood.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/604-0
+01:14:42.596 --> 01:14:48.537
+<v thomas broussard>What it could be the case for instance
+for the appointments if you decide now</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/604-1
+01:14:48.537 --> 01:14:53.412
+<v thomas broussard>the that the appointment ID is not the
+the primary key anymore,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/604-2
+01:14:53.412 --> 01:14:56.916
+<v thomas broussard>but the this is the combination of date
+time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/605-0
+01:14:57.876 --> 01:15:01.552
+<v thomas broussard>Patient and doctor that makes an
+appointment unique.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/605-1
+01:15:01.552 --> 01:15:05.436
+<v thomas broussard>You could make those four fees part of
+the primary key.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/606-0
+01:15:07.316 --> 01:15:12.605
+<v thomas broussard>What's the bad thing if you do that?
+The more you have combined fields,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/606-1
+01:15:12.605 --> 01:15:17.820
+<v thomas broussard>the more it is duplicating data,
+because when you want to reference an</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/606-2
+01:15:17.820 --> 01:15:22.007
+<v thomas broussard>instance of that entity,
+you need to transport the three</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/606-3
+01:15:22.007 --> 01:15:23.476
+<v thomas broussard>information as well.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/608-0
+01:15:30.236 --> 01:15:33.916
+<v thomas broussard>Alterate table appointments.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/609-0
+01:15:35.276 --> 01:15:36.676
+<v thomas broussard>Add constraints.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/610-0
+01:15:41.476 --> 01:15:42.756
+<v thomas broussard>Up PK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/611-0
+01:15:45.316 --> 01:15:46.356
+<v thomas broussard>Primary key.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/612-0
+01:15:52.196 --> 01:15:53.476
+<v thomas broussard>App ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/613-0
+01:15:59.556 --> 01:16:04.996
+<v thomas broussard>Alter table. Then we can create another.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/614-0
+01:16:08.476 --> 01:16:12.149
+<v thomas broussard>One like this.
+Be careful when you copy paste.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/614-1
+01:16:12.149 --> 01:16:13.556
+<v thomas broussard>It's now FK paths.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/615-0
+01:16:17.236 --> 01:16:18.196
+<v thomas broussard>Up that ID.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/616-0
+01:16:21.036 --> 01:16:22.276
+<v thomas broussard>But I did.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/617-0
+01:16:23.756 --> 01:16:25.156
+<v thomas broussard>From patients.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/618-0
+01:16:31.596 --> 01:16:37.397
+<v thomas broussard>Here this is typical error when you try
+to do the foreign key before the primary</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/618-1
+01:16:37.397 --> 01:16:40.046
+<v thomas broussard>key.
+Here the target does not is not</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/618-2
+01:16:40.046 --> 01:16:45.417
+<v thomas broussard>everything exist in the structure,
+but the target is not referenced as the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/618-3
+01:16:45.417 --> 01:16:49.356
+<v thomas broussard>primary key. OK,
+so this is what you have to do first.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/619-0
+01:16:50.036 --> 01:16:57.187
+<v thomas broussard>You had to create the primary key in
+patients and then to add the appointments</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/619-1
+01:16:57.187 --> 01:17:01.984
+<v thomas broussard>foreign key.
+So the foreign key needs to reference a</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/619-2
+01:17:01.984 --> 01:17:07.596
+<v thomas broussard>primary key, otherwise it will fail.
+I think that we have to.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/620-0
+01:17:08.716 --> 01:17:13.836
+<v thomas broussard>The only thing remaining is that's
+primary key we can refresh.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/621-0
+01:17:19.956 --> 01:17:28.116
+<v thomas broussard>And now you see that we have links that
+looks like what we have, yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/622-0
+01:17:30.356 --> 01:17:31.276
+<v thomas broussard>Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/623-0
+01:17:35.076 --> 01:17:43.409
+<v thomas broussard>For example, like in table patients,
+so the before HP that links to insurance</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/623-1
+01:17:43.409 --> 01:17:49.605
+<v thomas broussard>and pay them payments.
+So if we have like all that people</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/623-2
+01:17:49.605 --> 01:17:52.276
+<v thomas broussard>patients not constraints.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/624-0
+01:17:52.796 --> 01:18:01.097
+<v thomas broussard>You can have.
+You can have only one constraint name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/624-1
+01:18:01.097 --> 01:18:07.676
+<v thomas broussard>The same constraint name can be used only.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/625-0
+01:18:08.396 --> 01:18:13.802
+<v thomas broussard>Once for for one table,
+but after that you can use if you have</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/625-1
+01:18:13.802 --> 01:18:20.239
+<v thomas broussard>FKI don't know FK123 for instance.
+It can be used across all the tables in</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/625-2
+01:18:20.239 --> 01:18:22.556
+<v thomas broussard>the database the same name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/626-0
+01:18:23.756 --> 01:18:25.716
+<v thomas broussard>Is that answering your question? Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/627-0
+01:18:28.116 --> 01:18:36.154
+<v thomas broussard>The the good thing I what I like about
+this view is that it's like a navigation</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/627-1
+01:18:36.154 --> 01:18:36.556
+<v thomas broussard>map.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/628-0
+01:18:39.076 --> 01:18:44.026
+<v thomas broussard>Through the data,
+once you are discovering the database,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/628-1
+01:18:44.026 --> 01:18:45.676
+<v thomas broussard>I like to see this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/630-0
+01:18:53.756 --> 01:18:54.996
+<v thomas broussard>Let's wait.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/631-0
+01:18:59.676 --> 01:19:05.756
+<v thomas broussard>I think before giving database lectures I
+should give whispering lectures.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/632-0
+01:19:08.356 --> 01:19:14.890
+<v thomas broussard>Because actually when you speak like
+normal at normal loud level to your</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/632-1
+01:19:14.890 --> 01:19:20.618
+<v thomas broussard>colleagues, if everybody does that,
+I cannot speak anymore. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/632-2
+01:19:20.618 --> 01:19:24.556
+<v thomas broussard>so just as a distinction,
+this is a normal.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/633-0
+01:19:24.636 --> 01:19:31.722
+<v thomas broussard>Voice level and this is the whisper level.
+And if you speak like this,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/633-1
+01:19:31.722 --> 01:19:35.116
+<v thomas broussard>it's OK for me. Do you understand?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/634-0
+01:19:36.756 --> 01:19:39.223
+<v thomas broussard>OK,
+so now if you need to speak to your</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/634-1
+01:19:39.223 --> 01:19:42.430
+<v thomas broussard>colleague,
+it's OK because it's a practical domain,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/634-2
+01:19:42.430 --> 01:19:45.144
+<v thomas broussard>so it's normal to have questions,
+etcetera.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/634-3
+01:19:45.144 --> 01:19:49.215
+<v thomas broussard>It's more recommended to listen to the
+teacher when he's talking,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/634-4
+01:19:49.215 --> 01:19:51.929
+<v thomas broussard>but I'm not your dad.
+You do what you want,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/634-5
+01:19:51.929 --> 01:19:54.396
+<v thomas broussard>but just do not bother me, just whisper.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/635-0
+01:19:54.716 --> 01:19:58.951
+<v thomas broussard>OK,
+when you load the database and you don't</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/635-1
+01:19:58.951 --> 01:20:05.445
+<v thomas broussard>know at all what is inside,
+these kinds of map of diagram allows you</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/635-2
+01:20:05.445 --> 01:20:12.316
+<v thomas broussard>to navigate through the data and even
+when you want to write your query.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/636-0
+01:20:12.596 --> 01:20:17.023
+<v thomas broussard>For instance,
+if you want to know because here we have</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/636-1
+01:20:17.023 --> 01:20:22.497
+<v thomas broussard>connections between patients, data,
+appointments, data and doctors.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/636-2
+01:20:22.497 --> 01:20:29.339
+<v thomas broussard>So here if you ask yourself what's making
+the link between doctors and appointments,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/636-3
+01:20:29.339 --> 01:20:32.156
+<v thomas broussard>it's a bit obvious because this is.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/637-0
+01:20:32.156 --> 01:20:32.996
+<v thomas broussard>We'll set up.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/638-0
+01:20:34.396 --> 01:20:38.763
+<v thomas broussard>The the word database links, etcetera.
+But when it's not you,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/638-1
+01:20:38.763 --> 01:20:43.270
+<v thomas broussard>it's not maybe obvious.
+You can just click on the link and know</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/638-2
+01:20:43.270 --> 01:20:47.989
+<v thomas broussard>exactly what is doing the relationship.
+OK, so that's very for me,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/638-3
+01:20:47.989 --> 01:20:52.356
+<v thomas broussard>that's very interesting,
+very powerful in terms of knowledge.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/639-0
+01:20:52.756 --> 01:20:57.291
+<v thomas broussard>Information gives.
+Is that OK on the principle of primary</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/639-1
+01:20:57.291 --> 01:21:01.436
+<v thomas broussard>key foreign key?
+You see what what is the the point?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/639-2
+01:21:01.436 --> 01:21:03.156
+<v thomas broussard>You see how to use it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/641-0
+01:21:04.196 --> 01:21:11.777
+<v thomas broussard>It's mandatory to to have this mastered
+because in the next exercises we'll use</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/641-1
+01:21:11.777 --> 01:21:18.221
+<v thomas broussard>that principle to query data from
+different tables and if you don't</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/641-2
+01:21:18.221 --> 01:21:20.116
+<v thomas broussard>understand the link.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/642-0
+01:21:20.476 --> 01:21:23.876
+<v thomas broussard>How he set up the link,
+you will not be able to fetch anything.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/644-0
+01:21:37.876 --> 01:21:38.436
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/645-0
+01:21:41.356 --> 01:21:45.674
+<v thomas broussard>Let's just keep the rest of our extra
+exercises,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/645-1
+01:21:45.674 --> 01:21:52.636
+<v thomas broussard>so let's skip them because I'm sure we
+will not have time to to go through it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/646-0
+01:21:54.156 --> 01:21:56.196
+<v thomas broussard>Let's switch to lecture 3.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/652-0
+01:22:31.316 --> 01:22:33.476
+<v thomas broussard>So go to lecture 3.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/653-0
+01:22:35.756 --> 01:22:44.313
+<v thomas broussard>And we will continue our journey to set
+up a real database and this time what</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/653-1
+01:22:44.313 --> 01:22:46.836
+<v thomas broussard>we'll focus on will be.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/654-0
+01:22:48.116 --> 01:22:53.316
+<v thomas broussard>The EML Data manipulation language.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/655-0
+01:22:56.036 --> 01:23:02.056
+<v thomas broussard>What is this? We have the data structure.
+We have links between those data</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/655-1
+01:23:02.056 --> 01:23:05.748
+<v thomas broussard>structures.
+Now we are ready to welcome data,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/655-2
+01:23:05.748 --> 01:23:07.996
+<v thomas broussard>real data top and the first.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/656-0
+01:23:09.796 --> 01:23:10.356
+<v thomas broussard>Elements.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/657-0
+01:23:11.796 --> 01:23:15.956
+<v thomas broussard>That we can see here is the insert into.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/658-0
+01:23:17.956 --> 01:23:22.596
+<v thomas broussard>Here I've resented the inset into so that
+it looks like a table already.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/659-0
+01:23:23.516 --> 01:23:28.110
+<v thomas broussard>Here this is a table that we don't know.
+It's a vicinity's table.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/659-1
+01:23:28.110 --> 01:23:32.355
+<v thomas broussard>Apparently it's composed of ID, name,
+member cost, etcetera,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/659-2
+01:23:32.355 --> 01:23:33.956
+<v thomas broussard>and it has some values.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/660-0
+01:23:37.796 --> 01:23:40.929
+<v thomas broussard>OK,
+and here for whatever column I'm</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/660-1
+01:23:40.929 --> 01:23:44.823
+<v thomas broussard>describing,
+I have a corresponding attribute,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/660-2
+01:23:44.823 --> 01:23:51.681
+<v thomas broussard>a column value to set up for this rule.
+So here it's describing the insertion of</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/660-3
+01:23:51.681 --> 01:23:53.036
+<v thomas broussard>one rule within.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/661-0
+01:23:53.116 --> 01:23:55.076
+<v thomas broussard>The facilities table.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/662-0
+01:23:56.916 --> 01:23:57.236
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/663-0
+01:23:58.796 --> 01:24:01.796
+<v thomas broussard>Be careful when you insert things into a
+database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/664-0
+01:24:03.076 --> 01:24:05.996
+<v thomas broussard>Especially when you want to do some tests.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/665-0
+01:24:07.436 --> 01:24:12.560
+<v thomas broussard>You can pollute the database by mistake.
+It happened to my manager once.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/665-1
+01:24:12.560 --> 01:24:16.842
+<v thomas broussard>It was even worse.
+He deleted some things from the database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/665-2
+01:24:16.842 --> 01:24:21.054
+<v thomas broussard>Just hopefully it was not production,
+it was test database,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/665-3
+01:24:21.054 --> 01:24:25.476
+<v thomas broussard>but some people were not able to work for
+at least half a day.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/666-0
+01:24:25.716 --> 01:24:31.420
+<v thomas broussard>So nobody was happy as he was the manager.
+We could not complain,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/666-1
+01:24:31.420 --> 01:24:36.088
+<v thomas broussard>but actually the we're all penalized by
+this mistake.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/666-2
+01:24:36.088 --> 01:24:42.916
+<v thomas broussard>So be careful when you do modification
+whenever you do insert, update, delete.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/667-0
+01:24:43.636 --> 01:24:47.699
+<v thomas broussard>Insert is a bit less critical than update
+and delete,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/667-1
+01:24:47.699 --> 01:24:52.138
+<v thomas broussard>but the rest of the update and delete are
+really critical.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/667-2
+01:24:52.138 --> 01:24:58.006
+<v thomas broussard>If you do a bad update or bad delete,
+you can mess up the whole database. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/667-3
+01:24:58.006 --> 01:25:02.596
+<v thomas broussard>so the structures like like this insert
+into the table name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/668-0
+01:25:03.116 --> 01:25:05.276
+<v thomas broussard>The column list and the values.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/669-0
+01:25:07.836 --> 01:25:11.974
+<v thomas broussard>Now the update the structure is a bit
+different.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/669-1
+01:25:11.974 --> 01:25:17.294
+<v thomas broussard>It's not update from or update into its
+update the table name.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/669-2
+01:25:17.294 --> 01:25:22.276
+<v thomas broussard>Then we do the list of modification we
+want to apply here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/670-0
+01:25:25.476 --> 01:25:28.316
+<v thomas broussard>Update the table facilities set.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/671-0
+01:25:29.956 --> 01:25:35.381
+<v thomas broussard>Do this modification.
+You can have a list of modifications here</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/671-1
+01:25:35.381 --> 01:25:42.163
+<v thomas broussard>separated by comma where and then you
+give here the condition that all the rows</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/671-2
+01:25:42.163 --> 01:25:44.876
+<v thomas broussard>you want to update should match.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/672-0
+01:25:46.316 --> 01:25:49.316
+<v thomas broussard>Is that a good idea how it is shown here?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/673-0
+01:25:51.156 --> 01:25:54.156
+<v thomas broussard>Is that a good way to do to prepare an
+update?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/674-0
+01:25:55.916 --> 01:25:56.116
+<v thomas broussard>3.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/675-0
+01:25:58.236 --> 01:26:03.125
+<v thomas broussard>No why we should update by ID.
+That's a very good remark.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/675-1
+01:26:03.125 --> 01:26:09.448
+<v thomas broussard>We should update by ID because if by
+mistake we have several swimming pool</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/675-2
+01:26:09.448 --> 01:26:13.916
+<v thomas broussard>entries in the facilities,
+we'll update all of them.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/676-0
+01:26:15.356 --> 01:26:20.070
+<v thomas broussard>So the best is to have two levels of
+query. First of all,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/676-1
+01:26:20.070 --> 01:26:26.409
+<v thomas broussard>we need to select the rules we want to to
+make sure that the rules we want to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/676-2
+01:26:26.409 --> 01:26:30.716
+<v thomas broussard>update are the ones we really want to
+date and then.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/677-0
+01:26:31.956 --> 01:26:37.196
+<v thomas broussard>Once we have identified those rules,
+we need to do the update just.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/678-0
+01:26:40.916 --> 01:26:48.488
+<v thomas broussard>Before all updates do a dump or at the
+minimum do a select with the same where</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/678-1
+01:26:48.488 --> 01:26:55.676
+<v thomas broussard>clause and save it somewhere. Why is that?
+Because if you do a bad update.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/679-0
+01:26:56.316 --> 01:27:00.736
+<v thomas broussard>Once you have updated, it's updated,
+so you cannot roll back.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/679-1
+01:27:00.736 --> 01:27:06.225
+<v thomas broussard>OK and update means that if by mistake
+you have targeted way more rules than</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/679-2
+01:27:06.225 --> 01:27:10.359
+<v thomas broussard>what is expected,
+you you will have potentially lost some</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/679-3
+01:27:10.359 --> 01:27:10.716
+<v thomas broussard>data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/680-0
+01:27:13.596 --> 01:27:19.086
+<v thomas broussard>You have heard that data is the new gold
+or the new oil. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/680-1
+01:27:19.086 --> 01:27:21.876
+<v thomas broussard>so you don't want to lose data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/681-0
+01:27:23.316 --> 01:27:27.567
+<v thomas broussard>OK, same for delete.
+This time it's delete from facilities</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/681-1
+01:27:27.567 --> 01:27:32.828
+<v thomas broussard>where with the same kind of where clause.
+Here it's not a good strategy.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/681-2
+01:27:32.828 --> 01:27:36.575
+<v thomas broussard>Preferably you will have targeted some
+precise IDs,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/681-3
+01:27:36.575 --> 01:27:42.628
+<v thomas broussard>some precise IDs corresponding to primary
+keys to know what rows you want to delete</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/681-4
+01:27:42.628 --> 01:27:42.916
+<v thomas broussard>and.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/682-0
+01:27:43.956 --> 01:27:44.236
+<v thomas broussard>Here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/683-0
+01:27:45.116 --> 01:27:49.129
+<v thomas broussard>The delete query should be.
+Before you alley the delete query,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/683-1
+01:27:49.129 --> 01:27:54.097
+<v thomas broussard>you do a select to make sure that you
+have a dum of all the rows that you are</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/683-2
+01:27:54.097 --> 01:27:55.116
+<v thomas broussard>about to delete.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/684-0
+01:27:56.516 --> 01:28:03.956
+<v thomas broussard>Delete this app is normally very few used
+in real applications. Do you know why?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/685-0
+01:28:07.356 --> 01:28:11.682
+<v thomas broussard>Yeah,
+we don't delete anything sometimes</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/685-1
+01:28:11.682 --> 01:28:19.069
+<v thomas broussard>because the lot company are working.
+We just change the idea exactly.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/685-2
+01:28:19.069 --> 01:28:23.396
+<v thomas broussard>We we have a principle of data retention.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/686-0
+01:28:23.756 --> 01:28:27.863
+<v thomas broussard>Here in France,
+for the the general proposed data,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/686-1
+01:28:27.863 --> 01:28:32.855
+<v thomas broussard>not the personal data,
+but all the rest of the business data,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/686-2
+01:28:32.855 --> 01:28:35.996
+<v thomas broussard>we should keep them as for three years.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/687-0
+01:28:38.196 --> 01:28:42.015
+<v thomas broussard>OK, in others,
+I don't know if there's a legal procedure</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/687-1
+01:28:42.015 --> 01:28:46.302
+<v thomas broussard>or whatever, whatever.
+We can have access to the data for three</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/687-2
+01:28:46.302 --> 01:28:51.796
+<v thomas broussard>years. So delete is very normally very.
+In few cases we do delete, but it's only.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/688-0
+01:28:52.556 --> 01:28:57.996
+<v thomas broussard>Usually to correct a bad insert or to
+delete a configuration thing.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/688-1
+01:28:57.996 --> 01:29:02.796
+<v thomas broussard>But I mean in terms of business data,
+we do not use delete,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/688-2
+01:29:02.796 --> 01:29:06.956
+<v thomas broussard>we use a flag to say active,
+not active or deleted,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/688-3
+01:29:06.956 --> 01:29:09.036
+<v thomas broussard>not deleted or historized.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/689-0
+01:29:09.676 --> 01:29:13.655
+<v thomas broussard>Archived or whatever,
+which means that the data is not visible</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/689-1
+01:29:13.655 --> 01:29:16.876
+<v thomas broussard>anymore,
+but it's still here in the database, yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/690-0
+01:29:18.156 --> 01:29:20.516
+<v thomas broussard>Yes, it is still here. Yeah, true.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/691-0
+01:29:24.756 --> 01:29:24.876
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/692-0
+01:29:27.356 --> 01:29:32.423
+<v thomas broussard>Yes, exactly. So actually for GDPR,
+you mean? Yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/692-1
+01:29:32.423 --> 01:29:39.577
+<v thomas broussard>So we have the general data protection
+rule from Europe here of course,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/692-2
+01:29:39.577 --> 01:29:42.756
+<v thomas broussard>but this is a different process.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/693-0
+01:29:43.116 --> 01:29:50.394
+<v thomas broussard>We have audits, regular audits normally,
+where we have the list of all the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/693-1
+01:29:50.394 --> 01:29:58.157
+<v thomas broussard>personal flagged data that we have to
+process particularly to make sure that we</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/693-2
+01:29:58.157 --> 01:29:58.836
+<v thomas broussard>do not.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/694-0
+01:29:59.276 --> 01:30:05.976
+<v thomas broussard>Retain those data more than what is
+allowed. OK, but usually in business,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/694-1
+01:30:05.976 --> 01:30:10.594
+<v thomas broussard>I mean in business,
+regular business applications,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/694-2
+01:30:10.594 --> 01:30:17.476
+<v thomas broussard>we are not so much concerned because by
+the fact the user uses the service.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/695-0
+01:30:17.836 --> 01:30:25.675
+<v thomas broussard>Through a professional accounts we are
+already in the GDPR enforcement because</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/695-1
+01:30:25.675 --> 01:30:33.316
+<v thomas broussard>normally the the professional accounts
+that he's using is already I I don't.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/696-0
+01:30:33.636 --> 01:30:38.117
+<v thomas broussard>Know how to say that,
+but managing the GDPR constraints. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/696-1
+01:30:38.117 --> 01:30:44.214
+<v thomas broussard>so it's it's good to to have this in mind
+because if you do your own software then</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/696-2
+01:30:44.214 --> 01:30:49.283
+<v thomas broussard>you will have to ask yourself what is
+GDPR in my software, what not,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/696-3
+01:30:49.283 --> 01:30:52.956
+<v thomas broussard>what is not.
+But if you use business to business.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/697-0
+01:30:52.996 --> 01:30:58.943
+<v thomas broussard>Applications,
+which is the probably where you will work</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/697-1
+01:30:58.943 --> 01:31:02.236
+<v thomas broussard>in your during your internship.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/698-0
+01:31:03.876 --> 01:31:08.613
+<v thomas broussard>You have less questions like this to ask
+yourself, but yes,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/698-1
+01:31:08.613 --> 01:31:14.455
+<v thomas broussard>just to let you know that delete is
+normally not so so much used usually.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/698-2
+01:31:14.455 --> 01:31:18.876
+<v thomas broussard>So we have seen insert, update, delete.
+Now we have to.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/700-0
+01:31:19.076 --> 01:31:25.689
+<v thomas broussard>Check for the select select what select
+some columns from a table and then we can</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/700-1
+01:31:25.689 --> 01:31:29.399
+<v thomas broussard>filter the result thanks to the where
+clause.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/700-2
+01:31:29.399 --> 01:31:35.610
+<v thomas broussard>The where clause that we have already
+seen where if you remember name equals</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/700-3
+01:31:35.610 --> 01:31:38.836
+<v thomas broussard>swimming pool. We have seen that in the.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/701-0
+01:31:39.036 --> 01:31:45.066
+<v thomas broussard>In the update and delete statements so we
+can use the WHERE clause as well in</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/701-1
+01:31:45.066 --> 01:31:47.076
+<v thomas broussard>SELECT to filter data and.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/702-0
+01:31:49.436 --> 01:31:55.590
+<v thomas broussard>To train a little bit,
+we will use the clubdata database which</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/702-1
+01:31:55.590 --> 01:31:58.716
+<v thomas broussard>is taken from the gexercisescom.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/703-0
+01:31:59.956 --> 01:32:05.304
+<v thomas broussard>Which is here I strongly advise.
+It's not even an advice,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/703-1
+01:32:05.304 --> 01:32:12.865
+<v thomas broussard>it's even somewhat mandatory to train and
+to do all the exercises before the exam</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/703-2
+01:32:12.865 --> 01:32:17.106
+<v thomas broussard>before,
+because the exam is based on the same</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/703-3
+01:32:17.106 --> 01:32:19.596
+<v thomas broussard>principle. Let me show you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/704-0
+01:32:19.796 --> 01:32:23.268
+<v thomas broussard>How it works on this website.
+It's a training.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/704-1
+01:32:23.268 --> 01:32:28.587
+<v thomas broussard>It's an SQL training website.
+I've clicked on the basic exercises here,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/704-2
+01:32:28.587 --> 01:32:33.832
+<v thomas broussard>retrieve everything from a table.
+Why is that important that you do it</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/704-3
+01:32:33.832 --> 01:32:37.156
+<v thomas broussard>before the exam?
+Because I will use exactly.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/705-0
+01:32:37.356 --> 01:32:40.436
+<v thomas broussard>The same kind of layout for your exam.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/706-0
+01:32:41.596 --> 01:32:45.396
+<v thomas broussard>What will what means that you will have a
+question?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/707-0
+01:32:47.916 --> 01:32:54.446
+<v thomas broussard>You will have the expected results and by
+your query you should match the expected</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/707-1
+01:32:54.446 --> 01:32:55.076
+<v thomas broussard>results.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/708-0
+01:32:56.836 --> 01:33:00.908
+<v thomas broussard>Understood.
+So what comes for me is the query,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/708-1
+01:33:00.908 --> 01:33:05.759
+<v thomas broussard>not the result.
+The query you use to match the expected</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/708-2
+01:33:05.759 --> 01:33:10.265
+<v thomas broussard>results. So it will be like this.
+I ask a question,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/708-3
+01:33:10.265 --> 01:33:16.156
+<v thomas broussard>I ask the I sent a screenshot of the
+expected results and you have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/709-0
+01:33:16.396 --> 01:33:19.916
+<v thomas broussard>By your query to match the expected
+result. Here it select.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/710-0
+01:33:21.756 --> 01:33:26.436
+<v thomas broussard>Star from CD dot facilities.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/711-0
+01:33:30.596 --> 01:33:36.852
+<v thomas broussard>You see you have a green check because
+you match exactly what is expected. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/711-1
+01:33:36.852 --> 01:33:41.683
+<v thomas broussard>and more important for me and why is this
+website very good?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/711-2
+01:33:41.683 --> 01:33:46.910
+<v thomas broussard>You have an explanation. OK,
+so even if you don't manage a query,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/711-3
+01:33:46.910 --> 01:33:50.236
+<v thomas broussard>you can still have a look to the solution.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/712-0
+01:33:50.436 --> 01:33:56.886
+<v thomas broussard>And have the idea of why you failed and
+how you could fix what you have tried to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/712-1
+01:33:56.886 --> 01:34:00.788
+<v thomas broussard>make it work. OK,
+so that's very precious to me.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/712-2
+01:34:00.788 --> 01:34:04.770
+<v thomas broussard>This is why we will not go further here
+together,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/712-3
+01:34:04.770 --> 01:34:07.796
+<v thomas broussard>because the goal is that you use that.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/713-0
+01:34:07.796 --> 01:34:15.572
+<v thomas broussard>At home while preparing the exam to just
+make sure you have the the SQL skills.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/713-1
+01:34:15.572 --> 01:34:18.196
+<v thomas broussard>The database is good still.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/714-0
+01:34:20.156 --> 01:34:26.549
+<v thomas broussard>But it's good only for me to to show you
+how to load yet another database,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/714-1
+01:34:26.549 --> 01:34:30.556
+<v thomas broussard>this time from a full dum O.
+Let's go back to.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/715-0
+01:34:31.796 --> 01:34:33.276
+<v thomas broussard>Lecture 3.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/717-0
+01:34:43.876 --> 01:34:49.276
+<v thomas broussard>So at slide seven you have the
+opportunity to download the club data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/719-0
+01:34:54.116 --> 01:34:59.895
+<v thomas broussard>This club data has been made for
+PostgreSQL and here we are working with</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/719-1
+01:34:59.895 --> 01:35:03.696
+<v thomas broussard>MySQL.
+So this is not automatically compatible.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/719-2
+01:35:03.696 --> 01:35:09.396
+<v thomas broussard>We need to do some few adjustments here
+to save some time I've already.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/720-0
+01:35:09.436 --> 01:35:10.676
+<v thomas broussard>Prepare those adjustments.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/721-0
+01:35:12.476 --> 01:35:12.716
+<v thomas broussard>And.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/722-0
+01:35:21.556 --> 01:35:27.245
+<v thomas broussard>You can load them directly from here just
+to let you know what kind of adjustment I</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/722-1
+01:35:27.245 --> 01:35:27.516
+<v thomas broussard>did.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/723-0
+01:35:28.836 --> 01:35:36.536
+<v thomas broussard>I removed all the create key master
+because it is not interesting for us in</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/723-1
+01:35:36.536 --> 01:35:42.007
+<v thomas broussard>the booking.
+Here we have to modify this because it's</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/723-2
+01:35:42.007 --> 01:35:44.236
+<v thomas broussard>not known from my SQL.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/724-0
+01:35:44.596 --> 01:35:52.267
+<v thomas broussard>MySQL does not know about time zones,
+so we need to rim to reduce it to</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/724-1
+01:35:52.267 --> 01:35:55.676
+<v thomas broussard>timestamp. OK and the same here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/725-0
+01:36:04.236 --> 01:36:06.916
+<v thomas broussard>Now the rest is about.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/726-0
+01:36:08.516 --> 01:36:11.116
+<v thomas broussard>The altar table statements.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/727-0
+01:36:12.516 --> 01:36:17.375
+<v thomas broussard>And MySQL does not know about only. OK,
+why only?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/727-1
+01:36:17.375 --> 01:36:23.303
+<v thomas broussard>Because here we could alter several
+tables at the same time.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/727-2
+01:36:23.303 --> 01:36:26.996
+<v thomas broussard>Here the only fixes to one table. Wow.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/728-0
+01:36:31.116 --> 01:36:34.756
+<v thomas broussard>Oh, OK, next course.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/729-0
+01:36:37.076 --> 01:36:42.078
+<v thomas broussard>Sometimes it happens you you're losing,
+but sometimes people come 15 minutes</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/729-1
+01:36:42.078 --> 01:36:45.196
+<v thomas broussard>before the end and expect to be set as
+present.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/730-0
+01:36:47.556 --> 01:36:49.476
+<v thomas broussard>Just stay at home in that case.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/731-0
+01:36:50.516 --> 01:36:56.084
+<v thomas broussard>OK, so if we needed to fix that,
+we should as well remove this only</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/731-1
+01:36:56.084 --> 01:37:02.471
+<v thomas broussard>keyword which is not known by MySQL.
+But you see that the the majority of the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/731-2
+01:37:02.471 --> 01:37:07.876
+<v thomas broussard>instructions are visible. OK,
+so the preparation that I did here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/732-0
+01:37:07.996 --> 01:37:11.116
+<v thomas broussard>I can walk directly if I'm not wrong.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/733-0
+01:37:12.596 --> 01:37:19.253
+<v thomas broussard>Uh, no. OK,
+so we need to do it once again. Sorry. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/733-1
+01:37:19.253 --> 01:37:21.916
+<v thomas broussard>let's remove the only.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/736-0
+01:37:41.916 --> 01:37:42.156
+<v thomas broussard>Hmm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/737-0
+01:37:44.556 --> 01:37:46.396
+<v thomas broussard>Let me try to load it.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/738-0
+01:37:48.956 --> 01:37:51.436
+<v thomas broussard>O How do we do here?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/739-0
+01:37:52.716 --> 01:37:58.558
+<v thomas broussard>In order to implement it,
+I go back to the Beaver. I'm closing.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/739-1
+01:37:58.558 --> 01:38:02.575
+<v thomas broussard>I'm saving and closing everything here.
+OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/739-2
+01:38:02.575 --> 01:38:07.596
+<v thomas broussard>I'm creating a new database and this will
+be the club.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/740-0
+01:38:07.716 --> 01:38:09.716
+<v thomas broussard>Data database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/741-0
+01:38:11.236 --> 01:38:16.116
+<v thomas broussard>I'm instantly creating a new folder LUB
+data.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/742-0
+01:38:17.476 --> 01:38:24.829
+<v thomas broussard>And here I do not have the DDL,
+the insert data and the constraints.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/742-1
+01:38:24.829 --> 01:38:32.716
+<v thomas broussard>I have everything all at once in the
+single file, so I will create a new.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/743-0
+01:38:33.116 --> 01:38:34.396
+<v thomas broussard>File called dump.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/744-0
+01:38:48.036 --> 01:38:48.516
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/745-0
+01:38:49.476 --> 01:38:49.916
+<v thomas broussard>Yep.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/746-0
+01:38:52.036 --> 01:38:56.331
+<v thomas broussard>You see that here I have the known
+symptom. What should I do?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/746-1
+01:38:56.331 --> 01:38:57.716
+<v thomas broussard>Pick the connection.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/747-0
+01:38:59.596 --> 01:38:59.756
+<v thomas broussard>Pick.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/748-0
+01:39:01.596 --> 01:39:06.996
+<v thomas broussard>The database and click on Execute QL
+script.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/749-0
+01:39:09.476 --> 01:39:17.114
+<v thomas broussard>You should have normally 12,
+200 rows approximately to be updated.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/749-1
+01:39:17.114 --> 01:39:20.876
+<v thomas broussard>Let's have a look to the diagram.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/750-0
+01:39:24.916 --> 01:39:30.066
+<v thomas broussard>OK, we have this.
+If we switch to the close foot notation,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/750-1
+01:39:30.066 --> 01:39:35.828
+<v thomas broussard>we have this diagram. OK,
+so this is what you should get once you</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/750-2
+01:39:35.828 --> 01:39:40.716
+<v thomas broussard>have dumped everything.
+Let me share this with you now.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/751-0
+01:39:44.436 --> 01:39:46.796
+<v thomas broussard>So don't consider what I've sent here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/752-0
+01:39:51.516 --> 01:39:51.836
+<v thomas broussard>Hmm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/753-0
+01:39:55.596 --> 01:39:56.396
+<v thomas broussard>And take this one.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/758-0
+01:40:18.956 --> 01:40:22.692
+<v thomas broussard>OK,
+so you run this and then what is cool now?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/758-1
+01:40:22.692 --> 01:40:25.316
+<v thomas broussard>At least what I find cool myself.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/759-0
+01:40:26.836 --> 01:40:32.181
+<v thomas broussard>Hope it will be the same for you is that
+we have the same database than in the</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/759-1
+01:40:32.181 --> 01:40:35.699
+<v thomas broussard>pgexercises.
+com but this time on our local machine</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/759-2
+01:40:35.699 --> 01:40:40.706
+<v thomas broussard>and you understand here what I want is
+that I want you to be familiar and</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/759-3
+01:40:40.706 --> 01:40:45.916
+<v thomas broussard>comfortable with data loading but as well
+with data querying on your system.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/760-0
+01:40:46.556 --> 01:40:49.356
+<v thomas broussard>So I will create a new script.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/761-0
+01:40:54.156 --> 01:40:56.396
+<v thomas broussard>Which will be cold here.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/762-0
+01:41:00.636 --> 01:41:02.106
+<v thomas broussard>That's up.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/763-0
+01:41:02.186 --> 01:41:02.346
+<v thomas broussard>Stop.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/764-0
+01:41:04.826 --> 01:41:05.266
+<v thomas broussard>Extraction.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/766-0
+01:41:08.466 --> 01:41:13.226
+<v thomas broussard>And you see here it's the known symptom
+once again, so I'm picking the.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/767-0
+01:41:14.346 --> 01:41:20.026
+<v thomas broussard>The connection the database and now I can
+do select star.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/768-0
+01:41:21.186 --> 01:41:22.866
+<v thomas broussard>From facilities.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/769-0
+01:41:25.866 --> 01:41:28.666
+<v thomas broussard>And I see the data resents in the
+database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/770-0
+01:41:31.226 --> 01:41:36.517
+<v thomas broussard>So if you want to practice,
+you can do as well on your computer. OK,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/770-1
+01:41:36.517 --> 01:41:42.576
+<v thomas broussard>so do this this example to make sure you
+will be able to load from SQL a whole</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/770-2
+01:41:42.576 --> 01:41:43.266
+<v thomas broussard>database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/771-0
+01:41:45.066 --> 01:41:46.186
+<v thomas broussard>Do this now please.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/772-0
+01:41:48.626 --> 01:41:52.346
+<v thomas broussard>And while you are doing it,
+I'm just recording the attendance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/775-0
+01:42:11.946 --> 01:42:13.786
+<v thomas broussard>Bhargav Aravind.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/776-0
+01:42:15.506 --> 01:42:16.026
+<v thomas broussard>I didn't.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/777-0
+01:42:17.186 --> 01:42:17.906
+<v thomas broussard>Alliance.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/780-0
+01:42:37.026 --> 01:42:37.586
+<v thomas broussard>Jordy.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/781-0
+01:42:40.146 --> 01:42:43.186
+<v thomas broussard>Janice, Isabel.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/782-0
+01:42:44.706 --> 01:42:47.786
+<v thomas broussard>Joshua Alid.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/784-0
+01:42:54.546 --> 01:42:55.626
+<v thomas broussard>Muhammad.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/785-0
+01:42:57.306 --> 01:42:57.546
+<v thomas broussard>No.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/786-0
+01:42:59.186 --> 01:43:02.226
+<v thomas broussard>Not this one. OK, this one, Muhammad.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/787-0
+01:43:03.946 --> 01:43:09.386
+<v thomas broussard>Muhammad Umer Navin venkat.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/788-0
+01:43:14.586 --> 01:43:14.906
+<v thomas broussard>Hmm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/789-0
+01:43:17.226 --> 01:43:20.506
+<v thomas broussard>Who? Muhammad Najumuddin?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/791-0
+01:43:27.466 --> 01:43:28.346
+<v thomas broussard>Ocean.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/792-0
+01:43:29.746 --> 01:43:31.066
+<v thomas broussard>Shamili.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/793-0
+01:43:33.706 --> 01:43:34.186
+<v thomas broussard>Soup.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/794-0
+01:43:35.506 --> 01:43:36.506
+<v thomas broussard>Shiva.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/795-0
+01:43:37.426 --> 01:43:38.986
+<v thomas broussard>Shinken.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/796-0
+01:43:43.066 --> 01:43:43.546
+<v thomas broussard>Can.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/797-0
+01:43:45.226 --> 01:43:46.946
+<v thomas broussard>Tritikaj.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/798-0
+01:43:49.266 --> 01:43:54.466
+<v thomas broussard>Are you, are you? Sorry, so no.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/799-0
+01:43:55.826 --> 01:43:56.706
+<v thomas broussard>Vaishnavi.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/800-0
+01:44:03.866 --> 01:44:04.386
+<v thomas broussard>Total, yes.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/801-0
+01:44:07.266 --> 01:44:14.266
+<v thomas broussard>Where? Where? Obite and Nizar.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/802-0
+01:44:16.066 --> 01:44:17.586
+<v thomas broussard>Other missing people.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/803-0
+01:44:18.586 --> 01:44:21.106
+<v thomas broussard>There are missing, non missing people.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/804-0
+01:44:22.946 --> 01:44:26.746
+<v thomas broussard>Girish, Eman, Khalid, Mosin and Tran Khan.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/805-0
+01:44:28.186 --> 01:44:28.586
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/806-0
+01:44:31.026 --> 01:44:35.835
+<v thomas broussard>So guys for next time try to load this
+club data database.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/806-1
+01:44:35.835 --> 01:44:42.192
+<v thomas broussard>Try to to train on PG exercises. OK,
+we have not seen so many select queries,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/806-2
+01:44:42.192 --> 01:44:46.186
+<v thomas broussard>but I think you can make your minds by
+yourself.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/808-0
+01:44:47.866 --> 01:44:51.886
+<v thomas broussard>As a beginning and of course we'll do
+select queries next time,</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/808-1
+01:44:51.886 --> 01:44:56.786
+<v thomas broussard>but if you have practiced a bit before,
+that's always better. Thank you guys.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/810-0
+01:44:58.226 --> 01:45:00.946
+<v thomas broussard>See you when? Next week.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/812-0
+01:45:10.026 --> 01:45:10.506
+<v thomas broussard>Mhm.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/819-0
+01:46:11.466 --> 01:46:20.906
+<v thomas broussard>I have.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/820-0
+01:46:22.906 --> 01:46:27.426
+<v thomas broussard>And it's like we need to get to your.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/821-0
+01:46:28.146 --> 01:46:42.106
+<v thomas broussard>I'll do this. I'll do this.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/827-0
+01:47:20.146 --> 01:47:36.226
+<v thomas broussard>One of the two without order.
+That's just interesting.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/830-0
+01:47:59.786 --> 01:48:14.986
+<v thomas broussard>Hey, thank you. Thank you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/831-0
+01:48:18.186 --> 01:48:19.866
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/832-0
+01:48:25.026 --> 01:48:40.359
+<v thomas broussard>Last like three months.
+I'm not going to put it in this project.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/832-1
+01:48:40.359 --> 01:48:43.426
+<v thomas broussard>That's why I.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/833-0
+01:48:44.586 --> 01:48:45.706
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/834-0
+01:48:50.466 --> 01:48:57.700
+<v thomas broussard>Bonjour. I love this.
+We have to do our queries in the terminal</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/834-1
+01:48:57.700 --> 01:49:05.386
+<v thomas broussard>or the workbench. It's on the workbench.
+Thank you. You're welcome.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/835-0
+01:49:11.426 --> 01:49:11.666
+<v thomas broussard>Hello.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/837-0
+01:49:34.906 --> 01:49:51.866
+<v thomas broussard>It's it's insane. You know,
+that's it's not.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/838-0
+01:49:53.106 --> 01:49:57.386
+<v thomas broussard>That's right.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/839-0
+01:49:58.746 --> 01:50:01.546
+<v thomas broussard>Hey, I would.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/840-0
+01:50:05.866 --> 01:50:06.186
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/841-0
+01:50:10.906 --> 01:50:13.866
+<v thomas broussard>I'm sorry.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/844-0
+01:50:29.946 --> 01:50:40.426
+<v thomas broussard>Yeah, exactly.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/851-0
+01:51:05.946 --> 01:51:10.466
+<v thomas broussard>It's it's first.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/852-0
+01:51:10.506 --> 01:51:16.506
+<v thomas broussard>I don't know.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/856-0
+01:51:41.546 --> 01:51:42.066
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/857-0
+01:51:47.026 --> 01:51:47.346
+<v thomas broussard>Right.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/859-0
+01:51:54.746 --> 01:52:01.508
+<v thomas broussard>So OK,
+this is a list of it's you are fine.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/859-1
+01:52:01.508 --> 01:52:09.346
+<v thomas broussard>So you can go to.
+So I'll see the one to you know.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/860-0
+01:52:10.426 --> 01:52:15.173
+<v thomas broussard>So of course,
+can you feel the extension that you need</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/860-1
+01:52:15.173 --> 01:52:18.885
+<v thomas broussard>to?
+So why not have to do anyone to change</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/860-2
+01:52:18.885 --> 01:52:23.201
+<v thomas broussard>the SEM SEM?
+Is this like more courageous to mix?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/860-3
+01:52:23.201 --> 01:52:25.186
+<v thomas broussard>I was going to ask you.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/861-0
+01:52:26.346 --> 01:52:40.986
+<v thomas broussard>We see it's very.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/862-0
+01:52:50.306 --> 01:53:00.466
+<v thomas broussard>Yeah, but.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/863-0
+01:53:01.306 --> 01:53:05.586
+<v thomas broussard>It's done. I don't know.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/865-0
+01:53:15.746 --> 01:53:16.986
+<v thomas broussard>Is it?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/866-0
+01:53:24.306 --> 01:53:26.026
+<v thomas broussard>I guess.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/867-0
+01:53:30.826 --> 01:53:31.586
+<v thomas broussard>It's.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/872-0
+01:54:21.266 --> 01:54:21.386
+<v thomas broussard>The.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/874-0
+01:54:37.666 --> 01:54:42.786
+<v thomas broussard>Yeah, it almost.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/875-0
+01:54:44.266 --> 01:54:44.466
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/878-0
+01:55:08.786 --> 01:55:11.666
+<v thomas broussard>Because it's so.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/880-0
+01:55:34.746 --> 01:55:34.906
+<v thomas broussard>You.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/881-0
+01:55:36.226 --> 01:55:36.586
+<v thomas broussard>Yeah.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/884-0
+01:55:46.546 --> 01:55:49.106
+<v thomas broussard>OK, yeah, I will see another.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/885-0
+01:55:50.106 --> 01:55:51.706
+<v thomas broussard>That's good, right?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/886-0
+01:55:59.586 --> 01:56:00.626
+<v thomas broussard>So.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/887-0
+01:56:08.106 --> 01:56:09.506
+<v thomas broussard>Is that right?</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/888-0
+01:56:11.266 --> 01:56:12.226
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/892-0
+01:56:40.946 --> 01:56:41.106
+<v thomas broussard>OK.</v>
+
+ba3e8b5e-c5de-4ff2-889c-97cd156bcd3c/894-0
+01:56:45.586 --> 01:56:45.666
+<v thomas broussard>So.</v>
