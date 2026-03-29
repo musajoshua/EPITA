@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-from-scratch",
+  "version": "1.0.0",
+  "description": "A blockchain from scratch ",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx ./blockchain.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Musa",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.8.0",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.0.1"
+  }
+}
