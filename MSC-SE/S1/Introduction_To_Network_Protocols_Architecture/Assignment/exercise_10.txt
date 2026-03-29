@@ -1,0 +1,31 @@
+For this exercise, I simulated three different types of network traffic to observe how headers change depending on the protocol used.
+
+1. TCP (Transmission Control Protocol)
+To test TCP, I accessed a website on PC3 using the browser on PC0. Since TCP is connection-oriented, the header was the most complex one I saw.
+
+Key Fields: I identified the Source and Destination Ports, Sequence and Acknowledgment numbers (used to keep data in order), and Control Flags like SYN and ACK for the initial handshake.
+
+Header Structure: The ports take up the first 4 bytes. Other fields like Window Size and Checksum follow, ensuring the data is received reliably.
+
+2. UDP (User Datagram Protocol)
+I triggered a UDP stream by running an ipconfig /renew command on PC0 to communicate with the DHCP server.
+
+Key Fields: The header was much smaller than TCP. It only contained Source Port, Destination Port, Length, and a Checksum.
+
+Observation: There are no sequence numbers or handshake flags here. This confirms UDP is a "fire and forget" protocol—it's faster because it doesn't track whether the data actually arrived.
+
+3. ICMP (Internet Control Message Protocol)
+I used the ping command from PC0 to PC3 to generate ICMP traffic.
+
+Key Fields: This header is unique because it uses Type and Code fields. For example, the Type field changed depending on whether I was looking at the "Echo Request" or the "Echo Reply."
+
+Observation: ICMP doesn't use ports like TCP or UDP; it’s strictly for diagnostics and reporting errors within the network.
+
+Header Mapping and Octets
+Each of these field values maps to a specific location (octet) within the header. In my simulation, I noticed that:
+
+Ports: Both TCP and UDP start with the Source and Destination ports in the first 4 octets.
+
+Types: In ICMP, the Type and Code occupy the very first 2 octets.
+
+Consistency: The reason the computer can read these packets is that every field has a strictly defined "offset" or starting point. If the Destination Port wasn't always in the same octet, the receiving device wouldn't know how to process the incoming data.
