@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jsh — A Unix Shell in C</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+<style>
+    .reveal { font-size: 32px; }
+    .reveal h1 { font-size: 2.2em; color: #58a6ff; }
+    .reveal h2 { font-size: 1.6em; color: #58a6ff; }
+    .reveal h3 { font-size: 1.2em; color: #79c0ff; }
+    .reveal code { color: #f0883e; background: #161b22; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; }
+    .reveal pre { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; }
+    .reveal pre code { color: #c9d1d9; background: transparent; padding: 16px; font-size: 0.65em; line-height: 1.5; }
+    .reveal ul { text-align: left; }
+    .reveal li { margin-bottom: 0.4em; }
+    .reveal .highlight { color: #f0883e; font-weight: bold; }
+    .reveal .dim { color: #8b949e; font-size: 0.8em; }
+    .reveal table { margin: 0 auto; border-collapse: collapse; font-size: 0.75em; }
+    .reveal table th { background: #161b22; color: #58a6ff; padding: 8px 16px; }
+    .reveal table td { background: #0d1117; padding: 8px 16px; border: 1px solid #30363d; }
+    .reveal .two-col { display: flex; gap: 40px; align-items: flex-start; }
+    .reveal .two-col > div { flex: 1; }
+    .reveal .syscall-box { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin: 8px 0; text-align: left; }
+    .reveal .step-num { display: inline-block; background: #58a6ff; color: #0d1117; border-radius: 50%; width: 36px; height: 36px; line-height: 36px; text-align: center; font-weight: bold; margin-right: 8px; }
+    .reveal .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; text-align: left; font-size: 0.8em; }
+    .reveal .feature-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px; }
+    .reveal .feature-card strong { color: #58a6ff; }
+    .slide-number { color: #8b949e !important; }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ==================== TITLE ==================== -->
+<section>
+    <h1>jsh</h1>
+    <h3>A Unix Shell Written in C</h3>
+    <p class="dim">Advanced C Project — EPITA MSc SE</p>
+    <p class="dim">Joshua Musa</p>
+</section>
+
+<!-- ==================== AGENDA ==================== -->
+<section>
+    <h2>Agenda</h2>
+    <ol>
+        <li>Project Scope &amp; Motivation</li>
+        <li>Features Overview</li>
+        <li>Architecture &amp; Source Files</li>
+        <li>Development Steps (1–8)</li>
+        <li>Key Technical Concepts</li>
+        <li>Difficulties &amp; Design Choices</li>
+        <li>Live Demo</li>
+    </ol>
+</section>
+
+<!-- ==================== PROJECT SCOPE ==================== -->
+<section>
+    <h2>Project Scope</h2>
+    <p><strong>Goal:</strong> Build a functional Unix shell from scratch in C99</p>
+    <br>
+    <p><strong>Why a shell?</strong></p>
+    <ul>
+        <li>Touches nearly every core C concept: memory, pointers, strings, arrays</li>
+        <li>Deep dive into POSIX system calls: <code>fork</code>, <code>exec</code>, <code>pipe</code>, <code>dup2</code></li>
+        <li>Process management, signals, file descriptors</li>
+        <li>Terminal I/O at the lowest level</li>
+    </ul>
+    <br>
+    <p class="dim">~900 lines of C across 9 source files. No external libraries — only the C standard library and POSIX.</p>
+</section>
+
+<!-- ==================== FEATURES ==================== -->
+<section>
+    <h2>Features</h2>
+    <div class="feature-grid">
+        <div class="feature-card"><strong>REPL</strong><br>Interactive prompt with read-eval-print loop</div>
+        <div class="feature-card"><strong>External Commands</strong><br>Run any program in $PATH via fork + execvp</div>
+        <div class="feature-card"><strong>Built-ins</strong><br>cd, pwd, exit run in the parent process</div>
+        <div class="feature-card"><strong>I/O Redirection</strong><br>> (overwrite), >> (append), < (input)</div>
+        <div class="feature-card"><strong>Pipes</strong><br>Arbitrary-length pipelines: cmd1 | cmd2 | cmd3</div>
+        <div class="feature-card"><strong>Operators</strong><br>&amp;&amp; (and), || (or), ; (sequential)</div>
+        <div class="feature-card"><strong>Glob Expansion</strong><br>*.c and ? wildcards expanded by the shell</div>
+        <div class="feature-card"><strong>Line Editor</strong><br>Raw-mode input with history and arrow keys</div>
+    </div>
+</section>
+
+<!-- ==================== ARCHITECTURE ==================== -->
+<section>
+    <h2>Architecture</h2>
+    <pre><code>include/
+  shell.h          — Shared function declarations
+
+src/
+  main.c           — REPL loop (entry point)
+  terminal.c       — Raw-mode line editor + history
+  tokenizer.c      — Splits input into token array
+  operators.c      — ;, &&, || dispatch
+  globbing.c       — * and ? wildcard expansion
+  executor.c       — fork + execvp single commands
+  pipes.c          — Multi-command pipelines
+  redirections.c   — >, >>, < via open + dup2
+  builtins.c       — cd, exit, pwd</code></pre>
+    <p class="dim">Each module has one responsibility. All communicate through shell.h.</p>
+</section>
+
+<!-- ==================== STEP 1: REPL ==================== -->
+<section>
+    <h2><span class="step-num">1</span> The REPL Skeleton</h2>
+    <p>The shell is an infinite loop:</p>
+    <pre><code>while (1) {
+    print "jsh $ "
+    line = read input
+    if EOF → break
+    if empty → skip
+    tokens = tokenize(line)
+    run_command_line(tokens)
+    free everything
+}</code></pre>
+    <ul>
+        <li><code>Ctrl+D</code> → EOF → exits the loop</li>
+        <li>Empty lines are skipped, no crash</li>
+        <li>Every iteration: allocate, use, free — no leaks</li>
+    </ul>
+</section>
+
+<!-- ==================== STEP 2: TOKENIZER ==================== -->
+<section>
+    <h2><span class="step-num">2</span> Tokenizer</h2>
+    <p>Splits a string into an array of words:</p>
+    <pre><code>"ls -la /tmp"  →  ["ls", "-la", "/tmp", NULL]</code></pre>
+    <br>
+    <ul>
+        <li>Walks the string character by character</li>
+        <li>Skips whitespace, extracts each word</li>
+        <li>Each token gets its own <code>malloc</code>'d copy</li>
+        <li>Array grows dynamically (doubles when full)</li>
+        <li>NULL-terminated — ready for <code>execvp</code></li>
+    </ul>
+</section>
+
+<!-- ==================== STEP 3: EXECUTOR ==================== -->
+<section>
+    <h2><span class="step-num">3</span> Command Execution</h2>
+    <p>Three system calls to run any program:</p>
+    <div class="two-col">
+        <div>
+            <div class="syscall-box">
+                <strong><code>fork()</code></strong><br>
+                Creates an exact copy of the shell process.<br>
+                Returns twice: 0 in child, child's PID in parent.
+            </div>
+            <div class="syscall-box">
+                <strong><code>execvp()</code></strong><br>
+                Replaces the child's code with the actual command.<br>
+                The child <em>becomes</em> /bin/ls (or whatever).
+            </div>
+            <div class="syscall-box">
+                <strong><code>waitpid()</code></strong><br>
+                Parent blocks until the child finishes.<br>
+                Then prints the prompt again.
+            </div>
+        </div>
+        <div>
+            <pre><code>JSH (parent)
+    |
+  fork()
+    |          \
+ parent      child
+    |          |
+ waitpid   execvp("ls")
+ (waits)       |
+    |       child is now
+    |       /bin/ls
+    |          |
+    |       ls exits
+    |          |
+ waitpid   <-- done
+ returns
+    |
+ prompt again</code></pre>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== STEP 4: BUILTINS ==================== -->
+<section>
+    <h2><span class="step-num">4</span> Built-ins &amp; Signals</h2>
+    <div class="two-col">
+        <div>
+            <h3>Why built-ins?</h3>
+            <p><code>cd</code> must run in the <strong>parent</strong> process.</p>
+            <p>If <code>cd</code> ran in a forked child, the child would change <em>its</em> directory — then exit. The parent's directory would never change.</p>
+            <br>
+            <table>
+                <tr><th>Command</th><th>What it does</th></tr>
+                <tr><td><code>cd [dir]</code></td><td>chdir() in parent</td></tr>
+                <tr><td><code>pwd</code></td><td>getcwd() + print</td></tr>
+                <tr><td><code>exit</code></td><td>exit(0)</td></tr>
+            </table>
+        </div>
+        <div>
+            <h3>Signal handling</h3>
+            <div class="syscall-box">
+                <strong>Parent:</strong> <code>signal(SIGINT, SIG_IGN)</code><br>
+                Ignores Ctrl+C so the shell itself doesn't die.
+            </div>
+            <div class="syscall-box">
+                <strong>Child:</strong> <code>signal(SIGINT, SIG_DFL)</code><br>
+                Restores default behavior before execvp, so Ctrl+C kills running commands.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== STEP 5: REDIRECTIONS ==================== -->
+<section>
+    <h2><span class="step-num">5</span> I/O Redirection</h2>
+    <p>File descriptors are like TV channels:</p>
+    <table>
+        <tr><th>fd</th><th>Default</th><th>What it does</th></tr>
+        <tr><td>0 (stdin)</td><td>Keyboard</td><td>Where input comes from</td></tr>
+        <tr><td>1 (stdout)</td><td>Screen</td><td>Where output goes</td></tr>
+        <tr><td>2 (stderr)</td><td>Screen</td><td>Where errors go</td></tr>
+    </table>
+    <br>
+    <div class="two-col">
+        <div>
+            <div class="syscall-box">
+                <strong><code>open()</code></strong> opens a file → returns fd 3<br><br>
+                <strong><code>dup2(3, 1)</code></strong> retunes fd 1<br>
+                stdout now points to the file
+            </div>
+        </div>
+        <div>
+            <pre><code>echo hello > out.txt
+
+Before: fd 1 → screen
+After:  fd 1 → out.txt
+
+echo writes to fd 1 as usual
+but it goes to the file now</code></pre>
+        </div>
+    </div>
+    <p class="dim">Runs in the child only — parent's fds stay untouched.</p>
+</section>
+
+<!-- ==================== STEP 6: PIPES ==================== -->
+<section>
+    <h2><span class="step-num">6</span> Pipes</h2>
+    <p><code>pipe(fd)</code> creates a one-way data channel between two processes:</p>
+    <pre><code>pipe(fd) → fd[0] = read end, fd[1] = write end
+
+ls | grep .c
+
+1. Create pipe
+2. Fork ls  → redirect stdout to pipe write end → execvp
+3. Fork grep → redirect stdin to pipe read end  → execvp
+4. Parent closes both pipe ends
+5. Parent waits for both children</code></pre>
+    <br>
+    <ul>
+        <li>ls writes to stdout → goes into the pipe</li>
+        <li>grep reads from stdin → reads from the pipe</li>
+        <li><strong>Neither knows about the other.</strong> The pipe connects them through the kernel.</li>
+        <li class="highlight">Must close unused pipe ends — otherwise the reader hangs forever waiting for EOF</li>
+    </ul>
+</section>
+
+<!-- ==================== STEP 6 CONT: MULTI-PIPE ==================== -->
+<section>
+    <h2><span class="step-num">6</span> Multi-Pipe Chaining</h2>
+    <p>For <code>ls | grep .c | wc -l</code>, we chain pipes using <code>prev_fd</code>:</p>
+    <pre><code>Iteration 1: pipe() → fork ls child → save read end as prev_fd
+Iteration 2: pipe() → fork grep child
+               stdin  ← prev_fd (reads ls output)
+               stdout → new pipe write end
+             → save new read end as prev_fd
+Iteration 3: no new pipe (last command)
+             → fork wc child
+               stdin ← prev_fd (reads grep output)
+             → execvp wc</code></pre>
+    <br>
+    <p>Each middle command reads from the previous pipe and writes to a new one.</p>
+    <p class="dim">The parent tracks which pipe read-end to pass to the next iteration.</p>
+</section>
+
+<!-- ==================== STEP 7: OPERATORS ==================== -->
+<section>
+    <h2><span class="step-num">7</span> Operators &amp; Glob Expansion</h2>
+    <div class="two-col">
+        <div>
+            <h3>Operators</h3>
+            <table>
+                <tr><th>Op</th><th>Rule</th></tr>
+                <tr><td><code>;</code></td><td>Always run next</td></tr>
+                <tr><td><code>&amp;&amp;</code></td><td>Run next only if previous succeeded (exit 0)</td></tr>
+                <tr><td><code>||</code></td><td>Run next only if previous failed (exit ≠ 0)</td></tr>
+            </table>
+            <br>
+            <pre><code>gcc main.c && ./a.out
+  → only runs a.out if gcc succeeded
+
+gcc main.c || echo FAIL
+  → only echoes if gcc failed</code></pre>
+        </div>
+        <div>
+            <h3>Glob expansion</h3>
+            <p>The <strong>shell</strong> expands wildcards, not the command:</p>
+            <pre><code>ls *.c
+  → ls main.c pipes.c executor.c ...</code></pre>
+            <ul>
+                <li><code>strchr(token, '*')</code> — does it have a wildcard?</li>
+                <li><code>glob()</code> — find matching filenames</li>
+                <li>Splice matches into the token array</li>
+                <li>No matches? Keep original token as-is</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== STEP 8: LINE EDITOR ==================== -->
+<section>
+    <h2><span class="step-num">8</span> Raw-Mode Line Editor</h2>
+    <p><strong>Problem:</strong> <code>getline()</code> uses "cooked mode" — no control over arrow keys or history.</p>
+    <p><strong>Solution:</strong> Switch to raw mode using <code>termios</code>:</p>
+    <br>
+    <div class="two-col">
+        <div>
+            <div class="syscall-box">
+                <strong>Disable ECHO</strong><br>
+                Characters are not auto-printed.<br>We manually echo each one with <code>write()</code>.
+            </div>
+            <div class="syscall-box">
+                <strong>Disable ICANON</strong><br>
+                Input delivered one character at a time<br>instead of waiting for Enter.
+            </div>
+        </div>
+        <div>
+            <div class="syscall-box">
+                <strong>Character loop:</strong><br>
+                Printable → append + echo<br>
+                Enter → save to history, return<br>
+                Backspace → erase last char<br>
+                Arrow keys → navigate history<br>
+                Ctrl+D → return NULL (EOF)
+            </div>
+            <div class="syscall-box">
+                <strong>History:</strong><br>
+                Static array of up to 100 entries.<br>
+                Up/down arrows cycle through them.<br>
+                Line is redrawn on each navigation.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== KEY CONCEPTS SUMMARY ==================== -->
+<section>
+    <h2>Key System Calls Summary</h2>
+    <table>
+        <tr><th>System Call</th><th>What It Does</th><th>Used In</th></tr>
+        <tr><td><code>fork()</code></td><td>Clone the current process</td><td>executor, pipes</td></tr>
+        <tr><td><code>execvp()</code></td><td>Replace process with a command</td><td>executor, pipes</td></tr>
+        <tr><td><code>waitpid()</code></td><td>Wait for a child to finish</td><td>executor, pipes</td></tr>
+        <tr><td><code>pipe()</code></td><td>Create a one-way data channel</td><td>pipes</td></tr>
+        <tr><td><code>dup2()</code></td><td>Retune a file descriptor</td><td>redirections, pipes</td></tr>
+        <tr><td><code>open()</code></td><td>Open a file, get an fd</td><td>redirections</td></tr>
+        <tr><td><code>signal()</code></td><td>Set signal handler</td><td>main, executor</td></tr>
+        <tr><td><code>tcgetattr/tcsetattr</code></td><td>Get/set terminal mode</td><td>terminal</td></tr>
+        <tr><td><code>glob()</code></td><td>Expand wildcard patterns</td><td>globbing</td></tr>
+        <tr><td><code>chdir()</code></td><td>Change working directory</td><td>builtins</td></tr>
+    </table>
+</section>
+
+<!-- ==================== DIFFICULTIES ==================== -->
+<section>
+    <h2>Difficulties &amp; Design Choices</h2>
+    <ul>
+        <li><strong>Pipe fd leaks:</strong> Forgetting to close unused pipe ends caused child processes to hang forever waiting for EOF. Every fd must be closed in every process that doesn't use it.</li>
+        <br>
+        <li><strong>Redirections in the child only:</strong> Redirections run after <code>fork()</code> but before <code>execvp()</code>, so the parent's file descriptors stay untouched.</li>
+        <br>
+        <li><strong>cd must be a builtin:</strong> Running cd in a forked child changes the child's directory — which is useless because the child exits immediately.</li>
+        <br>
+        <li><strong>Raw mode terminal:</strong> Had to handle every character manually — including escape sequences for arrow keys (3-byte sequences).</li>
+        <br>
+        <li><strong>Memory discipline:</strong> Every <code>malloc</code> has a matching <code>free</code>. Token arrays, line buffers, glob results — all freed after use.</li>
+    </ul>
+</section>
+
+<!-- ==================== CODE QUALITY ==================== -->
+<section>
+    <h2>Code Quality</h2>
+    <div class="two-col">
+        <div>
+            <h3>Structure</h3>
+            <ul>
+                <li>9 source files, each with one job</li>
+                <li>One shared header: <code>shell.h</code></li>
+                <li>Clean separation of concerns</li>
+                <li>No global state except history array</li>
+            </ul>
+            <br>
+            <h3>Build</h3>
+            <ul>
+                <li>Makefile with <code>all</code>, <code>clean</code>, <code>re</code></li>
+                <li>Compiles with <code>-Wall -Wextra -Werror</code></li>
+                <li><strong>Zero warnings</strong></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Style</h3>
+            <ul>
+                <li>Consistent Allman brace style</li>
+                <li>Every function has a doc comment</li>
+                <li>Inline comments explain the "why"</li>
+                <li>~900 lines total — no bloat</li>
+            </ul>
+            <br>
+            <h3>Safety</h3>
+            <ul>
+                <li>All <code>malloc</code>/<code>realloc</code> checked for NULL</li>
+                <li>All <code>fork</code>/<code>pipe</code>/<code>open</code> errors handled</li>
+                <li><code>perror()</code> on every failure path</li>
+                <li>No memory leaks in normal flow</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== DEMO ==================== -->
+<section>
+    <h2>Demo</h2>
+    <pre><code>$ make && ./jsh
+
+jsh $ echo hello world
+jsh $ ls -la | grep .c | wc -l
+jsh $ echo hi > out.txt && cat out.txt
+jsh $ gcc main.c || echo "compilation failed"
+jsh $ cd /tmp ; pwd
+jsh $ ls *.c
+jsh $ ↑ ↓  (arrow keys for history)
+jsh $ Ctrl+C  (kills running command, not the shell)
+jsh $ Ctrl+D  (exits)</code></pre>
+</section>
+
+<!-- ==================== THANK YOU ==================== -->
+<section>
+    <h1>Thank You</h1>
+    <h3>Questions?</h3>
+    <br>
+    <p class="dim">Source code and documentation available on GitHub</p>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+    hash: true,
+    slideNumber: true,
+    transition: 'slide',
+    center: true,
+    width: 1280,
+    height: 720
+});
+</script>
+</body>
+</html>
