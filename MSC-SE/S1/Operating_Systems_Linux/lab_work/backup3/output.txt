@@ -1,0 +1,2 @@
+ls: doesnotexit.log: No such file or directory
+ls: doesnotexit.log: No such file or directory

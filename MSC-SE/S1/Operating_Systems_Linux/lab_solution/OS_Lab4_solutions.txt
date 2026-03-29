@@ -1,0 +1,98 @@
+Operating System Labs - Student 
+
+Name:
+Group:
+1.	Create a working directory named 'lab' in your home directory.
+Which command allows you to create a directory in your home folder?
+Your answer: mkdir lab
+
+2.	Move into this newly created directory.
+What command do you use to navigate into a directory?
+Your answer: cd lab
+
+3.	 Create the following files: file1.txt, file2.txt, file3.txt, notes.md, data.csv.
+How would you create multiple empty files at once?
+Your answer: touch file{1..3}.txt notes.md data.csv
+
+4.	Copy all .txt files into a folder named 'backup'.
+How would you identify and copy only files with the .txt extension?
+Your answer: mkdir backup && cp *.txt backup
+
+5.	Rename the file file3.txt to final.txt.
+Which command renames or moves a file?
+Your answer: mv file3.txt final.txt
+
+6.	Move notes.md into a new folder called docs/.
+What command moves a file and how do you create the folder first?
+Your answer: mkdir docs && mv notes.md docs
+
+7.	 Delete the docs/ folder and the file data.csv.
+What commands allow you to remove files and folders respectively?
+Your answer: rm -rf docs && rm -f data.csv
+
+8.	
+• Use rm -i to confirm deletion before proceeding.
+• Use cp -v, mv -i, or rm -v to observe detailed output.
+• Use wildcards like *.txt or file* to match filenames.
+• Use cp *.txt newlocation/ to copy multiple files at once.
+• Use rm *.txt carefully to delete all .txt files.
+Try each command and write down what it does.
+Your answer:  
+1. rm -i file.txt → asks for confirmation before deleting
+2. cp -v file1.txt file2.txt -> -v verbose (show what’s happening)
+   Outputs: 'file1.txt' -> 'file2.txt'
+5. rm *.txt → deletes all .txt files (dangerous if careless)
+
+Flag	Purpose				Why it’s useful
+-v	Show actions			Transparency, debugging
+-i	Ask before overwrite/delete	Safety
+
+9.	 Create a file named test.txt.
+What command do you use to create a new file?
+Your answer: touch test.txt
+
+10.	Delete the file test.txt.
+How do you delete a file from the system?
+Your answer: rm test.txt
+
+11.	Try to recover the deleted file. Was it possible?
+Explain what happens to a file when it's deleted using rm.
+Your answer:  its deleted and cannot be recovered
+
+12.	What option can you use to avoid accidental deletions when using rm?
+Which option makes rm ask for confirmation before deleting?
+Your answer: rm -I
+
+13.	Create the following files: test1.txt, test2.txt, test1.csv, report.md.
+What is the simplest way to create all these files in one command?
+Your answer: touch test{1..2}.txt test1.csv report.md
+
+14.	14. 6. Use these commands and describe the difference in results:
+   ls test?.txt
+   ls *.md
+   ls test*.*
+How do wildcards help you filter files in a directory?
+Your answer: 
+1. ls test?.txt (list all txt files that begin with a test and then followed by a letter)
+2. ls *.md (list all md files)
+3. test*.* (list all files that begin with test and then followed by any character and then with any extension (e.g. test1.md, test2.txt etc)
+
+
+15.	 Open the manual for the cp command. Which option lets you copy directories?
+What is the command to view the manual and which flag is needed to copy folders?
+Your answer: 
+1. man cp to see manual
+2. cp -r to copy directories
+
+16.	 Create a directory named 'lab'.
+Which command creates a new folder?
+Your answer: mkdir lab
+
+17.	 Move all the created files into the lab folder.
+How can you move multiple files at once into a folder?
+Your answer: mv * lab
+
+18.	Copy the entire 'lab' folder to a new folder named 'lab_final'.
+How do you copy directories with all their contents?
+Your answer: cp -r lab lab_final
+
